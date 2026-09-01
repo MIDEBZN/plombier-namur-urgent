@@ -3,86 +3,76 @@ import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout 
-  title="Dépannage & Services Plomberie à Namur | Débouchage & Chauffage" 
-  description="Découvrez nos services professionnels : Dépannage urgent 24/7, Débouchage de canalisation et WC, Recherche de fuite d'eau et Entretien de chaudière à Namur."
+  title="Dépannage & Services Plomberie à Namur | Tous nos services" 
+  description="Découvrez l'ensemble de nos services : dépannage urgent, débouchage, recherche de fuite, chauffage, sanitaire et traitement de l'eau à Namur."
 >
   <div class="page-header text-center">
     <div class="container">
-      <h1>Nos Services de Plomberie et Chauffage</h1>
-      <p class="subtitle">Des solutions expertes pour tous vos problèmes, du débouchage à l'entretien de votre chaudière.</p>
+      <h1>Tous nos Services de Plomberie</h1>
+      <p class="subtitle">Des solutions expertes pour tous vos problèmes. Cliquez sur un service pour découvrir nos prestations détaillées.</p>
     </div>
   </div>
 
   <div class="container section">
     
-    <!-- Service 1: Urgence -->
-    <section id="urgence" class="service-detail grid grid-2">
-      <div class="service-text">
-        <span class="badge badge-red">Disponible 24/7</span>
-        <h2>Dépannage Plombier Urgent Namur</h2>
-        <p>Une urgence plomberie à Namur n'attend pas. Que ce soit au milieu de la nuit ou un dimanche, notre service de garde intervient rapidement.</p>
-        <ul class="check-list">
-          <li>Intervention express en 30 min</li>
-          <li>SOS Plombier de nuit et week-end</li>
-          <li>Réparation urgente de fuites et pannes</li>
-        </ul>
-        <a href="tel:+32470000000" class="btn btn-primary mt-4">Appeler en Urgence</a>
-      </div>
-      <div class="service-img-placeholder card flex-center">
-        <span>Image: Plombier en intervention d'urgence</span>
-      </div>
-    </section>
+    <div class="grid grid-3">
+      
+      <!-- Urgence -->
+      <a href="/services/urgence" class="service-card-link card text-center">
+        <div class="service-icon">🚨</div>
+        <h2>Dépannage d'Urgence</h2>
+        <p>Intervention 24/7 en moins de 30 minutes. Fuites d'eau majeures, pannes, dégâts des eaux.</p>
+        <span class="read-more">En savoir plus &rarr;</span>
+      </a>
 
-    <!-- Service 2: Débouchage -->
-    <section id="debouchage" class="service-detail grid grid-2 reverse-mobile">
-      <div class="service-img-placeholder card flex-center">
-        <span>Image: Débouchage haute pression</span>
-      </div>
-      <div class="service-text">
-        <h2>Débouchage Canalisation & WC Namur</h2>
-        <p>Un WC bouché à Namur ou une canalisation obstruée peut causer de gros dégâts. Ne laissez pas l'eau remonter.</p>
-        <ul class="check-list">
-          <li>Débouchage WC, évier et égouts</li>
-          <li>Inspection caméra des canalisations</li>
-          <li>Curage haute pression</li>
-        </ul>
-        <a href="/contact" class="btn btn-secondary mt-4">Demander un Débouchage</a>
-      </div>
-    </section>
+      <!-- Débouchage -->
+      <a href="/services/debouchage" class="service-card-link card text-center">
+        <div class="service-icon">🚽</div>
+        <h2>Débouchage Canalisation</h2>
+        <p>Débouchage de WC, éviers, égouts. Curage haute pression et inspection caméra.</p>
+        <span class="read-more">En savoir plus &rarr;</span>
+      </a>
 
-    <!-- Service 3: Fuites -->
-    <section id="fuites" class="service-detail grid grid-2">
-      <div class="service-text">
-        <h2>Recherche et Réparation de Fuite d'Eau</h2>
-        <p>Une fuite invisible peut coûter très cher. Nos experts utilisent des techniques non destructives pour la détection de fuite à Namur.</p>
-        <ul class="check-list">
-          <li>Détection thermique et acoustique</li>
-          <li>Réparation tuyau percé et chauffe-eau</li>
-          <li>Prise en charge assurances</li>
-        </ul>
-        <a href="/contact" class="btn btn-secondary mt-4">Devis Réparation Fuite</a>
-      </div>
-      <div class="service-img-placeholder card flex-center">
-        <span>Image: Détection de fuite thermique</span>
-      </div>
-    </section>
+      <!-- Fuites -->
+      <a href="/services/fuites" class="service-card-link card text-center">
+        <div class="service-icon">💧</div>
+        <h2>Détection de Fuites</h2>
+        <p>Recherche non destructive par caméra thermique et acoustique. Rapports d'assurance.</p>
+        <span class="read-more">En savoir plus &rarr;</span>
+      </a>
 
-    <!-- Service 4: Chauffage -->
-    <section id="chauffage" class="service-detail grid grid-2 reverse-mobile">
-      <div class="service-img-placeholder card flex-center">
-        <span>Image: Entretien de chaudière</span>
-      </div>
-      <div class="service-text">
-        <h2>Entretien & Dépannage Chaudière Namur</h2>
-        <p>Votre chauffagiste à Namur pour assurer votre confort thermique en hiver. Une chaudière en panne ? Nous la relançons.</p>
-        <ul class="check-list">
-          <li>Entretien chaudière toutes marques</li>
-          <li>Dépannage chauffage urgent</li>
-          <li>Installation et remplacement de chaudière</li>
-        </ul>
-        <a href="/contact" class="btn btn-secondary mt-4">Prendre Rendez-vous</a>
-      </div>
-    </section>
+      <!-- Chauffage -->
+      <a href="/services/chauffage" class="service-card-link card text-center">
+        <div class="service-icon">🔥</div>
+        <h2>Chauffage & Chaudières</h2>
+        <p>Installation, entretien annuel et dépannage urgent de chaudières (gaz/mazout).</p>
+        <span class="read-more">En savoir plus &rarr;</span>
+      </a>
+
+      <!-- Sanitaire -->
+      <a href="/services/sanitaire" class="service-card-link card text-center">
+        <div class="service-icon">🚿</div>
+        <h2>Installations Sanitaires</h2>
+        <p>Rénovation complète de salles de bain, installation de douches, baignoires et WC.</p>
+        <span class="read-more">En savoir plus &rarr;</span>
+      </a>
+
+      <!-- Traitement d'eau -->
+      <a href="/services/traitement-eau" class="service-card-link card text-center">
+        <div class="service-icon">🧊</div>
+        <h2>Traitement de l'Eau</h2>
+        <p>Installation d'adoucisseurs d'eau et de systèmes anti-calcaire pour protéger votre maison.</p>
+        <span class="read-more">En savoir plus &rarr;</span>
+      </a>
+
+    </div>
+
+    <!-- CTA -->
+    <div class="cta-box text-center mt-4">
+      <h2>Besoin d'un devis immédiat ?</h2>
+      <p style="margin-bottom: 1.5rem;">Notre équipe est à votre disposition pour vous conseiller et vous fournir une estimation gratuite.</p>
+      <a href="/contact" class="btn btn-primary">Demander un Devis</a>
+    </div>
 
   </div>
 </Layout>
@@ -106,62 +96,51 @@ import Layout from '../layouts/Layout.astro';
     margin: 0 auto;
   }
   
-  .service-detail {
-    margin-bottom: 6rem;
+  .service-card-link {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    padding: 2.5rem 1.5rem;
   }
   
-  .service-text h2 {
-    margin-top: 1rem;
+  .service-icon {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .service-card-link h2 {
+    font-size: 1.5rem;
+    color: var(--primary);
+    margin-bottom: 1rem;
+  }
+  
+  .service-card-link p {
+    flex-grow: 1;
     margin-bottom: 1.5rem;
   }
   
-  .check-list {
-    list-style: none;
-    margin: 1.5rem 0;
-  }
-  
-  .check-list li {
-    position: relative;
-    padding-left: 2rem;
-    margin-bottom: 0.75rem;
-    font-weight: 500;
-  }
-  
-  .check-list li::before {
-    content: '✓';
-    position: absolute;
-    left: 0;
+  .read-more {
     color: var(--secondary);
-    font-weight: bold;
-    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: var(--font-heading);
+    margin-top: auto;
+    transition: transform 0.3s;
+  }
+  
+  .service-card-link:hover .read-more {
+    transform: translateX(5px);
+  }
+  
+  .cta-box {
+    background: var(--bg-light);
+    padding: 4rem 2rem;
+    border-radius: var(--radius-xl);
+    border: 1px solid var(--border-light);
   }
   
   .mt-4 {
-    margin-top: 1rem;
-  }
-  
-  .service-img-placeholder {
-    height: 400px;
-    background-color: var(--border-light);
-    color: var(--text-muted);
-    font-weight: 600;
-  }
-  
-  @media (max-width: 768px) {
-    .reverse-mobile {
-      display: flex;
-      flex-direction: column-reverse;
-    }
-    
-    .service-detail {
-      display: flex;
-      flex-direction: column;
-      gap: 2rem;
-    }
-    
-    .service-img-placeholder {
-      width: 100%;
-    }
+    margin-top: 4rem;
   }
 </style>
