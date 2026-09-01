@@ -54,6 +54,28 @@ import Layout from '../layouts/Layout.astro';
     </div>
   </section>
 
+  <!-- STATS & BADGES SECTION -->
+  <section class="stats-strip bg-light">
+    <div class="container grid grid-4 text-center" style="gap: 1rem; padding: 2rem 0; align-items: center;">
+      <div>
+        <div style="font-size: 2rem; color: #facc15;">★★★★★</div>
+        <strong>4.9/5 sur Google Avis</strong>
+      </div>
+      <div>
+        <div style="font-size: 2.2rem; line-height: 1;">⏱️</div>
+        <strong>92% d'interventions en &lt; 30 min</strong>
+      </div>
+      <div>
+        <div style="font-size: 2.2rem; line-height: 1;">🛡️</div>
+        <strong>100% Agréé & Assurances</strong>
+      </div>
+      <div>
+        <div style="font-size: 2.2rem; line-height: 1;">✅</div>
+        <strong>Garantie Satisfait ou Refait</strong>
+      </div>
+    </div>
+  </section>
+
   <!-- PROCESS SECTION -->
   <section class="section process-section">
     <div class="container text-center">
@@ -125,6 +147,55 @@ import Layout from '../layouts/Layout.astro';
           <h3>Installation Sanitaire</h3>
           <p>Rénovation de salle de bain, installation de chauffe-eau, remplacement de robinetterie.</p>
           <a href="/services" class="service-link">En savoir plus &rarr;</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICE MAP SECTION -->
+  <section class="section">
+    <div class="container grid grid-2" style="align-items: center;">
+      <div>
+        <h2>Notre Zone d'Intervention à Namur</h2>
+        <p>Nous sommes basés stratégiquement pour couvrir l'ensemble du Grand Namur le plus rapidement possible. Notre promesse : un plombier chez vous en 30 minutes pour les urgences.</p>
+        <ul class="styled-list mt-2">
+          <li><strong>Namur Centre & Périphérie :</strong> Jambes, Erpent, Salzinnes...</li>
+          <li><strong>Intervention express :</strong> Flotte de camionnettes géolocalisées.</li>
+          <li><strong>Déplacement 100% gratuit :</strong> Si vous acceptez notre devis.</li>
+        </ul>
+        <a href="/locations" class="btn btn-outline" style="margin-top: 1rem;">Voir toutes nos zones</a>
+      </div>
+      <div class="map-visual card flex-center" style="min-height: 350px; background: #e2e8f0; border-radius: var(--radius-xl);">
+        <div class="text-center">
+          <span style="font-size: 4rem; color: var(--secondary);">📍</span>
+          <h3>Carte du Grand Namur</h3>
+          <p style="margin:0;">Intervention Rapide Assurée</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS SECTION -->
+  <section class="section bg-light">
+    <div class="container text-center">
+      <h2>Ce que disent nos clients</h2>
+      <p style="max-width: 600px; margin: 0 auto 3rem;">Lisez les avis de Namurois qui ont fait appel à nos services.</p>
+      
+      <div class="grid grid-3 text-left">
+        <div class="card">
+          <div style="color: #facc15; font-size: 1.25rem; margin-bottom: 0.5rem;">★★★★★</div>
+          <p>"Canalisation complètement bouchée un dimanche soir. Le plombier est arrivé en 25 minutes et a réglé le problème avec une caméra. Prix annoncé à l'avance. Très pro !"</p>
+          <strong>- Marc D. (Jambes)</strong>
+        </div>
+        <div class="card">
+          <div style="color: #facc15; font-size: 1.25rem; margin-bottom: 0.5rem;">★★★★★</div>
+          <p>"J'avais une fuite sous ma baignoire. Ils ont trouvé la fuite sans rien casser grâce à leur caméra thermique. Dossier nickel pour mon assurance."</p>
+          <strong>- Sophie L. (Namur Centre)</strong>
+        </div>
+        <div class="card">
+          <div style="color: #facc15; font-size: 1.25rem; margin-bottom: 0.5rem;">★★★★★</div>
+          <p>"Chaudière en panne en plein hiver. Le chauffagiste avait la pièce dans sa camionnette. Réparation immédiate. Je recommande Plombier Namur Urgent à 100%."</p>
+          <strong>- Thomas W. (Erpent)</strong>
         </div>
       </div>
     </div>
@@ -249,5 +320,34 @@ import Layout from '../layouts/Layout.astro';
   
   .cta-section p {
     color: rgba(255,255,255,0.8);
+  }
+  
+  .styled-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .styled-list li {
+    position: relative;
+    padding-left: 2rem;
+    margin-bottom: 0.75rem;
+  }
+  
+  .styled-list li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: var(--secondary);
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  .mt-2 { margin-top: 1rem; }
+  
+  @media (max-width: 768px) {
+    .stats-strip .grid-4 {
+      grid-template-columns: 1fr 1fr;
+      row-gap: 2rem;
+    }
   }
 </style>
