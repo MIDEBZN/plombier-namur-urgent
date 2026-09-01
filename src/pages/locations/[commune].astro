@@ -1,0 +1,316 @@
+---
+import Layout from '../../layouts/Layout.astro';
+
+export function getStaticPaths() {
+  const communes = [
+    {
+      params: { commune: 'jambes' },
+      props: {
+        name: 'Jambes',
+        postal: '5100',
+        landmark: 'Intervention ultra-rapide à Jambes grâce à notre accès direct via le Pont de Jambes et l\'avenue du Bourgmestre Jean Materne.',
+        description: 'Dépannage plomberie et chauffage à Jambes (5100). Urgence 24/7, débouchage et recherche de fuite.'
+      }
+    },
+    {
+      params: { commune: 'erpent' },
+      props: {
+        name: 'Erpent',
+        postal: '5101',
+        landmark: 'Couverture complète d\'Erpent avec un accès facilité par la Nationale 4 pour les urgences.',
+        description: 'Plombier chauffagiste à Erpent (5101). Installation sanitaire, entretien chaudière et dépannage.'
+      }
+    },
+    {
+      params: { commune: 'bouge' },
+      props: {
+        name: 'Bouge',
+        postal: '5004',
+        landmark: 'Service de proximité à Bouge, proche du CHR de Namur, garantissant un délai d\'intervention minimum.',
+        description: 'Votre plombier à Bouge (5004). Débouchage WC, réparation de fuite et urgences plomberie.'
+      }
+    },
+    {
+      params: { commune: 'salzinnes' },
+      props: {
+        name: 'Salzinnes',
+        postal: '5000',
+        landmark: 'Nos techniciens couvrent tout Salzinnes, de la Place Wiertz jusqu\'aux abords de la Sambre.',
+        description: 'Urgence plombier Salzinnes (5000). Dépannage rapide 24h/24, chauffage et débouchage.'
+      }
+    },
+    {
+      params: { commune: 'saint-servais' },
+      props: {
+        name: 'Saint-Servais',
+        postal: '5002',
+        landmark: 'Intervention express à Saint-Servais, desservie rapidement depuis la Chaussée de Waterloo.',
+        description: 'Plombier agréé à Saint-Servais (5002). Recherche de fuite non destructive, entretien chaudière.'
+      }
+    },
+    {
+      params: { commune: 'wepion' },
+      props: {
+        name: 'Wépion',
+        postal: '5100',
+        landmark: 'Dépannage tout le long de la Chaussée de Dinant pour les habitants de Wépion et de la vallée de la Meuse.',
+        description: 'Plomberie et sanitaire à Wépion (5100). Réparation de chaudière, adoucisseurs d\'eau.'
+      }
+    },
+    {
+      params: { commune: 'flawinne' },
+      props: {
+        name: 'Flawinne',
+        postal: '5020',
+        landmark: 'Service rapide pour le village de Flawinne et ses nouveaux quartiers résidentiels.',
+        description: 'Plombier Flawinne (5020). Dépannage canalisations bouchées, fuites et urgences 24/7.'
+      }
+    },
+    {
+      params: { commune: 'belgrade' },
+      props: {
+        name: 'Belgrade',
+        postal: '5001',
+        landmark: 'Nos plombiers interviennent à Belgrade en empruntant rapidement la Route de Gembloux.',
+        description: 'Chauffagiste et plombier à Belgrade (5001). Rénovation salle de bain, entretien chauffage.'
+      }
+    },
+    {
+      params: { commune: 'vedrin' },
+      props: {
+        name: 'Vedrin',
+        postal: '5020',
+        landmark: 'Intervention à Vedrin garantie, grâce à un accès direct via l\'échangeur de Daussoulx.',
+        description: 'Plomberie générale à Vedrin (5020). Traitement de l\'eau, urgence et débouchage.'
+      }
+    },
+    {
+      params: { commune: 'malonne' },
+      props: {
+        name: 'Malonne',
+        postal: '5020',
+        landmark: 'Nos équipes sillonnent Malonne depuis le Fond de Malonne jusqu\'aux hauteurs du village.',
+        description: 'Dépannage plomberie Malonne (5020). SOS plombier, recherche de fuite et chaudières.'
+      }
+    },
+    {
+      params: { commune: 'champion' },
+      props: {
+        name: 'Champion',
+        postal: '5020',
+        landmark: 'Présence assurée à Champion, avec une réactivité optimale pour la Chaussée de Louvain.',
+        description: 'Votre expert plombier à Champion (5020). Urgences, sanitaire, et chauffage 24/7.'
+      }
+    }
+  ];
+
+  return communes;
+}
+
+const { name, postal, landmark, description } = Astro.props;
+const { commune } = Astro.params;
+---
+
+<Layout 
+  title={`Plombier ${name} (${postal}) | Urgence, Débouchage & Chauffage`} 
+  description={description}
+>
+  <div class="page-header text-center">
+    <div class="container">
+      <span class="badge badge-red mb-2">Service de Proximité</span>
+      <h1>Plombier à {name} ({postal})</h1>
+      <p class="subtitle">Votre artisan de confiance pour les urgences plomberie, le débouchage et le chauffage à {name}. Intervention garantie en moins de 30 minutes.</p>
+      <div class="mt-4">
+        <a href="tel:+32470000000" class="btn btn-primary" style="font-size: 1.25rem; padding: 1rem 2rem;">
+          📞 Appeler SOS Plombier {name}
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container section">
+    
+    <!-- Local details & Landmarks -->
+    <div class="grid grid-2 mb-4 align-center">
+      <div>
+        <h2>Intervention Rapide à {name}</h2>
+        <p>En cas de dégât des eaux ou de panne de chauffage, chaque minute compte. En tant qu'entreprise locale du Grand Namur, nous avons organisé nos équipes pour vous offrir le délai d'intervention le plus court possible.</p>
+        <div class="card mt-2 bg-light border-0">
+          <h3 style="color: var(--secondary); margin-bottom: 0.5rem;">📍 Accès & Délais</h3>
+          <p style="margin: 0;">{landmark} Nous garantissons ainsi une arrivée chez vous à <strong>{name} ({postal})</strong> en un temps record, de jour comme de nuit.</p>
+        </div>
+      </div>
+      <div class="map-placeholder card">
+        <div class="map-inner flex-center text-center">
+          <div>
+            <span style="font-size: 3rem;">🗺️</span>
+            <h3>Zone {name}</h3>
+            <p>Code Postal : {postal}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Competitor Comparison -->
+    <div class="mb-4 mt-4">
+      <h2 class="text-center mb-4">Pourquoi nous choisir à {name} ?</h2>
+      <div class="table-container">
+        <table class="comparison-table">
+          <thead>
+            <tr>
+              <th>Critère</th>
+              <th class="highlight">Plombier Namur Urgent</th>
+              <th>Plombier Traditionnel</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Disponibilité</strong></td>
+              <td class="highlight">24h/24 et 7j/7 (Nuits & WE)</td>
+              <td>Lundi au Vendredi (Heures bureau)</td>
+            </tr>
+            <tr>
+              <td><strong>Transparence</strong></td>
+              <td class="highlight">Devis avant travaux</td>
+              <td>Surprise à la facturation</td>
+            </tr>
+            <tr>
+              <td><strong>Délais d'urgence</strong></td>
+              <td class="highlight">&lt; 30 minutes sur {name}</td>
+              <td>Plusieurs heures ou jours</td>
+            </tr>
+            <tr>
+              <td><strong>Matériel embarqué</strong></td>
+              <td class="highlight">Camionnette suréquipée, pièces de rechange</td>
+              <td>Doit commander la pièce</td>
+            </tr>
+            <tr>
+              <td><strong>Agréments</strong></td>
+              <td class="highlight">Certifié Cerga, assurances, G1/G2</td>
+              <td>Variable</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Core Services grid -->
+    <div class="mt-4">
+      <h2 class="text-center mb-4">Nos Services à {name}</h2>
+      <div class="grid grid-3">
+        <div class="card text-center">
+          <span style="font-size: 2.5rem;">🚨</span>
+          <h3>Urgence Plomberie</h3>
+          <p>Dégât des eaux, fuite majeure, robinet cassé. Nous sécurisons votre logement.</p>
+          <a href="/services/urgence" style="font-weight: bold; color: var(--secondary);">Voir Urgences</a>
+        </div>
+        <div class="card text-center">
+          <span style="font-size: 2.5rem;">🚽</span>
+          <h3>Débouchage</h3>
+          <p>Canalisations bouchées, WC, inspection par caméra et curage haute pression.</p>
+          <a href="/services/debouchage" style="font-weight: bold; color: var(--secondary);">Voir Débouchage</a>
+        </div>
+        <div class="card text-center">
+          <span style="font-size: 2.5rem;">🔥</span>
+          <h3>Chauffage</h3>
+          <p>Entretien chaudière, dépannage urgent, radiateurs froids.</p>
+          <a href="/services/chauffage" style="font-weight: bold; color: var(--secondary);">Voir Chauffage</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</Layout>
+
+<style>
+  .page-header {
+    background-color: var(--primary);
+    color: white;
+    padding: 6rem 1rem 4rem;
+  }
+  
+  .page-header h1 {
+    color: white;
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+  }
+  
+  .subtitle {
+    color: rgba(255,255,255,0.8);
+    font-size: 1.25rem;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  .mb-2 { margin-bottom: 1rem; }
+  .mb-4 { margin-bottom: 3rem; }
+  .mt-2 { margin-top: 1rem; }
+  .mt-4 { margin-top: 3rem; }
+  .align-center { align-items: center; }
+  .bg-light { background-color: var(--bg-light); }
+  .border-0 { border: none; box-shadow: none; }
+  
+  .map-placeholder {
+    height: 100%;
+    min-height: 350px;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .map-inner {
+    width: 100%;
+    height: 100%;
+    background-color: var(--border-light);
+    color: var(--text-muted);
+  }
+  
+  .table-container {
+    overflow-x: auto;
+  }
+  
+  .comparison-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  }
+  
+  .comparison-table th, .comparison-table td {
+    padding: 1.25rem 1.5rem;
+    text-align: left;
+    border-bottom: 1px solid var(--border-light);
+  }
+  
+  .comparison-table th {
+    background-color: var(--bg-light);
+    color: var(--primary);
+    font-weight: 700;
+    font-family: var(--font-heading);
+    font-size: 1.1rem;
+  }
+  
+  .comparison-table .highlight {
+    background-color: rgba(220, 38, 38, 0.05); /* very light red */
+    color: var(--primary);
+    border-left: 2px solid var(--secondary);
+    border-right: 2px solid var(--secondary);
+  }
+  
+  .comparison-table th.highlight {
+    background-color: var(--secondary);
+    color: white;
+    border: none;
+  }
+  
+  .comparison-table tr:last-child td {
+    border-bottom: none;
+  }
+  
+  @media (max-width: 768px) {
+    .grid-3 { grid-template-columns: 1fr; }
+    .grid-2 { display: flex; flex-direction: column; gap: 2rem; }
+    .map-placeholder { min-height: 250px; }
+  }
+</style>
