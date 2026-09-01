@@ -1,4 +1,6 @@
 ---
+import { Image } from 'astro:assets';
+import logoImage from '../assets/logo.png';
 ---
 
 <header class="header">
@@ -17,12 +19,8 @@
   
   <div class="main-nav-wrapper">
     <div class="container flex-between main-nav">
-      <a href="/" class="logo">
-        <span class="logo-icon">💧</span>
-        <div class="logo-text">
-          <span class="logo-title">Plombier Namur</span>
-          <span class="logo-subtitle">Urgent</span>
-        </div>
+      <a href="/" class="logo" style="display: block;">
+        <Image src={logoImage} alt="Logo Plombier Namur Urgent" width={300} height={300} style="width: auto; height: 65px; object-fit: contain;" />
       </a>
       
       <nav class="desktop-nav">

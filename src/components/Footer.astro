@@ -1,4 +1,7 @@
 ---
+import { Image } from 'astro:assets';
+import logoImage from '../assets/logo.png';
+
 const year = new Date().getFullYear();
 ---
 
@@ -6,12 +9,8 @@ const year = new Date().getFullYear();
   <div class="container grid grid-4 footer-content">
     
     <div class="footer-col">
-      <div class="logo">
-        <span class="logo-icon">💧</span>
-        <div class="logo-text">
-          <span class="logo-title" style="color: white;">Plombier Namur</span>
-          <span class="logo-subtitle">Urgent</span>
-        </div>
+      <div class="logo" style="margin-bottom: 1.5rem;">
+        <Image src={logoImage} alt="Logo Plombier Namur Urgent" width={300} height={300} style="width: auto; height: 100px; object-fit: contain;" />
       </div>
       <p class="company-desc">
         Dépannage d'urgence, débouchage, recherche de fuite et installation chauffage à Namur. Intervention rapide 24/7 avec devis gratuit.
