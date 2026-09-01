@@ -1,0 +1,114 @@
+---
+// FloatingActions.astro
+---
+
+<div class="floating-actions">
+  <a href="https://wa.me/32470000000" target="_blank" rel="noopener noreferrer" class="fab fab-whatsapp" aria-label="Discuter sur WhatsApp">
+    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.711.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.1.824zm-3.423-14.416c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm.029 18.88c-1.161 0-2.305-.292-3.318-.844l-3.677.964.984-3.595c-.607-1.052-.927-2.246-.926-3.468.001-3.825 3.113-6.937 6.937-6.937 1.856.001 3.598.723 4.907 2.034 1.31 1.311 2.031 3.054 2.03 4.908-.001 3.825-3.113 6.938-6.937 6.938z"/>
+    </svg>
+    <span class="fab-text">WhatsApp</span>
+  </a>
+  
+  <a href="tel:+32470000000" class="fab fab-call" aria-label="Appeler maintenant">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M20 22.621l-3.521-6.795c-.008.004-1.974.97-2.064 1.011-2.24 1.086-6.799-7.82-4.609-8.994l2.083-1.022-3.498-6.821-2.108 1.039c-1.81 1.104-2.585 3.655-1.579 5.86 1.93 4.223 6.779 12.023 11.237 12.023.754 0 1.545-.198 2.306-.714l1.753-1.587zm-1.829-14.364c-1.393 1.391-4.045 2.112-6.526 2.459-2.071.288-4.258.196-5.594-.653l-.841 2.037c1.782.781 4.237.766 6.551.442 3.13-.437 6.438-1.583 8.353-3.805l-1.943-.48z"/>
+    </svg>
+    <span class="fab-text">Appeler 24/7</span>
+  </a>
+</div>
+
+<style>
+  .floating-actions {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    z-index: 1000;
+  }
+  
+  .fab {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    color: white;
+    text-decoration: none;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+    position: relative;
+  }
+  
+  .fab-whatsapp {
+    background-color: #25D366; /* WhatsApp Green */
+  }
+  
+  .fab-whatsapp:hover {
+    background-color: #20BA56;
+    transform: scale(1.05);
+  }
+  
+  .fab-call {
+    background-color: var(--secondary); /* Brand Red */
+    animation: pulse-red 2s infinite;
+  }
+  
+  .fab-call:hover {
+    background-color: #b91c1c;
+    transform: scale(1.05);
+  }
+  
+  .fab-text {
+    position: absolute;
+    right: 75px;
+    background: white;
+    color: var(--text-color);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(10px);
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    pointer-events: none;
+  }
+  
+  /* Show text on hover for desktop */
+  @media (hover: hover) {
+    .fab:hover .fab-text {
+      opacity: 1;
+      visibility: visible;
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes pulse-red {
+    0% {
+      box-shadow: 0 0 0 0 rgba(220, 38, 38, 0.7);
+    }
+    70% {
+      box-shadow: 0 0 0 15px rgba(220, 38, 38, 0);
+    }
+    100% {
+      box-shadow: 0 0 0 0 rgba(220, 38, 38, 0);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .floating-actions {
+      bottom: 1rem;
+      right: 1rem;
+    }
+    .fab {
+      width: 55px;
+      height: 55px;
+    }
+  }
+</style>
