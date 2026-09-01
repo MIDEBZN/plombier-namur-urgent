@@ -1,0 +1,116 @@
+---
+// TrustBanner.astro
+---
+
+<div class="trust-banner">
+  <div class="container">
+    <div class="trust-grid">
+      
+      <div class="trust-item">
+        <span class="trust-icon">🛡️</span>
+        <div>
+          <h4>Agréé Assurances</h4>
+          <p>Devis et rapports 100% valides</p>
+        </div>
+      </div>
+      
+      <div class="trust-item">
+        <span class="trust-icon">🏆</span>
+        <div>
+          <h4>25 Ans d'Expérience</h4>
+          <p>Savoir-faire reconnu à Namur</p>
+        </div>
+      </div>
+      
+      <div class="trust-item">
+        <span class="trust-icon">📜</span>
+        <div>
+          <h4>Toutes Certifications</h4>
+          <p>Cerga, G1/G2, Agréé Région Wallonne</p>
+        </div>
+      </div>
+      
+      <div class="trust-item">
+        <span class="trust-icon">✅</span>
+        <div>
+          <h4>Garantie Décennale</h4>
+          <p>Travail soigné et garanti sur le long terme</p>
+        </div>
+      </div>
+      
+      <div class="trust-item">
+        <span class="trust-icon">⏱️</span>
+        <div>
+          <h4>Intervention &lt; 30 Min</h4>
+          <p>Pour vos urgences dans le Grand Namur</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<style>
+  .trust-banner {
+    background-color: var(--primary);
+    color: white;
+    padding: 2rem 0;
+    margin-top: 4rem;
+    border-top: 4px solid var(--secondary);
+  }
+  
+  .trust-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1.5rem;
+  }
+  
+  .trust-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .trust-icon {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .trust-item h4 {
+    color: white;
+    font-size: 1.1rem;
+    margin-bottom: 0.25rem;
+  }
+  
+  .trust-item p {
+    font-size: 0.85rem;
+    color: rgba(255,255,255,0.8);
+    margin: 0;
+  }
+  
+  @media (max-width: 1024px) {
+    .trust-grid {
+      grid-template-columns: repeat(3, 1fr);
+      row-gap: 2rem;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .trust-grid {
+      grid-template-columns: 1fr;
+      row-gap: 1.5rem;
+    }
+    
+    .trust-item {
+      flex-direction: row;
+      text-align: left;
+      align-items: flex-start;
+      gap: 1rem;
+    }
+    
+    .trust-icon {
+      margin-bottom: 0;
+    }
+  }
+</style>
