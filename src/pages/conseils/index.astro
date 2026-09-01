@@ -1,0 +1,101 @@
+---
+import Layout from '../../layouts/Layout.astro';
+
+// Fetch all markdown files in the conseils directory
+const articles = await Astro.glob('./*.md');
+---
+
+<Layout 
+  title="Conseils Plomberie et Chauffage à Namur | Plombier Namur Urgent"
+  description="Découvrez nos astuces et conseils d'experts en plomberie et chauffage. Dépannage, entretien, rénovation et diagnostic à Namur."
+>
+  <div class="page-header bg-primary">
+    <div class="container text-center">
+      <h1>Conseils et Astuces d'Experts</h1>
+      <p style="font-size: 1.2rem; margin-top: 1rem; opacity: 0.9;">Tout ce que vous devez savoir pour entretenir votre plomberie et réagir en cas d'urgence.</p>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container">
+      <div class="articles-grid">
+        {articles.map((article) => (
+          <article class="article-card">
+            <div class="article-content">
+              <h2><a href={article.url}>{article.frontmatter.title}</a></h2>
+              <p>{article.frontmatter.meta_description}</p>
+              <a href={article.url} class="read-more">Lire la suite →</a>
+            </div>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .page-header {
+    background-color: var(--primary);
+    color: white;
+    padding: 5rem 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .articles-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 2rem;
+  }
+  
+  .article-card {
+    background: var(--bg-white);
+    border-radius: var(--radius-lg);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid var(--border-color);
+  }
+  
+  .article-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+  }
+  
+  .article-content {
+    padding: 2rem;
+  }
+  
+  .article-content h2 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    line-height: 1.4;
+  }
+  
+  .article-content h2 a {
+    color: var(--primary);
+    text-decoration: none;
+  }
+  
+  .article-content h2 a:hover {
+    color: var(--secondary);
+  }
+  
+  .article-content p {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+  }
+  
+  .read-more {
+    display: inline-block;
+    color: var(--secondary);
+    font-weight: 600;
+    text-decoration: none;
+    transition: transform 0.2s;
+  }
+  
+  .read-more:hover {
+    transform: translateX(5px);
+  }
+</style>

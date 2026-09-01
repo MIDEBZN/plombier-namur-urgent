@@ -1,0 +1,148 @@
+---
+import Layout from './Layout.astro';
+
+const { frontmatter } = Astro.props;
+---
+
+<Layout title={frontmatter.title} description={frontmatter.meta_description}>
+  <div class="blog-header bg-primary">
+    <div class="container text-center">
+      <h1>{frontmatter.title}</h1>
+    </div>
+  </div>
+
+  <div class="container blog-container">
+    <article class="blog-content">
+      <slot />
+    </article>
+    
+    <div class="blog-sidebar">
+      <div class="sidebar-card">
+        <h3>Besoin d'un dépannage immédiat ?</h3>
+        <p>Nos plombiers interviennent 24/7 dans tout le Namurois.</p>
+        <a href="tel:+32470000000" class="btn btn-primary" style="width: 100%; justify-content: center; margin-top: 1rem;">
+          📞 0470 00 00 00
+        </a>
+      </div>
+      <div class="sidebar-card">
+        <h3>Nos Services</h3>
+        <ul style="list-style: none; padding: 0; margin-top: 1rem; display: flex; flex-direction: column; gap: 0.5rem;">
+          <li><a href="/services/urgence">🚨 Urgence 24/7</a></li>
+          <li><a href="/services/debouchage">🚽 Débouchage</a></li>
+          <li><a href="/services/fuites">💧 Fuites d'eau</a></li>
+          <li><a href="/services/chauffage">🔥 Chauffage</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</Layout>
+
+<style>
+  .blog-header {
+    background-color: var(--primary);
+    color: white;
+    padding: 4rem 1rem;
+    margin-bottom: 3rem;
+  }
+  
+  .blog-header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+    max-width: 800px;
+    margin-inline: auto;
+  }
+  
+  .blog-container {
+    display: grid;
+    grid-template-columns: 1fr 350px;
+    gap: 4rem;
+    margin-bottom: 4rem;
+  }
+  
+  /* Markdown Styling */
+  .blog-content {
+    color: var(--text-main);
+    line-height: 1.8;
+    font-size: 1.1rem;
+  }
+  
+  .blog-content h1, .blog-content h2, .blog-content h3 {
+    color: var(--primary);
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .blog-content h2 {
+    font-size: 1.8rem;
+    border-bottom: 2px solid var(--secondary);
+    padding-bottom: 0.5rem;
+    display: inline-block;
+  }
+  
+  .blog-content p {
+    margin-bottom: 1.5rem;
+  }
+  
+  .blog-content ul {
+    margin-bottom: 1.5rem;
+    padding-left: 1.5rem;
+  }
+  
+  .blog-content li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .blog-content blockquote {
+    border-left: 4px solid var(--secondary);
+    background: var(--bg-gray);
+    padding: 1.5rem;
+    margin: 2rem 0;
+    border-radius: 0 var(--radius-md) var(--radius-md) 0;
+    font-weight: 500;
+  }
+  
+  .blog-content hr {
+    border: 0;
+    height: 1px;
+    background: #e2e8f0;
+    margin: 3rem 0;
+  }
+  
+  .sidebar-card {
+    background: var(--bg-gray);
+    padding: 2rem;
+    border-radius: var(--radius-lg);
+    margin-bottom: 2rem;
+    position: sticky;
+    top: 100px;
+  }
+  
+  .sidebar-card h3 {
+    color: var(--primary);
+    margin-bottom: 0.5rem;
+    font-size: 1.25rem;
+  }
+  
+  .sidebar-card a {
+    color: var(--text-main);
+    font-weight: 600;
+    transition: color 0.3s;
+  }
+  
+  .sidebar-card a:hover {
+    color: var(--secondary);
+  }
+  
+  @media (max-width: 900px) {
+    .blog-container {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+    .blog-header {
+      padding: 3rem 1rem;
+    }
+    .blog-header h1 {
+      font-size: 2rem;
+    }
+  }
+</style>
