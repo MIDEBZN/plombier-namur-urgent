@@ -1,0 +1,176 @@
+---
+const year = new Date().getFullYear();
+---
+
+<footer class="footer">
+  <div class="container grid grid-4 footer-content">
+    
+    <div class="footer-col">
+      <div class="logo">
+        <span class="logo-icon">💧</span>
+        <div class="logo-text">
+          <span class="logo-title" style="color: white;">Plombier Namur</span>
+          <span class="logo-subtitle">Urgent</span>
+        </div>
+      </div>
+      <p class="company-desc">
+        Dépannage d'urgence, débouchage, recherche de fuite et installation chauffage à Namur. Intervention rapide 24/7 avec devis gratuit.
+      </p>
+    </div>
+
+    <div class="footer-col">
+      <h3 class="footer-heading">Services</h3>
+      <ul>
+        <li><a href="/services#urgence">Dépannage Urgent 24/7</a></li>
+        <li><a href="/services#debouchage">Débouchage Canalisation</a></li>
+        <li><a href="/services#fuites">Recherche de Fuite</a></li>
+        <li><a href="/services#chauffage">Chauffage & Entretien</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h3 class="footer-heading">Zones couvertes</h3>
+      <ul>
+        <li><a href="/locations">Plombier Namur Centre</a></li>
+        <li><a href="/locations">Plombier Jambes</a></li>
+        <li><a href="/locations">Plombier Erpent</a></li>
+        <li><a href="/locations">Plombier Salzinnes</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h3 class="footer-heading">Contactez-nous</h3>
+      <ul class="contact-list">
+        <li><strong>Téléphone:</strong> <a href="tel:+32470000000">0470 00 00 00</a></li>
+        <li><strong>Email:</strong> <a href="mailto:contact@plombier-namur-urgent.be">contact@plombier-namur-urgent.be</a></li>
+        <li><strong>Disponibilité:</strong> 24h/24 et 7j/7</li>
+      </ul>
+    </div>
+
+  </div>
+  
+  <div class="footer-bottom">
+    <div class="container flex-between">
+      <p>&copy; {year} Plombier Namur Urgent. Tous droits réservés.</p>
+      <div class="legal-links">
+        <a href="#">Mentions Légales</a>
+        <a href="#">Politique de Confidentialité</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<style>
+  .footer {
+    background-color: var(--primary);
+    color: rgba(255,255,255,0.8);
+    margin-top: 4rem;
+  }
+  
+  .footer-content {
+    padding: 5rem 1rem;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .logo-icon {
+    font-size: 2.5rem;
+    line-height: 1;
+  }
+  
+  .logo-text {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .logo-title {
+    font-family: var(--font-heading);
+    font-weight: 800;
+    font-size: 1.25rem;
+    line-height: 1;
+  }
+  
+  .logo-subtitle {
+    font-family: var(--font-heading);
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: var(--secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  
+  .company-desc {
+    color: rgba(255,255,255,0.7);
+    font-size: 0.95rem;
+  }
+  
+  .footer-heading {
+    color: white;
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+    position: relative;
+    padding-bottom: 0.5rem;
+  }
+  
+  .footer-heading::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 40px;
+    height: 3px;
+    background-color: var(--secondary);
+    border-radius: 2px;
+  }
+  
+  .footer-col ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  
+  .footer-col a {
+    color: rgba(255,255,255,0.7);
+    transition: color 0.3s;
+  }
+  
+  .footer-col a:hover {
+    color: var(--secondary);
+    padding-left: 5px;
+  }
+  
+  .contact-list li {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+  
+  .contact-list strong {
+    color: white;
+  }
+  
+  .footer-bottom {
+    background-color: #081635; /* Darker navy */
+    padding: 1.5rem 0;
+    font-size: 0.9rem;
+  }
+  
+  .legal-links {
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  @media (max-width: 768px) {
+    .footer-bottom .flex-between {
+      flex-direction: column;
+      gap: 1rem;
+      text-align: center;
+    }
+  }
+</style>

@@ -1,0 +1,167 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout 
+  title="Dépannage & Services Plomberie à Namur | Débouchage & Chauffage" 
+  description="Découvrez nos services professionnels : Dépannage urgent 24/7, Débouchage de canalisation et WC, Recherche de fuite d'eau et Entretien de chaudière à Namur."
+>
+  <div class="page-header text-center">
+    <div class="container">
+      <h1>Nos Services de Plomberie et Chauffage</h1>
+      <p class="subtitle">Des solutions expertes pour tous vos problèmes, du débouchage à l'entretien de votre chaudière.</p>
+    </div>
+  </div>
+
+  <div class="container section">
+    
+    <!-- Service 1: Urgence -->
+    <section id="urgence" class="service-detail grid grid-2">
+      <div class="service-text">
+        <span class="badge badge-red">Disponible 24/7</span>
+        <h2>Dépannage Plombier Urgent Namur</h2>
+        <p>Une urgence plomberie à Namur n'attend pas. Que ce soit au milieu de la nuit ou un dimanche, notre service de garde intervient rapidement.</p>
+        <ul class="check-list">
+          <li>Intervention express en 30 min</li>
+          <li>SOS Plombier de nuit et week-end</li>
+          <li>Réparation urgente de fuites et pannes</li>
+        </ul>
+        <a href="tel:+32470000000" class="btn btn-primary mt-4">Appeler en Urgence</a>
+      </div>
+      <div class="service-img-placeholder card flex-center">
+        <span>Image: Plombier en intervention d'urgence</span>
+      </div>
+    </section>
+
+    <!-- Service 2: Débouchage -->
+    <section id="debouchage" class="service-detail grid grid-2 reverse-mobile">
+      <div class="service-img-placeholder card flex-center">
+        <span>Image: Débouchage haute pression</span>
+      </div>
+      <div class="service-text">
+        <h2>Débouchage Canalisation & WC Namur</h2>
+        <p>Un WC bouché à Namur ou une canalisation obstruée peut causer de gros dégâts. Ne laissez pas l'eau remonter.</p>
+        <ul class="check-list">
+          <li>Débouchage WC, évier et égouts</li>
+          <li>Inspection caméra des canalisations</li>
+          <li>Curage haute pression</li>
+        </ul>
+        <a href="/contact" class="btn btn-secondary mt-4">Demander un Débouchage</a>
+      </div>
+    </section>
+
+    <!-- Service 3: Fuites -->
+    <section id="fuites" class="service-detail grid grid-2">
+      <div class="service-text">
+        <h2>Recherche et Réparation de Fuite d'Eau</h2>
+        <p>Une fuite invisible peut coûter très cher. Nos experts utilisent des techniques non destructives pour la détection de fuite à Namur.</p>
+        <ul class="check-list">
+          <li>Détection thermique et acoustique</li>
+          <li>Réparation tuyau percé et chauffe-eau</li>
+          <li>Prise en charge assurances</li>
+        </ul>
+        <a href="/contact" class="btn btn-secondary mt-4">Devis Réparation Fuite</a>
+      </div>
+      <div class="service-img-placeholder card flex-center">
+        <span>Image: Détection de fuite thermique</span>
+      </div>
+    </section>
+
+    <!-- Service 4: Chauffage -->
+    <section id="chauffage" class="service-detail grid grid-2 reverse-mobile">
+      <div class="service-img-placeholder card flex-center">
+        <span>Image: Entretien de chaudière</span>
+      </div>
+      <div class="service-text">
+        <h2>Entretien & Dépannage Chaudière Namur</h2>
+        <p>Votre chauffagiste à Namur pour assurer votre confort thermique en hiver. Une chaudière en panne ? Nous la relançons.</p>
+        <ul class="check-list">
+          <li>Entretien chaudière toutes marques</li>
+          <li>Dépannage chauffage urgent</li>
+          <li>Installation et remplacement de chaudière</li>
+        </ul>
+        <a href="/contact" class="btn btn-secondary mt-4">Prendre Rendez-vous</a>
+      </div>
+    </section>
+
+  </div>
+</Layout>
+
+<style>
+  .page-header {
+    background-color: var(--primary);
+    color: white;
+    padding: 6rem 1rem 4rem;
+  }
+  
+  .page-header h1 {
+    color: white;
+    margin-bottom: 1rem;
+  }
+  
+  .subtitle {
+    color: rgba(255,255,255,0.8);
+    font-size: 1.25rem;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  .service-detail {
+    margin-bottom: 6rem;
+    align-items: center;
+  }
+  
+  .service-text h2 {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .check-list {
+    list-style: none;
+    margin: 1.5rem 0;
+  }
+  
+  .check-list li {
+    position: relative;
+    padding-left: 2rem;
+    margin-bottom: 0.75rem;
+    font-weight: 500;
+  }
+  
+  .check-list li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: var(--secondary);
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  .mt-4 {
+    margin-top: 1rem;
+  }
+  
+  .service-img-placeholder {
+    height: 400px;
+    background-color: var(--border-light);
+    color: var(--text-muted);
+    font-weight: 600;
+  }
+  
+  @media (max-width: 768px) {
+    .reverse-mobile {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    
+    .service-detail {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+    
+    .service-img-placeholder {
+      width: 100%;
+    }
+  }
+</style>

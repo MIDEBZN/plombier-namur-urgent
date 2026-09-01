@@ -1,0 +1,153 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout 
+  title="Plombier Namur : Interventions à Jambes, Erpent, Bouge et Alentours" 
+  description="Notre équipe de plombiers intervient rapidement dans toutes les communes de Namur : Jambes, Erpent, Bouge, Salzinnes, Saint-Servais. Découvrez nos zones d'intervention."
+>
+  <div class="page-header text-center">
+    <div class="container">
+      <h1>Nos Zones d'Intervention à Namur</h1>
+      <p class="subtitle">Nous couvrons l'ensemble du Grand Namur pour vos urgences plomberie et chauffage, avec une arrivée garantie en moins de 30 minutes.</p>
+    </div>
+  </div>
+
+  <div class="container section">
+    <div class="grid grid-2" style="align-items: start;">
+      
+      <div>
+        <h2 style="margin-bottom: 2rem;">Plombier de proximité dans le Grand Namur</h2>
+        <p>Être proche de chez vous nous permet d'être réactifs. C'est pourquoi nous avons organisé nos équipes pour couvrir stratégiquement toute la région namuroise.</p>
+        
+        <div class="locations-grid">
+          <a href="#" class="location-card card">
+            <h3>Plombier Jambes</h3>
+            <p>Dépannage et débouchage rapide à Jambes (5100).</p>
+          </a>
+          <a href="#" class="location-card card">
+            <h3>Plombier Erpent</h3>
+            <p>Intervention sanitaire et chauffage à Erpent (5101).</p>
+          </a>
+          <a href="#" class="location-card card">
+            <h3>Plombier Salzinnes</h3>
+            <p>Urgence plomberie et recherche de fuite à Salzinnes.</p>
+          </a>
+          <a href="#" class="location-card card">
+            <h3>Plombier Saint-Servais</h3>
+            <p>Chauffagiste et plombier de garde à Saint-Servais (5002).</p>
+          </a>
+          <a href="#" class="location-card card">
+            <h3>Plombier Bouge</h3>
+            <p>Réparation chaudière et fuites à Bouge (5004).</p>
+          </a>
+          <a href="#" class="location-card card">
+            <h3>Plombier Wépion</h3>
+            <p>Entretien et plomberie générale à Wépion (5100).</p>
+          </a>
+        </div>
+        
+        <div class="cta-box mt-4">
+          <h3>Votre commune n'est pas dans la liste ?</h3>
+          <p>Nous intervenons également à Flawinne, Belgrade, Vedrin, Malonne et Champion. Appelez-nous pour vérifier nos disponibilités !</p>
+          <a href="tel:+32470000000" class="btn btn-primary">0470 00 00 00</a>
+        </div>
+      </div>
+      
+      <div class="map-placeholder card">
+        <!-- Interactive Map Placeholder -->
+        <div class="map-inner flex-center">
+          <div class="text-center">
+            <span style="font-size: 3rem;">🗺️</span>
+            <h3>Carte d'Intervention</h3>
+            <p>Couverture du Grand Namur (Code Postal 5000 - 5101)</p>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</Layout>
+
+<style>
+  .page-header {
+    background-color: var(--primary);
+    color: white;
+    padding: 6rem 1rem 4rem;
+  }
+  
+  .page-header h1 {
+    color: white;
+    margin-bottom: 1rem;
+  }
+  
+  .subtitle {
+    color: rgba(255,255,255,0.8);
+    font-size: 1.25rem;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  .locations-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    margin: 2rem 0;
+  }
+  
+  .location-card {
+    text-decoration: none;
+    color: inherit;
+    padding: 1.5rem;
+  }
+  
+  .location-card h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    color: var(--primary);
+  }
+  
+  .location-card p {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+  
+  .location-card:hover h3 {
+    color: var(--secondary);
+  }
+  
+  .map-placeholder {
+    height: 100%;
+    min-height: 600px;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .map-inner {
+    width: 100%;
+    height: 100%;
+    background-color: var(--border-light);
+    color: var(--text-muted);
+  }
+  
+  .cta-box {
+    background-color: var(--bg-light);
+    padding: 2rem;
+    border-radius: var(--radius-lg);
+    border-left: 4px solid var(--secondary);
+  }
+  
+  .cta-box h3 {
+    margin-bottom: 0.5rem;
+  }
+  
+  @media (max-width: 768px) {
+    .locations-grid {
+      grid-template-columns: 1fr;
+    }
+    .map-placeholder {
+      min-height: 400px;
+      margin-top: 2rem;
+    }
+  }
+</style>

@@ -1,0 +1,141 @@
+---
+---
+
+<header class="header">
+  <div class="top-bar">
+    <div class="container flex-between top-bar-content">
+      <div class="contact-info">
+        <span>📍 Namur et environs, Intervention 24/7</span>
+        <span class="divider">|</span>
+        <span>📧 contact@plombier-namur-urgent.be</span>
+      </div>
+      <div class="social-links">
+        <span>Devis Gratuit sur simple appel</span>
+      </div>
+    </div>
+  </div>
+  
+  <div class="main-nav-wrapper">
+    <div class="container flex-between main-nav">
+      <a href="/" class="logo">
+        <span class="logo-icon">💧</span>
+        <div class="logo-text">
+          <span class="logo-title">Plombier Namur</span>
+          <span class="logo-subtitle">Urgent</span>
+        </div>
+      </a>
+      
+      <nav class="desktop-nav">
+        <ul>
+          <li><a href="/">Accueil</a></li>
+          <li><a href="/services">Services</a></li>
+          <li><a href="/locations">Zones d'Intervention</a></li>
+          <li><a href="/about">À Propos</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </nav>
+      
+      <div class="nav-cta">
+        <a href="tel:+32470000000" class="btn btn-primary">
+          <span class="phone-icon">📞</span>
+          0470 00 00 00
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<style>
+  .header {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: var(--bg-white);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  }
+  
+  .top-bar {
+    background-color: var(--primary);
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.875rem;
+    padding: 0.5rem 0;
+  }
+  
+  .top-bar-content {
+    display: flex;
+  }
+  
+  .contact-info {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+  
+  .divider {
+    color: rgba(255,255,255,0.2);
+  }
+  
+  .main-nav-wrapper {
+    padding: 1rem 0;
+  }
+  
+  .main-nav {
+    display: flex;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+  
+  .logo-icon {
+    font-size: 2.5rem;
+    line-height: 1;
+  }
+  
+  .logo-text {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .logo-title {
+    font-family: var(--font-heading);
+    font-weight: 800;
+    font-size: 1.25rem;
+    color: var(--primary);
+    line-height: 1;
+  }
+  
+  .logo-subtitle {
+    font-family: var(--font-heading);
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: var(--secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  
+  .desktop-nav ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+  }
+  
+  .desktop-nav a {
+    font-family: var(--font-heading);
+    font-weight: 600;
+    color: var(--text-main);
+    font-size: 1.05rem;
+  }
+  
+  .desktop-nav a:hover {
+    color: var(--secondary);
+  }
+  
+  @media (max-width: 900px) {
+    .top-bar { display: none; }
+    .desktop-nav { display: none; }
+  }
+</style>
