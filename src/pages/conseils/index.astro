@@ -2,7 +2,7 @@
 import Layout from '../../layouts/Layout.astro';
 
 // Fetch all markdown files in the conseils directory
-const articles = await Astro.glob('./*.md');
+const articles = Object.values(import.meta.glob('./*.md', { eager: true }));
 ---
 
 <Layout 
