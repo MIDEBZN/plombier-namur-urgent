@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.plombiernamururgent.be/sitemap-index.xml

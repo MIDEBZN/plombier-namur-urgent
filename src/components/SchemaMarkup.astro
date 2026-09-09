@@ -1,0 +1,84 @@
+---
+const siteUrl = Astro.site || new URL('https://www.plombiernamururgent.be');
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "PlumbingService",
+  "name": "Plombier Namur Urgent",
+  "image": `${siteUrl}og-image.jpg`,
+  "@id": `${siteUrl}`,
+  "url": `${siteUrl}`,
+  "telephone": "+32470000000",
+  "email": "contact@plombiernamururgent.be",
+  "priceRange": "$$",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Namur",
+    "addressCountry": "BE"
+  },
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "Namur"
+    },
+    {
+      "@type": "City",
+      "name": "Jambes"
+    },
+    {
+      "@type": "City",
+      "name": "Erpent"
+    }
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Services de plomberie",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Débouchage de canalisations et WC"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Recherche et réparation de fuites"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Dépannage et entretien chauffage"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Installation sanitaire et rénovation"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Traitement de l'eau (Adoucisseur)"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Dépannage plomberie urgent 24/7"
+        }
+      }
+    ]
+  }
+};
+---
+
+<script type="application/ld+json" set:html={JSON.stringify(schema)} />
