@@ -1,6 +1,7 @@
 ---
 import { Image } from 'astro:assets';
 import logoImage from '../assets/logo.png';
+import { BUSINESS_CONFIG } from '../data/business';
 ---
 
 <header class="header">
@@ -9,21 +10,21 @@ import logoImage from '../assets/logo.png';
       <div class="contact-info">
         <span>📍 Namur et environs, Intervention 24/7</span>
         <span class="divider">|</span>
-        <span>📧 contact@plombiernamururgent.be</span>
+        <span>📧 <a href={`mailto:${BUSINESS_CONFIG.email}`} style="color: inherit; text-decoration: none;">{BUSINESS_CONFIG.email}</a></span>
       </div>
       <div class="social-links">
-        <span>Devis Gratuit sur simple appel</span>
+        <span>Devis transparent avant travaux</span>
       </div>
     </div>
   </div>
   
   <div class="main-nav-wrapper">
     <div class="container flex-between main-nav">
-      <a href="/" class="logo" style="display: block;">
-        <Image src={logoImage} alt="Logo Plombier Namur Urgent" width={300} height={300} style="width: auto; height: 65px; object-fit: contain;" />
+      <a href="/" class="logo" style="display: block;" aria-label="Retour à l'accueil Plombier Namur Urgent">
+        <Image src={logoImage} alt="Logo Plombier Namur Urgent" width={300} height={300} style="width: auto; height: 65px; object-fit: contain;" loading="eager" />
       </a>
       
-      <nav class="desktop-nav">
+      <nav class="desktop-nav" aria-label="Navigation principale">
         <ul>
           <li><a href="/">Accueil</a></li>
           <li><a href="/services">Services</a></li>
@@ -35,9 +36,9 @@ import logoImage from '../assets/logo.png';
       </nav>
       
       <div class="nav-cta">
-        <a href="tel:+32470000000" class="btn btn-primary">
-          <span class="phone-icon">📞</span>
-          0470 00 00 00
+        <a href={BUSINESS_CONFIG.telephoneHref} class="btn btn-primary" data-location="header_cta">
+          <span class="phone-icon" aria-hidden="true">📞</span>
+          {BUSINESS_CONFIG.telephone}
         </a>
       </div>
     </div>

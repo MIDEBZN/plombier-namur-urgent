@@ -1,71 +1,106 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import GlobalMap from '../components/GlobalMap.astro';
+import { BUSINESS_CONFIG } from '../data/business';
+import { LOCATIONS_DATA } from '../data/locationsData';
+
+const locations = Object.values(LOCATIONS_DATA);
 ---
 
 <Layout 
-  title="Plombier Namur : Interventions à Jambes, Erpent, Bouge et Alentours" 
-  description="Notre équipe de plombiers intervient rapidement dans toutes les communes de Namur : Jambes, Erpent, Bouge, Salzinnes, Saint-Servais. Découvrez nos zones d'intervention."
+  title="Zones d'Intervention Plombier Grand Namur (5000 - 5101) | 24/7" 
+  description="Zones couvertes par Plombier Namur Urgent : Jambes, Erpent, Bouge, Salzinnes, Saint-Servais, Wépion, Flawinne, Belgrade, Vedrin, Malonne et Champion. Dépannage 24/7."
+  showGlobalMap={false}
 >
+  <Breadcrumbs items={[{ name: "Zones d'Intervention" }]} />
+
   <div class="page-header text-center">
     <div class="container">
-      <h1>Nos Zones d'Intervention à Namur</h1>
-      <p class="subtitle">Nous couvrons l'ensemble du Grand Namur pour vos urgences plomberie et chauffage, avec une arrivée garantie en moins de 30 minutes.</p>
+      <h1>Zones d'Intervention : Plombier dans le Grand Namur</h1>
+      <p class="subtitle">Nos artisans plombiers et chauffagistes sillonnent l'agglomération namuroise pour assurer un dépannage rapide de jour comme de nuit.</p>
     </div>
   </div>
 
   <div class="container section">
-    <div class="grid grid-2" style="align-items: start;">
+    
+    <!-- Local SEO Hub Introduction -->
+    <div class="card mb-4 hub-card">
+      <h2>Organisation de nos équipes de proximité</h2>
+      <p>
+        Pour garantir une réactivité optimale lors d'une inondation, d'un tuyau percé ou d'un engorgement d'égout, notre entreprise structure ses interventions autour des grands axes de communication namurois (N4, N80, N90, N92 et autoroutes E411 / E42).
+      </p>
       
-      <div>
-        <h2 style="margin-bottom: 2rem;">Plombier de proximité dans le Grand Namur</h2>
-        <p>Être proche de chez vous nous permet d'être réactifs. C'est pourquoi nous avons organisé nos équipes pour couvrir stratégiquement toute la région namuroise.</p>
-        
-        <div class="locations-grid">
-          <a href="/locations/jambes" class="location-card card">
-            <h3>Plombier Jambes</h3>
-            <p>Dépannage et débouchage rapide à Jambes (5100).</p>
-          </a>
-          <a href="/locations/erpent" class="location-card card">
-            <h3>Plombier Erpent</h3>
-            <p>Intervention sanitaire et chauffage à Erpent (5101).</p>
-          </a>
-          <a href="/locations/salzinnes" class="location-card card">
-            <h3>Plombier Salzinnes</h3>
-            <p>Urgence plomberie et recherche de fuite à Salzinnes.</p>
-          </a>
-          <a href="/locations/saint-servais" class="location-card card">
-            <h3>Plombier Saint-Servais</h3>
-            <p>Chauffagiste et plombier de garde à Saint-Servais (5002).</p>
-          </a>
-          <a href="/locations/bouge" class="location-card card">
-            <h3>Plombier Bouge</h3>
-            <p>Réparation chaudière et fuites à Bouge (5004).</p>
-          </a>
-          <a href="/locations/wepion" class="location-card card">
-            <h3>Plombier Wépion</h3>
-            <p>Entretien et plomberie générale à Wépion (5100).</p>
-          </a>
+      <div class="grid grid-3 mt-2" style="gap: 1.5rem;">
+        <div class="feature-box">
+          <span class="feature-icon" aria-hidden="true">⏱️</span>
+          <h3>Permanence 24/7</h3>
+          <p>Techniciens d'astreinte la nuit, les week-ends et les jours fériés pour toutes les urgences sanitaires et de chauffage.</p>
         </div>
-        
-        <div class="cta-box mt-4">
-          <h3>Votre commune n'est pas dans la liste ?</h3>
-          <p>Nous intervenons également à <a href="/locations/flawinne">Flawinne</a>, <a href="/locations/belgrade">Belgrade</a>, <a href="/locations/vedrin">Vedrin</a>, <a href="/locations/malonne">Malonne</a> et <a href="/locations/champion">Champion</a>. Appelez-nous pour vérifier nos disponibilités !</p>
-          <a href="tel:+32470000000" class="btn btn-primary">0470 00 00 00</a>
+        <div class="feature-box">
+          <span class="feature-icon" aria-hidden="true">🚐</span>
+          <h3>Véhicules Géolocalisés</h3>
+          <p>La camionnette la plus proche de votre commune est mobilisée avec le stock de raccords et de matériel nécessaire.</p>
+        </div>
+        <div class="feature-box">
+          <span class="feature-icon" aria-hidden="true">📋</span>
+          <h3>Devis Local Transparent</h3>
+          <p>Estimation préalable transmise par téléphone et devis formel validé sur place avant toute réparation.</p>
         </div>
       </div>
-      
-      <div class="map-placeholder card">
-        <!-- Interactive Map Placeholder -->
-        <div class="map-inner flex-center">
-          <div class="text-center">
-            <span style="font-size: 3rem;">🗺️</span>
-            <h3>Carte d'Intervention</h3>
-            <p>Couverture du Grand Namur (Code Postal 5000 - 5101)</p>
+    </div>
+
+    <!-- Interactive Grid of the 11 Communes -->
+    <div class="mb-4">
+      <div class="text-center mb-4">
+        <h2>Communes et Quartiers Desservis dans le Grand Namur</h2>
+        <p style="max-width: 650px; margin: 0 auto; color: var(--text-muted);">
+          Cliquez sur votre commune pour consulter les spécificités locales (qualité d'eau, accès, types d'interventions fréquents).
+        </p>
+      </div>
+
+      <div class="grid grid-3 locations-grid">
+        {locations.map((loc) => (
+          <a href={`/locations/${loc.slug}`} class="location-card card">
+            <div class="loc-header">
+              <h3>Plombier {loc.name}</h3>
+              <span class="postal-badge">CP {loc.postalCode}</span>
+            </div>
+            <p class="loc-lead">{loc.lead}</p>
+            <div class="loc-tags">
+              {loc.neighbourhoods.slice(0, 3).map((n) => (
+                <span class="tag">{n}</span>
+              ))}
+            </div>
+            <span class="card-arrow">Consulter la page locale &rarr;</span>
+          </a>
+        ))}
+      </div>
+    </div>
+
+    <!-- Map & Central Business Hub Info -->
+    <div class="card mt-4 p-4">
+      <div class="grid grid-2" style="align-items: center;">
+        <div>
+          <h2>Couverture Complète de la Province de Namur</h2>
+          <p>
+            Vous résidez en périphérie namuroise ou dans une commune limitrophe non répertoriée ci-dessus (Profondeville, Floreffe, Gembloux, Andenne) ? 
+          </p>
+          <p>
+            Contactez notre permanence téléphonique : selon la disponibilité de nos équipes en intervention, nous vous confirmons immédiatement notre délai de prise en charge.
+          </p>
+          <div class="mt-2">
+            <a href={BUSINESS_CONFIG.telephoneHref} class="btn btn-primary" style="font-size: 1.15rem;">
+              📞 Appeler le {BUSINESS_CONFIG.telephone}
+            </a>
           </div>
         </div>
+        <div class="map-embed-wrapper">
+          <GlobalMap />
+        </div>
       </div>
-      
     </div>
+
   </div>
 </Layout>
 
@@ -73,81 +108,144 @@ import Layout from '../layouts/Layout.astro';
   .page-header {
     background-color: var(--primary);
     color: white;
-    padding: 6rem 1rem 4rem;
+    padding: 5rem 1rem 3.5rem;
   }
   
   .page-header h1 {
     color: white;
-    margin-bottom: 1rem;
+    margin-bottom: 0.75rem;
+    font-size: 2.2rem;
   }
   
   .subtitle {
-    color: rgba(255,255,255,0.8);
-    font-size: 1.25rem;
-    max-width: 700px;
+    color: rgba(255,255,255,0.85);
+    font-size: 1.2rem;
+    max-width: 800px;
     margin: 0 auto;
   }
-  
-  .locations-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1.5rem;
-    margin: 2rem 0;
+
+  .hub-card {
+    background: white;
+    padding: 2.5rem;
   }
-  
+
+  .hub-card h2 {
+    color: var(--primary);
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+  }
+
+  .feature-box {
+    background: var(--bg-light);
+    padding: 1.5rem;
+    border-radius: var(--radius-md);
+  }
+
+  .feature-icon {
+    font-size: 2rem;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+
+  .feature-box h3 {
+    color: var(--primary);
+    font-size: 1.15rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .feature-box p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: var(--text-main);
+    margin: 0;
+  }
+
+  .locations-grid {
+    gap: 1.5rem;
+  }
+
   .location-card {
     text-decoration: none;
     color: inherit;
-    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1.75rem;
+    border: 1px solid var(--border-light);
+    transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
   }
-  
-  .location-card h3 {
+
+  .location-card:hover {
+    transform: translateY(-4px);
+    border-color: var(--secondary);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.06);
+  }
+
+  .loc-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.75rem;
+  }
+
+  .loc-header h3 {
+    margin: 0;
     font-size: 1.25rem;
-    margin-bottom: 0.5rem;
     color: var(--primary);
   }
-  
-  .location-card p {
-    margin: 0;
-    font-size: 0.9rem;
+
+  .postal-badge {
+    background: var(--bg-light);
+    border: 1px solid var(--border-light);
+    color: var(--primary);
+    font-weight: 700;
+    font-size: 0.8rem;
+    padding: 0.25rem 0.6rem;
+    border-radius: 12px;
   }
-  
-  .location-card:hover h3 {
-    color: var(--secondary);
-  }
-  
-  .map-placeholder {
-    height: 100%;
-    min-height: 600px;
-    padding: 0;
-    overflow: hidden;
-  }
-  
-  .map-inner {
-    width: 100%;
-    height: 100%;
-    background-color: var(--border-light);
+
+  .loc-lead {
+    font-size: 0.95rem;
     color: var(--text-muted);
+    line-height: 1.5;
+    flex-grow: 1;
+    margin-bottom: 1rem;
   }
-  
-  .cta-box {
-    background-color: var(--bg-light);
-    padding: 2rem;
+
+  .loc-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .tag {
+    background: rgba(15, 43, 92, 0.05);
+    font-size: 0.75rem;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    color: var(--primary);
+  }
+
+  .card-arrow {
+    color: var(--secondary);
+    font-weight: 600;
+    font-family: var(--font-heading);
+    font-size: 0.9rem;
+    margin-top: auto;
+  }
+
+  .map-embed-wrapper {
+    overflow: hidden;
     border-radius: var(--radius-lg);
-    border-left: 4px solid var(--secondary);
   }
-  
-  .cta-box h3 {
-    margin-bottom: 0.5rem;
-  }
-  
+
+  .mt-2 { margin-top: 1rem; }
+  .mt-4 { margin-top: 2.5rem; }
+  .mb-4 { margin-bottom: 2.5rem; }
+
   @media (max-width: 768px) {
-    .locations-grid {
-      grid-template-columns: 1fr;
-    }
-    .map-placeholder {
-      min-height: 400px;
-      margin-top: 2rem;
+    .hub-card {
+      padding: 1.5rem;
     }
   }
 </style>

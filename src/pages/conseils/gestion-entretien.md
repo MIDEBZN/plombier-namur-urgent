@@ -2,15 +2,17 @@
 title: "Plomberie à Namur : Syndic, Propriétaire et Entretiens Préventifs"
 meta_description: "Locataire, propriétaire ou syndic à Namur : qui paie quoi en plomberie ? Découvrez les contrats d'entretien pour immeubles et la checklist avant l'hiver."
 layout: ../../layouts/BlogLayout.astro
+author: "Équipe Technique Plombier Namur Urgent"
+authorRole: "Plombier & Chauffagiste Certifié"
+datePublished: "2024-02-28"
+dateModified: "2024-11-15"
 ---
-
-# Plomberie à Namur : Responsabilités, Immeubles et Entretiens Préventifs
 
 Gérer les problèmes de plomberie et de chauffage est souvent une source de conflits. Qui doit payer pour ce robinet qui fuit ? À qui incombe le débouchage de la colonne générale de l'immeuble ? Et surtout, comment éviter que ces pannes ne surviennent au pire moment ?
 
 Ce guide s'adresse aux particuliers, aux locataires, aux propriétaires bailleurs, ainsi qu'aux syndics de copropriété à Namur et ses alentours.
 
-**Besoin d'une intervention claire et documentée ? [Plombier Namur Urgent vous accompagne](/contact) au 0470 00 00 00.**
+**Besoin d'une intervention claire et documentée ? [Plombier Namur Urgent vous accompagne](/contact).**
 
 ---
 
@@ -83,4 +85,4 @@ Si la casse est due au vieillissement normal du plastique (vétusté), c'est au 
 
 **Besoin d'un partenaire fiable pour la gestion de vos biens immobiliers à Namur ?**  
 Syndics, propriétaires ou particuliers, nous intervenons avec réactivité et transparence.  
-📞 **Contactez Plombier Namur Urgent au 0470 00 00 00** ou [Demandez un rendez-vous](/contact).
+📞 **[Contactez notre équipe technique](/contact)** ou [Demandez un rendez-vous](/contact).

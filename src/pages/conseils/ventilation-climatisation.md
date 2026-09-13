@@ -2,15 +2,17 @@
 title: "VMC et Climatisation à Namur : Installation et Entretien"
 meta_description: "Condensation, moisissures ou fortes chaleurs à Namur ? Guide sur la Ventilation Mécanique Contrôlée (VMC) simple et double flux, et la climatisation."
 layout: ../../layouts/BlogLayout.astro
+author: "Équipe Technique Plombier Namur Urgent"
+authorRole: "Technicien Chauffage & Ventilation"
+datePublished: "2024-03-22"
+dateModified: "2024-11-25"
 ---
-
-# VMC et Climatisation à Namur : L'Art de Respirer un Air Sain
 
 Une maison bien isolée est excellente pour réduire vos factures de chauffage, mais si elle manque de ventilation, elle se transforme en une véritable boîte hermétique. L'air vicié stagne, la condensation apparaît sur les vitres, et les moisissures prolifèrent. Par ailleurs, les étés de plus en plus caniculaires à Namur poussent de nombreux foyers à s'équiper de solutions de rafraîchissement.
 
 Découvrez comment assainir l'air de votre logement grâce à la VMC, et comment la climatisation réversible peut améliorer votre confort estival.
 
-**Besoin d'un diagnostic ventilation ou climatisation ? [Contactez nos techniciens](/contact) au 0470 00 00 00.**
+**Besoin d'un diagnostic ventilation ou climatisation ? [Contactez nos techniciens](/contact).**
 
 ---
 
@@ -67,4 +69,4 @@ Les modèles récents (Inverter A++ ou A+++) sont extrêmement économes. Utilis
 
 **Envie de respirer un air sain ou de rester au frais cet été ?**  
 Nos installateurs à Namur sont à votre disposition pour équiper votre logement de solutions de ventilation et de climatisation performantes.  
-📞 **Appelez-nous au 0470 00 00 00** ou [Demandez un devis](/contact).
+📞 **[Demandez un devis à nos équipes](/contact)** ou consultez nos solutions de [chauffage et climatisation](/services/chauffage).

@@ -1,0 +1,37 @@
+{
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "plombiernamururgent.be"
+        }
+      ],
+      "destination": "https://www.plombiernamururgent.be/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "plombier-namur-urgent.be"
+        }
+      ],
+      "destination": "https://www.plombiernamururgent.be/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.plombier-namur-urgent.be"
+        }
+      ],
+      "destination": "https://www.plombiernamururgent.be/:path*",
+      "permanent": true
+    }
+  ]
+}

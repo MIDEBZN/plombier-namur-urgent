@@ -1,13 +1,40 @@
 ---
 import Layout from './Layout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { BUSINESS_CONFIG } from '../data/business';
 
 const { frontmatter } = Astro.props;
+
+const author = frontmatter.author || "Équipe technique Plombier Namur Urgent";
+const authorRole = frontmatter.authorRole || "Plombier-Chauffagiste certifié";
+const datePublished = frontmatter.datePublished || "2025-02-01";
+const dateModified = frontmatter.dateModified || "2026-09-13";
+const reviewer = frontmatter.reviewer || "Revu par l'équipe technique - Conformité réglementaire Wallonie";
 ---
 
-<Layout title={frontmatter.title} description={frontmatter.meta_description}>
+<Layout 
+  title={frontmatter.title} 
+  description={frontmatter.meta_description}
+  schemaType="article"
+  authorName={author}
+  datePublished={`${datePublished}T08:00:00+01:00`}
+  dateModified={`${dateModified}T10:00:00+02:00`}
+>
+  <Breadcrumbs items={[
+    { name: "Conseils", url: "/conseils" },
+    { name: frontmatter.title }
+  ]} />
+
   <div class="blog-header bg-primary">
     <div class="container text-center">
       <h1>{frontmatter.title}</h1>
+      <div class="article-meta">
+        <span>✍️ {author} ({authorRole})</span>
+        <span class="meta-divider">•</span>
+        <span>📅 Mis à jour le {dateModified}</span>
+        <span class="meta-divider">•</span>
+        <span>🛡️ {reviewer}</span>
+      </div>
     </div>
   </div>
 
@@ -16,24 +43,48 @@ const { frontmatter } = Astro.props;
       <slot />
     </article>
     
-    <div class="blog-sidebar">
+    <aside class="blog-sidebar" aria-label="Informations et services associés">
       <div class="sidebar-card">
         <h3>Besoin d'un dépannage immédiat ?</h3>
-        <p>Nos plombiers interviennent 24/7 dans tout le Namurois.</p>
-        <a href="tel:+32470000000" class="btn btn-primary" style="width: 100%; justify-content: center; margin-top: 1rem;">
-          📞 0470 00 00 00
+        <p>Nos plombiers et chauffagistes interviennent 24/7 dans tout le Grand Namur.</p>
+        <a href={BUSINESS_CONFIG.telephoneHref} class="btn btn-primary" style="width: 100%; justify-content: center; margin-top: 1rem;" data-location="article_sidebar_cta">
+          <span aria-hidden="true">📞</span> {BUSINESS_CONFIG.telephone}
         </a>
       </div>
+
       <div class="sidebar-card">
-        <h3>Nos Services</h3>
-        <ul style="list-style: none; padding: 0; margin-top: 1rem; display: flex; flex-direction: column; gap: 0.5rem;">
-          <li><a href="/services/urgence">🚨 Urgence 24/7</a></li>
-          <li><a href="/services/debouchage">🚽 Débouchage</a></li>
-          <li><a href="/services/fuites">💧 Fuites d'eau</a></li>
-          <li><a href="/services/chauffage">🔥 Chauffage</a></li>
+        <h3>Services Associés</h3>
+        <ul class="sidebar-links">
+          <li><a href="/services/urgence">🚨 Dépannage Urgent 24/7</a></li>
+          <li><a href="/services/debouchage">🚽 Débouchage Canalisation</a></li>
+          <li><a href="/services/fuites">💧 Détection Fuites Sans Casse</a></li>
+          <li><a href="/services/chauffage">🔥 Chauffage & Chaudières</a></li>
+          <li><a href="/services/sanitaire">🚿 Installations Sanitaires</a></li>
+          <li><a href="/services/traitement-eau">🧊 Adoucisseurs d'Eau</a></li>
         </ul>
       </div>
-    </div>
+
+      <div class="sidebar-card">
+        <h3>Références & Organismes</h3>
+        <ul class="sidebar-links external-links">
+          <li>
+            <a href="https://energie.wallonie.be" target="_blank" rel="noopener noreferrer">
+              SPW Énergie (Wallonie) ↗
+            </a>
+          </li>
+          <li>
+            <a href="https://www.swde.be" target="_blank" rel="noopener noreferrer">
+              SWDE (Distribution d'eau) ↗
+            </a>
+          </li>
+          <li>
+            <a href="https://www.inasep.be" target="_blank" rel="noopener noreferrer">
+              INASEP (Assainissement Namur) ↗
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
   </div>
 </Layout>
 
@@ -41,21 +92,36 @@ const { frontmatter } = Astro.props;
   .blog-header {
     background-color: var(--primary);
     color: white;
-    padding: 4rem 1rem;
-    margin-bottom: 3rem;
+    padding: 3.5rem 1rem 3rem;
+    margin-bottom: 2.5rem;
   }
   
   .blog-header h1 {
-    font-size: 2.5rem;
-    margin: 0;
-    max-width: 800px;
+    font-size: 2.2rem;
+    line-height: 1.3;
+    margin: 0 0 1rem;
+    max-width: 900px;
     margin-inline: auto;
+  }
+
+  .article-meta {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.85);
+  }
+
+  .meta-divider {
+    opacity: 0.5;
   }
   
   .blog-container {
     display: grid;
-    grid-template-columns: 1fr 350px;
-    gap: 4rem;
+    grid-template-columns: 1fr 340px;
+    gap: 3.5rem;
     margin-bottom: 4rem;
   }
   
@@ -63,27 +129,31 @@ const { frontmatter } = Astro.props;
   .blog-content {
     color: var(--text-main);
     line-height: 1.8;
-    font-size: 1.1rem;
+    font-size: 1.05rem;
   }
   
-  .blog-content h1, .blog-content h2, .blog-content h3 {
+  .blog-content h2, .blog-content h3 {
     color: var(--primary);
-    margin-top: 2.5rem;
-    margin-bottom: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.3;
   }
   
   .blog-content h2 {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     border-bottom: 2px solid var(--secondary);
-    padding-bottom: 0.5rem;
-    display: inline-block;
+    padding-bottom: 0.4rem;
+  }
+
+  .blog-content h3 {
+    font-size: 1.25rem;
   }
   
   .blog-content p {
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.25rem;
   }
   
-  .blog-content ul {
+  .blog-content ul, .blog-content ol {
     margin-bottom: 1.5rem;
     padding-left: 1.5rem;
   }
@@ -94,43 +164,57 @@ const { frontmatter } = Astro.props;
   
   .blog-content blockquote {
     border-left: 4px solid var(--secondary);
-    background: var(--bg-gray);
-    padding: 1.5rem;
-    margin: 2rem 0;
+    background: var(--bg-light, #f8fafc);
+    padding: 1.25rem 1.5rem;
+    margin: 1.5rem 0;
     border-radius: 0 var(--radius-md) var(--radius-md) 0;
-    font-weight: 500;
   }
   
   .blog-content hr {
     border: 0;
     height: 1px;
-    background: #e2e8f0;
-    margin: 3rem 0;
+    background: var(--border-light, #e2e8f0);
+    margin: 2.5rem 0;
   }
   
   .sidebar-card {
-    background: var(--bg-gray);
-    padding: 2rem;
+    background: var(--bg-light, #f8fafc);
+    padding: 1.75rem;
     border-radius: var(--radius-lg);
-    margin-bottom: 2rem;
-    position: sticky;
-    top: 100px;
+    border: 1px solid var(--border-light, #e2e8f0);
+    margin-bottom: 1.75rem;
   }
   
   .sidebar-card h3 {
     color: var(--primary);
-    margin-bottom: 0.5rem;
-    font-size: 1.25rem;
+    margin-bottom: 0.75rem;
+    font-size: 1.2rem;
+  }
+
+  .sidebar-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
   }
   
-  .sidebar-card a {
+  .sidebar-links a {
     color: var(--text-main);
-    font-weight: 600;
-    transition: color 0.3s;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
   }
   
-  .sidebar-card a:hover {
+  .sidebar-links a:hover {
     color: var(--secondary);
+    text-decoration: underline;
+  }
+
+  .external-links a {
+    color: var(--primary);
+    font-size: 0.95rem;
   }
   
   @media (max-width: 900px) {
@@ -139,10 +223,10 @@ const { frontmatter } = Astro.props;
       gap: 2rem;
     }
     .blog-header {
-      padding: 3rem 1rem;
+      padding: 2.5rem 1rem;
     }
     .blog-header h1 {
-      font-size: 2rem;
+      font-size: 1.75rem;
     }
   }
 </style>

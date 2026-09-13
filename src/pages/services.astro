@@ -1,77 +1,125 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { BUSINESS_CONFIG } from '../data/business';
 ---
 
 <Layout 
-  title="Dépannage & Services Plomberie à Namur | Tous nos services" 
-  description="Découvrez l'ensemble de nos services : dépannage urgent, débouchage, recherche de fuite, chauffage, sanitaire et traitement de l'eau à Namur."
+  title="Services Plomberie & Chauffage à Namur | Dépannage 24/7 & Travaux" 
+  description="Découvrez l'ensemble de nos services de plomberie à Namur : dépannage d'urgence 24/7, débouchage canalisation, détection de fuite sans casse, chauffage et adoucisseurs."
 >
+  <Breadcrumbs items={[{ name: "Services" }]} />
+
   <div class="page-header text-center">
     <div class="container">
-      <h1>Tous nos Services de Plomberie</h1>
-      <p class="subtitle">Des solutions expertes pour tous vos problèmes. Cliquez sur un service pour découvrir nos prestations détaillées.</p>
+      <h1>Nos Services de Plomberie, Débouchage et Chauffage à Namur</h1>
+      <p class="subtitle">Des solutions techniques adaptées à chaque situation : dépannage d'extrême urgence, détection non destructive ou rénovation planifiée.</p>
     </div>
   </div>
 
   <div class="container section">
     
-    <div class="grid grid-3">
+    <!-- Hub Educational Intro -->
+    <div class="hub-intro card mb-4">
+      <h2>Comment choisir le bon service pour votre installation ?</h2>
+      <p>
+        Face à une anomalie sur vos canalisations ou votre chaudière, identifier rapidement la gravité de la panne permet de choisir la bonne prise en charge et de maîtriser vos coûts :
+      </p>
+      
+      <div class="grid grid-2 mt-2" style="gap: 2rem;">
+        <div class="intro-box">
+          <h3 style="color: var(--secondary); margin-bottom: 0.5rem;">🚨 Dépannages d'Urgence (Permanence 24/7)</h3>
+          <p>
+            Concerne les situations présentant un risque immédiat de dégât des eaux, d'insalubrité ou d'arrêt critique : fuite active sur canalisation sous pression, refoulement d'eaux vannes/égouts, chauffe-eau percé ou absence totale de chauffage par températures négatives. Notre permanence est joignable à toute heure au <a href={BUSINESS_CONFIG.telephoneHref}><strong>{BUSINESS_CONFIG.telephone}</strong></a>.
+          </p>
+        </div>
+        <div class="intro-box">
+          <h3 style="color: var(--primary); margin-bottom: 0.5rem;">📅 Interventions Planifiées & Entretien</h3>
+          <p>
+            Pour les opérations préventives et de modernisation : contrôle périodique de chaudière, détartrage de boiler, pose d'un adoucisseur d'eau, remplacement de robinetterie ou création de salle de bain complète. Nous intervenons sur rendez-vous avec devis préalable gratuit et étude sur mesure.
+          </p>
+        </div>
+      </div>
+
+      <div class="transparency-banner mt-4">
+        <h3>Notre Méthode : Diagnostic Précis & Devis Avant Travaux</h3>
+        <p>
+          Pas de mauvaise surprise : chaque intervention commence par un diagnostic rigoureux (contrôle de pression, examen visuel ou inspection par caméra endoscopique). Un devis chiffré vous est obligatoirement présenté avant le début des réparations.
+        </p>
+      </div>
+    </div>
+
+    <!-- Services Grid with Descriptive Anchors -->
+    <div class="grid grid-3 services-grid">
       
       <!-- Urgence -->
-      <a href="/services/urgence" class="service-card-link card text-center">
-        <div class="service-icon">🚨</div>
-        <h2>Dépannage d'Urgence</h2>
-        <p>Intervention 24/7 en moins de 30 minutes. Fuites d'eau majeures, pannes, dégâts des eaux.</p>
-        <span class="read-more">En savoir plus &rarr;</span>
-      </a>
+      <div class="service-card card text-center">
+        <div class="service-icon" aria-hidden="true">🚨</div>
+        <h2>Dépannage d'Urgence 24/7</h2>
+        <p>Intervention prioritaire pour fuite d'eau abondante, rupture de conduite, robinet d'arrêt cassé et mise en sécurité électrique et hydraulique immédiate.</p>
+        <a href="/services/urgence" class="service-link">Voir le dépannage plomberie d'urgence 24/7 &rarr;</a>
+      </div>
 
       <!-- Débouchage -->
-      <a href="/services/debouchage" class="service-card-link card text-center">
-        <div class="service-icon">🚽</div>
+      <div class="service-card card text-center">
+        <div class="service-icon" aria-hidden="true">🚽</div>
         <h2>Débouchage Canalisation</h2>
-        <p>Débouchage de WC, éviers, égouts. Curage haute pression et inspection caméra.</p>
-        <span class="read-more">En savoir plus &rarr;</span>
-      </a>
+        <p>Débouchage mécanique et curage haute pression pour WC, éviers, siphons et collecteurs d'égout. Élimination des bouchons tenaces et inspection vidéo.</p>
+        <a href="/services/debouchage" class="service-link">Voir le service de débouchage & curage &rarr;</a>
+      </div>
 
       <!-- Fuites -->
-      <a href="/services/fuites" class="service-card-link card text-center">
-        <div class="service-icon">💧</div>
-        <h2>Détection de Fuites</h2>
-        <p>Recherche non destructive par caméra thermique et acoustique. Rapports d'assurance.</p>
-        <span class="read-more">En savoir plus &rarr;</span>
-      </a>
+      <div class="service-card card text-center">
+        <div class="service-icon" aria-hidden="true">💧</div>
+        <h2>Recherche de Fuite Sans Casse</h2>
+        <p>Localisation précise de fuites invisibles dans les cloisons, dalles et planchers par caméra thermique infrarouge, écoute acoustique et gaz traceur.</p>
+        <a href="/services/fuites" class="service-link">Voir la recherche de fuite sans casse &rarr;</a>
+      </div>
 
       <!-- Chauffage -->
-      <a href="/services/chauffage" class="service-card-link card text-center">
-        <div class="service-icon">🔥</div>
+      <div class="service-card card text-center">
+        <div class="service-icon" aria-hidden="true">🔥</div>
         <h2>Chauffage & Chaudières</h2>
-        <p>Installation, entretien annuel et dépannage urgent de chaudières (gaz/mazout).</p>
-        <span class="read-more">En savoir plus &rarr;</span>
-      </a>
+        <p>Dépannage de pannes de chaudière gaz et mazout, désembouage de radiateurs et contrôles périodiques conformes à la législation de la Région Wallonne.</p>
+        <a href="/services/chauffage" class="service-link">Voir nos services de chauffage & chaudières &rarr;</a>
+      </div>
 
       <!-- Sanitaire -->
-      <a href="/services/sanitaire" class="service-card-link card text-center">
-        <div class="service-icon">🚿</div>
+      <div class="service-card card text-center">
+        <div class="service-icon" aria-hidden="true">🚿</div>
         <h2>Installations Sanitaires</h2>
-        <p>Rénovation complète de salles de bain, installation de douches, baignoires et WC.</p>
-        <span class="read-more">En savoir plus &rarr;</span>
-      </a>
+        <p>Pose de sanitaires, remplacement de mitigeurs, montage de WC suspendus Geberit, transformation de baignoire en douche italienne et boilers.</p>
+        <a href="/services/sanitaire" class="service-link">Voir les installations & rénovations sanitaires &rarr;</a>
+      </div>
 
       <!-- Traitement d'eau -->
-      <a href="/services/traitement-eau" class="service-card-link card text-center">
-        <div class="service-icon">🧊</div>
-        <h2>Traitement de l'Eau</h2>
-        <p>Installation d'adoucisseurs d'eau et de systèmes anti-calcaire pour protéger votre maison.</p>
-        <span class="read-more">En savoir plus &rarr;</span>
-      </a>
+      <div class="service-card card text-center">
+        <div class="service-icon" aria-hidden="true">🧊</div>
+        <h2>Traitement de l'Eau & Calcaire</h2>
+        <p>Installation et réglage d'adoucisseurs d'eau adaptés à la dureté calcaire élevée du réseau namurois. Protection durable de vos appareils électroménagers.</p>
+        <a href="/services/traitement-eau" class="service-link">Voir le traitement de l'eau & adoucisseurs &rarr;</a>
+      </div>
 
     </div>
 
-    <!-- CTA -->
-    <div class="cta-box text-center mt-4">
-      <h2>Besoin d'un devis immédiat ?</h2>
-      <p style="margin-bottom: 1.5rem;">Notre équipe est à votre disposition pour vous conseiller et vous fournir une estimation gratuite.</p>
-      <a href="/contact" class="btn btn-primary">Demander un Devis</a>
+    <!-- Coverage Hub Connection -->
+    <div class="coverage-box card mt-4">
+      <div class="grid grid-2" style="align-items: center;">
+        <div>
+          <h2>Où intervenons-nous dans la région de Namur ?</h2>
+          <p>
+            Nos techniciens sont déployés sur l'ensemble des communes du Grand Namur : Jambes, Erpent, Bouge, Salzinnes, Saint-Servais, Wépion, Flawinne, Belgrade, Vedrin, Malonne et Champion.
+          </p>
+          <a href="/locations" class="btn btn-outline mt-2">Consulter les zones d'intervention</a>
+        </div>
+        <div class="quick-contact-callout text-center">
+          <h3>Une question sur nos prestations ?</h3>
+          <p>Contactez notre permanence pour un conseil ou un diagnostic :</p>
+          <a href={BUSINESS_CONFIG.telephoneHref} class="btn btn-primary" style="font-size: 1.15rem; margin-top: 0.5rem;">
+            📞 {BUSINESS_CONFIG.telephone}
+          </a>
+        </div>
+      </div>
     </div>
 
   </div>
@@ -81,66 +129,141 @@ import Layout from '../layouts/Layout.astro';
   .page-header {
     background-color: var(--primary);
     color: white;
-    padding: 6rem 1rem 4rem;
+    padding: 5rem 1rem 3.5rem;
   }
   
   .page-header h1 {
     color: white;
-    margin-bottom: 1rem;
+    margin-bottom: 0.75rem;
+    font-size: 2.2rem;
   }
   
   .subtitle {
-    color: rgba(255,255,255,0.8);
-    font-size: 1.25rem;
-    max-width: 700px;
+    color: rgba(255,255,255,0.85);
+    font-size: 1.2rem;
+    max-width: 800px;
     margin: 0 auto;
   }
+
+  .hub-intro {
+    background: white;
+    padding: 2.5rem;
+    border: 1px solid var(--border-light);
+  }
+
+  .hub-intro h2 {
+    color: var(--primary);
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+  }
+
+  .intro-box {
+    background: var(--bg-light);
+    padding: 1.5rem;
+    border-radius: var(--radius-md);
+  }
+
+  .intro-box p {
+    margin: 0;
+    line-height: 1.6;
+    font-size: 0.95rem;
+  }
+
+  .transparency-banner {
+    background: rgba(15, 43, 92, 0.04);
+    border-left: 4px solid var(--primary);
+    padding: 1.25rem 1.5rem;
+    border-radius: 0 var(--radius-md) var(--radius-md) 0;
+  }
+
+  .transparency-banner h3 {
+    margin: 0 0 0.5rem;
+    color: var(--primary);
+    font-size: 1.15rem;
+  }
+
+  .transparency-banner p {
+    margin: 0;
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
   
-  .service-card-link {
-    text-decoration: none;
-    color: inherit;
+  .services-grid {
+    margin-top: 2rem;
+  }
+  
+  .service-card {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 2.5rem 1.5rem;
+    padding: 2rem 1.5rem;
+    text-align: left;
   }
   
   .service-icon {
-    font-size: 3.5rem;
+    font-size: 3rem;
     margin-bottom: 1rem;
   }
   
-  .service-card-link h2 {
-    font-size: 1.5rem;
+  .service-card h2 {
+    font-size: 1.35rem;
     color: var(--primary);
-    margin-bottom: 1rem;
+    margin-bottom: 0.75rem;
   }
   
-  .service-card-link p {
+  .service-card p {
     flex-grow: 1;
     margin-bottom: 1.5rem;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: var(--text-main);
   }
   
-  .read-more {
+  .service-link {
     color: var(--secondary);
     font-weight: 600;
     font-family: var(--font-heading);
     margin-top: auto;
-    transition: transform 0.3s;
+    text-decoration: none;
+    transition: transform 0.2s;
   }
   
-  .service-card-link:hover .read-more {
-    transform: translateX(5px);
+  .service-card:hover .service-link {
+    transform: translateX(4px);
+    text-decoration: underline;
   }
   
-  .cta-box {
+  .coverage-box {
     background: var(--bg-light);
-    padding: 4rem 2rem;
-    border-radius: var(--radius-xl);
+    padding: 2.5rem;
     border: 1px solid var(--border-light);
   }
+
+  .coverage-box h2 {
+    color: var(--primary);
+    font-size: 1.5rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .quick-contact-callout {
+    background: white;
+    padding: 1.75rem;
+    border-radius: var(--radius-lg);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  }
+
+  .quick-contact-callout h3 {
+    color: var(--primary);
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+  }
   
-  .mt-4 {
-    margin-top: 4rem;
+  .mt-2 { margin-top: 1rem; }
+  .mt-4 { margin-top: 2.5rem; }
+  .mb-4 { margin-bottom: 2.5rem; }
+
+  @media (max-width: 768px) {
+    .hub-intro {
+      padding: 1.5rem;
+    }
   }
 </style>

@@ -1,77 +1,68 @@
 ---
-title: "Chauffagiste Namur : Panne de Chaudière, Entretien et Remplacement"
-meta_description: "Chaudière en panne à Namur ? Radiateurs froids ? Découvrez les causes fréquentes, la législation sur l'entretien en Wallonie et les devis de remplacement."
+title: "Chaudière en Wallonie : fréquence des contrôles, entretien et pannes"
+meta_description: "Entretien et contrôle périodique de chaudière en Wallonie : fréquence légale (3 ans gaz, 1 an mazout), diagnostic des pannes et obligations d'assurance."
 layout: ../../layouts/BlogLayout.astro
+datePublished: "2025-02-05"
+dateModified: "2026-09-13"
+author: "Équipe technique Plombier Namur Urgent"
+authorRole: "Chauffagiste qualifié Région Wallonne"
 ---
 
-# Chauffagiste à Namur : Pannes, Entretien et Remplacement de Chaudière
-
-Une panne de chauffage au beau milieu de l'hiver est une véritable urgence, surtout pour les familles namuroises. Que votre chaudière au gaz se mette en sécurité, que vos radiateurs restent froids ou que vous soyez confronté à une odeur suspecte, il faut agir avec méthode.
-
-**Votre maison est glaciale ? Contactez notre chauffagiste d'urgence à Namur au 0470 00 00 00 pour un dépannage rapide.**
-
----
-
-## 1. Chaudière en panne : Vérifications avant d'appeler le chauffagiste
-
-De nombreuses "pannes" de chaudière peuvent être résolues sans l'intervention d'un professionnel. Voici la checklist à suivre :
-
-1. **Vérifiez la pression de l'eau :** L'aiguille du manomètre doit se situer entre 1,2 et 1,5 bar (dans le vert). Si elle est proche de zéro, la chaudière se bloque par sécurité. Ouvrez la petite vanne de remplissage sous la chaudière pour faire remonter la pression.
-2. **Le thermostat :** Les piles de votre thermostat d'ambiance sont-elles encore bonnes ? Est-il bien réglé sur "Hiver" ou en demande de chaleur ?
-3. **L'alimentation :** Y a-t-il une panne de courant dans la maison ? La vanne de gaz principale est-elle bien ouverte ?
-4. **Le code erreur (Reset) :** Si l'écran clignote avec un code d'erreur (ex: F28, E13), tentez d'appuyer sur le bouton "Reset" (ou rallumez la chaudière) une seule fois. Si elle se remet en erreur, n'insistez pas et appelez un [chauffagiste agréé](/services/chauffage).
+Une panne de chauffage au beau milieu de l'hiver est une situation critique pour les familles namuroises. Entre les contrôles imposés par la législation wallonne et les gestes de premier secours en cas de mise en sécurité, voici ce que tout propriétaire ou locataire doit savoir. Si votre installation est actuellement à l'arrêt, faites appel sans tarder à notre [service de dépannage et d'entretien chaudière à Namur](/services/chauffage).
 
 ---
 
-## 2. Radiateurs froids ou bruyants : Purge et Désembouage
+## 1. Législation en Région Wallonne : Distinguer Entretien et Contrôle Périodique
 
-**Le haut du radiateur est froid et il fait du bruit (glouglou) :**  
-Il y a de l'air dans votre circuit. Vous devez purger vos radiateurs. Commencez par le radiateur le plus bas de la maison, ouvrez la petite vis de purge avec une clé carrée jusqu'à ce que de l'eau claire coule sans bulles d'air. **Attention :** purger fait baisser la pression de la chaudière, pensez à remettre de l'eau ensuite (voir point 1).
+Il règne souvent une confusion entre les recommandations des fabricants et les obligations légales. En Région Wallonne (décret et arrêtés du Gouvernement wallon relatifs aux installations de chauffage central), la loi distingue formellement trois démarches :
 
-**Le bas du radiateur est froid (ou la chaudière est bruyante) :**  
-C'est le symptôme d'un embouage. Des boues métalliques se sont formées et bloquent la circulation de l'eau. Un **désembouage** complet du réseau par un professionnel est nécessaire pour retrouver la puissance de chauffe initiale et protéger votre chaudière.
+### Le contrôle périodique obligatoire (obligation légale)
+Ce contrôle vise à garantir la sécurité des personnes (prévention des intoxications au monoxyde de carbone) et le respect des normes d'émissions polluantes.
+- **Chaudières au gaz naturel ou propane (puissance ≤ 100 kW) :** Contrôle périodique obligatoire **tous les 3 ans** par un technicien agréé pour les combustibles gazeux (agrément G1 ou G2).
+- **Chaudières au combustible liquide (mazout) :** Contrôle périodique obligatoire **chaque année** par un technicien agréé combustible liquide (agrément L).
+- **Chaudières à combustible solide (pellets, bois) :** Contrôle périodique annuel.
+- **Délivrance de l'attestation :** À l'issue de l'intervention, le chauffagiste vous délivre obligatoirement une **attestation de contrôle périodique** avec mesure du rendement de combustion, teneur en CO et tirage de cheminée. Ce document doit être conservé et présenté à votre compagnie d'assurance en cas de sinistre.
 
----
+### L'entretien technique régulier
+Préconisé par les constructeurs (Vaillant, Viessmann, Buderus, Bulex), il comprend le nettoyage méticuleux des échangeurs thermiques, le remplacement des électrodes d'allumage et la vérification des organes d'étanchéité.
 
-## 3. Entretien de Chaudière en Wallonie : Obligations et Sécurité
+### Le diagnostic approfondi (audit de chauffage)
+Pour les installations de chauffage central âgées de plus de 15 ans, un diagnostic complet évalue l'adéquation de la puissance par rapport aux besoins réels du bâtiment et propose des pistes d'économies d'énergie.
 
-### La loi en Wallonie
-L'entretien de votre installation de chauffage est une **obligation légale** en Wallonie, tant pour des raisons de rendement écologique que de sécurité (risque d'incendie et de monoxyde de carbone).
-- **Chaudière au Gaz :** Entretien obligatoire tous les 3 ans par un technicien agréé G1.
-- **Chaudière au Mazout ou Pellets :** Entretien obligatoire chaque année par un technicien agréé.
-
-### Ce que comprend un entretien professionnel
-Lors d'un entretien, le chauffagiste ne se contente pas de nettoyer. Il contrôle le brûleur, nettoie le corps de chauffe, vérifie les sécurités, analyse les fumées de combustion et s'assure du bon tirage de la cheminée. À l'issue, il vous remet une **attestation légale**, indispensable pour votre assurance habitation.
-
-> ⚠️ **Sécurité : Monoxyde de Carbone (CO)**  
-> Le CO est un gaz inodore, invisible et mortel, provoqué par une mauvaise combustion et un manque de ventilation. Si vous ressentez des maux de tête, des nausées ou une fatigue soudaine près de la chaudière : aérez grandement, sortez et appelez les secours.
+Pour plus d'informations officielles, consultez le portail [SPW Énergie Wallonie (energie.wallonie.be)](https://energie.wallonie.be).
 
 ---
 
-## 4. Remplacer sa chaudière à Namur : Gaz, Pompe à Chaleur ou Hybride ?
+## 2. Chaudière en panne : Vérifications avant d'appeler le chauffagiste
 
-Si votre chaudière a plus de 15 ans et cumule les pannes, la réparer n'est plus rentable. Son rendement est probablement faible, gonflant vos factures d'énergie.
+De nombreuses mises en sécurité peuvent être débloquées simplement :
 
-**Quelles sont les options pour une rénovation ?**
-- **La chaudière Gaz à Condensation :** La solution la plus standard et abordable si vous êtes raccordé au gaz de ville. Elle récupère la chaleur des fumées et offre d'excellents rendements.
-- **La Pompe à Chaleur (PAC) Air-Eau :** L'avenir du chauffage. Elle extrait les calories de l'air extérieur pour chauffer votre eau. Idéale pour les maisons bien isolées équipées de chauffage par le sol ou de radiateurs basse température.
-- **Le système Hybride :** Combine une chaudière gaz et une petite pompe à chaleur. Le système intelligent bascule sur l'énergie la moins chère selon la température extérieure. Parfait pour la rénovation des vieilles bâtisses namuroises.
+1. **Vérifiez la pression du manomètre :** L'aiguille doit se trouver entre 1,2 et 1,5 bar. En dessous de 0,8 bar, le pressostat bloque le brûleur pour éviter la surchauffe. Ouvrez la vanne de remplissage jusqu'à atteindre la zone verte.
+2. **Contrôlez le thermostat d'ambiance :** Des piles usagées dans le boîtier d'ambiance empêchent l'envoi de l'ordre de chauffe à la chaudière.
+3. **Alimentation électrique et combustible :** Vérifiez que le disjoncteur n'a pas sauté et que la vanne de gaz est bien ouverte (ou que la jauge de mazout n'indique pas un fond de cuve).
+4. **Réarmement (Reset) unique :** Si un code d'erreur clignote (ex: F28, E10), pressez la touche Reset une seule fois. Si l'appareil se remet immédiatement en défaut, coupez l'alimentation et contactez un [chauffagiste agréé](/services/chauffage).
+
+---
+
+## 3. Radiateurs froids ou bruyants : Purge et Désembouage
+
+**Le radiateur est chaud en bas mais froid en haut :**  
+Présence d'air dans le réseau. Utilisez une clé de purge pour chasser l'air jusqu'à ce qu'un filet d'eau s'écoule, puis réajustez la pression d'eau sur la chaudière.
+
+**Le radiateur est froid en bas et tiède en haut :**  
+Symptôme caractéristique d'un réseau emboué. La magnétite et les dépôts de calcaire forment une pâte dense au fond des corps de chauffe. Un désembouage sous pression couplé à l'installation d'un pot à boues magnétique est nécessaire pour retrouver 100% de la puissance de chauffe.
 
 ---
 
 ## Foire Aux Questions (FAQ)
 
-**Ça sent le gaz dans la maison, que dois-je faire ?**  
-Ne touchez à aucun interrupteur (pas de lumière, pas de téléphone fixe). N'utilisez pas de briquet. Ouvrez toutes les fenêtres. Fermez la vanne d'arrivée de gaz principale. Sortez de la maison et appelez ORES (le gestionnaire de réseau) ou les pompiers (112) depuis l'extérieur.
+**Qui paie le contrôle périodique de la chaudière entre locataire et propriétaire ?**  
+En Wallonie, le contrôle périodique de la chaudière et l'entretien régulier sont légalement à charge du **locataire**, qui doit en fournir l'attestation au propriétaire. En revanche, le remplacement de pièces vétustes ou d'une chaudière hors d'usage incombe au **propriétaire**.
 
-**Combien coûte le remplacement d'une chaudière ?**  
-Le remplacement complet par une chaudière au gaz à condensation (pose comprise) varie généralement entre 3.000 € et 5.500 € selon la marque, la puissance et la complexité des raccordements. Demandez-nous un devis gratuit.
-
-**L'installation d'un thermostat connecté fait-elle vraiment baisser la facture ?**  
-Oui. Un thermostat intelligent (type Nest, Netatmo ou Tado) adapte la chauffe à vos habitudes et aux conditions météo. Il peut vous faire économiser entre 10 et 15% sur votre facture énergétique annuelle à Namur.
+**Que faire en cas d'odeur de gaz dans le logement ?**  
+N'actionnez aucun interrupteur électrique ni sonnette. N'utilisez pas de téléphone portable à l'intérieur. Aérez en grand, fermez la vanne générale de compteur de gaz, quittez immédiatement l'immeuble et appelez ORES au 0800 87 087 ou le 112 depuis la rue.
 
 ---
 
-**Chaudière en panne ou projet de remplacement ?**  
-Nos chauffagistes agréés assurent le dépannage, l'entretien et l'installation de systèmes performants.  
-📞 **Contactez-nous au 0470 00 00 00** ou [Demandez un devis chauffage](/contact).
+**Votre chaudière nécessite un contrôle périodique ou un dépannage ?**  
+Faites appel à nos techniciens pour une attestation officielle en règle. Découvrez nos prestations sur notre [page de services de chauffage](/services/chauffage) ou demandez un [rendez-vous en ligne](/contact).

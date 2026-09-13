@@ -1,19 +1,28 @@
 ---
 import Layout from '../../layouts/Layout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { BUSINESS_CONFIG } from '../../data/business';
 ---
 
 <Layout 
-  title="Adoucisseur et Traitement de l'Eau à Namur | Plombier" 
-  description="Installation d'adoucisseurs d'eau, purificateurs et systèmes anti-calcaire à Namur. Protégez vos électroménagers et votre peau contre le calcaire."
+  title="Adoucisseur d'Eau Namur | Installation & Entretien Anti-Calcaire" 
+  description="Installation d'adoucisseurs d'eau à Namur. Protection contre le calcaire et l'eau dure (30 °f). Entretien, sel régénérant et filtration. Devis gratuit."
+  schemaType="service"
+  serviceName="Traitement de l'Eau et Adoucisseurs à Namur"
 >
+  <Breadcrumbs items={[
+    { name: "Services", url: "/services" },
+    { name: "Traitement de l'Eau" }
+  ]} />
+
   <div class="page-header text-center">
     <div class="container">
-      <span class="badge badge-red mb-2">Confort & Protection</span>
+      <span class="badge badge-red mb-2">Protection Anti-Calcaire Namurois</span>
       <h1>Traitement de l'Eau & Adoucisseurs à Namur</h1>
-      <p class="subtitle">L'eau à Namur est souvent très dure. Protégez votre plomberie, vos électroménagers et votre peau en installant un adoucisseur d'eau professionnel.</p>
+      <p class="subtitle">L'eau distribuée dans le bassin namurois est particulièrement calcaire (28 à 32 °f). Protégez votre plomberie, vos appareils ménagers et votre peau avec un système d'adoucissement adapté.</p>
       <div class="mt-4">
-        <a href="/contact" class="btn btn-primary" style="font-size: 1.25rem; padding: 1rem 2rem;">
-          Devis Installation Adoucisseur
+        <a href="/contact" class="btn btn-primary" style="font-size: 1.25rem; padding: 0.9rem 2rem;">
+          Demander un Devis Adoucisseur
         </a>
       </div>
     </div>
@@ -21,92 +30,100 @@ import Layout from '../../layouts/Layout.astro';
 
   <div class="container section">
     
-    <!-- What's included & Common Problems -->
+    <!-- Solutions & Risks -->
     <div class="grid grid-2 mb-4">
       <div class="card">
-        <h2 style="font-size: 1.5rem; margin-bottom: 1rem;">Solutions de Traitement de l'Eau</h2>
+        <h2 style="font-size: 1.5rem; margin-bottom: 1rem; color: var(--primary);">Nos Solutions de Traitement de l'Eau</h2>
         <ul class="styled-list">
-          <li><strong>Adoucisseurs à sel :</strong> La solution la plus efficace pour éliminer définitivement le calcaire de votre eau (installation avec bypass).</li>
-          <li><strong>Systèmes CO2 :</strong> Adoucisseurs écologiques sans sel, injectant du CO2 alimentaire.</li>
-          <li><strong>Filtres et purificateurs :</strong> Filtres à sédiments, charbon actif pour améliorer le goût et éliminer le chlore.</li>
-          <li><strong>Entretien d'adoucisseur :</strong> Remplissage de sel, nettoyage des résines et vérification des paramètres.</li>
+          <li><strong>Adoucisseurs volumétriques à sel :</strong> Échange d'ions sodium contre calcium/magnésium avec régénération automatique économique en eau et sel.</li>
+          <li><strong>Adoucisseurs au CO2 :</strong> Injection de CO2 alimentaire qui transforme le carbonate de calcium en bicarbonate soluble, sans sel ni gaspillage d'eau.</li>
+          <li><strong>Filtration sous évier & purificateurs :</strong> Filtres à charbon actif et sédiments pour éliminer le goût de chlore et les micro-particules.</li>
+          <li><strong>Entretien & révision périodique :</strong> Nettoyage des résines, désinfection, contrôle de la dureté résiduelle et fourniture de sel purifié.</li>
+          <li><strong>Installation avec Bypass :</strong> Vanne de dérivation permettant de conserver de l'eau non adoucie pour le jardin ou en cas d'intervention.</li>
         </ul>
       </div>
       
       <div class="card bg-light border-0">
-        <h2 style="font-size: 1.5rem; margin-bottom: 1rem; color: var(--secondary);">Les Dégâts du Calcaire (Eau Dure)</h2>
+        <h2 style="font-size: 1.5rem; margin-bottom: 1rem; color: var(--secondary);">Conséquences d'une Eau Dure à Namur</h2>
         <ul class="styled-list">
-          <li><strong>Entartrage des appareils :</strong> Lave-linge, lave-vaisselle, et surtout votre chaudière voient leur durée de vie réduite drastiquement.</li>
-          <li><strong>Perte de rendement :</strong> Une résistance de chauffe-eau recouverte de calcaire consomme beaucoup plus d'énergie.</li>
-          <li><strong>Peau sèche et irritée :</strong> L'eau dure agresse la peau et les cheveux après la douche.</li>
-          <li><strong>Traces blanches :</strong> Sur les parois de douche, la robinetterie et la vaisselle, obligeant à utiliser des produits d'entretien coûteux.</li>
+          <li><strong>Surconsommation électrique :</strong> 1 mm de calcaire sur la résistance d'un boiler entraîne 10% de consommation d'énergie supplémentaire.</li>
+          <li><strong>Panne prématurée des appareils :</strong> Lave-linge, lave-vaisselle et échangeurs de chaudière s'entartrent en moins de 3 à 5 ans.</li>
+          <li><strong>Robinetteries entartrées :</strong> Traces blanches incrustées sur les parois de douche, aérateurs bouchés et mitigeurs bloqués.</li>
+          <li><strong>Inconfort dermatologique :</strong> Tiraillements de la peau, démangeaisons et cheveux ternes après la douche.</li>
+          <li><strong>Budget produits ménagers :</strong> Surutilisation de détergents, anticalcaires acides et adoucissants textiles.</li>
         </ul>
       </div>
     </div>
 
-    <!-- Our Process -->
+    <!-- Installation Steps -->
     <div class="mb-4">
-      <h2 class="text-center mb-4">L'Installation de votre Adoucisseur</h2>
+      <h2 class="text-center mb-4">Notre Protocole d'Installation d'Adoucisseur</h2>
       <div class="grid grid-4 text-center">
-        <div class="process-step">
-          <div class="step-number">1</div>
+        <div class="process-step card">
+          <div class="step-number" aria-hidden="true">1</div>
           <h3>Test de Dureté</h3>
-          <p>Nous mesurons la dureté (TH) de votre eau à Namur pour calibrer parfaitement le futur adoucisseur.</p>
+          <p>Mesure sur place du titre hydrotimétrique (°f) à votre robinet pour évaluer la teneur en calcaire.</p>
         </div>
-        <div class="process-step">
-          <div class="step-number">2</div>
-          <h3>Choix du Matériel</h3>
-          <p>Sélection du volume de résine (10L, 15L, 20L...) en fonction du nombre de personnes dans le foyer.</p>
+        <div class="process-step card">
+          <div class="step-number" aria-hidden="true">2</div>
+          <h3>Dimensionnement</h3>
+          <p>Calcul du volume de résine nécessaire selon le nombre d'occupants et votre consommation annuelle.</p>
         </div>
-        <div class="process-step">
-          <div class="step-number">3</div>
-          <h3>Pose & Bypass</h3>
-          <p>Raccordement sur l'arrivée d'eau principale avec un système de "bypass" pour isoler l'appareil en cas de besoin.</p>
+        <div class="process-step card">
+          <div class="step-number" aria-hidden="true">3</div>
+          <h3>Raccordement</h3>
+          <p>Pose après compteur avec filtre sédiment, clapet anti-retour, bypass et évacuation de saumure.</p>
         </div>
-        <div class="process-step">
-          <div class="step-number">4</div>
-          <h3>Mise en service</h3>
-          <p>Programmation électronique de l'appareil (régénération volumétrique) et explications sur l'ajout de sel.</p>
+        <div class="process-step card">
+          <div class="step-number" aria-hidden="true">4</div>
+          <h3>Mise en Service</h3>
+          <p>Programmation de la vanne électronique, réglage du mélangeur et test de l'eau adoucie (cible : 7-10 °f).</p>
         </div>
       </div>
     </div>
 
-    <!-- Why Choose Us & Availability -->
-    <div class="grid grid-2 mb-4 align-center">
-      <div>
-        <h2>Un Investissement Rentable</h2>
-        <p>Installer un adoucisseur d'eau n'est pas qu'une question de confort, c'est un calcul économique intelligent.</p>
-        <ul class="styled-list mt-2">
-          <li><strong>Économie d'énergie :</strong> Votre chaudière chauffe l'eau plus vite (jusqu'à 15% d'économie sur la facture).</li>
-          <li><strong>Économie de produits :</strong> Vous utilisez beaucoup moins de savon, lessive et gel douche.</li>
-          <li><strong>Allongement de la durée de vie :</strong> Protège l'investissement de votre nouvelle salle de bain et chaudière.</li>
-        </ul>
-      </div>
-      <div class="card text-center" style="background: var(--primary); color: white;">
-        <span style="font-size: 3rem;">💧</span>
-        <h3 style="color: white;">Zones d'Intervention</h3>
-        <p style="color: rgba(255,255,255,0.8); margin-bottom: 1.5rem;">Nous installons et entretenons des adoucisseurs d'eau dans toute la région de Namur.</p>
-        <p>Namur (5000), Jambes (5100), Erpent (5101), Salzinnes, Saint-Servais, Wépion, etc.</p>
+    <!-- Direct Answer Block & FAQs -->
+    <div class="faq-section mt-4 card">
+      <h2 class="text-center mb-4">Questions Fréquentes : Adoucisseurs d'Eau à Namur</h2>
+      
+      <div class="faq-list" style="display: flex; flex-direction: column; gap: 1.5rem;">
+        <div class="faq-item">
+          <h3 style="color: var(--primary); font-size: 1.2rem; margin-bottom: 0.5rem;">Quelle est la dureté de l'eau dans la région de Namur ?</h3>
+          <p style="margin: 0; line-height: 1.6;">
+            L'eau potable distribuée par la SWDE et l'INASEP dans le Grand Namur provient en grande partie des nappes calcaires du sous-sol condrusien et hesbignon. Sa dureté oscille généralement entre 28 et 35 degrés français (°f), ce qui la classe dans la catégorie des eaux « très dures ». Un adoucisseur est vivement recommandé dès 25 °f.
+          </p>
+        </div>
+
+        <div class="faq-item">
+          <h3 style="color: var(--primary); font-size: 1.2rem; margin-bottom: 0.5rem;">Peut-on boire de l'eau adoucie au sel ?</h3>
+          <p style="margin: 0; line-height: 1.6;">
+            Oui, une eau adoucie reste potable et conforme aux normes sanitaires belges tant que la dureté n'est pas réglée à 0 °f (nous calibrons la dureté résiduelle entre 7 et 10 °f). L'apport en sodium reste minime (comparable à celui d'une tranche de pain par litre). Pour les personnes suivant un régime strictement sans sel ou pour la préparation des biberons, nous pouvons raccorder un robinet d'eau brute non adoucie en cuisine.
+          </p>
+        </div>
+
+        <div class="faq-item">
+          <h3 style="color: var(--primary); font-size: 1.2rem; margin-bottom: 0.5rem;">Quel est le coût d'entretien annuel d'un adoucisseur ?</h3>
+          <p style="margin: 0; line-height: 1.6;">
+            Pour un foyer de 4 personnes, la consommation moyenne de sel régénérant est d'environ 100 à 150 kg par an (soit environ 40 à 60€ de consommables). La visite d'entretien annuelle comprend le nettoyage du bac à sel, la désinfection des résines et le contrôle des paramètres de la vanne volumétrique.
+          </p>
+        </div>
       </div>
     </div>
 
-    <!-- FAQs -->
-    <div class="faq-section mt-4">
-      <h2 class="text-center mb-4">Questions Fréquentes (FAQ)</h2>
-      
-      <div class="faq-item card mb-2">
-        <h3>Peut-on boire l'eau d'un adoucisseur à sel ?</h3>
-        <p>Oui. L'adoucisseur remplace les ions calcium et magnésium (responsables du calcaire) par des ions sodium. Il y a un léger ajout de sodium dans l'eau, mais elle reste parfaitement potable et conforme aux normes de santé, sauf pour les personnes suivant un régime strict sans sel.</p>
-      </div>
-      
-      <div class="faq-item card mb-2">
-        <h3>Quel entretien nécessite un adoucisseur ?</h3>
-        <p>Il faut principalement rajouter des sacs de sel adoucisseur (pastilles) régulièrement dans le bac, selon votre consommation d'eau. Il est également recommandé de faire un entretien annuel (nettoyage du bac, désinfection des résines, contrôle de la dureté résiduelle) par un plombier.</p>
-      </div>
-      
-      <div class="faq-item card">
-        <h3>Où s'installe l'appareil ?</h3>
-        <p>L'adoucisseur doit être installé au plus près de votre compteur d'eau (souvent dans la cave ou le garage), sur l'arrivée d'eau principale, avant qu'elle ne se divise dans la maison. Il nécessite également une prise électrique et une évacuation d'eau (pour les eaux de rinçage lors de la régénération).</p>
+    <!-- Contextual Links -->
+    <div class="card mt-4 p-4" style="background: var(--bg-light);">
+      <h2>Protéger vos autres installations</h2>
+      <p>L'eau adoucie optimise la longévité de tous vos équipements :</p>
+      <div class="grid grid-3 mt-2" style="gap: 1rem;">
+        <a href="/services/chauffage" class="btn btn-outline" style="text-align: center;">
+          🔥 Protéger votre Chaudière
+        </a>
+        <a href="/services/sanitaire" class="btn btn-outline" style="text-align: center;">
+          🚿 Rénovation Salle de Bain
+        </a>
+        <a href="/contact" class="btn btn-outline" style="text-align: center;">
+          ✉️ Demander un Devis Gratuit
+        </a>
       </div>
     </div>
 
@@ -117,29 +134,29 @@ import Layout from '../../layouts/Layout.astro';
   .page-header {
     background-color: var(--primary);
     color: white;
-    padding: 6rem 1rem 4rem;
+    padding: 5rem 1rem 3.5rem;
   }
   
   .page-header h1 {
     color: white;
-    margin-bottom: 1rem;
+    margin-bottom: 0.75rem;
+    font-size: 2.2rem;
   }
   
   .subtitle {
-    color: rgba(255,255,255,0.8);
-    font-size: 1.25rem;
-    max-width: 700px;
+    color: rgba(255,255,255,0.85);
+    font-size: 1.15rem;
+    max-width: 800px;
     margin: 0 auto;
   }
-  
-  .mb-2 { margin-bottom: 1rem; }
-  .mb-4 { margin-bottom: 3rem; }
-  .mt-2 { margin-top: 1rem; }
-  .mt-4 { margin-top: 3rem; }
-  .align-center { align-items: center; }
-  .bg-light { background-color: var(--bg-light); }
-  .border-0 { border: none; box-shadow: none; }
-  
+
+  .step-number {
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: var(--secondary);
+    margin-bottom: 0.5rem;
+  }
+
   .styled-list {
     list-style: none;
     padding: 0;
@@ -149,6 +166,7 @@ import Layout from '../../layouts/Layout.astro';
     position: relative;
     padding-left: 2rem;
     margin-bottom: 0.75rem;
+    line-height: 1.5;
   }
   
   .styled-list li::before {
@@ -159,40 +177,21 @@ import Layout from '../../layouts/Layout.astro';
     font-weight: bold;
     font-size: 1.2rem;
   }
-  
-  .process-step {
-    padding: 1rem;
+
+  .faq-list .faq-item {
+    border-bottom: 1px solid var(--border-light);
+    padding-bottom: 1.25rem;
   }
-  
-  .step-number {
-    width: 60px;
-    height: 60px;
-    background-color: var(--primary);
-    color: white;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.5rem;
-    font-weight: 800;
-    margin: 0 auto 1rem;
-    font-family: var(--font-heading);
+
+  .faq-list .faq-item:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
   }
-  
-  .faq-item h3 {
-    font-size: 1.25rem;
-    margin-bottom: 0.5rem;
-  }
-  
-  .faq-item p {
-    margin: 0;
-  }
-  
-  @media (max-width: 768px) {
-    .grid-4 { grid-template-columns: 1fr 1fr; }
-    .grid-2 { display: flex; flex-direction: column; gap: 2rem; }
-  }
-  @media (max-width: 480px) {
-    .grid-4 { grid-template-columns: 1fr; }
-  }
+
+  .mb-2 { margin-bottom: 0.5rem; }
+  .mb-4 { margin-bottom: 2.5rem; }
+  .mt-2 { margin-top: 1rem; }
+  .mt-4 { margin-top: 2.5rem; }
+  .bg-light { background-color: var(--bg-light); }
+  .border-0 { border: none; box-shadow: none; }
 </style>

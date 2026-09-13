@@ -2,9 +2,11 @@
 title: "Rénovation de Salle de Bains à Namur : Devis, Étapes et Conseils"
 meta_description: "Envie de rénover votre salle de bains à Namur ? Douche à l'italienne, WC suspendu, baignoire. Découvrez les étapes, les prix et les erreurs à éviter."
 layout: ../../layouts/BlogLayout.astro
+author: "Équipe Technique Plombier Namur Urgent"
+authorRole: "Installateur Sanitaire & Rénovation"
+datePublished: "2024-03-12"
+dateModified: "2024-11-19"
 ---
-
-# Rénovation de Salle de Bains à Namur : Guide Complet et Étapes Clés
 
 La salle de bains est la pièce dédiée au bien-être, mais aussi la plus technique de la maison. Refaire une salle de bains implique de l'expertise en plomberie, en chauffage, en étanchéité et en carrelage. Que vous souhaitiez moderniser une vieille pièce, remplacer une baignoire par une douche à l'italienne ou concevoir une salle de bains accessible (PMR), une planification rigoureuse est indispensable.
 
@@ -83,5 +85,5 @@ Il faut prévoir une douche de plain-pied sans ressaut, un sol antidérapant, un
 ---
 
 **Un projet de salle de bains en vue ?**  
-Confiez votre projet à des experts de [l'installation sanitaire](/services/sanitaire). Nous concevons et réalisons des salles de bains durables, étanches et magnifiques à Namur et ses environs.  
-📞 **Contactez-nous au 0470 00 00 00** ou [Demandez un devis complet](/contact).
+Confiez votre projet à des experts de [l'installation sanitaire](/services/sanitaire). Nous concevons et réalisons des salles de bains durables, étanches et soignées à Namur et ses environs.  
+📞 **[Contactez nos installateurs](/contact)** ou [Demandez un devis complet](/contact).

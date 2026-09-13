@@ -2,15 +2,17 @@
 title: "Pompe à Chaleur à Namur : Installation, Prix et Rénovation"
 meta_description: "Installer une pompe à chaleur (PAC) à Namur : Air-Eau, Air-Air ou hybride ? Découvrez le budget, le dimensionnement et si votre maison y est adaptée."
 layout: ../../layouts/BlogLayout.astro
+author: "Équipe Technique Plombier Namur Urgent"
+authorRole: "Plombier & Chauffagiste Certifié"
+datePublished: "2024-03-05"
+dateModified: "2024-11-18"
 ---
-
-# Installer une Pompe à Chaleur à Namur : Le Guide Complet
 
 Face à la hausse des prix du gaz et du mazout, la Pompe à Chaleur (PAC) s'impose comme le mode de chauffage de l'avenir. Que ce soit pour une construction neuve à Erpent ou pour la rénovation d'une maison ancienne dans le centre de Namur, la PAC promet confort thermique et économies d'énergie.
 
 Cependant, installer une pompe à chaleur ne s'improvise pas. Un mauvais dimensionnement ou une isolation défaillante transformerait rapidement ce bel investissement en gouffre financier.
 
-**Prêt pour la transition écologique ? [Contactez nos chauffagistes spécialisés](/services/chauffage) au 0470 00 00 00.**
+**Prêt pour la transition écologique ? [Contactez nos chauffagistes spécialisés](/services/chauffage).**
 
 ---
 
@@ -76,4 +78,4 @@ Non, ce n'est pas obligatoire. Mais comme une pompe à chaleur consomme exclusiv
 
 **Vous envisagez la transition vers une Pompe à Chaleur ?**  
 Demandez une étude personnalisée et un devis transparent à nos experts.  
-📞 **Contactez Plombier Namur Urgent au 0470 00 00 00** ou [Remplissez notre formulaire](/contact).
+📞 **[Prenez contact avec notre équipe](/contact)** ou découvrez nos solutions de [chauffage](/services/chauffage).

@@ -1,71 +1,108 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { BUSINESS_CONFIG } from '../data/business';
 ---
 
 <Layout 
-  title="À Propos de Plombier Namur Urgent | Plombier Agréé et Honnête" 
-  description="Découvrez l'entreprise Plombier Namur Urgent. Plus de 25 ans d'expérience, plombiers chauffagistes agréés, certifiés et honnêtes pour vos dépannages."
+  title={`À Propos de ${BUSINESS_CONFIG.businessName} | Artisans Plombiers à Namur`}
+  description={`Découvrez ${BUSINESS_CONFIG.businessName} : équipe d'artisans plombiers et chauffagistes qualifiés à Namur. Tarifs transparents, réactivité et devis avant travaux.`}
+  showGlobalContactForm={true}
 >
+  <Breadcrumbs items={[{ name: "À Propos" }]} />
+
   <div class="page-header text-center">
     <div class="container">
-      <h1>L'Excellence en Plomberie à Namur</h1>
-      <p class="subtitle">Votre satisfaction est notre priorité. Découvrez l'équipe d'experts derrière Plombier Namur Urgent.</p>
+      <h1>Notre Entreprise de Plomberie à Namur</h1>
+      <p class="subtitle">Une équipe d'artisans locaux engagés pour des interventions soignées, des devis clairs et des prix transparents.</p>
     </div>
   </div>
 
   <div class="container section">
-    <div class="grid grid-2" style="align-items: center; margin-bottom: 6rem;">
-      <div class="about-image card flex-center" style="height: 500px; background-color: var(--border-light);">
-        <span>Image: L'équipe de plombiers</span>
+    <div class="grid grid-2" style="align-items: center; margin-bottom: 5rem;">
+      <div class="about-equipment card">
+        <div class="equipment-highlight">
+          <span class="highlight-icon" aria-hidden="true">🚐</span>
+          <h3>Véhicules d'Intervention Équipés</h3>
+          <p>Nos camionnettes embarquent les pièces de rechange courantes (joints, raccords cuivre/multicouche, robinetterie, groupes de sécurité) pour assurer un dépannage immédiat dès le premier passage.</p>
+        </div>
+        <div class="equipment-highlight mt-2">
+          <span class="highlight-icon" aria-hidden="true">📷</span>
+          <h3>Technologie Non Destructive</h3>
+          <p>Caméras d'inspection endoscopique pour tuyaux de diamètre 32mm à 160mm, détecteurs acoustiques et caméras thermiques pour localiser les fuites sans démolir vos cloisons.</p>
+        </div>
       </div>
       
       <div class="about-content">
-        <span class="badge badge-blue">Notre Histoire</span>
-        <h2>Plus de 25 ans d'expérience au service des Namurois</h2>
-        <p>Plombier Namur Urgent est né d'une volonté simple : offrir un service de plomberie et chauffage <strong>honnête, transparent et ultra-réactif</strong> dans la région de Namur.</p>
-        <p>Trop souvent, les urgences de plomberie riment avec stress et factures abusives. Nous avons voulu changer cela en bâtissant une entreprise fondée sur la confiance et l'expertise technique.</p>
+        <span class="badge badge-blue">Notre Engagement</span>
+        <h2>La clarté et la technicité au service des Namurois</h2>
+        <p>
+          Face à une fuite d'eau ou un refoulement de canalisation, le client a besoin de deux choses : une <strong>réactivité technique immédiate</strong> et une <strong>totale clarté tarifaire</strong>.
+        </p>
+        <p>
+          {BUSINESS_CONFIG.businessName} a été fondée avec pour priorité d'éliminer le flou qui entoure trop souvent le dépannage d'urgence. Nos prix sont annoncés par téléphone pour les forfaits de base, et un devis précis est soumis avant chaque opération sur place.
+        </p>
         
         <div class="stats-grid mt-4">
           <div class="stat-item">
-            <span class="stat-number">25+</span>
-            <span class="stat-label">Années d'expérience</span>
+            <span class="stat-number">24/7</span>
+            <span class="stat-label">Permanence Urgence</span>
           </div>
           <div class="stat-item">
-            <span class="stat-number">3000+</span>
-            <span class="stat-label">Dépannages réussis</span>
+            <span class="stat-number">11</span>
+            <span class="stat-label">Communes du Grand Namur</span>
           </div>
           <div class="stat-item">
             <span class="stat-number">100%</span>
-            <span class="stat-label">Clients satisfaits</span>
+            <span class="stat-label">Devis Avant Réparation</span>
           </div>
         </div>
       </div>
     </div>
     
     <div class="text-center mb-4">
-      <h2>Pourquoi nous choisir ? (Nos Garanties)</h2>
-      <p style="max-width: 600px; margin: 0 auto 3rem;">Nous sommes des plombiers agréés à Namur, reconnus pour notre fiabilité.</p>
+      <h2>Nos Principes d'Intervention</h2>
+      <p style="max-width: 650px; margin: 0 auto 3rem; color: var(--text-muted);">
+        Des garanties concrètes pour votre sérénité au quotidien.
+      </p>
     </div>
     
     <div class="grid grid-3">
       <div class="card text-center">
-        <div class="trust-icon" style="font-size: 3rem; margin-bottom: 1rem;">📜</div>
-        <h3>Plombier Agréé</h3>
-        <p>Nos techniciens sont certifiés et agréés pour intervenir sur vos installations sanitaires et systèmes de chauffage en toute conformité.</p>
+        <div class="trust-icon" style="font-size: 3rem; margin-bottom: 1rem;" aria-hidden="true">📜</div>
+        <h3>Conformité Normes Belges</h3>
+        <p>Nos interventions sanitaires et de chauffage respectent scrupuleusement les prescriptions des normes NBN et les règles régionales wallonnes.</p>
       </div>
       
       <div class="card text-center">
-        <div class="trust-icon" style="font-size: 3rem; margin-bottom: 1rem;">💰</div>
-        <h3>Tarifs Transparents</h3>
-        <p>Aucune mauvaise surprise. Nous vous fournissons toujours un devis clair avant de commencer les travaux. Nous visons à être le meilleur plombier pas cher de Namur.</p>
+        <div class="trust-icon" style="font-size: 3rem; margin-bottom: 1rem;" aria-hidden="true">💰</div>
+        <h3>Devis Sans Surprise</h3>
+        <p>Vous savez exactement ce que vous payez. Pas de surfacturation sur les pièces ni de ligne imprévue sur la facture finale.</p>
       </div>
       
       <div class="card text-center">
-        <div class="trust-icon" style="font-size: 3rem; margin-bottom: 1rem;">🛡️</div>
-        <h3>Garantie Assurance</h3>
-        <p>Toutes nos interventions sont couvertes par une assurance professionnelle décennale. Vous êtes entre de bonnes mains.</p>
+        <div class="trust-icon" style="font-size: 3rem; margin-bottom: 1rem;" aria-hidden="true">🛡️</div>
+        <h3>Assurance Professionnelle</h3>
+        <p>Notre entreprise dispose d'une assurance Responsabilité Civile Professionnelle couvrant l'ensemble de nos chantiers et dépannages.</p>
       </div>
     </div>
+
+    <div class="company-details card mt-4">
+      <h2>Coordonnées & Informations Légales</h2>
+      <div class="grid grid-2 mt-2">
+        <div>
+          <p><strong>Dénomination :</strong> {BUSINESS_CONFIG.businessName}</p>
+          <p><strong>Siège :</strong> {BUSINESS_CONFIG.streetAddress}, {BUSINESS_CONFIG.postalCode} {BUSINESS_CONFIG.city}</p>
+          <p><strong>Zone d'activité :</strong> Province de Namur et agglomération</p>
+        </div>
+        <div>
+          <p><strong>Téléphone d'urgence :</strong> <a href={BUSINESS_CONFIG.telephoneHref}>{BUSINESS_CONFIG.telephone}</a></p>
+          <p><strong>Email :</strong> <a href={`mailto:${BUSINESS_CONFIG.email}`}>{BUSINESS_CONFIG.email}</a></p>
+          <p><strong>Consulter nos mentions légales :</strong> <a href="/mentions-legales">Mentions légales complètes</a></p>
+        </div>
+      </div>
+    </div>
+
   </div>
 </Layout>
 
@@ -73,23 +110,56 @@ import Layout from '../layouts/Layout.astro';
   .page-header {
     background-color: var(--primary);
     color: white;
-    padding: 6rem 1rem 4rem;
+    padding: 5rem 1rem 3.5rem;
   }
   
   .page-header h1 {
     color: white;
-    margin-bottom: 1rem;
+    margin-bottom: 0.75rem;
   }
   
   .subtitle {
-    color: rgba(255,255,255,0.8);
-    font-size: 1.25rem;
+    color: rgba(255,255,255,0.85);
+    font-size: 1.2rem;
     max-width: 700px;
     margin: 0 auto;
   }
+
+  .about-equipment {
+    background: var(--bg-light);
+    border: 1px solid var(--border-light);
+    padding: 2.5rem;
+  }
+
+  .equipment-highlight {
+    margin-bottom: 1.5rem;
+  }
+
+  .equipment-highlight h3 {
+    color: var(--primary);
+    font-size: 1.25rem;
+    margin: 0.5rem 0;
+  }
+
+  .equipment-highlight p {
+    font-size: 0.95rem;
+    color: var(--text-main);
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  .highlight-icon {
+    font-size: 2.5rem;
+  }
   
   .about-content h2 {
-    margin: 1rem 0 1.5rem;
+    margin: 1rem 0 1.25rem;
+    font-size: 1.8rem;
+  }
+
+  .about-content p {
+    line-height: 1.7;
+    margin-bottom: 1rem;
   }
   
   .stats-grid {
@@ -98,33 +168,58 @@ import Layout from '../layouts/Layout.astro';
     gap: 1rem;
     text-align: center;
     background: var(--bg-light);
-    padding: 2rem;
+    padding: 1.75rem 1rem;
     border-radius: var(--radius-lg);
+    border: 1px solid var(--border-light);
   }
   
   .stat-number {
     display: block;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     font-weight: 800;
     font-family: var(--font-heading);
     color: var(--secondary);
     line-height: 1;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.4rem;
   }
   
   .stat-label {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     font-weight: 600;
     color: var(--text-muted);
   }
+
+  .company-details {
+    padding: 2.5rem;
+    background: white;
+    border: 1px solid var(--border-light);
+  }
+
+  .company-details h2 {
+    font-size: 1.4rem;
+    color: var(--primary);
+    border-bottom: 2px solid var(--border-light);
+    padding-bottom: 0.5rem;
+  }
+
+  .company-details a {
+    color: var(--secondary);
+    text-decoration: underline;
+  }
   
-  .mt-4 { margin-top: 2rem; }
-  .mb-4 { margin-bottom: 2rem; }
+  .mt-2 { margin-top: 1rem; }
+  .mt-4 { margin-top: 2.5rem; }
+  .mb-4 { margin-bottom: 2.5rem; }
   
   @media (max-width: 768px) {
     .grid-2 {
       display: flex;
       flex-direction: column;
+      gap: 2rem;
+    }
+    .stats-grid {
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
     }
   }
 </style>

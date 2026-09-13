@@ -1,0 +1,148 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { BUSINESS_CONFIG } from '../data/business';
+---
+
+<Layout 
+  title={`Politique de Confidentialité | ${BUSINESS_CONFIG.businessName}`}
+  description={`Politique de confidentialité et protection des données personnelles (RGPD) de ${BUSINESS_CONFIG.businessName}. Gestion de vos demandes de devis et contact.`}
+  showGlobalContactForm={false}
+>
+  <Breadcrumbs items={[{ name: "Politique de Confidentialité" }]} />
+
+  <div class="page-header text-center">
+    <div class="container">
+      <h1>Politique de Confidentialité</h1>
+      <p class="subtitle">Protection de vos données à caractère personnel conformément au Règlement Général sur la Protection des Données (RGPD 2016/679).</p>
+    </div>
+  </div>
+
+  <div class="container section">
+    <div class="privacy-content card">
+      
+      <section class="privacy-block">
+        <h2>1. Responsable du traitement</h2>
+        <p>Le responsable du traitement de vos données personnelles est :</p>
+        <p>
+          <strong>{BUSINESS_CONFIG.businessName}</strong><br />
+          {BUSINESS_CONFIG.streetAddress}, {BUSINESS_CONFIG.postalCode} {BUSINESS_CONFIG.city}, Belgique<br />
+          Email de contact : <a href={`mailto:${BUSINESS_CONFIG.email}`}>{BUSINESS_CONFIG.email}</a><br />
+          Téléphone : <a href={BUSINESS_CONFIG.telephoneHref}>{BUSINESS_CONFIG.telephone}</a>
+        </p>
+      </section>
+
+      <section class="privacy-block">
+        <h2>2. Données collectées et finalités du traitement</h2>
+        <p>Lorsque vous utilisez notre site ou nos formulaires de contact et de devis, nous pouvons être amenés à collecter :</p>
+        <ul class="styled-list">
+          <li><strong>Nom et prénom :</strong> Pour identifier l'interlocuteur et personnaliser nos échanges.</li>
+          <li><strong>Numéro de téléphone :</strong> Pour vous rappeler dans les plus brefs délais, qualifier l'urgence plomberie et organiser l'intervention du technicien.</li>
+          <li><strong>Adresse email (facultative) :</strong> Pour l'envoi de devis détaillés ou de factures d'intervention.</li>
+          <li><strong>Code postal et commune :</strong> Pour vérifier l'éligibilité géographique dans le Grand Namur et estimer le temps de déplacement.</li>
+          <li><strong>Description du problème :</strong> Pour préparer le matériel et les pièces de rechange nécessaires avant le départ du technicien.</li>
+        </ul>
+        <p><strong>Base légale :</strong> Le traitement est fondé sur l'exécution de mesures précontractuelles prises à votre demande (art. 6.1.b du RGPD) ou sur notre intérêt légitime à répondre à vos sollicitations.</p>
+      </section>
+
+      <section class="privacy-block">
+        <h2>3. Durée de conservation des données</h2>
+        <p>Vos données sont conservées uniquement pendant la durée strictement nécessaire :</p>
+        <ul class="styled-list">
+          <li><strong>Demandes de devis sans suite :</strong> Les coordonnées sont supprimées ou archivées après un délai maximal de 12 mois.</li>
+          <li><strong>Clients ayant bénéficié d'une intervention :</strong> Les données de facturation sont conservées pendant la durée légale fiscale et comptable belge (7 ans).</li>
+        </ul>
+      </section>
+
+      <section class="privacy-block">
+        <h2>4. Destinataires des données</h2>
+        <p>Vos données personnelles sont strictement confidentielles. Elles ne sont <strong>jamais vendues, louées ni cédées</strong> à des tiers à des fins commerciales.</p>
+        <p>Elles sont exclusivement transmises :</p>
+        <ul class="styled-list">
+          <li>À nos techniciens et opérateurs habilités à planifier et exécuter votre dépannage.</li>
+          <li>À nos prestataires techniques agissant en qualité de sous-traitants au sens du RGPD (hébergeur web Vercel, service de transmission sécurisée de formulaires) soumis à des obligations strictes de sécurité.</li>
+        </ul>
+      </section>
+
+      <section class="privacy-block">
+        <h2>5. Cookies et outils d'analyse</h2>
+        <p>Notre site privilégie la sobriété technique :</p>
+        <ul class="styled-list">
+          <li><strong>Cookies techniques strictement nécessaires :</strong> Ils assurent le bon fonctionnement du site, la sécurité de la navigation et la protection antispam des formulaires. Ces cookies ne requièrent pas de consentement préalable.</li>
+          <li><strong>Mesure d'audience sans traçage intrusif :</strong> Les événements de conversion (clic d'appel téléphonique, démarrage de devis) sont mesurés de manière anonymisée, sans transmission de nom, numéro de téléphone, email ou contenu de message.</li>
+        </ul>
+      </section>
+
+      <section class="privacy-block">
+        <h2>6. Vos droits sur vos données</h2>
+        <p>Conformément à la réglementation européenne, vous disposez des droits suivants :</p>
+        <ul class="styled-list">
+          <li><strong>Droit d'accès et de rectification :</strong> Vous pouvez demander copie de vos données et exiger leur correction si elles sont inexactes.</li>
+          <li><strong>Droit à l'effacement (« droit à l'oubli ») :</strong> Vous pouvez demander la suppression de vos données, sous réserve des obligations légales de conservation des factures.</li>
+          <li><strong>Droit à la limitation du traitement et d'opposition :</strong> Vous pouvez vous opposer à certains traitements de vos données.</li>
+        </ul>
+        <p>Pour exercer ces droits, contactez-nous par email à : <a href={`mailto:${BUSINESS_CONFIG.email}`}>{BUSINESS_CONFIG.email}</a> avec l'objet « RGPD - Exercice de droits ».</p>
+      </section>
+
+      <section class="privacy-block">
+        <h2>7. Réclamation auprès de l'Autorité de Protection des Données (APD)</h2>
+        <p>Si vous estimez que vos droits ne sont pas respectés, vous pouvez introduire une réclamation auprès de l'Autorité belge de Protection des Données :</p>
+        <p>
+          Autorité de Protection des Données (APD)<br />
+          Rue de la Presse 35, 1000 Bruxelles<br />
+          Site web : <a href="https://www.autoriteprotectiondonnees.be" target="_blank" rel="noopener noreferrer">www.autoriteprotectiondonnees.be</a>
+        </p>
+      </section>
+
+    </div>
+  </div>
+</Layout>
+
+<style>
+  .page-header {
+    background-color: var(--primary);
+    color: white;
+    padding: 4rem 1rem 3rem;
+  }
+  
+  .page-header h1 {
+    color: white;
+    margin-bottom: 0.5rem;
+  }
+  
+  .subtitle {
+    color: rgba(255,255,255,0.85);
+    font-size: 1.15rem;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  .privacy-content {
+    background: white;
+    padding: 3rem;
+    line-height: 1.8;
+  }
+
+  .privacy-block {
+    margin-bottom: 2.5rem;
+  }
+
+  .privacy-block h2 {
+    color: var(--primary);
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid var(--border-light);
+    padding-bottom: 0.5rem;
+  }
+
+  .privacy-content a {
+    color: var(--secondary);
+    text-decoration: underline;
+  }
+
+  @media (max-width: 768px) {
+    .privacy-content {
+      padding: 1.5rem;
+    }
+  }
+</style>

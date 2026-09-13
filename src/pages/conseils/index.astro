@@ -1,5 +1,6 @@
 ---
 import Layout from '../../layouts/Layout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
 
 // Fetch all markdown files in the conseils directory
 const articles = Object.values(import.meta.glob('./*.md', { eager: true }));
@@ -9,6 +10,10 @@ const articles = Object.values(import.meta.glob('./*.md', { eager: true }));
   title="Conseils Plomberie et Chauffage à Namur | Plombier Namur Urgent"
   description="Découvrez nos astuces et conseils d'experts en plomberie et chauffage. Dépannage, entretien, rénovation et diagnostic à Namur."
 >
+  <div class="container" style="padding-top: 1rem;">
+    <Breadcrumbs items={[{ label: 'Conseils', href: '/conseils' }]} />
+  </div>
+
   <div class="page-header bg-primary">
     <div class="container text-center">
       <h1>Conseils et Astuces d'Experts</h1>

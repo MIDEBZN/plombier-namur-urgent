@@ -1,6 +1,8 @@
 ---
+import { BUSINESS_CONFIG } from '../data/business';
 ---
-<section class="global-map-section">
+
+<section class="global-map-section" aria-label="Localisation et zone de couverture">
   <div class="map-container">
     <iframe 
       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2734.5718181503753!2d4.88035337655836!3d50.469380271595845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4214adee153effdb%3A0x9e30187e3d45e862!2sCitabat%20Plombier%20Namur%20Urgent!5e1!3m2!1sen!2sbe!4v1788303865276!5m2!1sen!2sbe" 
@@ -9,8 +11,17 @@
       style="border:0;" 
       allowfullscreen="" 
       loading="lazy" 
+      title={`Carte Google Maps - Siège et zone d'intervention de ${BUSINESS_CONFIG.businessName}`}
       referrerpolicy="strict-origin-when-cross-origin">
     </iframe>
+  </div>
+  <div class="map-caption">
+    <p>
+      📍 <strong>Siège d'exploitation :</strong> {BUSINESS_CONFIG.streetAddress}, {BUSINESS_CONFIG.postalCode} {BUSINESS_CONFIG.city} — 
+      <a href={BUSINESS_CONFIG.googleBusinessProfileUrl} target="_blank" rel="noopener noreferrer">
+        Ouvrir dans Google Maps ↗
+      </a>
+    </p>
   </div>
 </section>
 
@@ -23,7 +34,8 @@
   .map-container {
     width: 100%;
     height: 400px;
-    background-color: var(--bg-gray);
+    background-color: var(--bg-gray, #f1f5f9);
+    position: relative;
   }
   
   .map-container iframe {
@@ -31,6 +43,20 @@
     height: 100%;
     border: none;
     display: block;
+  }
+
+  .map-caption {
+    background: white;
+    padding: 0.75rem 1rem;
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    border-top: 1px solid var(--border-light);
+    text-align: center;
+  }
+
+  .map-caption a {
+    color: var(--secondary);
+    font-weight: 600;
   }
 
   @media (max-width: 768px) {

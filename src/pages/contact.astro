@@ -1,97 +1,132 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { BUSINESS_CONFIG } from '../data/business';
 ---
 
 <Layout 
-  title="Prix et Devis Plombier Namur | Contact Urgence 24/7" 
-  description="Contactez Plombier Namur Urgent. Demandez un devis plombier Namur gratuit. Découvrez nos prix transparents pour un dépannage, débouchage ou fuite."
+  title="Contact & Devis Plombier Namur 24/7 | Tarifs Transparents" 
+  description="Contactez Plombier Namur Urgent pour une intervention rapide 24/7 ou une demande de devis gratuit. Téléphone direct, formulaire sans engagement et tarifs clairs."
+  showGlobalContactForm={false}
 >
+  <Breadcrumbs items={[{ name: "Contact & Devis" }]} />
+
   <div class="page-header text-center">
     <div class="container">
-      <h1>Contact & Devis Gratuit</h1>
-      <p class="subtitle">Une urgence ? Besoin de connaître le prix d'un plombier à Namur ? Contactez-nous pour une intervention immédiate ou un devis transparent.</p>
+      <h1>Contact & Demande de Devis à Namur</h1>
+      <p class="subtitle">Une urgence de plomberie ou un projet d'installation ? Joignez notre permanence 24/7 par téléphone ou envoyez votre demande de devis en ligne.</p>
     </div>
   </div>
 
   <div class="container section">
-    <div class="grid grid-2">
+    <div class="grid grid-2 contact-layout">
       
-      <!-- Contact Info & Pricing -->
+      <!-- Contact Info & Pricing Guidance -->
       <div>
-        <h2>Comment nous joindre ?</h2>
-        <p>Notre équipe est prête à intervenir à tout moment. En cas de dégât des eaux, coupez l'arrivée d'eau principale et appelez-nous directement.</p>
+        <h2>Comment nous joindre rapidement ?</h2>
+        <p>Pour toute fuite d'eau abondante ou dégât des eaux, coupez immédiatement l'arrivée d'eau générale et appelez notre ligne directe d'urgence.</p>
         
         <div class="contact-methods mt-4">
           <div class="contact-item card">
-            <div class="icon">📞</div>
+            <div class="icon" aria-hidden="true">📞</div>
             <div>
-              <h3>Urgence 24/7</h3>
-              <a href="tel:+32470000000" class="phone-link">0470 00 00 00</a>
+              <h3>Permanence Téléphonique 24/7</h3>
+              <a href={BUSINESS_CONFIG.telephoneHref} class="phone-link" data-location="contact_page_phone">{BUSINESS_CONFIG.telephone}</a>
+              <p style="margin: 0; font-size: 0.85rem; color: var(--text-muted);">Ligne directe jour et nuit, dimanches et fériés</p>
             </div>
           </div>
+
           <div class="contact-item card">
-            <div class="icon">📧</div>
+            <div class="icon" aria-hidden="true">💬</div>
             <div>
-              <h3>Email</h3>
-              <a href="mailto:contact@plombiernamururgent.be">contact@plombiernamururgent.be</a>
+              <h3>Échange WhatsApp</h3>
+              <a href={BUSINESS_CONFIG.whatsappHref} target="_blank" rel="noopener noreferrer" class="whatsapp-link" data-location="contact_page_whatsapp">
+                Envoyer un message WhatsApp ↗
+              </a>
+              <p style="margin: 0; font-size: 0.85rem; color: var(--text-muted);">Pratique pour nous envoyer des photos de la panne</p>
+            </div>
+          </div>
+
+          <div class="contact-item card">
+            <div class="icon" aria-hidden="true">📧</div>
+            <div>
+              <h3>Email de l'Entreprise</h3>
+              <a href={`mailto:${BUSINESS_CONFIG.email}`} class="email-link">{BUSINESS_CONFIG.email}</a>
+              <p style="margin: 0; font-size: 0.85rem; color: var(--text-muted);">Pour les demandes administratives et pièces jointes</p>
             </div>
           </div>
         </div>
         
         <div class="pricing-box mt-4">
-          <h2>Tarif Plombier Namur (Indicatifs)</h2>
-          <p>Nous tenons à la transparence. Voici nos prix de départ pour les interventions courantes :</p>
+          <h3>Tarifs Indicatifs de Dépannage</h3>
+          <p>Nous tenons à la transparence tarifaire. Voici nos bases pour les interventions courantes en journée :</p>
           <ul class="pricing-list">
-            <li><span>Déplacement Namur et alentours</span> <strong>Gratuit*</strong></li>
-            <li><span>Recherche de fuite simple</span> <strong>À partir de 65€</strong></li>
-            <li><span>Débouchage WC manuel</span> <strong>À partir de 75€</strong></li>
-            <li><span>Dépannage d'urgence (Nuit/WE)</span> <strong>Sur devis prioritaire</strong></li>
+            <li><span>Recherche de fuite simple (sans casse)</span> <strong>À partir de 65€</strong></li>
+            <li><span>Débouchage manuel (siphon / WC)</span> <strong>À partir de 75€</strong></li>
+            <li><span>Débouchage hydrocurage haute pression</span> <strong>Sur devis préalable</strong></li>
+            <li><span>Dépannage de nuit / week-end</span> <strong>Majoration annoncée par appel</strong></li>
           </ul>
-          <small>*Gratuit en cas d'acceptation du devis de réparation.</small>
+          <small>*Un devis précis est obligatoirement validé sur place avec vous avant le début de tout travail.</small>
         </div>
       </div>
       
-      <!-- Contact Form -->
+      <!-- Single Primary Contact Form -->
       <div class="form-container card">
-        <h2>Demander un Devis Plombier Namur</h2>
-        <p>Remplissez le formulaire ci-dessous. Nous vous répondrons dans les plus brefs délais avec une estimation de prix.</p>
+        <h2>Demande d'Intervention ou Devis</h2>
+        <p>Remplissez ce formulaire. Nous vous recontactons dans les meilleurs délais pour convenir d'un rendez-vous ou vous fournir une estimation.</p>
         
-        <form action="https://formsubmit.co/midebzn@gmail.com" method="POST" class="contact-form">
-          <input type="hidden" name="_captcha" value="false">
-          <input type="text" name="_honey" style="display:none">
+        <form action="https://formsubmit.co/midebzn@gmail.com" method="POST" class="contact-form" id="main-contact-form">
+          <!-- Honeypot spam protection -->
+          <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" />
+          <input type="hidden" name="_captcha" value="false" />
+          
           <div class="form-group">
             <label for="name">Nom complet *</label>
-            <input type="text" id="name" name="name" required placeholder="Votre nom" />
+            <input type="text" id="name" name="name" required placeholder="Votre nom et prénom" />
           </div>
           
-          <div class="grid grid-2" style="gap: 1rem;">
+          <div class="grid grid-2 form-row" style="gap: 1rem;">
             <div class="form-group">
-              <label for="phone">Téléphone *</label>
+              <label for="phone">Téléphone de contact *</label>
               <input type="tel" id="phone" name="phone" required placeholder="04xx xx xx xx" />
             </div>
             <div class="form-group">
-              <label for="email">Email</label>
-              <input type="email" id="email" name="email" placeholder="votre@email.com" />
+              <label for="email">Email (facultatif pour devis écrit)</label>
+              <input type="email" id="email" name="email" placeholder="votre@email.be" />
             </div>
           </div>
-          
-          <div class="form-group">
-            <label for="service">Type d'intervention</label>
-            <select id="service" name="service">
-              <option value="urgence">Urgence plomberie</option>
-              <option value="debouchage">Débouchage canalisation</option>
-              <option value="fuite">Recherche/Réparation fuite</option>
-              <option value="chauffage">Entretien chauffage</option>
-              <option value="autre">Autre demande</option>
-            </select>
+
+          <div class="grid grid-2 form-row" style="gap: 1rem;">
+            <div class="form-group">
+              <label for="service">Type de besoin *</label>
+              <select id="service" name="service" required>
+                <option value="urgence">Urgence plomberie (fuite / rupture)</option>
+                <option value="debouchage">Débouchage canalisation / WC</option>
+                <option value="fuite">Recherche de fuite non destructive</option>
+                <option value="chauffage">Chauffage / Entretien chaudière</option>
+                <option value="sanitaire">Installation ou rénovation sanitaire</option>
+                <option value="traitement-eau">Adoucisseur d'eau / Calcaire</option>
+                <option value="autre">Autre demande</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="postal">Code postal / Commune *</label>
+              <input type="text" id="postal" name="postal" required placeholder="Ex: 5000 Namur, 5100 Jambes..." />
+            </div>
           </div>
           
           <div class="form-group">
             <label for="message">Description du problème *</label>
-            <textarea id="message" name="message" rows="5" required placeholder="Décrivez votre problème en quelques mots..."></textarea>
+            <textarea id="message" name="message" rows="4" required placeholder="Précisez la nature de la panne, l'étage, l'accessibilité ou toute information utile..."></textarea>
+          </div>
+
+          <div class="privacy-note">
+            <small>En envoyant ce formulaire, vous acceptez le traitement de vos coordonnées pour l'organisation de votre intervention. Consultez notre <a href="/politique-de-confidentialite">politique de confidentialité</a>.</small>
           </div>
           
-          <button type="submit" class="btn btn-primary" style="width: 100%;">Envoyer ma demande de devis</button>
+          <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 1rem;">
+            Envoyer ma demande
+          </button>
         </form>
       </div>
       
@@ -103,21 +138,25 @@ import Layout from '../layouts/Layout.astro';
   .page-header {
     background-color: var(--primary);
     color: white;
-    padding: 6rem 1rem 4rem;
+    padding: 5rem 1rem 3.5rem;
   }
   
   .page-header h1 {
     color: white;
-    margin-bottom: 1rem;
+    margin-bottom: 0.75rem;
   }
   
   .subtitle {
-    color: rgba(255,255,255,0.8);
-    font-size: 1.25rem;
-    max-width: 700px;
+    color: rgba(255,255,255,0.85);
+    font-size: 1.15rem;
+    max-width: 750px;
     margin: 0 auto;
   }
   
+  .contact-layout {
+    gap: 3rem;
+  }
+
   .contact-methods {
     display: flex;
     flex-direction: column;
@@ -126,39 +165,73 @@ import Layout from '../layouts/Layout.astro';
   
   .contact-item {
     display: flex;
-    align-items: center;
-    gap: 1.5rem;
-    padding: 1.5rem;
+    align-items: flex-start;
+    gap: 1.25rem;
+    padding: 1.25rem;
   }
   
   .contact-item .icon {
-    font-size: 2.5rem;
+    font-size: 2rem;
+    line-height: 1;
+  }
+
+  .contact-item h3 {
+    margin: 0 0 0.25rem;
+    font-size: 1.1rem;
+    color: var(--primary);
   }
   
   .phone-link {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: 700;
     font-family: var(--font-heading);
     color: var(--secondary);
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 0.25rem;
+  }
+
+  .whatsapp-link {
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: #25D366;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 0.25rem;
+  }
+
+  .email-link {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--primary);
+    text-decoration: none;
   }
   
   .pricing-box {
-    background: rgba(13, 35, 83, 0.03);
-    padding: 2rem;
+    background: var(--bg-light);
+    padding: 1.75rem;
     border-radius: var(--radius-lg);
     border: 1px solid var(--border-light);
+  }
+
+  .pricing-box h3 {
+    color: var(--primary);
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
   }
   
   .pricing-list {
     list-style: none;
-    margin: 1.5rem 0;
+    padding: 0;
+    margin: 1.25rem 0;
   }
   
   .pricing-list li {
     display: flex;
     justify-content: space-between;
-    padding: 1rem 0;
+    padding: 0.75rem 0;
     border-bottom: 1px dashed var(--border-light);
+    font-size: 0.95rem;
   }
   
   .pricing-list li:last-child {
@@ -168,33 +241,41 @@ import Layout from '../layouts/Layout.astro';
   .form-container {
     background-color: white;
     padding: 2.5rem;
+    border: 1px solid var(--border-light);
+  }
+
+  .form-container h2 {
+    color: var(--primary);
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
   }
   
   .contact-form {
-    margin-top: 2rem;
+    margin-top: 1.5rem;
   }
   
   .form-group {
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.25rem;
   }
   
   .form-group label {
     display: block;
     font-weight: 600;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.4rem;
     color: var(--primary);
+    font-size: 0.9rem;
   }
   
   .form-group input,
   .form-group select,
   .form-group textarea {
     width: 100%;
-    padding: 0.75rem 1rem;
+    padding: 0.75rem 0.9rem;
     border: 1px solid var(--border-light);
     border-radius: var(--radius-md);
     font-family: var(--font-body);
-    font-size: 1rem;
-    transition: border-color 0.3s;
+    font-size: 0.95rem;
+    transition: border-color 0.2s;
   }
   
   .form-group input:focus,
@@ -203,18 +284,25 @@ import Layout from '../layouts/Layout.astro';
     outline: none;
     border-color: var(--secondary);
   }
+
+  .privacy-note {
+    color: var(--text-muted);
+    line-height: 1.5;
+  }
+
+  .privacy-note a {
+    color: var(--primary);
+    text-decoration: underline;
+  }
   
   .mt-4 { margin-top: 2rem; }
   
-  @media (max-width: 768px) {
-    .form-container {
-      padding: 1.5rem;
+  @media (max-width: 900px) {
+    .contact-layout {
+      grid-template-columns: 1fr;
     }
-    
-    .grid-2 {
-      display: flex;
-      flex-direction: column;
-      gap: 3rem;
+    .form-row {
+      grid-template-columns: 1fr;
     }
   }
 </style>

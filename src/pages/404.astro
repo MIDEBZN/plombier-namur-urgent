@@ -1,0 +1,156 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { BUSINESS_CONFIG } from '../data/business';
+---
+
+<Layout 
+  title={`Page non trouvée (Erreur 404) | ${BUSINESS_CONFIG.businessName}`}
+  description="La page que vous recherchez n'existe pas ou a été déplacée. Retrouvez tous nos services de plomberie et de dépannage à Namur."
+  noindex={true}
+  showGlobalContactForm={false}
+>
+  <div class="page-header text-center">
+    <div class="container">
+      <span class="badge badge-red mb-2" style="font-size: 1.1rem; padding: 0.4rem 1rem;">Erreur 404</span>
+      <h1>Page Introuvable</h1>
+      <p class="subtitle">La page demandée n'existe pas, a été renommée ou est temporairement indisponible.</p>
+    </div>
+  </div>
+
+  <div class="container section text-center">
+    <div class="card error-card">
+      <div class="error-icon" aria-hidden="true">🔧</div>
+      <h2>Vous cherchez un dépannage ou un renseignement ?</h2>
+      <p style="max-width: 600px; margin: 0 auto 2rem; color: var(--text-muted);">
+        Ne perdez pas de temps. Accédez directement aux sections principales de notre site ou contactez notre permanence téléphonique.
+      </p>
+
+      <div class="recovery-links grid grid-3">
+        <a href="/" class="recovery-item card">
+          <span class="icon">🏠</span>
+          <strong>Accueil</strong>
+          <small>Présentation et urgence</small>
+        </a>
+        <a href="/services" class="recovery-item card">
+          <span class="icon">🛠️</span>
+          <strong>Nos Services</strong>
+          <small>Tous nos dépannages</small>
+        </a>
+        <a href="/services/urgence" class="recovery-item card">
+          <span class="icon">🚨</span>
+          <strong>Urgence 24/7</strong>
+          <small>Fuite d'eau et panne</small>
+        </a>
+        <a href="/services/debouchage" class="recovery-item card">
+          <span class="icon">🚽</span>
+          <strong>Débouchage</strong>
+          <small>Canalisation et WC</small>
+        </a>
+        <a href="/locations" class="recovery-item card">
+          <span class="icon">📍</span>
+          <strong>Zones Couvertes</strong>
+          <small>Grand Namur et communes</small>
+        </a>
+        <a href="/contact" class="recovery-item card">
+          <span class="icon">✉️</span>
+          <strong>Contact & Devis</strong>
+          <small>Estimation gratuite</small>
+        </a>
+      </div>
+
+      <div class="cta-call mt-4">
+        <p>Une urgence plomberie ? Contactez directement notre équipe :</p>
+        <a href={BUSINESS_CONFIG.telephoneHref} class="btn btn-primary" style="font-size: 1.25rem; padding: 0.85rem 2rem;">
+          📞 Appelez le {BUSINESS_CONFIG.telephone}
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>
+
+<style>
+  .page-header {
+    background-color: var(--primary);
+    color: white;
+    padding: 5rem 1rem 3.5rem;
+  }
+  
+  .page-header h1 {
+    color: white;
+    margin-bottom: 0.5rem;
+  }
+  
+  .subtitle {
+    color: rgba(255,255,255,0.85);
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .error-card {
+    background: white;
+    padding: 3rem 2rem;
+    border-radius: var(--radius-xl);
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .error-icon {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+  }
+
+  .error-card h2 {
+    color: var(--primary);
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+  }
+
+  .recovery-links {
+    gap: 1.25rem;
+    margin: 2rem 0;
+  }
+
+  .recovery-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    padding: 1.5rem 1rem;
+    border: 1px solid var(--border-light);
+    transition: transform 0.2s ease, border-color 0.2s ease;
+  }
+
+  .recovery-item:hover {
+    transform: translateY(-3px);
+    border-color: var(--secondary);
+  }
+
+  .recovery-item .icon {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .recovery-item strong {
+    color: var(--primary);
+    font-size: 1.05rem;
+  }
+
+  .recovery-item small {
+    color: var(--text-muted);
+    font-size: 0.85rem;
+  }
+
+  .cta-call {
+    background: var(--bg-light);
+    padding: 2rem;
+    border-radius: var(--radius-lg);
+    border: 1px dashed var(--border-light);
+  }
+
+  .cta-call p {
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: var(--primary);
+  }
+</style>

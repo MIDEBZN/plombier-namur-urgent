@@ -1,6 +1,7 @@
 ---
 import { Image } from 'astro:assets';
 import logoImage from '../assets/logo.png';
+import { BUSINESS_CONFIG } from '../data/business';
 
 const year = new Date().getFullYear();
 ---
@@ -13,7 +14,7 @@ const year = new Date().getFullYear();
         <Image src={logoImage} alt="Logo Plombier Namur Urgent" width={300} height={300} style="width: auto; height: 100px; object-fit: contain;" />
       </div>
       <p class="company-desc">
-        Dépannage d'urgence, débouchage, recherche de fuite et installation chauffage à Namur. Intervention rapide 24/7 avec devis gratuit.
+        Dépannage d'urgence, débouchage de canalisation, recherche de fuite non destructive et entretien chauffage à Namur. Devis transparent avant intervention.
       </p>
     </div>
 
@@ -22,29 +23,31 @@ const year = new Date().getFullYear();
       <ul>
         <li><a href="/services/urgence">Dépannage Urgent 24/7</a></li>
         <li><a href="/services/debouchage">Débouchage Canalisation</a></li>
-        <li><a href="/services/fuites">Recherche de Fuite</a></li>
-        <li><a href="/services/chauffage">Chauffage & Entretien</a></li>
+        <li><a href="/services/fuites">Recherche de Fuite Sans Casse</a></li>
+        <li><a href="/services/chauffage">Chauffage & Chaudières</a></li>
         <li><a href="/services/sanitaire">Installations Sanitaires</a></li>
-        <li><a href="/services/traitement-eau">Adoucisseur d'Eau</a></li>
+        <li><a href="/services/traitement-eau">Traitement de l'Eau & Adoucisseurs</a></li>
       </ul>
     </div>
 
     <div class="footer-col">
       <h3 class="footer-heading">Navigation Rapide</h3>
       <ul>
-        <li><a href="/locations">Zones Couvertes</a></li>
-        <li><a href="/conseils">Blog & Conseils</a></li>
-        <li><a href="/about">À Propos</a></li>
+        <li><a href="/services">Tous nos Services</a></li>
+        <li><a href="/locations">Zones d'Intervention (Grand Namur)</a></li>
+        <li><a href="/conseils">Guides & Conseils Plomberie</a></li>
+        <li><a href="/about">À Propos de l'Entreprise</a></li>
+        <li><a href="/contact">Contact & Devis Gratuit</a></li>
       </ul>
     </div>
 
     <div class="footer-col">
       <h3 class="footer-heading">Contactez-nous</h3>
       <ul class="contact-list">
-        <li><strong>Adresse:</strong> <a href="https://maps.app.goo.gl/ioEeCF9PYXjVDXus5" target="_blank" rel="noopener noreferrer">Rue de Balart 87, 5004 Namur</a></li>
-        <li><strong>Téléphone:</strong> <a href="tel:+32470000000">0470 00 00 00</a></li>
-        <li><strong>Email:</strong> <a href="mailto:contact@plombiernamururgent.be">contact@plombiernamururgent.be</a></li>
-        <li><strong>Disponibilité:</strong> 24h/24 et 7j/7</li>
+        <li><strong>Adresse:</strong> <a href={BUSINESS_CONFIG.googleBusinessProfileUrl} target="_blank" rel="noopener noreferrer">{BUSINESS_CONFIG.streetAddress}, {BUSINESS_CONFIG.postalCode} {BUSINESS_CONFIG.city}</a></li>
+        <li><strong>Téléphone:</strong> <a href={BUSINESS_CONFIG.telephoneHref} data-location="footer_phone">{BUSINESS_CONFIG.telephone}</a></li>
+        <li><strong>Email:</strong> <a href={`mailto:${BUSINESS_CONFIG.email}`}>{BUSINESS_CONFIG.email}</a></li>
+        <li><strong>Permanence:</strong> {BUSINESS_CONFIG.businessHours}</li>
       </ul>
     </div>
 
@@ -52,10 +55,10 @@ const year = new Date().getFullYear();
   
   <div class="footer-bottom">
     <div class="container flex-between">
-      <p>&copy; {year} Plombier Namur Urgent. Tous droits réservés.</p>
+      <p>&copy; {year} {BUSINESS_CONFIG.businessName}. Tous droits réservés.</p>
       <div class="legal-links">
-        <a href="#">Mentions Légales</a>
-        <a href="#">Politique de Confidentialité</a>
+        <a href="/mentions-legales">Mentions Légales</a>
+        <a href="/politique-de-confidentialite">Politique de Confidentialité</a>
       </div>
     </div>
   </div>

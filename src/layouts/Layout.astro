@@ -7,57 +7,108 @@ import GlobalContactForm from '../components/GlobalContactForm.astro';
 import FloatingActions from '../components/FloatingActions.astro';
 import GlobalMap from '../components/GlobalMap.astro';
 import SchemaMarkup from '../components/SchemaMarkup.astro';
+import { BUSINESS_CONFIG } from '../data/business';
 
 interface Props {
-	title: string;
-	description: string;
+  title: string;
+  description: string;
+  schemaType?: 'home' | 'service' | 'article' | 'location' | 'default';
+  serviceName?: string;
+  areaServedName?: string;
+  datePublished?: string;
+  dateModified?: string;
+  authorName?: string;
+  showGlobalContactForm?: boolean;
+  showGlobalMap?: boolean;
+  showTrustBanner?: boolean;
+  noindex?: boolean;
 }
 
-const { title, description } = Astro.props;
-const siteUrl = Astro.site ? Astro.site.toString().replace(/\/$/, '') : 'https://www.plombiernamururgent.be';
+const {
+  title,
+  description,
+  schemaType = 'default',
+  serviceName,
+  areaServedName,
+  datePublished,
+  dateModified,
+  authorName,
+  showGlobalContactForm = true,
+  showGlobalMap = true,
+  showTrustBanner = true,
+  noindex = false
+} = Astro.props;
+
+const siteUrl = BUSINESS_CONFIG.mainBusinessUrl;
+// Self-referencing canonical URL: strictly strip query string and trailing slash (except root)
+const cleanPath = Astro.url.pathname.replace(/\/$/, '') || '/';
+const canonicalUrl = new URL(cleanPath, siteUrl).href;
 ---
 
 <!doctype html>
 <html lang="fr">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/jpeg" href="/favicon.jpg" />
-		<meta name="generator" content={Astro.generator} />
-		
-		<!-- SEO Basics -->
-		<title>{title}</title>
-		<meta name="description" content={description} />
-		<link rel="canonical" href={`${siteUrl}${Astro.url.pathname}`} />
-		
-		<SchemaMarkup />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/jpeg" href="/favicon.jpg" />
+    <meta name="generator" content={Astro.generator} />
+    
+    <!-- SEO Basics -->
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonicalUrl} />
+    {noindex ? (
+      <meta name="robots" content="noindex, nofollow" />
+    ) : (
+      <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    )}
+    
+    <!-- Schema Markup JSON-LD -->
+    <SchemaMarkup 
+      type={schemaType}
+      title={title}
+      description={description}
+      serviceName={serviceName}
+      areaServedName={areaServedName}
+      datePublished={datePublished}
+      dateModified={dateModified}
+      authorName={authorName}
+    />
 
-		<!-- Open Graph -->
-		<meta property="og:type" content="website" />
-		<meta property="og:url" content={`${siteUrl}${Astro.url.pathname}`} />
-		<meta property="og:title" content={title} />
-		<meta property="og:description" content={description} />
-		<meta property="og:image" content={`${siteUrl}/og-image.jpg`} />
-		
-		<!-- Twitter -->
-		<meta property="twitter:card" content="summary_large_image" />
-		<meta property="twitter:url" content={`${siteUrl}${Astro.url.pathname}`} />
-		<meta property="twitter:title" content={title} />
-		<meta property="twitter:description" content={description} />
-		
-		<!-- Preload Fonts -->
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	</head>
-	<body>
-		<Header />
-		<main>
-			<slot />
-		</main>
-		<GlobalContactForm />
-		<TrustBanner />
-		<FloatingActions />
-		<GlobalMap />
-		<Footer />
-	</body>
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={`${siteUrl}/favicon.jpg`} />
+    <meta property="og:locale" content="fr_BE" />
+    <meta property="og:site_name" content={BUSINESS_CONFIG.businessName} />
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content={canonicalUrl} />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={`${siteUrl}/favicon.jpg`} />
+    
+    <!-- Preload Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  </head>
+  <body>
+    <Header />
+    <main id="main-content">
+      <slot />
+    </main>
+    {showGlobalContactForm && <GlobalContactForm />}
+    {showTrustBanner && <TrustBanner />}
+    <FloatingActions />
+    {showGlobalMap && <GlobalMap />}
+    <Footer />
+
+    <script>
+      import { initAnalytics } from '../scripts/analytics';
+      initAnalytics();
+    </script>
+  </body>
 </html>

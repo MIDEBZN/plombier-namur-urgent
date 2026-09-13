@@ -1,0 +1,133 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { BUSINESS_CONFIG } from '../data/business';
+---
+
+<Layout 
+  title={`Mentions Légales | ${BUSINESS_CONFIG.businessName}`}
+  description={`Mentions légales et informations éditoriales de ${BUSINESS_CONFIG.businessName}, entreprise de plomberie et chauffage à Namur.`}
+  showGlobalContactForm={false}
+>
+  <Breadcrumbs items={[{ name: "Mentions Légales" }]} />
+
+  <div class="page-header text-center">
+    <div class="container">
+      <h1>Mentions Légales</h1>
+      <p class="subtitle">Informations légales et obligations de transparence conformément au Code de droit économique belge.</p>
+    </div>
+  </div>
+
+  <div class="container section">
+    <div class="legal-content card">
+      
+      <section class="legal-block">
+        <h2>1. Présentation de l'entreprise</h2>
+        <p>Le site Internet accessible à l'adresse <strong>{BUSINESS_CONFIG.mainBusinessUrl}</strong> est édité par l'entreprise :</p>
+        <ul class="legal-list">
+          <li><strong>Nom commercial :</strong> {BUSINESS_CONFIG.businessName}</li>
+          <li><strong>Dénomination légale :</strong> {BUSINESS_CONFIG.legalBusinessName}</li>
+          <li><strong>Forme juridique :</strong> {BUSINESS_CONFIG.businessForm}</li>
+          <li><strong>Siège d'exploitation :</strong> {BUSINESS_CONFIG.streetAddress}, {BUSINESS_CONFIG.postalCode} {BUSINESS_CONFIG.city}, Belgique</li>
+          <li><strong>Numéro d'entreprise (BCE) :</strong> {BUSINESS_CONFIG.bceNumber}</li>
+          <li><strong>Numéro de TVA :</strong> {BUSINESS_CONFIG.vatNumber}</li>
+          <li><strong>Téléphone :</strong> <a href={BUSINESS_CONFIG.telephoneHref}>{BUSINESS_CONFIG.telephone}</a></li>
+          <li><strong>Email :</strong> <a href={`mailto:${BUSINESS_CONFIG.email}`}>{BUSINESS_CONFIG.email}</a></li>
+          <li><strong>Responsable de la publication :</strong> {BUSINESS_CONFIG.responsiblePublisher}</li>
+        </ul>
+      </section>
+
+      <section class="legal-block">
+        <h2>2. Hébergement du site</h2>
+        <p>Le site Internet est hébergé par :</p>
+        <ul class="legal-list">
+          <li><strong>Hébergeur :</strong> {BUSINESS_CONFIG.hostingCompany}</li>
+          <li><strong>Infrastructure :</strong> Serveurs cloud conformes RGPD avec chiffrement SSL/TLS.</li>
+        </ul>
+      </section>
+
+      <section class="legal-block">
+        <h2>3. Activités réglementées & Autorités de contrôle</h2>
+        <p>Les prestations techniques de plomberie, de sanitaires et de chauffage sont exécutées conformément aux normes belges (NBN) et aux réglementations de la Région Wallonne.</p>
+        <ul class="legal-list">
+          <li><strong>Autorité de surveillance économique :</strong> SPF Économie, P.M.E., Classes moyennes et Énergie, Boulevard du Roi Albert II 16, 1000 Bruxelles.</li>
+          <li><strong>Assurance Responsabilité Civile Professionnelle :</strong> Les travaux et interventions sont couverts par une assurance professionnelle garantissant les prestations effectuées chez nos clients.</li>
+        </ul>
+      </section>
+
+      <section class="legal-block">
+        <h2>4. Propriété intellectuelle</h2>
+        <p>L'ensemble des éléments constituant le site (textes, arborescence, charte graphique, logos, photographies, icônes) sont la propriété exclusive de {BUSINESS_CONFIG.businessName} ou font l'objet d'une autorisation d'utilisation. Toute reproduction, représentation, modification ou diffusion totale ou partielle est strictement interdite sans accord écrit préalable.</p>
+      </section>
+
+      <section class="legal-block">
+        <h2>5. Règlement des litiges & Droit applicable</h2>
+        <p>Le présent site est soumis au droit belge. En cas de réclamation ou de litige, nous privilégions toujours la recherche d'une solution amiable. À défaut, les tribunaux de l'arrondissement judiciaire de Namur sont seuls compétents.</p>
+        <p>Conformément au règlement européen n° 524/2013, la Commission européenne met à disposition une plateforme de règlement en ligne des litiges (RLL) accessible à l'adresse : <a href="https://ec.europa.eu/consumers/odr" target="_blank" rel="noopener noreferrer">https://ec.europa.eu/consumers/odr</a>.</p>
+      </section>
+
+    </div>
+  </div>
+</Layout>
+
+<style>
+  .page-header {
+    background-color: var(--primary);
+    color: white;
+    padding: 4rem 1rem 3rem;
+  }
+  
+  .page-header h1 {
+    color: white;
+    margin-bottom: 0.5rem;
+  }
+  
+  .subtitle {
+    color: rgba(255,255,255,0.85);
+    font-size: 1.15rem;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  .legal-content {
+    background: white;
+    padding: 3rem;
+    line-height: 1.8;
+  }
+
+  .legal-block {
+    margin-bottom: 2.5rem;
+  }
+
+  .legal-block h2 {
+    color: var(--primary);
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid var(--border-light);
+    padding-bottom: 0.5rem;
+  }
+
+  .legal-list {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .legal-list strong {
+    color: var(--primary);
+  }
+
+  .legal-content a {
+    color: var(--secondary);
+    text-decoration: underline;
+  }
+
+  @media (max-width: 768px) {
+    .legal-content {
+      padding: 1.5rem;
+    }
+  }
+</style>

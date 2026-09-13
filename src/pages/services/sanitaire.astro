@@ -1,18 +1,27 @@
 ---
 import Layout from '../../layouts/Layout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { BUSINESS_CONFIG } from '../../data/business';
 ---
 
 <Layout 
-  title="Installation Sanitaire et Rénovation Salle de Bain à Namur" 
-  description="Plombier pour installation sanitaire à Namur. Rénovation de salle de bain, placement de WC suspendus, douches italiennes, éviers et robinetterie."
+  title="Installation Sanitaire & Rénovation Salle de Bain Namur | Devis" 
+  description="Plombier pour installation sanitaire à Namur. Rénovation de salle de bain, pose de douche italienne, WC suspendus, éviers et robinetterie. Devis transparent."
+  schemaType="service"
+  serviceName="Installations Sanitaires et Rénovation Salle de Bain"
 >
+  <Breadcrumbs items={[
+    { name: "Services", url: "/services" },
+    { name: "Installations Sanitaires" }
+  ]} />
+
   <div class="page-header text-center">
     <div class="container">
-      <span class="badge badge-red mb-2">Projet & Rénovation</span>
-      <h1>Installations Sanitaires à Namur</h1>
-      <p class="subtitle">De la pose d'un nouveau robinet à la rénovation complète de votre salle de bain, bénéficiez de finitions professionnelles pour vos équipements sanitaires.</p>
+      <span class="badge badge-red mb-2">Projet Neuf & Rénovation</span>
+      <h1>Installations Sanitaires & Rénovation à Namur</h1>
+      <p class="subtitle">De la pose d'une robinetterie design à la rénovation complète de votre salle de bain clé en main. Travail soigné conforme aux règles de l'art dans tout le Grand Namur.</p>
       <div class="mt-4">
-        <a href="/contact" class="btn btn-primary" style="font-size: 1.25rem; padding: 1rem 2rem;">
+        <a href="/contact" class="btn btn-primary" style="font-size: 1.25rem; padding: 0.9rem 2rem;">
           Demander un Devis Gratuit
         </a>
       </div>
@@ -21,94 +30,100 @@ import Layout from '../../layouts/Layout.astro';
 
   <div class="container section">
     
-    <!-- What's included & Common Problems -->
+    <!-- What's included & Services -->
     <div class="grid grid-2 mb-4">
       <div class="card">
-        <h2 style="font-size: 1.5rem; margin-bottom: 1rem;">Ce que nous installons</h2>
+        <h2 style="font-size: 1.5rem; margin-bottom: 1rem; color: var(--primary);">Nos Prestations Sanitaires à Namur</h2>
         <ul class="styled-list">
-          <li><strong>Salle de bain :</strong> Création ou rénovation, pose de meubles, douche à l'italienne, baignoire.</li>
-          <li><strong>Toilettes :</strong> Installation de WC traditionnels, WC suspendus (Geberit, Grohe), laves-mains.</li>
-          <li><strong>Robinetterie :</strong> Mitigeurs, mélangeurs, colonnes de douche thermostatiques, robinets d'extérieur.</li>
-          <li><strong>Cuisine :</strong> Raccordement d'éviers, lave-vaisselle, pose de siphons et robinets de cuisine.</li>
-          <li><strong>Chauffe-eau :</strong> Boiler électrique, boiler thermodynamique, chauffe-eau instantané.</li>
+          <li><strong>Rénovation de salle de bain :</strong> Remplacement de baignoire par douche à l'italienne, carrelage, étanchéité sous carrelage et mobilier vasque.</li>
+          <li><strong>Toilettes & WC :</strong> Installation de WC suspendus (bâti-supports Geberit, Grohe), WC à poser et lave-mains compacts.</li>
+          <li><strong>Robinetterie & Mitigeurs :</strong> Pose de mitigeurs thermostatiques, colonnes de douche avec butée de sécurité 38°C et robinets temporisés.</li>
+          <li><strong>Production d'eau chaude :</strong> Remplacement de chauffe-eau électrique (boiler stéatite), chauffe-eau instantané gaz ou thermodynamique.</li>
+          <li><strong>Réseau d'alimentation et décharge :</strong> Raccordement en multicouche serti, tuyaux d'évacuation en PVC/PEHD insonorisé.</li>
         </ul>
       </div>
       
       <div class="card bg-light border-0">
-        <h2 style="font-size: 1.5rem; margin-bottom: 1rem; color: var(--secondary);">Pourquoi Rénover ou Remplacer ?</h2>
+        <h2 style="font-size: 1.5rem; margin-bottom: 1rem; color: var(--secondary);">Pourquoi Moderniser vos Sanitaires ?</h2>
         <ul class="styled-list">
-          <li><strong>Vétusté :</strong> Vos équipements fuient régulièrement ou sont très entartrés.</li>
-          <li><strong>Confort :</strong> Passer d'une ancienne baignoire à une douche à l'italienne spacieuse.</li>
-          <li><strong>Économie d'eau :</strong> Une nouvelle robinetterie et un WC double-chasse réduisent votre facture d'eau.</li>
-          <li><strong>Esthétique :</strong> Moderniser votre intérieur pour donner de la valeur à votre bien immobilier.</li>
-          <li><strong>Accessibilité :</strong> Adapter la salle de bain pour les personnes à mobilité réduite (PMR).</li>
+          <li><strong>Économie d'eau durable :</strong> Les chasses d'eau modernes 3L/6L et aérateurs de robinet divisent votre consommation par deux.</li>
+          <li><strong>Sécurité & Confort thermique :</strong> Mitigeurs thermostatiques évitant tout risque de brûlure pour les enfants et personnes âgées.</li>
+          <li><strong>Fin des fuites récurrentes :</strong> Remplacement des anciens tuyaux en plomb ou acier galvanisé entartrés par des matériaux inaltérables.</li>
+          <li><strong>Accessibilité PMR :</strong> Adaptation des accès avec receveurs de douche extra-plats et barres de maintien ergonomiques.</li>
+          <li><strong>Valorisation immobilière :</strong> Une salle de bain rénovée est l'un des critères majeurs de valorisation d'un bien à Namur.</li>
         </ul>
       </div>
     </div>
 
-    <!-- Our Process -->
+    <!-- Process -->
     <div class="mb-4">
-      <h2 class="text-center mb-4">Notre Processus de Rénovation</h2>
+      <h2 class="text-center mb-4">Notre Démarche Projet</h2>
       <div class="grid grid-4 text-center">
-        <div class="process-step">
-          <div class="step-number">1</div>
-          <h3>Visite & Conseil</h3>
-          <p>Nous nous déplaçons pour écouter vos envies, prendre les mesures et vous conseiller sur les matériaux.</p>
+        <div class="process-step card">
+          <div class="step-number" aria-hidden="true">1</div>
+          <h3>Visite sur Place</h3>
+          <p>Prise de cotes, écoute de vos besoins et vérification des alimentations et évacuations.</p>
         </div>
-        <div class="process-step">
-          <div class="step-number">2</div>
-          <h3>Devis Transparent</h3>
-          <p>Élaboration d'un devis détaillé incluant la main-d'œuvre et le matériel choisi sans coûts cachés.</p>
+        <div class="process-step card">
+          <div class="step-number" aria-hidden="true">2</div>
+          <h3>Devis Détaillé</h3>
+          <p>Chiffrage clair par poste (démolition, plomberie, sanitaires, finitions) sans frais dissimulés.</p>
         </div>
-        <div class="process-step">
-          <div class="step-number">3</div>
-          <h3>Travaux Préparatoires</h3>
-          <p>Démontage de l'existant, modification des tuyauteries d'alimentation et d'évacuation (Alpex, cuivre, PVC).</p>
+        <div class="process-step card">
+          <div class="step-number" aria-hidden="true">3</div>
+          <h3>Mise en Œuvre</h3>
+          <p>Pose méticuleuse dans le respect des délais convenus et protection des sols existants.</p>
         </div>
-        <div class="process-step">
-          <div class="step-number">4</div>
-          <h3>Finitions</h3>
-          <p>Pose des équipements sanitaires, joints en silicone étanches, et nettoyage de fin de chantier.</p>
+        <div class="process-step card">
+          <div class="step-number" aria-hidden="true">4</div>
+          <h3>Réception Travaux</h3>
+          <p>Essais d'étanchéité, mise en eau sous pression et explications d'entretien de vos équipements.</p>
         </div>
       </div>
     </div>
 
-    <!-- Why Choose Us & Availability -->
-    <div class="grid grid-2 mb-4 align-center">
-      <div>
-        <h2>L'Importance d'un Travail Bien Fait</h2>
-        <p>L'installation sanitaire est la colonne vertébrale de votre maison. Une petite erreur de raccordement et c'est le dégât des eaux garanti des mois plus tard derrière vos murs.</p>
-        <ul class="styled-list mt-2">
-          <li><strong>Matériaux de qualité :</strong> Nous travaillons avec les grandes marques (Grohe, Hansgrohe, Geberit, Facq, Van Marcke).</li>
-          <li><strong>Garantie décennale :</strong> Nos installations sont couvertes, vous assurant une tranquillité sur le long terme.</li>
-          <li><strong>Propreté :</strong> Le respect de votre habitation est au centre de nos priorités. Nous protégeons les sols.</li>
-        </ul>
-      </div>
-      <div class="card text-center" style="background: var(--primary); color: white;">
-        <span style="font-size: 3rem;">🛠️</span>
-        <h3 style="color: white;">Zones d'Intervention (Sur Devis)</h3>
-        <p style="color: rgba(255,255,255,0.8); margin-bottom: 1.5rem;">Pour tout projet d'installation ou de rénovation, nous nous déplaçons gratuitement pour effectuer un devis précis.</p>
-        <p>Namur Centre, Jambes, Erpent, Bouge, Wépion, et toutes les communes avoisinantes.</p>
+    <!-- Direct Answer Block & FAQs -->
+    <div class="faq-section mt-4 card">
+      <h2 class="text-center mb-4">Questions Fréquentes : Rénovation Sanitaire à Namur</h2>
+      
+      <div class="faq-list" style="display: flex; flex-direction: column; gap: 1.5rem;">
+        <div class="faq-item">
+          <h3 style="color: var(--primary); font-size: 1.2rem; margin-bottom: 0.5rem;">Combien de temps durent les travaux de rénovation d'une salle de bain ?</h3>
+          <p style="margin: 0; line-height: 1.6;">
+            Le remplacement simple d'équipements sanitaires (remplacement d'un WC ou d'un meuble vasque) prend généralement une journée. Une rénovation complète avec dépose d'ancienne faïence, plomberie encastrée et pose d'une douche italienne nécessite en moyenne 5 à 10 jours ouvrés selon la surface et les temps de séchage de l'étanchéité.
+          </p>
+        </div>
+
+        <div class="faq-item">
+          <h3 style="color: var(--primary); font-size: 1.2rem; margin-bottom: 0.5rem;">Faut-il installer un adoucisseur lors de la rénovation de sa salle de bain ?</h3>
+          <p style="margin: 0; line-height: 1.6;">
+            Dans le Grand Namur où l'eau est particulièrement dure (environ 30 °f), le calcaire altère rapidement les parois de verre, les cartouches thermostatiques et les robinetteries noires mates très tendance. L'installation d'un adoucisseur en amont protège durablement votre investissement.
+          </p>
+        </div>
+
+        <div class="faq-item">
+          <h3 style="color: var(--primary); font-size: 1.2rem; margin-bottom: 0.5rem;">Quels sont les avantages d'un WC suspendu par rapport à un WC à poser ?</h3>
+          <p style="margin: 0; line-height: 1.6;">
+            Le WC suspendu facilite grandement le nettoyage du sol, offre une esthétique épurée avec son réservoir dissimulé et permet d'ajuster la hauteur de la cuvette lors de la pose (idéal pour les personnes de grande taille ou à mobilité réduite). Le mécanisme reste accessible par la plaque de déclenchement sans casser le mur.
+          </p>
+        </div>
       </div>
     </div>
 
-    <!-- FAQs -->
-    <div class="faq-section mt-4">
-      <h2 class="text-center mb-4">Questions Fréquentes (FAQ)</h2>
-      
-      <div class="faq-item card mb-2">
-        <h3>Combien coûte la rénovation d'une salle de bain ?</h3>
-        <p>Le budget dépend énormément des choix de matériaux (carrelage, baignoire balnéo vs bac de douche simple) et de l'ampleur des modifications de tuyauterie. Une rénovation simple peut commencer autour de 3500€, tandis qu'une refonte complète haut-de-gamme peut dépasser les 10.000€. Contactez-nous pour une estimation précise.</p>
-      </div>
-      
-      <div class="faq-item card mb-2">
-        <h3>Gérez-vous également le carrelage et l'électricité ?</h3>
-        <p>Nous gérons toute la partie plomberie, chauffage et raccordements sanitaires. Pour les projets complets de rénovation de salle de bain (clés en main), nous collaborons avec des artisans partenaires de confiance (carreleurs, électriciens) de la région namuroise.</p>
-      </div>
-      
-      <div class="faq-item card">
-        <h3>Est-ce possible de remplacer une baignoire par une douche rapidement ?</h3>
-        <p>Oui ! C'est une demande très fréquente, notamment pour les seniors. Selon l'agencement, nous pouvons retirer la baignoire et installer un grand receveur de douche extra-plat (ou à l'italienne) avec panneaux muraux en quelques jours, minimisant ainsi les nuisances.</p>
+    <!-- Contextual Links -->
+    <div class="card mt-4 p-4" style="background: var(--bg-light);">
+      <h2>Prestations associées à vos installations</h2>
+      <p>Pour protéger et entretenir vos nouveaux équipements :</p>
+      <div class="grid grid-3 mt-2" style="gap: 1rem;">
+        <a href="/services/traitement-eau" class="btn btn-outline" style="text-align: center;">
+          🧊 Adoucisseurs d'Eau Anti-Calcaire
+        </a>
+        <a href="/services/debouchage" class="btn btn-outline" style="text-align: center;">
+          🚽 Débouchage & Curage
+        </a>
+        <a href="/contact" class="btn btn-outline" style="text-align: center;">
+          ✉️ Demande de devis en ligne
+        </a>
       </div>
     </div>
 
@@ -119,29 +134,29 @@ import Layout from '../../layouts/Layout.astro';
   .page-header {
     background-color: var(--primary);
     color: white;
-    padding: 6rem 1rem 4rem;
+    padding: 5rem 1rem 3.5rem;
   }
   
   .page-header h1 {
     color: white;
-    margin-bottom: 1rem;
+    margin-bottom: 0.75rem;
+    font-size: 2.2rem;
   }
   
   .subtitle {
-    color: rgba(255,255,255,0.8);
-    font-size: 1.25rem;
-    max-width: 700px;
+    color: rgba(255,255,255,0.85);
+    font-size: 1.15rem;
+    max-width: 800px;
     margin: 0 auto;
   }
-  
-  .mb-2 { margin-bottom: 1rem; }
-  .mb-4 { margin-bottom: 3rem; }
-  .mt-2 { margin-top: 1rem; }
-  .mt-4 { margin-top: 3rem; }
-  .align-center { align-items: center; }
-  .bg-light { background-color: var(--bg-light); }
-  .border-0 { border: none; box-shadow: none; }
-  
+
+  .step-number {
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: var(--secondary);
+    margin-bottom: 0.5rem;
+  }
+
   .styled-list {
     list-style: none;
     padding: 0;
@@ -151,6 +166,7 @@ import Layout from '../../layouts/Layout.astro';
     position: relative;
     padding-left: 2rem;
     margin-bottom: 0.75rem;
+    line-height: 1.5;
   }
   
   .styled-list li::before {
@@ -161,40 +177,21 @@ import Layout from '../../layouts/Layout.astro';
     font-weight: bold;
     font-size: 1.2rem;
   }
-  
-  .process-step {
-    padding: 1rem;
+
+  .faq-list .faq-item {
+    border-bottom: 1px solid var(--border-light);
+    padding-bottom: 1.25rem;
   }
-  
-  .step-number {
-    width: 60px;
-    height: 60px;
-    background-color: var(--primary);
-    color: white;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.5rem;
-    font-weight: 800;
-    margin: 0 auto 1rem;
-    font-family: var(--font-heading);
+
+  .faq-list .faq-item:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
   }
-  
-  .faq-item h3 {
-    font-size: 1.25rem;
-    margin-bottom: 0.5rem;
-  }
-  
-  .faq-item p {
-    margin: 0;
-  }
-  
-  @media (max-width: 768px) {
-    .grid-4 { grid-template-columns: 1fr 1fr; }
-    .grid-2 { display: flex; flex-direction: column; gap: 2rem; }
-  }
-  @media (max-width: 480px) {
-    .grid-4 { grid-template-columns: 1fr; }
-  }
+
+  .mb-2 { margin-bottom: 0.5rem; }
+  .mb-4 { margin-bottom: 2.5rem; }
+  .mt-2 { margin-top: 1rem; }
+  .mt-4 { margin-top: 2.5rem; }
+  .bg-light { background-color: var(--bg-light); }
+  .border-0 { border: none; box-shadow: none; }
 </style>

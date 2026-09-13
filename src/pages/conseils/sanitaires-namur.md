@@ -2,15 +2,17 @@
 title: "Problèmes de Sanitaires à Namur : WC, Robinets et Pression d'eau"
 meta_description: "Baisse de pression ? Robinet qui fuit ou WC qui coule sans arrêt à Namur ? Guide de dépannage des sanitaires et solutions pour réparer sans tout casser."
 layout: ../../layouts/BlogLayout.astro
+author: "Équipe Technique Plombier Namur Urgent"
+authorRole: "Plombier Sanitaire Namur"
+datePublished: "2024-03-18"
+dateModified: "2024-11-21"
 ---
-
-# Dépannage Sanitaire à Namur : Robinets, WC et Pression d'Eau
 
 Les petits soucis de plomberie sanitaire paraissent souvent bénins, mais s'ils sont ignorés, ils peuvent faire exploser votre facture d'eau ou causer un dégât des eaux majeur. Un WC qui coule en continu, c'est jusqu'à 600 litres d'eau gaspillés par jour ! 
 
 Que vous soyez confronté à une baisse de pression dans toute la maison ou à un mitigeur défectueux, ce guide détaille les causes fréquentes et les solutions adaptées à Namur.
 
-**Un robinet cassé ou une urgence sanitaire ? Contactez Plombier Namur Urgent au 0470 00 00 00.**
+**Un robinet cassé ou une urgence sanitaire ? [Consultez notre service de dépannage sanitaire](/services/sanitaire).**
 
 ---
 
@@ -78,4 +80,4 @@ Oui. Le calcaire durcit sur les joints en caoutchouc, les rend poreux et bloque 
 
 **Un problème de sanitaire tenace ?**  
 Nos plombiers interviennent rapidement pour toutes réparations de robinetterie et sanitaires dans la région de Namur.  
-📞 **Demandez un dépannage au 0470 00 00 00** ou [contactez-nous via notre formulaire](/contact).
+📞 **[Demandez une intervention](/contact)** ou [contactez notre équipe](/contact).

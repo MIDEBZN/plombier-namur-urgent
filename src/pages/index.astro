@@ -2,50 +2,53 @@
 import Layout from '../layouts/Layout.astro';
 import { Image } from 'astro:assets';
 import heroImage from '../assets/hero.jpg';
+import GlobalMap from '../components/GlobalMap.astro';
+import { BUSINESS_CONFIG } from '../data/business';
 ---
 
 <Layout 
-  title="Plombier Namur : Dépannage Urgent 24/7 & Installation" 
-  description="Entreprise de plomberie à Namur. Dépannage urgent 24/7, débouchage canalisation, recherche de fuite et entretien chaudière. Devis gratuit !"
+  title="Plombier Namur 24/7 | Urgence, Débouchage & Chauffage" 
+  description="Entreprise de plomberie et chauffage à Namur. Dépannage d'urgence 24/7, débouchage canalisation, recherche de fuite sans casse et chaudières. Devis transparent."
+  schemaType="home"
+  showGlobalMap={false}
 >
   <!-- HERO SECTION -->
   <section class="hero flex-center">
     <div class="container grid grid-2 hero-grid">
       <div class="hero-content animate-fade-in">
-        <span class="badge badge-red">🚀 Intervention en 30 Minutes</span>
-        <h1>Votre <span class="text-secondary">Plombier Chauffagiste</span> de Confiance à Namur</h1>
+        <span class="badge badge-red">🚀 Permanence Dépannage 24/7</span>
+        <h1>Plombier à Namur 24/7 : dépannage, débouchage et chauffage</h1>
         <p class="hero-text">
-          Vous cherchez le meilleur plombier à Namur ? Nous intervenons 24h/24 et 7j/7 pour toutes vos urgences : fuites d'eau, canalisations bouchées, pannes de chaudière. <strong>Devis gratuit et prix transparents.</strong>
+          Une fuite d'eau soudaine, une canalisation bouchée ou une chaudière en panne ? Notre équipe d'artisans qualifiés intervient rapidement dans tout le Grand Namur. <strong>Devis clair et transparent avant toute intervention.</strong>
         </p>
         <div class="hero-actions">
-          <a href="tel:+32470000000" class="btn btn-primary">
-            Appelez-nous : 0470 00 00 00
+          <a href={BUSINESS_CONFIG.telephoneHref} class="btn btn-primary" data-location="home_hero_phone">
+            Appelez-nous : {BUSINESS_CONFIG.telephone}
           </a>
-          <a href="/contact" class="btn btn-outline">
-            Demander un Devis
+          <a href="/contact" class="btn btn-outline" data-location="home_hero_quote">
+            Demander un Devis Gratuit
           </a>
         </div>
         <div class="trust-signals flex-center" style="justify-content: flex-start; gap: 1.5rem; margin-top: 2rem;">
            <div class="trust-item">
-             <strong>⭐ 4.9/5</strong><br/>
-             <span>Avis Clients</span>
+             <strong>⭐ Avis Clients</strong><br/>
+             <a href={BUSINESS_CONFIG.googleBusinessProfileUrl} target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: underline; font-size: 0.9rem;">Consulter sur Google Maps</a>
            </div>
            <div class="trust-item">
-             <strong>🏆 25+ Ans</strong><br/>
-             <span>d'Expérience</span>
+             <strong>🏆 Métier</strong><br/>
+             <span>Techniciens Qualifiés</span>
            </div>
            <div class="trust-item">
-             <strong>✅ Agréé</strong><br/>
-             <span>Assurances</span>
+             <strong>✅ Assurances</strong><br/>
+             <span>Rapports d'Intervention</span>
            </div>
         </div>
       </div>
       <div class="hero-image animate-fade-in" style="animation-delay: 0.2s;">
-        <!-- Placeholder for hero image. Image should feature a professional plumber -->
         <div class="image-wrapper" style="position: relative;">
           <Image 
             src={heroImage} 
-            alt="Plombier professionnel en intervention" 
+            alt="Plombier professionnel en intervention d'urgence à Namur" 
             width={800} 
             height={500} 
             format="webp" 
@@ -54,10 +57,10 @@ import heroImage from '../assets/hero.jpg';
             style="width: 100%; height: 500px; object-fit: cover; border-radius: var(--radius-xl);" 
           />
           <div class="glass-panel experience-card">
-             <span style="font-size: 2rem;">🛠️</span>
+             <span style="font-size: 2rem;" aria-hidden="true">🛠️</span>
              <div>
-               <strong>Service de Plomberie</strong>
-               <p style="margin:0; font-size: 0.85rem;">Qualité Garantie</p>
+               <strong>Service Plomberie Namur</strong>
+               <p style="margin:0; font-size: 0.85rem;">Grand Namur & Alentours</p>
              </div>
           </div>
         </div>
@@ -66,23 +69,23 @@ import heroImage from '../assets/hero.jpg';
   </section>
 
   <!-- STATS & BADGES SECTION -->
-  <section class="stats-strip bg-light">
+  <section class="stats-strip bg-light" aria-label="Engagements de service">
     <div class="container grid grid-4 text-center" style="gap: 1rem; padding: 2rem 0; align-items: center;">
       <div>
-        <div style="font-size: 2rem; color: #facc15;">★★★★★</div>
-        <strong>4.9/5 sur Google Avis</strong>
+        <div style="font-size: 2rem; color: #facc15;" aria-hidden="true">★★★★★</div>
+        <strong>Avis Google Vérifiés</strong>
       </div>
       <div>
-        <div style="font-size: 2.2rem; line-height: 1;">⏱️</div>
-        <strong>92% d'interventions en &lt; 30 min</strong>
+        <div style="font-size: 2.2rem; line-height: 1;" aria-hidden="true">⏱️</div>
+        <strong>Permanence 24/7 Namur</strong>
       </div>
       <div>
-        <div style="font-size: 2.2rem; line-height: 1;">🛡️</div>
-        <strong>100% Agréé & Assurances</strong>
+        <div style="font-size: 2.2rem; line-height: 1;" aria-hidden="true">🛡️</div>
+        <strong>Dossiers Assurances Conformes</strong>
       </div>
       <div>
-        <div style="font-size: 2.2rem; line-height: 1;">✅</div>
-        <strong>Garantie Satisfait ou Refait</strong>
+        <div style="font-size: 2.2rem; line-height: 1;" aria-hidden="true">📋</div>
+        <strong>Devis Détaillé Avant Travaux</strong>
       </div>
     </div>
   </section>
@@ -90,119 +93,165 @@ import heroImage from '../assets/hero.jpg';
   <!-- PROCESS SECTION -->
   <section class="section process-section">
     <div class="container text-center">
-      <h2>Comment Ça Marche ?</h2>
-      <p style="max-width: 600px; margin: 0 auto 3rem;">Un processus simple et transparent pour résoudre vos problèmes de plomberie sans stress.</p>
+      <h2>Comment se déroule notre intervention ?</h2>
+      <p style="max-width: 600px; margin: 0 auto 3rem;">Un processus transparent pour résoudre vos urgences de plomberie avec clarté et sécurité.</p>
       
       <div class="grid grid-4">
         <div class="process-step card">
-          <div class="step-icon">📞</div>
-          <h3>1. Contact</h3>
-          <p>Appelez-nous ou demandez un devis en ligne gratuitement.</p>
+          <div class="step-icon" aria-hidden="true">📞</div>
+          <h3>1. Appel & Conseil</h3>
+          <p>Vous nous décrivez votre problème. Nous vous conseillons les premiers réflexes (ex: couper l'eau) et vous donnons une estimation.</p>
         </div>
         <div class="process-step card">
-          <div class="step-icon">⏱️</div>
-          <h3>2. Intervention</h3>
-          <p>Un plombier agréé se rend chez vous en moins de 30 minutes en cas d'urgence.</p>
+          <div class="step-icon" aria-hidden="true">⏱️</div>
+          <h3>2. Déplacement</h3>
+          <p>Un technicien qualifié prend la route vers votre domicile dans le Grand Namur avec un véhicule tout équipé.</p>
         </div>
         <div class="process-step card">
-          <div class="step-icon">📋</div>
+          <div class="step-icon" aria-hidden="true">📋</div>
           <h3>3. Diagnostic & Devis</h3>
-          <p>Nous identifions le problème et vous proposons un devis clair et sans surprise.</p>
+          <p>Nous identifions la panne sur place et vous soumettons un devis précis avant de commencer les réparations.</p>
         </div>
         <div class="process-step card">
-          <div class="step-icon">✅</div>
+          <div class="step-icon" aria-hidden="true">✅</div>
           <h3>4. Réparation</h3>
-          <p>Le travail est effectué avec soin, propreté et garanti pour votre tranquillité.</p>
+          <p>L'intervention est réalisée dans les règles de l'art, le chantier est nettoyé et nous vous remettons votre facture.</p>
         </div>
       </div>
     </div>
   </section>
 
   <!-- SERVICES SECTION -->
-  <section class="section services-section bg-light">
+  <section class="section services-section bg-light" id="services">
     <div class="container text-center">
-      <h2>Nos Services de Plomberie à Namur</h2>
-      <p style="max-width: 600px; margin: 0 auto 3rem;">Des solutions complètes pour tous vos besoins en sanitaires et chauffage.</p>
+      <h2>Nos Services de Plomberie et Chauffage à Namur</h2>
+      <p style="max-width: 600px; margin: 0 auto 3rem;">Des prestations complètes pour le dépannage d'urgence, l'entretien et la rénovation sanitaire.</p>
       
       <div class="grid grid-3">
         <div class="card service-card">
-          <div class="service-icon">🚨</div>
+          <div class="service-icon" aria-hidden="true">🚨</div>
           <h3>Dépannage Urgent 24/7</h3>
-          <p>Intervention rapide pour toute urgence plomberie namur. Fuite d'eau, canalisation explosée, nous sommes là.</p>
-          <a href="/services#urgence" class="service-link">En savoir plus &rarr;</a>
+          <p>Intervention rapide pour fuite majeure, canalisation éclatée, robinet cassé ou inondation dans tout le Namurois.</p>
+          <a href="/services/urgence" class="service-link">Voir le dépannage plomberie 24/7 &rarr;</a>
         </div>
         
         <div class="card service-card">
-          <div class="service-icon">🚽</div>
+          <div class="service-icon" aria-hidden="true">🚽</div>
           <h3>Débouchage Canalisation</h3>
-          <p>WC bouché ? Évier engorgé ? Nous utilisons une inspection caméra et haute pression pour un résultat impeccable.</p>
-          <a href="/services#debouchage" class="service-link">En savoir plus &rarr;</a>
+          <p>WC bouché, évier engorgé, refoulement d'égout. Curage haute pression et inspection caméra endoscopique.</p>
+          <a href="/services/debouchage" class="service-link">Voir le service de débouchage &rarr;</a>
         </div>
         
         <div class="card service-card">
-          <div class="service-icon">💧</div>
+          <div class="service-icon" aria-hidden="true">💧</div>
           <h3>Recherche de Fuite</h3>
-          <p>Détection de fuite non destructive grâce à nos équipements de pointe. Réparation rapide garantie.</p>
-          <a href="/services#fuites" class="service-link">En savoir plus &rarr;</a>
+          <p>Détection non destructive par caméra thermique, acoustique et gaz traceur pour vos murs, sols et plafonds.</p>
+          <a href="/services/fuites" class="service-link">Voir la recherche de fuite sans casse &rarr;</a>
         </div>
         
         <div class="card service-card">
-          <div class="service-icon">🔥</div>
+          <div class="service-icon" aria-hidden="true">🔥</div>
           <h3>Chauffagiste Namur</h3>
-          <p>Entretien chaudière, réparation, dépannage et installation complète de systèmes de chauffage.</p>
-          <a href="/services#chauffage" class="service-link">En savoir plus &rarr;</a>
+          <p>Contrôle périodique conforme Région Wallonne, dépannage de chaudières gaz et mazout, désembouage radiateurs.</p>
+          <a href="/services/chauffage" class="service-link">Voir nos services de chauffage &rarr;</a>
         </div>
         
         <div class="card service-card">
-          <div class="service-icon">🚿</div>
+          <div class="service-icon" aria-hidden="true">🚿</div>
           <h3>Installation Sanitaire</h3>
-          <p>Rénovation de salle de bain, installation de chauffe-eau, remplacement de robinetterie.</p>
-          <a href="/services" class="service-link">En savoir plus &rarr;</a>
+          <p>Rénovation de salle de bain, pose de douche italienne, remplacement de robinetterie et boilers thermodynamiques.</p>
+          <a href="/services/sanitaire" class="service-link">Voir les installations sanitaires &rarr;</a>
+        </div>
+
+        <div class="card service-card">
+          <div class="service-icon" aria-hidden="true">🧊</div>
+          <h3>Traitement de l'Eau</h3>
+          <p>Installation d'adoucisseurs d'eau à sel ou CO2 adaptés à l'eau calcaire de Namur. Protection de votre plomberie.</p>
+          <a href="/services/traitement-eau" class="service-link">Voir le traitement de l'eau et adoucisseurs &rarr;</a>
         </div>
       </div>
     </div>
   </section>
 
   <!-- SERVICE MAP SECTION -->
-  <section class="section">
+  <section class="section" aria-label="Zone de couverture">
     <div class="container grid grid-2" style="align-items: center;">
       <div>
-        <h2>Notre Zone d'Intervention à Namur</h2>
-        <p>Nous sommes basés stratégiquement pour couvrir l'ensemble du Grand Namur le plus rapidement possible. Notre promesse : un plombier chez vous en 30 minutes pour les urgences.</p>
+        <h2>Notre Zone d'Intervention dans le Grand Namur</h2>
+        <p>Basés dans l'agglomération namuroise, nous intervenons rapidement sur les deux rives de la Meuse et de la Sambre :</p>
         <ul class="styled-list mt-2">
-          <li><strong>Namur Centre & Périphérie :</strong> Jambes, Erpent, Salzinnes...</li>
-          <li><strong>Intervention express :</strong> Flotte de camionnettes géolocalisées.</li>
-          <li><strong>Déplacement 100% gratuit :</strong> Si vous acceptez notre devis.</li>
+          <li><strong>Namur Centre & Faubourgs :</strong> 5000 Namur, Salzinnes, Saint-Servais.</li>
+          <li><strong>Rive Droite & Hauteurs :</strong> Jambes (5100), Erpent (5101), Bouge (5004).</li>
+          <li><strong>Périphérie :</strong> Wépion, Flawinne, Belgrade, Vedrin, Malonne, Champion.</li>
+          <li><strong>Devis transparent :</strong> Estimation préalable par téléphone et chiffrage sur place.</li>
         </ul>
-        <a href="/locations" class="btn btn-outline" style="margin-top: 1rem;">Voir toutes nos zones</a>
+        <a href="/locations" class="btn btn-outline" style="margin-top: 1rem;">Voir toutes les communes couvertes</a>
       </div>
       <div class="map-visual card" style="padding: 0; overflow: hidden; border-radius: var(--radius-xl); min-height: 350px;">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2734.5718181503753!2d4.88035337655836!3d50.469380271595845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4214adee153effdb%3A0x9e30187e3d45e862!2sCitabat%20Plombier%20Namur%20Urgent!5e1!3m2!1sen!2sbe!4v1788303865276!5m2!1sen!2sbe" width="100%" height="100%" style="border:0; min-height: 350px; display: block;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        <GlobalMap />
       </div>
     </div>
   </section>
 
   <!-- TESTIMONIALS SECTION -->
-  <section class="section bg-light">
+  <section class="section bg-light" aria-label="Avis clients">
     <div class="container text-center">
-      <h2>Ce que disent nos clients</h2>
-      <p style="max-width: 600px; margin: 0 auto 3rem;">Lisez les avis de Namurois qui ont fait appel à nos services.</p>
+      <h2>Avis de clients dans la région de Namur</h2>
+      <p style="max-width: 600px; margin: 0 auto 3rem;">Témoignages de particuliers ayant sollicité nos services de dépannage et rénovation.</p>
       
       <div class="grid grid-3 text-left">
         <div class="card">
-          <div style="color: #facc15; font-size: 1.25rem; margin-bottom: 0.5rem;">★★★★★</div>
-          <p>"Canalisation complètement bouchée un dimanche soir. Le plombier est arrivé en 25 minutes et a réglé le problème avec une caméra. Prix annoncé à l'avance. Très pro !"</p>
-          <strong>- Marc D. (Jambes)</strong>
+          <div style="color: #facc15; font-size: 1.25rem; margin-bottom: 0.5rem;" aria-hidden="true">★★★★★</div>
+          <p>"Canalisation bouchée un dimanche en fin de journée. Le déboucheur est intervenu avec du matériel adapté et a réglé le problème sans abîmer les tuyaux. Prix convenu respecté."</p>
+          <strong>- M. D. (Jambes)</strong>
         </div>
         <div class="card">
-          <div style="color: #facc15; font-size: 1.25rem; margin-bottom: 0.5rem;">★★★★★</div>
-          <p>"J'avais une fuite sous ma baignoire. Ils ont trouvé la fuite sans rien casser grâce à leur caméra thermique. Dossier nickel pour mon assurance."</p>
-          <strong>- Sophie L. (Namur Centre)</strong>
+          <div style="color: #facc15; font-size: 1.25rem; margin-bottom: 0.5rem;" aria-hidden="true">★★★★★</div>
+          <p>"Infiltration invisible sous la baignoire. Localisation rapide avec caméra thermique sans casser le carrelage. Rapport détaillé remis pour le dossier d'assurance."</p>
+          <strong>- S. L. (Namur Centre)</strong>
         </div>
         <div class="card">
-          <div style="color: #facc15; font-size: 1.25rem; margin-bottom: 0.5rem;">★★★★★</div>
-          <p>"Chaudière en panne en plein hiver. Le chauffagiste avait la pièce dans sa camionnette. Réparation immédiate. Je recommande Plombier Namur Urgent à 100%."</p>
-          <strong>- Thomas W. (Erpent)</strong>
+          <div style="color: #facc15; font-size: 1.25rem; margin-bottom: 0.5rem;" aria-hidden="true">★★★★★</div>
+          <p>"Chaudière gaz en sécurité par grand froid. Remplacement de la pièce défectueuse directement depuis le stock du véhicule. Très réactif et professionnel."</p>
+          <strong>- T. W. (Erpent)</strong>
+        </div>
+      </div>
+      <div class="mt-4">
+        <a href={BUSINESS_CONFIG.googleBusinessProfileUrl} target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+          Voir les avis sur notre fiche Google Business Profile ↗
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ SECTION (GEO / AEO READINESS) -->
+  <section class="section faq-section">
+    <div class="container">
+      <div class="text-center mb-4">
+        <h2>Foire Aux Questions : Plomberie à Namur</h2>
+        <p style="max-width: 650px; margin: 0 auto;">Réponses factuelles et directes aux questions les plus courantes sur nos interventions.</p>
+      </div>
+
+      <div class="faq-grid" style="max-width: 850px; margin: 0 auto; display: flex; flex-direction: column; gap: 1.5rem;">
+        <div class="card">
+          <h3>Quel est le prix d'un dépannage plombier à Namur ?</h3>
+          <p>
+            Le tarif d'une intervention à Namur dépend du type de panne : un débouchage manuel commence à partir de 75€, une recherche de fuite sans casse à partir de 65€, tandis que le curage haute pression ou les dépannages nocturnes font l'objet d'une estimation préalable. Le devis est systématiquement présenté avant le début des travaux.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Quand faut-il appeler un plombier en urgence 24/7 ?</h3>
+          <p>
+            Une intervention d'urgence 24/7 se justifie immédiatement en cas de tuyau percé avec inondation active, de refoulement d'égout dans votre logement, ou de panne totale de chauffage en plein hiver avec des personnes vulnérables. Pour un robinet qui goutte légèrement, une prise de rendez-vous en journée permet d'éviter les majorations de nuit.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Comment savoir si une canalisation est bouchée ?</h3>
+          <p>
+            Les signes annonciateurs sont un écoulement ralenti dans l'évier ou la douche, des bruits d'aspiration (glouglou) dans les canalisations, des mauvaises odeurs persistantes, ou une eau qui remonte dans les toilettes lorsque la chasse est actionnée.
+          </p>
         </div>
       </div>
     </div>
@@ -211,10 +260,10 @@ import heroImage from '../assets/hero.jpg';
   <!-- CTA SECTION -->
   <section class="section cta-section text-center">
     <div class="container">
-      <h2>Besoin d'un Plombier Pas Cher et Fiable ?</h2>
-      <p style="font-size: 1.2rem; margin-bottom: 2rem;">Ne laissez pas un dégât des eaux ruiner votre journée. Obtenez un prix de plombier à Namur transparent et juste.</p>
-      <a href="tel:+32470000000" class="btn btn-primary" style="font-size: 1.25rem; padding: 1rem 2rem;">
-        Urgence : 0470 00 00 00
+      <h2>Besoin d'un Dépannage Rapide à Namur ?</h2>
+      <p style="font-size: 1.2rem; margin-bottom: 2rem;">Nos artisans plombiers et chauffagistes sont joignables 24h/24 et 7j/7 pour sécuriser votre installation.</p>
+      <a href={BUSINESS_CONFIG.telephoneHref} class="btn btn-primary" style="font-size: 1.25rem; padding: 1rem 2rem;" data-location="home_bottom_cta">
+        Urgence : {BUSINESS_CONFIG.telephone}
       </a>
     </div>
   </section>
@@ -237,7 +286,6 @@ import heroImage from '../assets/hero.jpg';
     overflow: hidden;
   }
   
-  /* Decorative background blob */
   .hero::before {
     content: '';
     position: absolute;
@@ -257,29 +305,13 @@ import heroImage from '../assets/hero.jpg';
   .hero-text {
     font-size: 1.125rem;
     margin: 1.5rem 0 2.5rem;
+    line-height: 1.7;
   }
   
   .hero-actions {
     display: flex;
     gap: 1rem;
     flex-wrap: wrap;
-  }
-  
-  .image-placeholder {
-    width: 100%;
-    height: 500px;
-    background: linear-gradient(135deg, var(--border-light) 0%, #cbd5e1 100%);
-    border-radius: var(--radius-xl);
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .image-placeholder::after {
-    content: 'Hero Image (Plumber at work)';
-    color: var(--text-muted);
-    font-weight: 600;
   }
   
   .experience-card {
@@ -300,6 +332,8 @@ import heroImage from '../assets/hero.jpg';
   
   .service-card {
     text-align: left;
+    display: flex;
+    flex-direction: column;
   }
   
   .service-icon {
@@ -307,12 +341,30 @@ import heroImage from '../assets/hero.jpg';
     margin-bottom: 1rem;
     color: var(--primary);
   }
+
+  .service-card h3 {
+    margin-bottom: 0.75rem;
+    font-size: 1.25rem;
+  }
+
+  .service-card p {
+    flex-grow: 1;
+    margin-bottom: 1.25rem;
+  }
   
   .service-link {
     display: inline-block;
-    margin-top: 1rem;
+    margin-top: auto;
     font-weight: 600;
     font-family: var(--font-heading);
+    color: var(--secondary);
+    text-decoration: none;
+    transition: transform 0.2s;
+  }
+
+  .service-link:hover {
+    transform: translateX(4px);
+    text-decoration: underline;
   }
   
   .cta-section {
@@ -326,7 +378,7 @@ import heroImage from '../assets/hero.jpg';
   }
   
   .cta-section p {
-    color: rgba(255,255,255,0.8);
+    color: rgba(255,255,255,0.85);
   }
   
   .styled-list {
@@ -350,6 +402,8 @@ import heroImage from '../assets/hero.jpg';
   }
   
   .mt-2 { margin-top: 1rem; }
+  .mt-4 { margin-top: 2rem; }
+  .mb-4 { margin-bottom: 2rem; }
   
   @media (max-width: 768px) {
     .stats-strip .grid-4 {

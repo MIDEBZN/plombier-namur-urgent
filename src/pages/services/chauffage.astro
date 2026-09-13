@@ -1,19 +1,28 @@
 ---
 import Layout from '../../layouts/Layout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { BUSINESS_CONFIG } from '../../data/business';
 ---
 
 <Layout 
-  title="Chauffagiste Namur | Entretien Chaudière et Dépannage Urgent" 
-  description="Chauffagiste agréé à Namur. Dépannage de chaudière en urgence, entretien annuel obligatoire (gaz/mazout), installation de chauffage et réparation de radiateurs."
+  title="Chauffagiste Namur | Dépannage Chaudière & Contrôle Périodique" 
+  description="Chauffagiste qualifié à Namur. Dépannage urgent de chaudière gaz et mazout, contrôle périodique légal en Wallonie (3 ans gaz, annuel mazout), radiateurs."
+  schemaType="service"
+  serviceName="Dépannage et Contrôle Périodique de Chaudière à Namur"
 >
+  <Breadcrumbs items={[
+    { name: "Services", url: "/services" },
+    { name: "Chauffage & Chaudières" }
+  ]} />
+
   <div class="page-header text-center">
     <div class="container">
-      <span class="badge badge-red mb-2">Chauffagiste Agréé</span>
-      <h1>Chauffage & Entretien de Chaudière à Namur</h1>
-      <p class="subtitle">Votre confort thermique est notre priorité. Installation, entretien annuel et dépannage urgent de vos systèmes de chauffage par des experts certifiés.</p>
+      <span class="badge badge-red mb-2">Techniciens Qualifiés Gaz & Mazout</span>
+      <h1>Chauffagiste à Namur : Dépannage et Contrôle Périodique</h1>
+      <p class="subtitle">Votre confort thermique en toute sécurité. Dépannage rapide de chaudière en panne, désembouage de radiateurs et contrôles périodiques conformes aux exigences de la Région Wallonne.</p>
       <div class="mt-4">
-        <a href="/contact" class="btn btn-primary" style="font-size: 1.25rem; padding: 1rem 2rem;">
-          Planifier un Entretien ou Dépannage
+        <a href={BUSINESS_CONFIG.telephoneHref} class="btn btn-primary" style="font-size: 1.25rem; padding: 0.9rem 2rem;" data-location="chauffage_header_phone">
+          📞 Appeler notre Chauffagiste : {BUSINESS_CONFIG.telephone}
         </a>
       </div>
     </div>
@@ -21,94 +30,105 @@ import Layout from '../../layouts/Layout.astro';
 
   <div class="container section">
     
-    <!-- What's included & Common Problems -->
+    <!-- Services & Walloon Regulations -->
     <div class="grid grid-2 mb-4">
       <div class="card">
-        <h2 style="font-size: 1.5rem; margin-bottom: 1rem;">Nos Services Chauffage</h2>
+        <h2 style="font-size: 1.5rem; margin-bottom: 1rem; color: var(--primary);">Nos Prestations Chauffage à Namur</h2>
         <ul class="styled-list">
-          <li><strong>Entretien annuel obligatoire :</strong> Nettoyage, réglage et attestation légale pour chaudières gaz et mazout.</li>
-          <li><strong>Dépannage urgent :</strong> Relance de chaudière en panne, remplacement de pièces défectueuses.</li>
-          <li><strong>Installation nouvelle chaudière :</strong> Conseil et pose de chaudières à condensation à haut rendement.</li>
-          <li><strong>Circuit de chauffage :</strong> Désembouage des radiateurs, réparation de fuite sur le circuit, purge.</li>
-          <li><strong>Régulation :</strong> Installation de thermostats d'ambiance intelligents (connectés).</li>
+          <li><strong>Dépannage d'urgence 24/7 :</strong> Redémarrage de chaudière en sécurité, remplacement de circulateur, vase d'expansion ou sonde de ionisation.</li>
+          <li><strong>Contrôle périodique réglementaire :</strong> Nettoyage du corps de chauffe, réglage du brûleur, analyse de combustion CO/CO2 et remise de l'attestation officielle.</li>
+          <li><strong>Désembouage de radiateurs :</strong> Nettoyage chimique ou hydrodynamique du circuit de chauffage pour éliminer les boues métalliques et retrouver une chaleur homogène.</li>
+          <li><strong>Régulation & Thermostats :</strong> Pose de vannes thermostatiques et thermostats d'ambiance programmables.</li>
+          <li><strong>Remplacement de chaudière :</strong> Installation de chaudières murales à condensation haute performance ou pompes à chaleur.</li>
         </ul>
       </div>
       
       <div class="card bg-light border-0">
-        <h2 style="font-size: 1.5rem; margin-bottom: 1rem; color: var(--secondary);">Problèmes Fréquents Traités</h2>
+        <h2 style="font-size: 1.5rem; margin-bottom: 1rem; color: var(--secondary);">Législation Chauffage en Région Wallonne</h2>
+        <p style="font-size: 0.95rem; line-height: 1.6; margin-bottom: 1rem;">
+          En Wallonie, la réglementation (décret et arrêtés du Gouvernement Wallon) encadre strictement les installations de chauffage central :
+        </p>
         <ul class="styled-list">
-          <li><strong>Plus de chauffage ni d'eau chaude :</strong> La chaudière s'est mise en sécurité ou affiche un code d'erreur.</li>
-          <li><strong>Bruit suspect :</strong> La chaudière siffle, claque ou fait un bruit de bouillonnement.</li>
-          <li><strong>Radiateurs froids :</strong> Certains radiateurs ne chauffent pas ou restent froids sur la partie supérieure.</li>
-          <li><strong>Baisse de pression :</strong> Vous devez constamment remettre de l'eau dans le circuit.</li>
-          <li><strong>Odeur anormale :</strong> Odeur de gaz ou de combustion près de l'appareil (danger d'intoxication au CO).</li>
+          <li><strong>Chaudière au Gaz (≤ 100 kW) :</strong> Le <strong>contrôle périodique est obligatoire tous les 3 ans</strong> par un technicien habilité gaz (G1/G2).</li>
+          <li><strong>Chaudière au Mazout (combustible liquide) :</strong> Le <strong>contrôle périodique est obligatoire chaque année</strong> par un technicien agréé combustible liquide (L).</li>
+          <li><strong>Combustibles solides (pellets, bois) :</strong> Contrôle périodique annuel.</li>
+          <li><strong>Installations de plus de 15 ans :</strong> Un audit de chauffage (diagnostic approfondi) évalue l'efficacité énergétique globale de l'installation.</li>
         </ul>
+        <small style="color: var(--text-muted);">
+          Consultez la réglementation officielle sur le <a href="https://energie.wallonie.be" target="_blank" rel="noopener noreferrer">portail SPW Énergie Wallonie ↗</a>.
+        </small>
       </div>
     </div>
 
-    <!-- Our Process -->
+    <!-- Troubleshooting Steps -->
     <div class="mb-4">
-      <h2 class="text-center mb-4">Notre Processus (Dépannage Chaudière)</h2>
+      <h2 class="text-center mb-4">Que faire en cas de panne de chaudière ?</h2>
       <div class="grid grid-4 text-center">
-        <div class="process-step">
-          <div class="step-number">1</div>
-          <h3>Diagnostic Code Erreur</h3>
-          <p>Nous analysons le comportement de la chaudière et relevons les éventuels codes de mise en sécurité.</p>
+        <div class="process-step card">
+          <div class="step-number" aria-hidden="true">1</div>
+          <h3>Pression d'Eau</h3>
+          <p>Vérifiez le manomètre : l'aiguille doit être entre 1,2 et 1,5 bar. Si elle est à zéro, remettez de l'eau par la vanne de remplissage.</p>
         </div>
-        <div class="process-step">
-          <div class="step-number">2</div>
-          <h3>Contrôle des Pièces</h3>
-          <p>Test des composants électroniques, circulateur, brûleur, sondes et pressostat.</p>
+        <div class="process-step card">
+          <div class="step-number" aria-hidden="true">2</div>
+          <h3>Alimentation</h3>
+          <p>Vérifiez le disjoncteur électrique et assurez-vous que la vanne d'arrivée de gaz ou la cuve à mazout n'est pas fermée/vide.</p>
         </div>
-        <div class="process-step">
-          <div class="step-number">3</div>
-          <h3>Devis / Remplacement</h3>
-          <p>Si une pièce est défectueuse, nous vous annonçons le prix. Si accepté, nous la remplaçons directement (stock camionnette) ou sur commande express.</p>
+        <div class="process-step card">
+          <div class="step-number" aria-hidden="true">3</div>
+          <h3>Un Seul Reset</h3>
+          <p>Appuyez une seule fois sur le bouton de réarmement (Reset). Si la chaudière se remet immédiatement en défaut, n'insistez pas.</p>
         </div>
-        <div class="process-step">
-          <div class="step-number">4</div>
-          <h3>Test de Combustion</h3>
-          <p>Remise en route et vérification des émissions (test de combustion) pour garantir la sécurité.</p>
+        <div class="process-step card">
+          <div class="step-number" aria-hidden="true">4</div>
+          <h3>Appel Chauffagiste</h3>
+          <p>Contactez notre chauffagiste au {BUSINESS_CONFIG.telephone} pour un diagnostic électronique du code d'erreur et une réparation sécurisée.</p>
         </div>
       </div>
     </div>
 
-    <!-- Why Choose Us & Availability -->
-    <div class="grid grid-2 mb-4 align-center">
-      <div>
-        <h2>Le Meilleur Chauffagiste de Namur</h2>
-        <p>Le gaz et la combustion exigent un savoir-faire rigoureux. Nos techniciens sont régulièrement formés sur les dernières technologies de chauffage.</p>
-        <ul class="styled-list mt-2">
-          <li><strong>Agréments Cerga & G1/G2 :</strong> Certifications officielles requises en Belgique.</li>
-          <li><strong>Toutes marques :</strong> Vaillant, Viessmann, Bulex, Junkers, Bosch, Buderus.</li>
-          <li><strong>Pièces d'origine :</strong> Nous n'utilisons que des pièces certifiées par le constructeur pour votre sécurité.</li>
-        </ul>
-      </div>
-      <div class="card text-center" style="background: var(--primary); color: white;">
-        <span style="font-size: 3rem;">🔥</span>
-        <h3 style="color: white;">Panne de Chauffage en Hiver ?</h3>
-        <p style="color: rgba(255,255,255,0.8); margin-bottom: 1.5rem;">Nous traitons les pannes de chaudière complètes (plus de chauffage par temps froid) comme des urgences absolues. Intervention prioritaire dans le Grand Namur.</p>
-        <a href="tel:+32470000000" class="btn btn-secondary" style="background: white; color: var(--primary);">0470 00 00 00</a>
+    <!-- Direct Answer Block & FAQs (Phase 25) -->
+    <div class="faq-section mt-4 card">
+      <h2 class="text-center mb-4">Questions Fréquentes : Chauffage et Chaudières à Namur</h2>
+      
+      <div class="faq-list" style="display: flex; flex-direction: column; gap: 1.5rem;">
+        <div class="faq-item">
+          <h3 style="color: var(--primary); font-size: 1.2rem; margin-bottom: 0.5rem;">À quelle fréquence faut-il contrôler sa chaudière en Wallonie ?</h3>
+          <p style="margin: 0; line-height: 1.6;">
+            En Région Wallonne, les chaudières alimentées au gaz naturel ou propane de puissance inférieure ou égale à 100 kW doivent subir un contrôle périodique obligatoire tous les 3 ans par un technicien agréé. Les chaudières au mazout doivent obligatoirement être contrôlées chaque année. À l'issue du contrôle, une attestation de contrôle périodique officielle vous est remise.
+          </p>
+        </div>
+
+        <div class="faq-item">
+          <h3 style="color: var(--primary); font-size: 1.2rem; margin-bottom: 0.5rem;">Pourquoi mes radiateurs sont-ils froids en haut ou en bas ?</h3>
+          <p style="margin: 0; line-height: 1.6;">
+            Si un radiateur est froid en haut et fait des bruits d'écoulement ("glouglou"), de l'air est emprisonné dans le circuit : une simple purge suffit. Si le radiateur reste froid sur sa partie inférieure alors que le haut est tiède, cela signale un embouage (dépôt de boues ferreuses obstruant la circulation), nécessitant un désembouage professionnel de l'installation.
+          </p>
+        </div>
+
+        <div class="faq-item">
+          <h3 style="color: var(--primary); font-size: 1.2rem; margin-bottom: 0.5rem;">Que faire en cas de suspicion d'intoxication au monoxyde de carbone (CO) ?</h3>
+          <p style="margin: 0; line-height: 1.6;">
+            Le monoxyde de carbone est un gaz inodore, incolore et mortel causé par une combustion incomplète et une aération déficiente. En cas de maux de tête, nausées ou vertiges à proximité de votre appareil de chauffage : aérez immédiatement en ouvrant portes et fenêtres, évacuez le logement sans allumer d'interrupteur et contactez les secours (112), puis notre service pour la mise en sécurité.
+          </p>
+        </div>
       </div>
     </div>
 
-    <!-- FAQs -->
-    <div class="faq-section mt-4">
-      <h2 class="text-center mb-4">Questions Fréquentes (FAQ)</h2>
-      
-      <div class="faq-item card mb-2">
-        <h3>L'entretien de la chaudière est-il obligatoire ?</h3>
-        <p>Oui. En Wallonie, l'entretien d'une chaudière au gaz est obligatoire tous les 3 ans (bien que recommandé tous les 2 ans). Pour une chaudière au mazout ou à pellets, l'entretien est obligatoire chaque année. Sans cela, votre assurance incendie peut refuser d'intervenir en cas de sinistre.</p>
-      </div>
-      
-      <div class="faq-item card mb-2">
-        <h3>Que faire si ma chaudière affiche un code d'erreur ?</h3>
-        <p>Commencez par vérifier la pression de l'eau (elle doit se situer entre 1 et 1,5 bar). Si elle est basse, rajoutez de l'eau. Vous pouvez également tenter un reset ("réarmement") de la chaudière. Si le problème persiste, appelez notre chauffagiste avec la marque de la chaudière et le code affiché.</p>
-      </div>
-      
-      <div class="faq-item card">
-        <h3>Qu'est-ce que le désembouage ?</h3>
-        <p>Avec le temps, de la "boue" (dépôts métalliques et oxydation) se forme dans l'eau de votre circuit de chauffage. Le désembouage consiste à nettoyer le circuit à haute pression avec des produits chimiques adaptés. Cela redonne son rendement optimal à votre installation et protège votre nouvelle chaudière.</p>
+    <!-- Contextual Links -->
+    <div class="card mt-4 p-4" style="background: var(--bg-light);">
+      <h2>Services complémentaires pour votre installation</h2>
+      <p>Pour un confort thermique et sanitaire complet dans le Grand Namur :</p>
+      <div class="grid grid-3 mt-2" style="gap: 1rem;">
+        <a href="/services/traitement-eau" class="btn btn-outline" style="text-align: center;">
+          🧊 Adoucisseurs (Protection Chaudière)
+        </a>
+        <a href="/services/urgence" class="btn btn-outline" style="text-align: center;">
+          🚨 Dépannage Urgent 24/7
+        </a>
+        <a href="/locations" class="btn btn-outline" style="text-align: center;">
+          📍 Communes Couvertes
+        </a>
       </div>
     </div>
 
@@ -119,29 +139,29 @@ import Layout from '../../layouts/Layout.astro';
   .page-header {
     background-color: var(--primary);
     color: white;
-    padding: 6rem 1rem 4rem;
+    padding: 5rem 1rem 3.5rem;
   }
   
   .page-header h1 {
     color: white;
-    margin-bottom: 1rem;
+    margin-bottom: 0.75rem;
+    font-size: 2.2rem;
   }
   
   .subtitle {
-    color: rgba(255,255,255,0.8);
-    font-size: 1.25rem;
-    max-width: 700px;
+    color: rgba(255,255,255,0.85);
+    font-size: 1.15rem;
+    max-width: 800px;
     margin: 0 auto;
   }
-  
-  .mb-2 { margin-bottom: 1rem; }
-  .mb-4 { margin-bottom: 3rem; }
-  .mt-2 { margin-top: 1rem; }
-  .mt-4 { margin-top: 3rem; }
-  .align-center { align-items: center; }
-  .bg-light { background-color: var(--bg-light); }
-  .border-0 { border: none; box-shadow: none; }
-  
+
+  .step-number {
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: var(--secondary);
+    margin-bottom: 0.5rem;
+  }
+
   .styled-list {
     list-style: none;
     padding: 0;
@@ -151,6 +171,7 @@ import Layout from '../../layouts/Layout.astro';
     position: relative;
     padding-left: 2rem;
     margin-bottom: 0.75rem;
+    line-height: 1.5;
   }
   
   .styled-list li::before {
@@ -161,40 +182,21 @@ import Layout from '../../layouts/Layout.astro';
     font-weight: bold;
     font-size: 1.2rem;
   }
-  
-  .process-step {
-    padding: 1rem;
+
+  .faq-list .faq-item {
+    border-bottom: 1px solid var(--border-light);
+    padding-bottom: 1.25rem;
   }
-  
-  .step-number {
-    width: 60px;
-    height: 60px;
-    background-color: var(--primary);
-    color: white;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.5rem;
-    font-weight: 800;
-    margin: 0 auto 1rem;
-    font-family: var(--font-heading);
+
+  .faq-list .faq-item:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
   }
-  
-  .faq-item h3 {
-    font-size: 1.25rem;
-    margin-bottom: 0.5rem;
-  }
-  
-  .faq-item p {
-    margin: 0;
-  }
-  
-  @media (max-width: 768px) {
-    .grid-4 { grid-template-columns: 1fr 1fr; }
-    .grid-2 { display: flex; flex-direction: column; gap: 2rem; }
-  }
-  @media (max-width: 480px) {
-    .grid-4 { grid-template-columns: 1fr; }
-  }
+
+  .mb-2 { margin-bottom: 0.5rem; }
+  .mb-4 { margin-bottom: 2.5rem; }
+  .mt-2 { margin-top: 1rem; }
+  .mt-4 { margin-top: 2.5rem; }
+  .bg-light { background-color: var(--bg-light); }
+  .border-0 { border: none; box-shadow: none; }
 </style>

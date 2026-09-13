@@ -1,19 +1,28 @@
 ---
 import Layout from '../../layouts/Layout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { BUSINESS_CONFIG } from '../../data/business';
 ---
 
 <Layout 
-  title="Détection et Recherche de Fuite d'Eau Namur | Sans Casse" 
-  description="Recherche de fuite non destructive à Namur. Caméra thermique, acoustique, gaz traceur. Réparation rapide de tuyaux percés et rapports pour votre assurance."
+  title="Recherche de Fuite Namur | Détection Non Destructive & Assurance" 
+  description="Détection et recherche de fuite d'eau sans casse à Namur. Caméra thermique infrarouge, écoute acoustique, gaz traceur et rapports détaillés pour votre assurance."
+  schemaType="service"
+  serviceName="Recherche et Détection de Fuite d'Eau Sans Casse"
 >
+  <Breadcrumbs items={[
+    { name: "Services", url: "/services" },
+    { name: "Recherche de Fuite" }
+  ]} />
+
   <div class="page-header text-center">
     <div class="container">
-      <span class="badge badge-red mb-2">Technologie Non Destructive</span>
-      <h1>Détection et Recherche de Fuites à Namur</h1>
-      <p class="subtitle">Une tache d'humidité ? Une facture d'eau qui explose ? Nos experts localisent la fuite avec précision, sans casser vos murs ou vos sols.</p>
+      <span class="badge badge-red mb-2">Technologie Non Destructive Sans Casse</span>
+      <h1>Recherche et Détection de Fuite d'Eau à Namur</h1>
+      <p class="subtitle">Une tache d'humidité qui s'étend, un compteur qui tourne ou une facture d'eau anormale ? Nous localisons la fuite avec précision millimétrique, sans démolir vos murs ni vos sols.</p>
       <div class="mt-4">
-        <a href="/contact" class="btn btn-primary" style="font-size: 1.25rem; padding: 1rem 2rem;">
-          Demander une Recherche de Fuite
+        <a href={BUSINESS_CONFIG.telephoneHref} class="btn btn-primary" style="font-size: 1.25rem; padding: 0.9rem 2rem;" data-location="fuites_header_phone">
+          📞 Demander une Détection de Fuite : {BUSINESS_CONFIG.telephone}
         </a>
       </div>
     </div>
@@ -24,93 +33,97 @@ import Layout from '../../layouts/Layout.astro';
     <!-- What's included & Common Problems -->
     <div class="grid grid-2 mb-4">
       <div class="card">
-        <h2 style="font-size: 1.5rem; margin-bottom: 1rem;">Ce qui est inclus dans notre prestation</h2>
+        <h2 style="font-size: 1.5rem; margin-bottom: 1rem; color: var(--primary);">Méthodes de Détection Non Destructives</h2>
         <ul class="styled-list">
-          <li>Déplacement sur site et diagnostic visuel</li>
-          <li>Utilisation de matériel de détection de pointe (thermique, acoustique)</li>
-          <li>Localisation précise de l'origine de la fuite</li>
-          <li>Rapport détaillé avec photos pour votre compagnie d'assurance</li>
-          <li>Devis immédiat pour la réparation</li>
-          <li>Réparation provisoire immédiate pour stopper les dégâts</li>
+          <li><strong>Thermographie infrarouge :</strong> Caméra thermique pour repérer les déperditions calorifiques sur canalisations d'eau chaude et planchers chauffants.</li>
+          <li><strong>Écoute électro-acoustique :</strong> Microphones de sol ultra-sensibles captant la vibration spécifique du fluide sous pression qui s'échappe.</li>
+          <li><strong>Gaz traceur (Azote/Hydrogène) :</strong> Injection d'un gaz inoffensif dans les conduites scellées pour détecter les micro-fissures extérieures ou enterrées.</li>
+          <li><strong>Hygrométrie de surface :</strong> Mesure précise du taux d'humidité dans les plâtres, chapes et maçonneries.</li>
+          <li><strong>Rapport technique d'assurance :</strong> Dossier complet avec photographies et relevés d'anomalie pour votre assureur.</li>
         </ul>
       </div>
       
       <div class="card bg-light border-0">
-        <h2 style="font-size: 1.5rem; margin-bottom: 1rem; color: var(--secondary);">Signes d'une Fuite Cachée</h2>
+        <h2 style="font-size: 1.5rem; margin-bottom: 1rem; color: var(--secondary);">Indices Révélateurs d'une Fuite Cachée</h2>
         <ul class="styled-list">
-          <li><strong>Facture d'eau anormale :</strong> Votre consommation a subitement augmenté sans raison apparente.</li>
-          <li><strong>Taches d'humidité ou moisissures :</strong> Apparition sur les murs, plafonds, ou décollement de papier peint/peinture.</li>
-          <li><strong>Baisse de pression :</strong> Perte de pression dans votre circuit de chauffage ou à vos robinets.</li>
-          <li><strong>Compteur qui tourne :</strong> Le compteur continue de tourner alors que tous vos robinets sont fermés.</li>
-          <li><strong>Sols déformés :</strong> Le parquet ondule ou le carrelage sonne creux.</li>
+          <li><strong>Compteur d'eau qui tourne en continu :</strong> Alors qu'aucun robinet ni électroménager n'est en service.</li>
+          <li><strong>Baisse de pression chaudière :</strong> Vous devez sans cesse rajouter de l'eau dans le circuit de chauffage.</li>
+          <li><strong>Taches de moisissures ou auréoles :</strong> Décollement de peinture ou plinthe qui gonfle dans une pièce mitoyenne.</li>
+          <li><strong>Parquet qui gondole ou carrelage chaud :</strong> Rupture sur circuit encastré d'eau chaude sanitaire ou de chauffage.</li>
+          <li><strong>Odeurs de moisi persistantes :</strong> Signe d'eau stagnante piégée derrière une cloison ou sous isolant.</li>
         </ul>
       </div>
     </div>
 
-    <!-- Our Process -->
+    <!-- Process -->
     <div class="mb-4">
-      <h2 class="text-center mb-4">Notre Processus de Détection sans Casse</h2>
+      <h2 class="text-center mb-4">Notre Protocole de Recherche sans Dégradation</h2>
       <div class="grid grid-4 text-center">
-        <div class="process-step">
-          <div class="step-number">1</div>
-          <h3>Analyse Globale</h3>
-          <p>Étude des plans (si disponibles), vérification du compteur et analyse du taux d'humidité des parois.</p>
+        <div class="process-step card">
+          <div class="step-number" aria-hidden="true">1</div>
+          <h3>Mise en Pression</h3>
+          <p>Isolation des réseaux et test au manomètre pour identifier la conduite fuyarde.</p>
         </div>
-        <div class="process-step">
-          <div class="step-number">2</div>
-          <h3>Détection Thermique/Acoustique</h3>
-          <p>Passage de la caméra thermique pour identifier les différences de température ou écoute acoustique des tuyaux.</p>
+        <div class="process-step card">
+          <div class="step-number" aria-hidden="true">2</div>
+          <h3>Localisation</h3>
+          <p>Combinaison acoustique et caméra thermique pour cibler l'origine exacte.</p>
         </div>
-        <div class="process-step">
-          <div class="step-number">3</div>
-          <h3>Localisation Précise</h3>
-          <p>Identification au centimètre près de la fuite sous la chape ou dans le mur.</p>
+        <div class="process-step card">
+          <div class="step-number" aria-hidden="true">3</div>
+          <h3>Marquage</h3>
+          <p>Délimitation précise du point de fuite au sol ou sur la cloison.</p>
         </div>
-        <div class="process-step">
-          <div class="step-number">4</div>
-          <h3>Rapport d'Assurance</h3>
-          <p>Remise d'un dossier complet exigé par les assurances pour la prise en charge des frais de recherche et dégâts.</p>
+        <div class="process-step card">
+          <div class="step-number" aria-hidden="true">4</div>
+          <h3>Rapport & Devis</h3>
+          <p>Remise du compte-rendu pour votre assureur et proposition de réparation ciblée.</p>
         </div>
       </div>
     </div>
 
-    <!-- Why Choose Us & Availability -->
-    <div class="grid grid-2 mb-4 align-center">
-      <div>
-        <h2>L'Expertise en Recherche de Fuite</h2>
-        <p>Autrefois, chercher une fuite signifiait détruire des mètres carrés de carrelage au hasard. Aujourd'hui, notre technologie permet de préserver votre habitation.</p>
-        <ul class="styled-list mt-2">
-          <li><strong>Caméra Thermique infrarouge :</strong> Visualise les variations de chaleur derrière les murs.</li>
-          <li><strong>Détection électro-acoustique :</strong> Amplifie le son de l'eau s'échappant sous pression.</li>
-          <li><strong>Gaz Traceur :</strong> Injection d'un gaz inoffensif dans les tuyaux qui remonte à la surface au point de fuite.</li>
-          <li><strong>Agréé Assurances :</strong> Nos rapports sont valides et reconnus par toutes les assurances en Belgique.</li>
-        </ul>
-      </div>
-      <div class="card text-center" style="background: var(--primary); color: white;">
-        <span style="font-size: 3rem;">💧</span>
-        <h3 style="color: white;">Urgence Dégât des Eaux ?</h3>
-        <p style="color: rgba(255,255,255,0.8); margin-bottom: 1.5rem;">Si l'eau s'écoule abondamment, coupez le compteur principal et appelez notre service d'urgence 24/7.</p>
-        <a href="tel:+32470000000" class="btn btn-secondary" style="background: white; color: var(--primary);">0470 00 00 00</a>
+    <!-- Direct Answer Block & FAQs -->
+    <div class="faq-section mt-4 card">
+      <h2 class="text-center mb-4">Questions Fréquentes : Détection de Fuite à Namur</h2>
+      
+      <div class="faq-list" style="display: flex; flex-direction: column; gap: 1.5rem;">
+        <div class="faq-item">
+          <h3 style="color: var(--primary); font-size: 1.2rem; margin-bottom: 0.5rem;">Comment savoir si j'ai une fuite cachée ?</h3>
+          <p style="margin: 0; line-height: 1.6;">
+            Fermez tous les robinets de votre logement et assurez-vous qu'aucun appareil (lave-linge, lave-vaisselle) ne consomme d'eau. Regardez ensuite votre compteur d'eau : si la petite roulette ou les chiffres des décimales continuent de tourner, une fuite est présente sur votre réseau privatif après-compteur.
+          </p>
+        </div>
+
+        <div class="faq-item">
+          <h3 style="color: var(--primary); font-size: 1.2rem; margin-bottom: 0.5rem;">Qui paie la recherche de fuite entre locataire et propriétaire ?</h3>
+          <p style="margin: 0; line-height: 1.6;">
+            En droit du bail belge, la détection de fuite et les réparations sur canalisations encastrées ou vétustes incombent au propriétaire (bailleur) ou à l'assurance habitation (assurance incendie / dégâts des eaux). Le locataire n'est responsable que de l'entretien courant et du remplacement des joints accessibles.
+          </p>
+        </div>
+
+        <div class="faq-item">
+          <h3 style="color: var(--primary); font-size: 1.2rem; margin-bottom: 0.5rem;">La recherche de fuite sans casse est-elle remboursée par l'assurance ?</h3>
+          <p style="margin: 0; line-height: 1.6;">
+            Oui, la plupart des polices d'assurance habitation en Belgique prennent en charge les frais de recherche de fuite effectuée par un professionnel qualifié dès lors qu'un dégât des eaux est constaté. Notre rapport technique détaillé facilite l'instruction de votre dossier par l'expert d'assurance.
+          </p>
+        </div>
       </div>
     </div>
 
-    <!-- FAQs -->
-    <div class="faq-section mt-4">
-      <h2 class="text-center mb-4">Questions Fréquentes (FAQ)</h2>
-      
-      <div class="faq-item card mb-2">
-        <h3>Mon assurance couvre-t-elle les frais de recherche de fuite ?</h3>
-        <p>Dans la grande majorité des cas (assurance habitation multirisque / assurance incendie), les frais de recherche de fuite avec méthodes non destructives et la réparation des dommages collatéraux sont pris en charge. Vérifiez vos conditions particulières.</p>
-      </div>
-      
-      <div class="faq-item card mb-2">
-        <h3>Combien de temps dure une recherche de fuite ?</h3>
-        <p>En moyenne, une intervention de recherche de fuite prend entre 1 et 3 heures. Grâce à notre équipement de pointe, nous trouvons 95% des fuites dès notre premier passage.</p>
-      </div>
-      
-      <div class="faq-item card">
-        <h3>Pouvez-vous réparer la fuite immédiatement après l'avoir trouvée ?</h3>
-        <p>Oui. Une fois la fuite localisée, nous vous proposons un devis pour la réparation. S'il nécessite d'ouvrir le mur ou le sol à l'endroit précis de la fuite, nous le faisons proprement. Si c'est une intervention complexe, nous mettons en place une réparation provisoire.</p>
+    <!-- Contextual Links -->
+    <div class="card mt-4 p-4" style="background: var(--bg-light);">
+      <h2>Services plomberie connexes</h2>
+      <p>Nos artisans qualifiés prennent également en charge :</p>
+      <div class="grid grid-3 mt-2" style="gap: 1rem;">
+        <a href="/services/urgence" class="btn btn-outline" style="text-align: center;">
+          🚨 Dépannage Urgent 24/7
+        </a>
+        <a href="/services/sanitaire" class="btn btn-outline" style="text-align: center;">
+          🚿 Réparation Sanitaire
+        </a>
+        <a href="/locations" class="btn btn-outline" style="text-align: center;">
+          📍 Zones Couvertes Grand Namur
+        </a>
       </div>
     </div>
 
@@ -121,29 +134,29 @@ import Layout from '../../layouts/Layout.astro';
   .page-header {
     background-color: var(--primary);
     color: white;
-    padding: 6rem 1rem 4rem;
+    padding: 5rem 1rem 3.5rem;
   }
   
   .page-header h1 {
     color: white;
-    margin-bottom: 1rem;
+    margin-bottom: 0.75rem;
+    font-size: 2.2rem;
   }
   
   .subtitle {
-    color: rgba(255,255,255,0.8);
-    font-size: 1.25rem;
-    max-width: 700px;
+    color: rgba(255,255,255,0.85);
+    font-size: 1.15rem;
+    max-width: 800px;
     margin: 0 auto;
   }
-  
-  .mb-2 { margin-bottom: 1rem; }
-  .mb-4 { margin-bottom: 3rem; }
-  .mt-2 { margin-top: 1rem; }
-  .mt-4 { margin-top: 3rem; }
-  .align-center { align-items: center; }
-  .bg-light { background-color: var(--bg-light); }
-  .border-0 { border: none; box-shadow: none; }
-  
+
+  .step-number {
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: var(--secondary);
+    margin-bottom: 0.5rem;
+  }
+
   .styled-list {
     list-style: none;
     padding: 0;
@@ -153,6 +166,7 @@ import Layout from '../../layouts/Layout.astro';
     position: relative;
     padding-left: 2rem;
     margin-bottom: 0.75rem;
+    line-height: 1.5;
   }
   
   .styled-list li::before {
@@ -163,40 +177,21 @@ import Layout from '../../layouts/Layout.astro';
     font-weight: bold;
     font-size: 1.2rem;
   }
-  
-  .process-step {
-    padding: 1rem;
+
+  .faq-list .faq-item {
+    border-bottom: 1px solid var(--border-light);
+    padding-bottom: 1.25rem;
   }
-  
-  .step-number {
-    width: 60px;
-    height: 60px;
-    background-color: var(--primary);
-    color: white;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.5rem;
-    font-weight: 800;
-    margin: 0 auto 1rem;
-    font-family: var(--font-heading);
+
+  .faq-list .faq-item:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
   }
-  
-  .faq-item h3 {
-    font-size: 1.25rem;
-    margin-bottom: 0.5rem;
-  }
-  
-  .faq-item p {
-    margin: 0;
-  }
-  
-  @media (max-width: 768px) {
-    .grid-4 { grid-template-columns: 1fr 1fr; }
-    .grid-2 { display: flex; flex-direction: column; gap: 2rem; }
-  }
-  @media (max-width: 480px) {
-    .grid-4 { grid-template-columns: 1fr; }
-  }
+
+  .mb-2 { margin-bottom: 0.5rem; }
+  .mb-4 { margin-bottom: 2.5rem; }
+  .mt-2 { margin-top: 1rem; }
+  .mt-4 { margin-top: 2.5rem; }
+  .bg-light { background-color: var(--bg-light); }
+  .border-0 { border: none; box-shadow: none; }
 </style>

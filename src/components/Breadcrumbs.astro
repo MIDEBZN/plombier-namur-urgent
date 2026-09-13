@@ -1,0 +1,98 @@
+---
+// Breadcrumbs component: visual breadcrumb navigation and BreadcrumbList JSON-LD
+export interface BreadcrumbItem {
+  name: string;
+  url?: string;
+}
+
+interface Props {
+  items: BreadcrumbItem[];
+}
+
+const { items } = Astro.props;
+const siteUrl = 'https://www.plombiernamururgent.be';
+
+const allItems: BreadcrumbItem[] = [
+  { name: 'Accueil', url: '/' },
+  ...items
+];
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": allItems.map((item, index) => ({
+    "@type": "ListItem",
+    "position": index + 1,
+    "name": item.name,
+    "item": item.url ? `${siteUrl}${item.url.startsWith('/') ? item.url : `/${item.url}`}` : undefined
+  }))
+};
+---
+
+<nav class="breadcrumb-nav" aria-label="Fil d'Ariane">
+  <div class="container">
+    <ol class="breadcrumb-list">
+      {allItems.map((item, index) => {
+        const isLast = index === allItems.length - 1;
+        return (
+          <li class="breadcrumb-item" aria-current={isLast ? "page" : undefined}>
+            {!isLast && item.url ? (
+              <a href={item.url}>{item.name}</a>
+            ) : (
+              <span>{item.name}</span>
+            )}
+            {!isLast && <span class="separator" aria-hidden="true">›</span>}
+          </li>
+        );
+      })}
+    </ol>
+  </div>
+</nav>
+
+<script type="application/ld+json" set:html={JSON.stringify(schema)} />
+
+<style>
+  .breadcrumb-nav {
+    background-color: var(--bg-light, #f8fafc);
+    padding: 0.75rem 0;
+    font-size: 0.875rem;
+    border-bottom: 1px solid var(--border-light, #e2e8f0);
+  }
+  
+  .breadcrumb-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 0.5rem;
+  }
+  
+  .breadcrumb-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--text-muted, #64748b);
+  }
+  
+  .breadcrumb-item a {
+    color: var(--primary, #0f2b5c);
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+  
+  .breadcrumb-item a:hover {
+    color: var(--secondary, #e01933);
+    text-decoration: underline;
+  }
+  
+  .breadcrumb-item span {
+    color: var(--text-main, #1e293b);
+  }
+  
+  .separator {
+    color: #94a3b8;
+    user-select: none;
+  }
+</style>

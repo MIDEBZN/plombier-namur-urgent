@@ -1,5 +1,5 @@
 ---
-// GlobalContactForm.astro
+import { BUSINESS_CONFIG } from '../data/business';
 ---
 
 <div class="global-contact-section section" id="devis">
@@ -7,41 +7,50 @@
     <div class="grid grid-2" style="align-items: center;">
       <div class="contact-text">
         <span class="badge badge-red mb-2">Devis Gratuit & Rapide</span>
-        <h2>Besoin d'un Plombier à Namur ?</h2>
-        <p>Remplissez ce formulaire pour obtenir un devis gratuit ou planifier une intervention. Nous vous rappelons dans les plus brefs délais !</p>
+        <h2>Besoin d'un Plombier dans le Grand Namur ?</h2>
+        <p>Remplissez ce formulaire pour obtenir une estimation ou planifier un rendez-vous. Pour toute urgence immédiate (inondation, panne complète), privilégiez notre ligne directe :</p>
+        <div class="mt-2 mb-2">
+          <a href={BUSINESS_CONFIG.telephoneHref} class="btn btn-primary" style="display: inline-flex; align-items: center; gap: 0.5rem;" data-location="global_form_phone">
+            <span aria-hidden="true">📞</span> {BUSINESS_CONFIG.telephone}
+          </a>
+        </div>
         <ul class="styled-list mt-4">
-          <li>Réponse rapide garantie</li>
-          <li>Devis 100% transparent avant travaux</li>
-          <li>Urgence traitée en priorité</li>
+          <li>Réponse rapide par un technicien qualifié</li>
+          <li>Devis clair et validé avant travaux</li>
+          <li>Urgences prioritaires 24h/24 et 7j/7</li>
         </ul>
       </div>
       
       <div class="form-card card">
-        <form action="https://formsubmit.co/midebzn@gmail.com" method="POST" class="contact-form">
+        <form action="https://formsubmit.co/midebzn@gmail.com" method="POST" class="contact-form" id="global-quote-form">
           <!-- Honeypot -->
-          <input type="text" name="_honey" style="display:none">
+          <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" />
           <!-- Disable Captcha -->
-          <input type="hidden" name="_captcha" value="false">
-          <!-- Success URL (Optional, but good practice to keep them on site) -->
-          <!-- <input type="hidden" name="_next" value="https://plombier-namur-urgent.be/merci"> -->
+          <input type="hidden" name="_captcha" value="false" />
           
           <div class="form-group">
             <label for="g-name">Nom complet *</label>
-            <input type="text" id="g-name" name="name" required placeholder="Votre nom" />
+            <input type="text" id="g-name" name="name" required placeholder="Votre nom et prénom" />
           </div>
           
           <div class="form-group">
             <label for="g-phone">Téléphone *</label>
             <input type="tel" id="g-phone" name="phone" required placeholder="04xx xx xx xx" />
           </div>
+
+          <div class="form-group">
+            <label for="g-postal">Code postal / Commune *</label>
+            <input type="text" id="g-postal" name="postal" required placeholder="Ex: 5000 Namur, 5100 Jambes..." />
+          </div>
           
           <div class="form-group">
-            <label for="g-service">Type d'intervention</label>
-            <select id="g-service" name="service">
-              <option value="urgence">Urgence / Fuite</option>
-              <option value="debouchage">Débouchage</option>
+            <label for="g-service">Type d'intervention *</label>
+            <select id="g-service" name="service" required>
+              <option value="urgence">Urgence plomberie / Fuite d'eau</option>
+              <option value="debouchage">Débouchage canalisation / WC</option>
               <option value="chauffage">Chauffage / Chaudière</option>
-              <option value="sanitaire">Installation Sanitaire</option>
+              <option value="sanitaire">Installation sanitaire / Rénovation</option>
+              <option value="traitement-eau">Traitement de l'eau / Adoucisseur</option>
               <option value="autre">Autre demande</option>
             </select>
           </div>
@@ -63,28 +72,32 @@
   .contact-text h2 {
     font-size: 2.2rem;
     margin-bottom: 1rem;
+    color: var(--primary);
   }
   
   .contact-text p {
-    font-size: 1.1rem;
+    font-size: 1.05rem;
     color: var(--text-muted);
+    line-height: 1.6;
   }
   
   .form-card {
     background-color: white;
     padding: 2.5rem;
     box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    border: 1px solid var(--border-light);
   }
   
   .form-group {
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.25rem;
   }
   
   .form-group label {
     display: block;
     font-weight: 600;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.4rem;
     color: var(--primary);
+    font-size: 0.9rem;
   }
   
   .form-group input,
@@ -94,8 +107,8 @@
     border: 1px solid var(--border-light);
     border-radius: var(--radius-md);
     font-family: var(--font-body);
-    font-size: 1rem;
-    transition: border-color 0.3s;
+    font-size: 0.95rem;
+    transition: border-color 0.2s;
   }
   
   .form-group input:focus,
@@ -125,13 +138,14 @@
   }
   
   .mb-2 { margin-bottom: 1rem; }
+  .mt-2 { margin-top: 1rem; }
   .mt-4 { margin-top: 2rem; }
   
   @media (max-width: 768px) {
     .grid-2 {
       display: flex;
       flex-direction: column;
-      gap: 3rem;
+      gap: 2.5rem;
     }
   }
 </style>

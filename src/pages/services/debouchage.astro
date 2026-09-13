@@ -1,19 +1,28 @@
 ---
 import Layout from '../../layouts/Layout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { BUSINESS_CONFIG } from '../../data/business';
 ---
 
 <Layout 
-  title="Débouchage Canalisation et WC Namur | Curage Haute Pression" 
-  description="Service professionnel de débouchage de WC, éviers, égouts et canalisations à Namur. Inspection par caméra, curage haute pression et vidange de fosses septiques."
+  title="Débouchage Canalisation & WC Namur | Curage Haute Pression 24/7" 
+  description="Service de débouchage de canalisation à Namur. WC bouché, évier, égout refoulant. Curage haute pression et inspection caméra endoscopique. Intervention rapide."
+  schemaType="service"
+  serviceName="Débouchage Canalisation et WC à Namur"
 >
+  <Breadcrumbs items={[
+    { name: "Services", url: "/services" },
+    { name: "Débouchage Canalisation" }
+  ]} />
+
   <div class="page-header text-center">
     <div class="container">
-      <span class="badge badge-red mb-2">Intervention Rapide</span>
+      <span class="badge badge-red mb-2">Intervention Rapide 24/7</span>
       <h1>Débouchage Canalisation & WC à Namur</h1>
-      <p class="subtitle">Finis les refoulements et les mauvaises odeurs. Nos experts débouchent vos canalisations efficacement grâce au curage haute pression et à l'inspection caméra.</p>
+      <p class="subtitle">Finis les refoulements d'eau et les mauvaises odeurs. Nos déboucheurs professionnels éliminent les bouchons tenaces par furet mécanique, hydrocurage haute pression et caméra d'inspection.</p>
       <div class="mt-4">
-        <a href="/contact" class="btn btn-primary" style="font-size: 1.25rem; padding: 1rem 2rem;">
-          Demander un Débouchage
+        <a href={BUSINESS_CONFIG.telephoneHref} class="btn btn-primary" style="font-size: 1.25rem; padding: 0.9rem 2rem;" data-location="debouchage_header_phone">
+          📞 Demander un Débouchage : {BUSINESS_CONFIG.telephone}
         </a>
       </div>
     </div>
@@ -24,92 +33,97 @@ import Layout from '../../layouts/Layout.astro';
     <!-- What's included & Common Problems -->
     <div class="grid grid-2 mb-4">
       <div class="card">
-        <h2 style="font-size: 1.5rem; margin-bottom: 1rem;">Ce qui est inclus dans notre prestation</h2>
+        <h2 style="font-size: 1.5rem; margin-bottom: 1rem; color: var(--primary);">Ce qui est inclus dans notre prestation de débouchage</h2>
         <ul class="styled-list">
-          <li>Déplacement à Namur et ses alentours</li>
-          <li>Diagnostic visuel du bouchon (évier, toilette, siphon)</li>
-          <li>Débouchage manuel (furet) ou pompe à vide</li>
-          <li>Curage haute pression pour les bouchons tenaces ou égouts</li>
-          <li>Passage caméra endoscopique si nécessaire</li>
-          <li>Vérification du bon écoulement des eaux usées</li>
+          <li><strong>Diagnostic immédiat :</strong> Identification de l'emplacement du bouchon (siphon, colonne ou égout).</li>
+          <li><strong>Débouchage mécanique :</strong> Furet rotatif professionnel pour les engorgements domestiques.</li>
+          <li><strong>Hydrocurage haute pression :</strong> Nettoyage complet des parois par jet d'eau jusqu'à 200 bars.</li>
+          <li><strong>Inspection caméra vidéo :</strong> Vérification de l'état structurel des tuyaux (fissures, racines, affaissements).</li>
+          <li><strong>Test d'écoulement :</strong> Contrôle de l'évacuation normale des eaux usées avant départ.</li>
         </ul>
       </div>
       
       <div class="card bg-light border-0">
-        <h2 style="font-size: 1.5rem; margin-bottom: 1rem; color: var(--secondary);">Problèmes Fréquents Traités</h2>
+        <h2 style="font-size: 1.5rem; margin-bottom: 1rem; color: var(--secondary);">Situations Traitées à Namur</h2>
         <ul class="styled-list">
-          <li><strong>WC et toilettes bouchées :</strong> L'eau remonte quand vous tirez la chasse.</li>
-          <li><strong>Évier et lavabo lents :</strong> Écoulement très lent dû à un amas de cheveux, graisse ou savon.</li>
-          <li><strong>Égout bouché :</strong> Refoulement d'eaux usées dans la cave, la douche ou au rez-de-chaussée.</li>
-          <li><strong>Mauvaises odeurs :</strong> Odeurs d'égout persistantes dans la salle de bain ou la cuisine.</li>
-          <li><strong>Fosse septique pleine :</strong> Besoin d'une vidange professionnelle.</li>
+          <li><strong>WC et toilettes bouchées :</strong> Niveau d'eau qui monte dangereusement à chaque chasse.</li>
+          <li><strong>Évier de cuisine engorgé :</strong> Amas de graisses alimentaires et résidus de vaisselle solidifiés.</li>
+          <li><strong>Douche et baignoire qui débordent :</strong> Amas de cheveux et résidus savonneux dans la bonde.</li>
+          <li><strong>Refoulement d'égout en sous-sol :</strong> Inondation d'eaux usées nécessitant un curage immédiat.</li>
+          <li><strong>Mauvaises odeurs d'égout :</strong> Problème de ventilation primaire ou siphon désamorcé.</li>
         </ul>
       </div>
     </div>
 
-    <!-- Our Process -->
+    <!-- Process -->
     <div class="mb-4">
-      <h2 class="text-center mb-4">Notre Processus de Débouchage</h2>
+      <h2 class="text-center mb-4">Notre Méthode de Débouchage Professionnel</h2>
       <div class="grid grid-4 text-center">
-        <div class="process-step">
-          <div class="step-number">1</div>
-          <h3>Diagnostic</h3>
-          <p>Localisation précise du bouchon (siphon, colonne principale, égout) pour choisir la meilleure technique.</p>
+        <div class="process-step card">
+          <div class="step-number" aria-hidden="true">1</div>
+          <h3>Localisation</h3>
+          <p>Identification du regard de visite ou de la colonne obstruée.</p>
         </div>
-        <div class="process-step">
-          <div class="step-number">2</div>
-          <h3>Débouchage</h3>
-          <p>Utilisation d'un furet professionnel, d'une pompe ou de l'hydrocurage selon la sévérité.</p>
+        <div class="process-step card">
+          <div class="step-number" aria-hidden="true">2</div>
+          <h3>Dégagement</h3>
+          <p>Passage du furet ou buse haute pression pour détruire le bouchon.</p>
         </div>
-        <div class="process-step">
-          <div class="step-number">3</div>
-          <h3>Inspection Caméra</h3>
-          <p>Si le bouchon persiste, nous inspectons l'intérieur du tuyau par caméra pour détecter d'éventuelles cassures.</p>
+        <div class="process-step card">
+          <div class="step-number" aria-hidden="true">3</div>
+          <h3>Curage</h3>
+          <p>Lessivage des parois internes pour éviter toute récidive rapide.</p>
         </div>
-        <div class="process-step">
-          <div class="step-number">4</div>
-          <h3>Curage (Nettoyage)</h3>
-          <p>Nettoyage intégral des parois de la canalisation pour éviter la reformation rapide du bouchon.</p>
+        <div class="process-step card">
+          <div class="step-number" aria-hidden="true">4</div>
+          <h3>Contrôle Vidéo</h3>
+          <p>Passage caméra si nécessaire pour vérifier l'intégrité de la conduite.</p>
         </div>
       </div>
     </div>
 
-    <!-- Why Choose Us & Availability -->
-    <div class="grid grid-2 mb-4 align-center">
-      <div>
-        <h2>Pourquoi Nous Confier Votre Débouchage ?</h2>
-        <p>Un simple déboucheur chimique de supermarché aggrave souvent le problème en durcissant le bouchon. Nos plombiers disposent du matériel professionnel nécessaire.</p>
-        <ul class="styled-list mt-2">
-          <li><strong>Équipement Haute Pression :</strong> Camionnette équipée d'une hydrocureuse puissante.</li>
-          <li><strong>Technologie Caméra :</strong> Localisation au centimètre près des racines, fissures ou affaissements.</li>
-          <li><strong>Respect de l'environnement :</strong> Méthodes mécaniques privilégiées aux produits chimiques corrosifs.</li>
-        </ul>
-      </div>
-      <div class="card text-center" style="background: var(--primary); color: white;">
-        <span style="font-size: 3rem;">📍</span>
-        <h3 style="color: white;">Zones d'Intervention pour le Débouchage</h3>
-        <p style="color: rgba(255,255,255,0.8); margin-bottom: 1.5rem;">Nous couvrons l'entièreté de la commune de Namur et ses environs pour le débouchage résidentiel et commercial.</p>
-        <p>Namur (5000), Jambes (5100), Erpent (5101), Salzinnes, Saint-Servais (5002), Bouge (5004), Wépion, Belgrade, Flawinne, Malonne.</p>
+    <!-- Direct Answer Block & FAQs -->
+    <div class="faq-section mt-4 card">
+      <h2 class="text-center mb-4">Questions Fréquentes sur le Débouchage à Namur</h2>
+      
+      <div class="faq-list" style="display: flex; flex-direction: column; gap: 1.5rem;">
+        <div class="faq-item">
+          <h3 style="color: var(--primary); font-size: 1.2rem; margin-bottom: 0.5rem;">Comment savoir si une canalisation est bouchée ?</h3>
+          <p style="margin: 0; line-height: 1.6;">
+            Les premiers signaux d'alerte sont un écoulement inhabituellement lent de l'eau, des gargouillements dans les siphons lors de l'évacuation, des remontées d'odeurs désagréables et une cuvette de WC qui se remplit anormalement. Intervenir dès ces signes évite le débordement complet et les dégâts des eaux.
+          </p>
+        </div>
+
+        <div class="faq-item">
+          <h3 style="color: var(--primary); font-size: 1.2rem; margin-bottom: 0.5rem;">Pourquoi éviter les déboucheurs chimiques du commerce ?</h3>
+          <p style="margin: 0; line-height: 1.6;">
+            Les déboucheurs à base de soude caustique ou d'acide sulfurique sont dangereux pour l'utilisateur, très nocifs pour les cours d'eau (la Sambre et la Meuse), et peuvent déformer les tuyaux en PVC sous l'effet de la chaleur chimique. Un débouchage mécanique ou hydrodynamique est inoffensif pour vos installations et nettement plus efficace.
+          </p>
+        </div>
+
+        <div class="faq-item">
+          <h3 style="color: var(--primary); font-size: 1.2rem; margin-bottom: 0.5rem;">Quand faut-il procéder à une inspection caméra ?</h3>
+          <p style="margin: 0; line-height: 1.6;">
+            L'inspection par caméra endoscopique est recommandée en cas de bouchons récurrents au même endroit, après un emménagement pour inspecter l'égouttage, ou pour détecter d'éventuelles racines d'arbres ayant percé les tuyaux extérieurs.
+          </p>
+        </div>
       </div>
     </div>
 
-    <!-- FAQs -->
-    <div class="faq-section mt-4">
-      <h2 class="text-center mb-4">Questions Fréquentes (FAQ)</h2>
-      
-      <div class="faq-item card mb-2">
-        <h3>Est-ce que l'inspection caméra est toujours nécessaire ?</h3>
-        <p>Non. Dans 80% des cas (éviers, siphons, petits bouchons de WC), un débouchage manuel ou par pompe suffit. L'inspection caméra est recommandée pour les bouchons récurrents, les égouts, ou lorsque nous suspectons une cassure ou des racines dans le tuyau.</p>
-      </div>
-      
-      <div class="faq-item card mb-2">
-        <h3>Quel est le prix d'un débouchage à Namur ?</h3>
-        <p>Le prix varie selon la localisation du bouchon et le matériel nécessaire. Un débouchage manuel d'un évier est moins cher qu'un curage haute pression d'une colonne principale. Nous annonçons nos tarifs avant l'intervention.</p>
-      </div>
-      
-      <div class="faq-item card">
-        <h3>Proposez-vous la vidange de fosse septique ?</h3>
-        <p>Oui, nous assurons la vidange, le nettoyage et l'entretien de fosses septiques et micro-stations d'épuration dans toute la région namuroise.</p>
+    <!-- Contextual Cross-links -->
+    <div class="card mt-4 p-4" style="background: var(--bg-light);">
+      <h2>Besoin d'un autre dépannage plomberie ?</h2>
+      <p>Nos artisans interviennent également pour :</p>
+      <div class="grid grid-3 mt-2" style="gap: 1rem;">
+        <a href="/services/urgence" class="btn btn-outline" style="text-align: center;">
+          🚨 Dépannage Urgent 24/7
+        </a>
+        <a href="/services/fuites" class="btn btn-outline" style="text-align: center;">
+          💧 Recherche de Fuite Sans Casse
+        </a>
+        <a href="/locations" class="btn btn-outline" style="text-align: center;">
+          📍 Consulter nos zones Namur
+        </a>
       </div>
     </div>
 
@@ -120,29 +134,29 @@ import Layout from '../../layouts/Layout.astro';
   .page-header {
     background-color: var(--primary);
     color: white;
-    padding: 6rem 1rem 4rem;
+    padding: 5rem 1rem 3.5rem;
   }
   
   .page-header h1 {
     color: white;
-    margin-bottom: 1rem;
+    margin-bottom: 0.75rem;
+    font-size: 2.2rem;
   }
   
   .subtitle {
-    color: rgba(255,255,255,0.8);
-    font-size: 1.25rem;
-    max-width: 700px;
+    color: rgba(255,255,255,0.85);
+    font-size: 1.15rem;
+    max-width: 800px;
     margin: 0 auto;
   }
-  
-  .mb-2 { margin-bottom: 1rem; }
-  .mb-4 { margin-bottom: 3rem; }
-  .mt-2 { margin-top: 1rem; }
-  .mt-4 { margin-top: 3rem; }
-  .align-center { align-items: center; }
-  .bg-light { background-color: var(--bg-light); }
-  .border-0 { border: none; box-shadow: none; }
-  
+
+  .step-number {
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: var(--secondary);
+    margin-bottom: 0.5rem;
+  }
+
   .styled-list {
     list-style: none;
     padding: 0;
@@ -152,6 +166,7 @@ import Layout from '../../layouts/Layout.astro';
     position: relative;
     padding-left: 2rem;
     margin-bottom: 0.75rem;
+    line-height: 1.5;
   }
   
   .styled-list li::before {
@@ -162,40 +177,21 @@ import Layout from '../../layouts/Layout.astro';
     font-weight: bold;
     font-size: 1.2rem;
   }
-  
-  .process-step {
-    padding: 1rem;
+
+  .faq-list .faq-item {
+    border-bottom: 1px solid var(--border-light);
+    padding-bottom: 1.25rem;
   }
-  
-  .step-number {
-    width: 60px;
-    height: 60px;
-    background-color: var(--primary);
-    color: white;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.5rem;
-    font-weight: 800;
-    margin: 0 auto 1rem;
-    font-family: var(--font-heading);
+
+  .faq-list .faq-item:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
   }
-  
-  .faq-item h3 {
-    font-size: 1.25rem;
-    margin-bottom: 0.5rem;
-  }
-  
-  .faq-item p {
-    margin: 0;
-  }
-  
-  @media (max-width: 768px) {
-    .grid-4 { grid-template-columns: 1fr 1fr; }
-    .grid-2 { display: flex; flex-direction: column; gap: 2rem; }
-  }
-  @media (max-width: 480px) {
-    .grid-4 { grid-template-columns: 1fr; }
-  }
+
+  .mb-2 { margin-bottom: 0.5rem; }
+  .mb-4 { margin-bottom: 2.5rem; }
+  .mt-2 { margin-top: 1rem; }
+  .mt-4 { margin-top: 2.5rem; }
+  .bg-light { background-color: var(--bg-light); }
+  .border-0 { border: none; box-shadow: none; }
 </style>
