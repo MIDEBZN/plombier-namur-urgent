@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/BlogLayout.astro
 title: "Eau Calcaire Namur : Faut-il un Adoucisseur ? Prix 2026"
-meta_description: "Eau calcaire et dureté à Namur : faut-il installer un adoucisseur d'eau ? Prix, rentabilité, marques et entretien. Appelez nos experts au 0489 XX XX XX."
+meta_description: "Eau calcaire et dureté à Namur : faut-il installer un adoucisseur d'eau ? Prix, rentabilité, marques et entretien. Appelez nos experts au 0467 88 58 87."
 primary_keyword: "eau calcaire Namur adoucisseur prix"
 secondary_keywords:
   - "dureté eau Namur SWDE degrés français"
@@ -52,7 +52,7 @@ La dureté de l'eau mesure sa concentration en ions calcium et magnésium, expri
 [BLOC CTA ADOUCISSEUR EAU]
 Le calcaire ruine vos robinets et votre chauffe-eau à Namur ?
 Testez gratuitement la dureté de votre eau et demandez un devis adoucisseur d'eau sur-mesure.
-📞 Ligne directe traitement de l'eau : 0489 XX XX XX
+📞 Ligne directe traitement de l'eau : 0467 88 58 87
 Découvrez nos solutions anticalcaire : /services/traitement-eau
 ```
 
@@ -133,6 +133,6 @@ Face à la dureté extrême de l'eau du réseau namurois, subir le calcaire coû
 [BLOC CTA FINAL]
 Prêt à dire adieu au calcaire chez vous à Namur, Jambes ou Bouge ?
 Installation d'adoucisseurs certifiés Belgaqua avec garantie et mise en service offerte.
-📞 Appelez nos techniciens au 0489 XX XX XX pour un conseil personnalisé
+📞 Appelez nos techniciens au 0467 88 58 87 pour un conseil personnalisé
 💬 Matériel garanti, économies d'énergie immédiates et eau 100 % douce.
 ```

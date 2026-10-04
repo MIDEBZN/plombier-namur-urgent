@@ -1,6 +1,6 @@
 ---
 title: "Inspection Canalisation Caméra Namur : Prix et Conseils"
-meta_description: "Quand faire inspecter ses canalisations par caméra à Namur et à quel prix ? Rapport vidéo HD, bouchons récurrents, racines. Contactez le 0489 XX XX XX."
+meta_description: "Quand faire inspecter ses canalisations par caméra à Namur et à quel prix ? Rapport vidéo HD, bouchons récurrents, racines. Contactez le 0467 88 58 87."
 primary_keyword: "quand faire inspecter canalisation caméra Namur prix"
 secondary_keywords:
   - "prix inspection vidéo canalisation Namur"
@@ -18,7 +18,7 @@ authorRole: "Spécialiste Diagnostic Endoscopique et Réseaux"
 Vous venez de déboucher votre WC ou votre évier pour la troisième fois ce mois-ci, une zone de votre pelouse s'affaisse mystérieusement au-dessus de l'évacuation principale ou vous êtes sur le point d'acheter une maison ancienne à Namur : creuser une tranchée à l'aveugle à travers la terrasse ou démolir le carrelage du salon serait une folie coûteuse. Aujourd'hui, l'inspection vidéo endoscopique permet d'explorer l'intimité de vos tuyaux sans le moindre coup de pioche. **Quand est-il indispensable de recourir à une caméra de canalisation et combien coûte ce diagnostic à Namur en 2026 ?**
 
 > **En résumé (Réponse rapide AEO 2026) :**  
-> Une inspection de canalisation par caméra est vivement recommandée en cas de **bouchons chroniques inexpliqués**, d'affaissement de sol, de soupçon de racines ou **avant l'achat d'un bien immobilier**. À Namur en 2026, le coût d'un passage caméra simple varie de **150 € à 210 € TTC**. Pour une inspection complète avec rapport écrit d'expertise et enregistrement vidéo couleur HD remis sur clé USB (reconnu par notaires et assurances), comptez entre **210 € et 290 € TTC**. Appelez nos techniciens caméra au **0489 XX XX XX**.
+> Une inspection de canalisation par caméra est vivement recommandée en cas de **bouchons chroniques inexpliqués**, d'affaissement de sol, de soupçon de racines ou **avant l'achat d'un bien immobilier**. À Namur en 2026, le coût d'un passage caméra simple varie de **150 € à 210 € TTC**. Pour une inspection complète avec rapport écrit d'expertise et enregistrement vidéo couleur HD remis sur clé USB (reconnu par notaires et assurances), comptez entre **210 € et 290 € TTC**. Appelez nos techniciens caméra au **0467 88 58 87**.
 
 Découvrez dans ce guide complet les 5 situations où l'endoscopie de canalisation s'impose, la technologie des caméras rotatives avec sonde radio et les réparations sans tranchée permises par ce diagnostic.
 
@@ -47,7 +47,7 @@ En cas de dégât des eaux avec les voisins ou avec la voirie communale, le rapp
 [BLOC CTA INSPECTION CAMÉRA]
 Vos canalisations se bouchent sans arrêt à Namur ?
 Visualisez en direct l'intérieur de vos tuyaux sur écran HD couleur et localisez le problème.
-📞 Ligne directe diagnostic caméra : 0489 XX XX XX
+📞 Ligne directe diagnostic caméra : 0467 88 58 87
 Consultez notre service inspection : /debouchage/[Namur]/
 ```
 
@@ -125,6 +125,6 @@ Faire inspecter ses canalisations par caméra à Namur est la démarche la plus 
 [BLOC CTA FINAL]
 Des bouchons chroniques ou des soupçons sur vos égouts à Namur ?
 Diagnostic vidéo haute définition immédiat avec localisation par sonde radio.
-📞 Appelez Plombier Namur Urgent au 0489 XX XX XX
+📞 Appelez Plombier Namur Urgent au 0467 88 58 87
 💬 Rapport technique d'expertise remis sur clé USB le jour même.
 ```

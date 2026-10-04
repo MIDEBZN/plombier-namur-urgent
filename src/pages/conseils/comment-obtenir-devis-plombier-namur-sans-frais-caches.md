@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/BlogLayout.astro
 title: "Devis Plombier Namur Sans Frais Cachés : Le Guide 2026"
-meta_description: "Comment obtenir un devis de plombier à Namur sans frais cachés ? Mentions légales obligatoires, pièges à éviter et devis gratuit. Tél : 0489 XX XX XX."
+meta_description: "Comment obtenir un devis de plombier à Namur sans frais cachés ? Mentions légales obligatoires, pièges à éviter et devis gratuit. Tél : 0467 88 58 87."
 primary_keyword: "devis plombier Namur sans frais cachés"
 secondary_keywords:
   - "devis plomberie gratuit Namur"
@@ -43,7 +43,7 @@ En droit commercial belge (Code de droit économique), un devis formel n'est pas
 [BLOC CTA DEVIS SANS SURPRISE]
 Vous avez un projet d'installation ou de rénovation plomberie à Namur ?
 Recevez une offre de prix détaillée, transparente et sans engagement sous 48h.
-📞 Contactez nos métreurs au 0489 XX XX XX
+📞 Contactez nos métreurs au 0467 88 58 87
 Demandez votre devis gratuit : /contact/
 ```
 
@@ -134,6 +134,6 @@ Un devis de plomberie limpide et détaillé est le meilleur reflet du sérieux e
 [BLOC CTA FINAL]
 Vous préparez des travaux de plomberie à Namur, Jambes ou Bouge ?
 Demandez votre devis gratuit, clair et sans engagement auprès de nos experts locaux.
-📞 Contactez notre bureau d'études au 0489 XX XX XX
+📞 Contactez notre bureau d'études au 0467 88 58 87
 💬 Prix garantis, artisans certifiés et respect des délais.
 ```

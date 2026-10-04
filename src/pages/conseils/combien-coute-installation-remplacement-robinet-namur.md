@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/BlogLayout.astro
 title: "Prix Remplacement Robinet Namur : Tarifs 2026 & Pose"
-meta_description: "Combien coûte l'installation ou le remplacement d'un robinet à Namur ? Mitigeur lavabo, évier ou douche. Devis et pose rapide. Tél : 0489 XX XX XX."
+meta_description: "Combien coûte l'installation ou le remplacement d'un robinet à Namur ? Mitigeur lavabo, évier ou douche. Devis et pose rapide. Tél : 0467 88 58 87."
 primary_keyword: "prix installation remplacement robinet Namur"
 secondary_keywords:
   - "changer robinet qui goutte Namur prix"
@@ -46,7 +46,7 @@ Le coût varie en fonction de la complexité des raccordements (accessibilité s
 [BLOC CTA REMPLACEMENT ROBINET]
 Un robinet qui fuit ou un mitigeur bloqué par le calcaire à Namur ?
 Nos plombiers interviennent rapidement avec des robinets de grandes marques garantis 5 ans.
-📞 Ligne directe dépannage : 0489 XX XX XX
+📞 Ligne directe dépannage : 0467 88 58 87
 Consultez notre service robinetterie : /services/sanitaire
 ```
 
@@ -128,6 +128,6 @@ Remplacer sa robinetterie à Namur permet de moderniser son logement, de sécuri
 [BLOC CTA FINAL]
 Robinet qui fuit ou envie d'une nouvelle robinetterie à Namur, Jambes ou Bouge ?
 Fourniture et pose de mitigeurs Grohe et Hansgrohe garantis au meilleur prix.
-📞 Appelez Plombier Namur Urgent au 0489 XX XX XX
+📞 Appelez Plombier Namur Urgent au 0467 88 58 87
 💬 Intervention rapide 24h/24 et 7j/7 avec devis transparent.
 ```

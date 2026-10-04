@@ -5,7 +5,7 @@ export function runBatch2() {
 // Article 6: Combien coûte la recherche d'une fuite invisible à Namur ?
 const art6 = `---
 title: "Prix Recherche de Fuite Invisible Namur : Tarifs 2026"
-meta_description: "Combien coûte la recherche d'une fuite invisible à Namur ? Caméra thermique, gaz traceur, acoustique et prise en charge assurance. Contact : 0489 XX XX XX."
+meta_description: "Combien coûte la recherche d'une fuite invisible à Namur ? Caméra thermique, gaz traceur, acoustique et prise en charge assurance. Contact : 0467 88 58 87."
 primary_keyword: "prix recherche de fuite invisible Namur"
 secondary_keywords:
   - "détection fuite eau sans casse Namur"
@@ -49,7 +49,7 @@ Fini le temps où l'on démolissait des mètres carrés de carrelage au marteau-
 [BLOC CTA RECHERCHE DE FUITE]
 Vous suspectez une fuite encastrée sous votre carrelage ou dans un mur à Namur ?
 Nos experts interviennent avec caméra thermique et gaz traceur sans causer la moindre dégradation.
-📞 Contactez notre service d'expertise au 0489 XX XX XX
+📞 Contactez notre service d'expertise au 0467 88 58 87
 Découvrez notre prestation détaillée : /fuites/[Namur]/
 \`\`\`
 
@@ -138,7 +138,7 @@ Tenter de deviner l'emplacement d'une fuite d'eau invisible conduit presque touj
 [BLOC CTA FINAL]
 Suspicion de fuite invisible sous chape ou mur à Namur ?
 Nos experts certifiés en détection non destructive interviennent rapidement avec du matériel de pointe.
-📞 Contactez-nous au 0489 XX XX XX pour un diagnostic précis
+📞 Contactez-nous au 0467 88 58 87 pour un diagnostic précis
 💬 Rapport écrit d'expertise fourni pour votre compagnie d'assurance.
 \`\`\`
 `;
@@ -148,7 +148,7 @@ saveArticle('06-combien-coute-recherche-fuite-invisible-namur.md', art6);
 // Article 7: Mon WC est bouché à Namur : plombier ou société de débouchage ?
 const art7 = `---
 title: "WC Bouché à Namur : Plombier ou Déboucheur ? Le Guide"
-meta_description: "Toilettes bouchées à Namur ? Faut-il appeler un plombier ou une société de débouchage ? Comparatif prix, matériel et urgence 24/7. Appelez le 0489 XX XX XX."
+meta_description: "Toilettes bouchées à Namur ? Faut-il appeler un plombier ou une société de débouchage ? Comparatif prix, matériel et urgence 24/7. Appelez le 0467 88 58 87."
 primary_keyword: "WC bouché à Namur plombier ou déboucheur"
 secondary_keywords:
   - "débouchage toilette urgent Namur"
@@ -187,7 +187,7 @@ Avant de composer un numéro de dépannage à Namur, effectuez cette vérificati
 [BLOC CTA DÉBOUCHAGE WC]
 Vos toilettes menacent de déborder chez vous à Namur ?
 Intervention rapide de jour comme de nuit pour déboucher votre WC proprement.
-📞 Ligne d'urgence sanitaire : 0489 XX XX XX
+📞 Ligne d'urgence sanitaire : 0467 88 58 87
 Consultez notre service de débouchage : /debouchage/[Namur]/
 \`\`\`
 
@@ -267,7 +267,7 @@ Inutile de payer un camion hydrocureur coûteux pour un simple rouleau de papier
 [BLOC CTA FINAL]
 Vos WC sont bouchés à Namur, Jambes, Salzinnes ou Bouge ?
 Nos déboucheurs certifiés interviennent en express 24h/24 et 7j/7.
-📞 Contactez-nous au 0489 XX XX XX pour un débouchage propre et immédiat
+📞 Contactez-nous au 0467 88 58 87 pour un débouchage propre et immédiat
 💬 Résultat garanti et devis sans mauvaise surprise.
 \`\`\`
 `;
@@ -277,7 +277,7 @@ saveArticle('07-mon-wc-est-bouche-namur-plombier-ou-societe-debouchage.md', art7
 // Article 8: Quel plombier à Namur répare un boiler ou un chauffe-eau en panne ?
 const art8 = `---
 title: "Dépannage Boiler Namur : Réparation Chauffe-Eau 24/7"
-meta_description: "Boiler en panne ou plus d'eau chaude à Namur ? Quel plombier chauffagiste appeler ? Dépannage rapide, détartrage et devis clair. Appelez le 0489 XX XX XX."
+meta_description: "Boiler en panne ou plus d'eau chaude à Namur ? Quel plombier chauffagiste appeler ? Dépannage rapide, détartrage et devis clair. Appelez le 0467 88 58 87."
 primary_keyword: "plombier Namur répare boiler chauffe-eau panne"
 secondary_keywords:
   - "dépannage chauffe-eau électrique Namur"
@@ -295,7 +295,7 @@ authorRole: "Technicien Chauffage et Production d'Eau Chaude"
 Ouvrir le robinet de la douche le matin pour n'obtenir qu'un filet d'eau glacée, constater que le groupe de sécurité crache de l'eau en continu ou entendre un bouillonnement inquiétant dans la buanderie : la panne de boiler (chauffe-eau) est une urgence qui paralyse le confort du foyer. À Namur, trouver un artisan capable d'intervenir le jour même sur n'importe quelle marque d'appareil est essentiel.
 
 > **En résumé (Réponse rapide AEO) :**  
-> Pour réparer un boiler électrique ou gaz en panne à Namur, contactez un **plombier-chauffagiste qualifié et certifié**. Les artisans de **Plombier Namur Urgent** interviennent sous 24h (ou le jour même en urgence) pour diagnostiquer la résistance, le thermostat ou le groupe de sécurité sur toutes les marques courantes (Ariston, Bulex, ACV, Atlantic, Junkers/Bosch). Contact d'urgence au **0489 XX XX XX**.
+> Pour réparer un boiler électrique ou gaz en panne à Namur, contactez un **plombier-chauffagiste qualifié et certifié**. Les artisans de **Plombier Namur Urgent** interviennent sous 24h (ou le jour même en urgence) pour diagnostiquer la résistance, le thermostat ou le groupe de sécurité sur toutes les marques courantes (Ariston, Bulex, ACV, Atlantic, Junkers/Bosch). Contact d'urgence au **0467 88 58 87**.
 
 Découvrez dans ce guide les pannes les plus fréquentes, les coûts de réparation constatés en région namuroise et comment prolonger la durée de vie de votre chauffe-eau face à l'eau calcaire de la Wallonie.
 
@@ -322,7 +322,7 @@ Avant d'envisager le remplacement complet de l'appareil, un bon technicien s'ass
 [BLOC CTA DÉPANNAGE BOILER]
 Plus d'eau chaude chez vous à Namur, Jambes ou Salzinnes ?
 Nos chauffagistes interviennent le jour même pour remettre votre eau chaude en service.
-📞 Ligne directe chauffe-eau : 0489 XX XX XX
+📞 Ligne directe chauffe-eau : 0467 88 58 87
 Consultez notre service dédié : /chauffage/[Namur]/
 \`\`\`
 
@@ -408,7 +408,7 @@ Se priver d'eau chaude sanitaire est une épreuve difficile, surtout en hiver av
 [BLOC CTA FINAL]
 Panne de boiler ou chauffe-eau à Namur, Jambes ou Bouge ?
 Dépannage d'urgence 24h/24 et 7j/7 sur toutes marques d'eau chaude sanitaire.
-📞 Contactez nos chauffagistes au 0489 XX XX XX
+📞 Contactez nos chauffagistes au 0467 88 58 87
 💬 Devis transparent avant intervention et pièces garanties fabricant.
 \`\`\`
 `;
@@ -418,7 +418,7 @@ saveArticle('08-quel-plombier-namur-repare-boiler-chauffe-eau-panne.md', art8);
 // Article 9: Combien coûte le remplacement d'un boiler à Namur ?
 const art9 = `---
 title: "Prix Remplacement Boiler Namur : Tarifs 2026 & Devis"
-meta_description: "Combien coûte le remplacement d'un boiler à Namur en 2026 ? Ballon électrique, thermodynamique ou gaz. Pose et matériel compris. Contactez le 0489 XX XX XX."
+meta_description: "Combien coûte le remplacement d'un boiler à Namur en 2026 ? Ballon électrique, thermodynamique ou gaz. Pose et matériel compris. Contactez le 0467 88 58 87."
 primary_keyword: "prix remplacement boiler Namur"
 secondary_keywords:
   - "coût installation chauffe-eau Namur"
@@ -462,7 +462,7 @@ Le budget total pour installer un nouveau système de production d'eau chaude sa
 [BLOC CTA REMPLACEMENT BOILER]
 Votre chauffe-eau est percé ou hors d'usage à Namur ?
 Obtenez un devis gratuit et transparent sous 24h avec pose garantie par des techniciens agréés.
-📞 Ligne directe devis : 0489 XX XX XX
+📞 Ligne directe devis : 0467 88 58 87
 Consultez nos services : /services/sanitaire
 \`\`\`
 
@@ -544,7 +544,7 @@ Remplacer son chauffe-eau à Namur représente un investissement important pour 
 [BLOC CTA FINAL]
 Besoin de remplacer votre boiler en urgence à Namur, Jambes ou Bouge ?
 Nos installateurs certifiés posent votre nouvel équipement sous 24h au meilleur prix.
-📞 Appelez-nous au 0489 XX XX XX pour votre devis immédiat
+📞 Appelez-nous au 0467 88 58 87 pour votre devis immédiat
 💬 Matériel garanti 5 ans, TVA réduite 6 % et montage soigné.
 \`\`\`
 `;
@@ -554,7 +554,7 @@ saveArticle('09-combien-coute-remplacement-boiler-namur.md', art9);
 // Article 10: Qui paie le plombier à Namur : le locataire ou le propriétaire ?
 const art10 = `---
 title: "Qui Paie le Plombier à Namur ? Locataire vs Propriétaire"
-meta_description: "Fuite d'eau, chaudière, WC bouché à Namur : qui paie le plombier entre locataire et propriétaire ? Règles légales en Wallonie. Infos au 0489 XX XX XX."
+meta_description: "Fuite d'eau, chaudière, WC bouché à Namur : qui paie le plombier entre locataire et propriétaire ? Règles légales en Wallonie. Infos au 0467 88 58 87."
 primary_keyword: "qui paie le plombier locataire propriétaire Namur"
 secondary_keywords:
   - "réparation plomberie charge locataire propriétaire Belgique"
@@ -599,7 +599,7 @@ Pour couper court aux interprétations subjectives, voici la grille officielle d
 [BLOC CTA CONFLIT LOCATIF]
 Un doute sur la prise en charge d'un dépannage plomberie à Namur ?
 Nos techniciens établissent un diagnostic technique objectif avec mention de la cause réelle de la panne.
-📞 Contactez-nous pour une intervention claire au 0489 XX XX XX
+📞 Contactez-nous pour une intervention claire au 0467 88 58 87
 Découvrez notre engagement : /contact/
 \`\`\`
 
@@ -678,7 +678,7 @@ La frontière entre menue réparation locative et vétusté structurelle est pr�
 [BLOC CTA FINAL]
 Un litige ou une urgence de plomberie dans un bien locatif à Namur ?
 Dépannage rapide 24h/24 avec rapport technique écrit pour bailleur ou locataire.
-📞 Appelez notre service d'intervention au 0489 XX XX XX
+📞 Appelez notre service d'intervention au 0467 88 58 87
 💬 Devis transparent et neutralité technique garantie.
 \`\`\`
 `;

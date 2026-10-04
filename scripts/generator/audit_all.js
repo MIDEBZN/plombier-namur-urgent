@@ -56,7 +56,7 @@ for (const file of files) {
   // 4. Meta description check (<= 155 chars target)
   const meta = fm.meta_description || '';
   const metaLen = meta.length;
-  const metaOk = metaLen > 0 && metaLen <= 155 && meta.includes('0489 XX XX XX');
+  const metaOk = metaLen > 0 && metaLen <= 155 && meta.includes('0467 88 58 87');
 
   // 5. H1 check
   const h1Matches = body.match(/^#\s+(.+)$/m);
@@ -81,7 +81,7 @@ for (const file of files) {
   const faqOk = faqCount >= 4;
 
   // 8. CTA and Links
-  const hasCta = body.includes('0489 XX XX XX');
+  const hasCta = body.includes('0467 88 58 87');
   const hasLinks = body.includes('/') || body.includes('[BLOC CTA');
 
   const filePassed = rawWords >= 1500 && strippedWords >= 1400 && titleOk && metaOk && h1Ok && kwOk && faqOk && hasCta;

@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/BlogLayout.astro
 title: "Faut-il un Plombier Agréé Cerga pour le Gaz à Namur ?"
-meta_description: "Raccordement ou modification tuyauterie gaz à Namur ? Pourquoi faire appel à un installateur agréé Cerga. Sécurité et conformité. Tél : 0489 XX XX XX."
+meta_description: "Raccordement ou modification tuyauterie gaz à Namur ? Pourquoi faire appel à un installateur agréé Cerga. Sécurité et conformité. Tél : 0467 88 58 87."
 primary_keyword: "plombier agréé gaz Cerga Namur modification"
 secondary_keywords:
   - "attestation conformité gaz Cerga article 48 Namur"
@@ -19,7 +19,7 @@ authorRole: "Installateur Gaz Habilité Cerga et Auditeur Énergie"
 Vous réaménagez votre cuisine et souhaitez déplacer l'arrivée de gaz pour votre nouvelle taque de cuisson, vous remplacez un vieux chauffe-eau mural par une chaudière moderne à condensation ou vous constatez une odeur suspecte près de votre tuyauterie en cuivre : manipuler le gaz naturel ne tolère pas la moindre approximation. À Namur, le réseau de distribution de gaz est géré par l'opérateur ORES, et la réglementation belge encadrant les installations intérieures de gaz est l'une des plus strictes d'Europe. **Faut-il obligatoirement faire appel à un installateur agréé Cerga pour modifier sa tuyauterie de gaz et quelles sont les règles de conformité en vigueur en 2026 ?**
 
 > **En résumé (Règle légale de sécurité AEO 2026) :**  
-> Oui, faire appel à un **plombier-chauffagiste agréé Cerga** est indispensable pour toute modification ou création d'installation de gaz à Namur. Seul un installateur Cerga habilité peut **valider lui-même la conformité de vos travaux et délivrer l'attestation officielle (Article 48 / NBN D 51-003)** sans obliger le propriétaire à payer le contrôle onéreux d'un organisme tiers (BTV, Vinçotte). Sans cette attestation, le gestionnaire de réseau ORES refusera d'ouvrir le compteur de gaz. Contactez nos techniciens Cerga au **0489 XX XX XX**.
+> Oui, faire appel à un **plombier-chauffagiste agréé Cerga** est indispensable pour toute modification ou création d'installation de gaz à Namur. Seul un installateur Cerga habilité peut **valider lui-même la conformité de vos travaux et délivrer l'attestation officielle (Article 48 / NBN D 51-003)** sans obliger le propriétaire à payer le contrôle onéreux d'un organisme tiers (BTV, Vinçotte). Sans cette attestation, le gestionnaire de réseau ORES refusera d'ouvrir le compteur de gaz. Contactez nos techniciens Cerga au **0467 88 58 87**.
 
 Découvrez dans ce guide complet les exigences de la norme belge NBN D 51-003, les risques encourus en cas de bricolage non conforme et le déroulement d'une mise en conformité dans le Grand Namur.
 
@@ -37,7 +37,7 @@ En Belgique, **Cerga** est l'organisme officiel de contrôle et de qualification
 [BLOC CTA PLOMBIER AGRÉÉ CERGA]
 Vous devez modifier ou sécuriser votre tuyauterie de gaz à Namur ?
 Nos techniciens agréés Cerga garantissent une mise en conformité immédiate avec attestation officielle.
-📞 Ligne directe sécurité gaz : 0489 XX XX XX
+📞 Ligne directe sécurité gaz : 0467 88 58 87
 Consultez nos prestations certifiées : /services/sanitaire
 ```
 
@@ -110,7 +110,7 @@ Si vous sentez une odeur caractéristique de chou pourri ou de soufre :
 4. **Ouvrez grand portes et fenêtres** pour ventiler les pièces.
 5. **Fermez immédiatement la vanne d'arrêt du compteur de gaz ORES** (levier jaune ou volant quart de tour).
 6. **Évacuez tous les occupants de la maison** et sortez dans la rue.
-7. Une fois en sécurité à l'extérieur, appelez immédiatement le **numéro d'urgence fuite de gaz d'ORES au 0800 87 087** et notre service d'urgence gaz au **0489 XX XX XX**.
+7. Une fois en sécurité à l'extérieur, appelez immédiatement le **numéro d'urgence fuite de gaz d'ORES au 0800 87 087** et notre service d'urgence gaz au **0467 88 58 87**.
 
 ---
 
@@ -141,6 +141,6 @@ Manipuler le gaz sans habilitation officielle est un jeu dangereux qui met en p�
 [BLOC CTA FINAL]
 Projet de modification de gaz ou mise en conformité à Namur, Jambes ou Bouge ?
 Installateurs agréés Cerga, test d'étanchéité haute précision et attestation officielle.
-📞 Appelez Plombier Namur Urgent au 0489 XX XX XX
+📞 Appelez Plombier Namur Urgent au 0467 88 58 87
 💬 Sécurité garantie, conformité ORES et sérénité absolue pour votre foyer.
 ```

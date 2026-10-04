@@ -5,7 +5,7 @@ export function runBatch4() {
 // Article 16
 const art16 = `---
 title: "Faible Pression d'Eau Namur : Causes et Dépannage 2026"
-meta_description: "Faible pression d'eau au robinet ou dans la douche à Namur ? Causes, réducteur de pression, calcaire et solutions. Contactez le 0489 XX XX XX."
+meta_description: "Faible pression d'eau au robinet ou dans la douche à Namur ? Causes, réducteur de pression, calcaire et solutions. Contactez le 0467 88 58 87."
 primary_keyword: "faible pression eau Namur qui appeler"
 secondary_keywords:
   - "baisse pression eau robinet douche Namur"
@@ -23,7 +23,7 @@ authorRole: "Expert Hydraulique et Réseaux Sanitaires"
 Prendre une douche le matin avec un filet d'eau famélique, attendre 10 minutes pour remplir une simple casserole d'eau ou constater que le lave-linge se met en erreur « débit insuffisant » : la perte de pression d'eau est une gêne quotidienne insupportable. À Namur, ce phénomène est particulièrement répandu en raison de la dureté de l'eau et de la topographie accidentée de la région. Mais **qui est responsable et quel artisan faut-il contacter pour retrouver un débit puissant ?**
 
 > **En résumé (Réponse diagnostic AEO 2026) :**  
-> Si la baisse de pression concerne **uniquement l'eau chaude**, le coupable est votre **chauffe-eau entartré** (échangeur à plaques ou ballon saturé de calcaire). Si la baisse touche **l'eau froide et chaude sur tous les robinets**, il s'agit d'un **réducteur de pression déréglé ou encrassé**, d'une vanne générale partiellement fermée, ou d'une fuite d'eau après compteur. Contactez un **artisan plombier au 0489 XX XX XX** pour mesurer la pression dynamique avec un manomètre et rétablir le débit optimal (3 à 3,5 bars).
+> Si la baisse de pression concerne **uniquement l'eau chaude**, le coupable est votre **chauffe-eau entartré** (échangeur à plaques ou ballon saturé de calcaire). Si la baisse touche **l'eau froide et chaude sur tous les robinets**, il s'agit d'un **réducteur de pression déréglé ou encrassé**, d'une vanne générale partiellement fermée, ou d'une fuite d'eau après compteur. Contactez un **artisan plombier au 0467 88 58 87** pour mesurer la pression dynamique avec un manomètre et rétablir le débit optimal (3 à 3,5 bars).
 
 Découvrez dans ce guide complet les 5 causes majeures de chute de pression à Namur, le test étape par étape pour identifier le coupable et les solutions techniques durables.
 
@@ -48,7 +48,7 @@ Avant d'appeler la Société Wallonne des Eaux (SWDE) ou un artisan dépanneur, 
 [BLOC CTA PRESSION EAU]
 Votre douche manque cruellement de pression à Namur ?
 Nos techniciens mesurent la pression au manomètre et débouchent vos circuits d'eau sanitaire.
-📞 Ligne directe hydraulique : 0489 XX XX XX
+📞 Ligne directe hydraulique : 0467 88 58 87
 Consultez notre service dépannage : /services/sanitaire
 \`\`\`
 
@@ -119,7 +119,7 @@ Vivre avec une faible pression d'eau au quotidien n'est pas une fatalité liée 
 [BLOC CTA FINAL]
 Baisse de pression d'eau persistante à Namur, Jambes ou Bouge ?
 Diagnostic manométrique précis et dépannage rapide de vos réducteurs et circuits d'eau.
-📞 Appelez Plombier Namur Urgent au 0489 XX XX XX
+📞 Appelez Plombier Namur Urgent au 0467 88 58 87
 💬 Intervention rapide 24h/24 et 7j/7 dans tout le Namurois.
 \`\`\`
 `;
@@ -129,7 +129,7 @@ saveArticle('16-pourquoi-faible-pression-eau-namur-qui-appeler.md', art16);
 // Article 17
 const art17 = `---
 title: "Détecter Fuite Après Compteur Namur : Guide & Recours"
-meta_description: "Comment détecter une fuite d'eau après compteur à Namur ? Test du compteur, recours SWDE et recherche de fuite sans casse. Contactez le 0489 XX XX XX."
+meta_description: "Comment détecter une fuite d'eau après compteur à Namur ? Test du compteur, recours SWDE et recherche de fuite sans casse. Contactez le 0467 88 58 87."
 primary_keyword: "détecter fuite d eau après compteur Namur"
 secondary_keywords:
   - "compteur d eau tourne tout seul Namur"
@@ -147,7 +147,7 @@ authorRole: "Expert Recherche de Fuites et Réseaux d'Alimentation"
 Recevoir sa facture annuelle de régularisation de la Société Wallonne des Eaux (SWDE) et découvrir un montant astronomique de 2 500 € pour 400 m³ d'eau consommés alors que vos habitudes n'ont pas changé : c'est le signal d'alarme absolu d'une **fuite d'eau après compteur**. À Namur, des centaines de mètres cubes d'eau potable s'échappent chaque année silencieusement dans le sous-sol sans qu'aucune flaque ne soit visible en surface.
 
 > **En résumé (Réponse immédiate AEO) :**  
-> Pour vérifier si vous avez une fuite après compteur à Namur, **fermez tous les robinets et appareils consommant de l'eau, puis observez votre compteur d'eau SWDE**. Si le petit disque cranté rouge ou le dernier chiffre des litres continue de tourner, vous avez une fuite active. Contactez immédiatement un **artisan plombier équipé en détection acoustique et gaz traceur au 0489 XX XX XX** pour localiser le sinistre et vous délivrer l'attestation ouvrant droit au **dégrèvement tarifaire de la SWDE**.
+> Pour vérifier si vous avez une fuite après compteur à Namur, **fermez tous les robinets et appareils consommant de l'eau, puis observez votre compteur d'eau SWDE**. Si le petit disque cranté rouge ou le dernier chiffre des litres continue de tourner, vous avez une fuite active. Contactez immédiatement un **artisan plombier équipé en détection acoustique et gaz traceur au 0467 88 58 87** pour localiser le sinistre et vous délivrer l'attestation ouvrant droit au **dégrèvement tarifaire de la SWDE**.
 
 Découvrez dans ce guide pratique comment réaliser le test de contrôle en 3 étapes, où se cachent le plus souvent les fuites invisibles et comment faire jouer les mécanismes de protection légale de la Région Wallonne pour effacer une surconsommation injuste.
 
@@ -177,7 +177,7 @@ Le compteur d'eau installé dans votre cave ou dans une fosse extérieure sur vo
 [BLOC CTA DÉTECTION APRÈS COMPTEUR]
 Votre compteur d'eau tourne tout seul à Namur ?
 Nos techniciens géolocalisent la fuite souterraine sous chape ou jardin sans tranchée inutile.
-📞 Ligne d'urgence fuite : 0489 XX XX XX
+📞 Ligne d'urgence fuite : 0467 88 58 87
 Consultez nos techniques de localisation : /fuites/[Namur]/
 \`\`\`
 
@@ -251,7 +251,7 @@ Une fuite d'eau après compteur ne guérit jamais d'elle-même : la pression use
 [BLOC CTA FINAL]
 Surconsommation SWDE anormale ou compteur qui tourne à Namur ?
 Détection haute précision par gaz traceur et réparation garantie sous 24h.
-📞 Appelez Plombier Namur Urgent au 0489 XX XX XX
+📞 Appelez Plombier Namur Urgent au 0467 88 58 87
 💬 Attestation officielle de réparation délivrée pour votre dossier de dégrèvement SWDE.
 \`\`\`
 `;
@@ -261,7 +261,7 @@ saveArticle('17-comment-detecter-fuite-eau-apres-compteur-namur.md', art17);
 // Article 18
 const art18 = `---
 title: "Eau Calcaire Namur : Faut-il un Adoucisseur ? Prix 2026"
-meta_description: "Eau calcaire et dureté à Namur : faut-il installer un adoucisseur d'eau ? Prix, rentabilité, marques et entretien. Appelez nos experts au 0489 XX XX XX."
+meta_description: "Eau calcaire et dureté à Namur : faut-il installer un adoucisseur d'eau ? Prix, rentabilité, marques et entretien. Appelez nos experts au 0467 88 58 87."
 primary_keyword: "eau calcaire Namur adoucisseur prix"
 secondary_keywords:
   - "dureté eau Namur SWDE degrés français"
@@ -312,7 +312,7 @@ La dureté de l'eau mesure sa concentration en ions calcium et magnésium, expri
 [BLOC CTA ADOUCISSEUR EAU]
 Le calcaire ruine vos robinets et votre chauffe-eau à Namur ?
 Testez gratuitement la dureté de votre eau et demandez un devis adoucisseur d'eau sur-mesure.
-📞 Ligne directe traitement de l'eau : 0489 XX XX XX
+📞 Ligne directe traitement de l'eau : 0467 88 58 87
 Découvrez nos solutions anticalcaire : /services/traitement-eau
 \`\`\`
 
@@ -386,7 +386,7 @@ Face à la dureté extrême de l'eau du réseau namurois, subir le calcaire coû
 [BLOC CTA FINAL]
 Prêt à dire adieu au calcaire chez vous à Namur, Jambes ou Bouge ?
 Installation d'adoucisseurs certifiés Belgaqua avec garantie et mise en service offerte.
-📞 Appelez nos techniciens au 0489 XX XX XX pour un conseil personnalisé
+📞 Appelez nos techniciens au 0467 88 58 87 pour un conseil personnalisé
 💬 Matériel garanti, économies d'énergie immédiates et eau 100 % douce.
 \`\`\`
 `;
@@ -396,7 +396,7 @@ saveArticle('18-eau-calcaire-namur-adoucisseur-combien-ca-coute.md', art18);
 // Article 19
 const art19 = `---
 title: "Prix Remplacement WC Namur : Tarifs 2026 & Pose"
-meta_description: "Combien coûte le remplacement d'un WC à Namur ? WC à poser ou suspendu Geberit. Matériel, dépose et installation. Contactez le 0489 XX XX XX."
+meta_description: "Combien coûte le remplacement d'un WC à Namur ? WC à poser ou suspendu Geberit. Matériel, dépose et installation. Contactez le 0467 88 58 87."
 primary_keyword: "prix remplacement WC Namur"
 secondary_keywords:
   - "installation WC suspendu Geberit Namur prix"
@@ -440,7 +440,7 @@ Le budget global varie fortement selon qu'il s'agit d'un simple échange standar
 [BLOC CTA REMPLACEMENT WC]
 Vos toilettes sont cassées ou vous souhaitez installer un WC suspendu à Namur ?
 Nos installateurs sanitaires vous remettent un devis clair et posent votre nouvel équipement sous 48h.
-📞 Ligne directe sanitaires : 0489 XX XX XX
+📞 Ligne directe sanitaires : 0467 88 58 87
 Consultez nos réalisations : /services/sanitaire
 \`\`\`
 
@@ -518,7 +518,7 @@ Changer de toilettes transforme immédiatement le confort et l'esthétique de vo
 [BLOC CTA FINAL]
 Un projet de remplacement de WC à Namur, Jambes ou Bouge ?
 Installation rapide de WC classiques ou suspendus Geberit aux meilleurs tarifs.
-📞 Appelez Plombier Namur Urgent au 0489 XX XX XX
+📞 Appelez Plombier Namur Urgent au 0467 88 58 87
 💬 Matériel garanti 5 ans, devis clair et pose impeccable.
 \`\`\`
 `;
@@ -528,7 +528,7 @@ saveArticle('19-combien-coute-remplacement-wc-namur.md', art19);
 // Article 20
 const art20 = `---
 title: "Prix Remplacement Robinet Namur : Tarifs 2026 & Pose"
-meta_description: "Combien coûte l'installation ou le remplacement d'un robinet à Namur ? Mitigeur lavabo, évier ou douche. Devis et pose rapide. Tél : 0489 XX XX XX."
+meta_description: "Combien coûte l'installation ou le remplacement d'un robinet à Namur ? Mitigeur lavabo, évier ou douche. Devis et pose rapide. Tél : 0467 88 58 87."
 primary_keyword: "prix installation remplacement robinet Namur"
 secondary_keywords:
   - "changer robinet qui goutte Namur prix"
@@ -573,7 +573,7 @@ Le coût varie en fonction de la complexité des raccordements (accessibilité s
 [BLOC CTA REMPLACEMENT ROBINET]
 Un robinet qui fuit ou un mitigeur bloqué par le calcaire à Namur ?
 Nos plombiers interviennent rapidement avec des robinets de grandes marques garantis 5 ans.
-📞 Ligne directe dépannage : 0489 XX XX XX
+📞 Ligne directe dépannage : 0467 88 58 87
 Consultez notre service robinetterie : /services/sanitaire
 \`\`\`
 
@@ -648,7 +648,7 @@ Remplacer sa robinetterie à Namur permet de moderniser son logement, de sécuri
 [BLOC CTA FINAL]
 Robinet qui fuit ou envie d'une nouvelle robinetterie à Namur, Jambes ou Bouge ?
 Fourniture et pose de mitigeurs Grohe et Hansgrohe garantis au meilleur prix.
-📞 Appelez Plombier Namur Urgent au 0489 XX XX XX
+📞 Appelez Plombier Namur Urgent au 0467 88 58 87
 💬 Intervention rapide 24h/24 et 7j/7 avec devis transparent.
 \`\`\`
 `;

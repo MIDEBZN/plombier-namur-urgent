@@ -1,6 +1,6 @@
 ---
 title: "Prix Débouchage Canalisation Namur : Tarifs 2026 & Devis"
-meta_description: "Combien coûte un débouchage de canalisation à Namur ? WC, évier, hydrocurage haute pression. Devis transparent sans surprise. Appelez le 0489 XX XX XX."
+meta_description: "Combien coûte un débouchage de canalisation à Namur ? WC, évier, hydrocurage haute pression. Devis transparent sans surprise. Appelez le 0467 88 58 87."
 primary_keyword: "prix débouchage canalisation Namur"
 secondary_keywords:
   - "tarif déboucheur professionnel Namur"
@@ -45,7 +45,7 @@ Le coût d'un débouchage n'est pas uniforme : il dépend de la localisation du 
 [BLOC CTA DÉBOUCHAGE RAPIDE]
 Vos toilettes débordent ou vos canalisations refoulent à Namur ?
 Nos techniciens déboucheurs interviennent 24h/24 avec camion hydrocureur et furet haute performance.
-📞 Contactez notre service débouchage au 0489 XX XX XX
+📞 Contactez notre service débouchage au 0467 88 58 87
 Découvrez notre page dédiée : /debouchage/[Namur]/
 ```
 
@@ -142,6 +142,6 @@ Faire appel à un déboucheur professionnel à Namur vous garantit une intervent
 [BLOC CTA FINAL]
 Vos canalisations sont bloquées à Namur, Jambes ou Wépion ?
 Intervention rapide 24h/24 et 7j/7 avec garantie de résultat.
-📞 Appelez notre service débouchage au 0489 XX XX XX
+📞 Appelez notre service débouchage au 0467 88 58 87
 💬 Devis transparent annoncé avant toute manipulation technique.
 ```

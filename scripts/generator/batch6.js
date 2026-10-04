@@ -5,7 +5,7 @@ export function runBatch6() {
 // Article 26
 const art26 = `---
 title: "Que Faire en Cas de Fuite d'Eau à Namur Avant le Plombier ?"
-meta_description: "Fuite d'eau urgente à Namur ? Les 5 réflexes vitaux avant l'arrivée du plombier : couper l'eau, sécuriser l'électricité. Dépannage au 0489 XX XX XX."
+meta_description: "Fuite d'eau urgente à Namur ? Les 5 réflexes vitaux avant l'arrivée du plombier : couper l'eau, sécuriser l'électricité. Dépannage au 0467 88 58 87."
 primary_keyword: "que faire fuite d eau avant plombier Namur"
 secondary_keywords:
   - "réflexes urgence fuite d eau Namur"
@@ -23,7 +23,7 @@ authorRole: "Coordinateur Interventions d'Urgence et Sinistres"
 L'eau ruisselle en cascade le long d'une cloison en plaques de plâtre, une flaque grandit à vue d'œil sous le meuble de la cuisine ou le plafond du salon commence à bomber dangereusement sous le poids d'une poche d'eau : la découverte d'une fuite d'eau majeure déclenche une panique bien légitime. À Namur, le temps moyen d'arrivée d'un plombier en astreinte d'urgence varie entre 25 et 45 minutes. Durant ce court laps de temps, vos actions déterminent si votre sinistre se soldera par un simple coup de serpillière ou par plusieurs milliers d'euros de réfection immobilière. **Quels sont les gestes vitaux à poser immédiatement avant l'arrivée du réparateur ?**
 
 > **En résumé (Guide réflexe d'urgence AEO 2026) :**  
-> En cas de fuite d'eau urgente à Namur, **fermez immédiatement le robinet d'arrêt général** situé à côté de votre compteur d'eau SWDE. Deuxièmement, **coupez le disjoncteur général d'électricité** si l'eau s'approche des prises murales ou du tableau électrique. Troisièmement, **ouvrez les robinets des étages inférieurs pour purger la tuyauterie**, surélevez vos meubles et prenez des photos du sinistre pour votre compagnie d'assurance. Contactez notre service d'urgence 24/7 au **0489 XX XX XX**.
+> En cas de fuite d'eau urgente à Namur, **fermez immédiatement le robinet d'arrêt général** situé à côté de votre compteur d'eau SWDE. Deuxièmement, **coupez le disjoncteur général d'électricité** si l'eau s'approche des prises murales ou du tableau électrique. Troisièmement, **ouvrez les robinets des étages inférieurs pour purger la tuyauterie**, surélevez vos meubles et prenez des photos du sinistre pour votre compagnie d'assurance. Contactez notre service d'urgence 24/7 au **0467 88 58 87**.
 
 Découvrez dans ce guide de survie domestique le protocole précis étape par étape pour neutraliser la fuite, protéger vos biens de valeur et constituer un dossier d'indemnisation sans faille pour votre assureur belge.
 
@@ -65,7 +65,7 @@ Si vous constatez qu'une cloque d'eau ou une poche ventrue se forme sous la pein
 [BLOC CTA URGENCE FUITE D'EAU]
 De l'eau s'infiltre dans vos murs ou inonde votre sol à Namur ?
 Nos artisans plombiers d'urgence se déplacent en moins de 30 minutes chez vous.
-📞 Urgence dépannage 24/7 : 0489 XX XX XX
+📞 Urgence dépannage 24/7 : 0467 88 58 87
 Consultez notre service fuites : /services/fuites
 \`\`\`
 
@@ -124,7 +124,7 @@ Conservez ces contacts accessibles sur votre réfrigérateur ou enregistrés dan
 
 | Service d'urgence à Namur | Numéro de téléphone | Quand les contacter ? |
 | :--- | :--- | :--- |
-| **Plombier Namur Urgent** | **0489 XX XX XX** | Fuite d'eau, canalisation rompue, boiler percé 24/7 |
+| **Plombier Namur Urgent** | **0467 88 58 87** | Fuite d'eau, canalisation rompue, boiler percé 24/7 |
 | **SWDE (Société Wallonne des Eaux)** | 087 87 87 87 | Fuite sur le réseau public, trottoir ou avant compteur |
 | **Pompiers (Zone de secours NAGE)** | 112 | Inondation massive menaçant la stabilité du bâtiment |
 | **ORES (Réseau Énergie & Gaz)** | 0800 87 087 | Odeur suspecte de gaz couplée à la fuite d'eau |
@@ -158,7 +158,7 @@ Une fuite d'eau majeure est une épreuve stressante, mais chaque geste compte. E
 [BLOC CTA FINAL]
 Une fuite d'eau hors de contrôle à Namur, Jambes, Bouge ou Salzinnes ?
 Intervention express en 30 minutes jour et nuit, matériel professionnel certifié.
-📞 Appelez Plombier Namur Urgent au 0489 XX XX XX
+📞 Appelez Plombier Namur Urgent au 0467 88 58 87
 💬 Nous stoppons la fuite et sécurisons votre logement immédiatement.
 \`\`\`
 `;
@@ -168,7 +168,7 @@ saveArticle('26-que-faire-avant-arrivee-plombier-fuite-namur.md', art26);
 // Article 27
 const art27 = `---
 title: "Canalisation Gelée ou Éclatée à Namur : Que Faire et Qui Appeler ?"
-meta_description: "Tuyau gelé ou canalisation éclatée par le gel à Namur ? Dégel sécurisé, réparation urgente 24h/24 et prise en charge assurance. Tél : 0489 XX XX XX."
+meta_description: "Tuyau gelé ou canalisation éclatée par le gel à Namur ? Dégel sécurisé, réparation urgente 24h/24 et prise en charge assurance. Tél : 0467 88 58 87."
 primary_keyword: "canalisation gelée éclatée hiver Namur que faire"
 secondary_keywords:
   - "tuyau gelé comment dégeler sans casser Namur"
@@ -186,7 +186,7 @@ authorRole: "Expert Dépannage Hivernal et Protection Gel"
 Lorsque le thermomètre plonge sous la barre des -5 °C ou -10 °C pendant plusieurs nuits consécutives en bord de Meuse ou sur les hauteurs venteuses de Bouge et d'Erpent, le réseau de plomberie d'une habitation est soumis à une épreuve titanesque. Un matin, vous tournez le robinet de la salle de bain ou de la buanderie : pas une seule goutte d'eau ne s'écoule. Pire encore : lors du redoux, un bruit de ruissellement assourdissant retentit dans la cave ou sous le plancher. **Que devez-vous faire face à une canalisation gelée et qui contacter en urgence à Namur pour éviter la rupture de vos tuyaux ?**
 
 > **En résumé (Protocole grand froid AEO 2026) :**  
-> Si une canalisation est gelée à Namur, **fermez immédiatement la vanne d'arrivée générale d'eau** avant même de tenter de dégeler le conduit pour éviter une inondation brutale si le tuyau est fendu. Laissez les robinets ouverts et chauffez progressivement la section gelée à l'aide d'un **sèche-cheveux ou de serviettes chaudes (jamais de chalumeau !)**. Si le tuyau est déjà éclaté, coupez l'eau et appelez notre service d'urgence hivernale 24/7 au **0489 XX XX XX**.
+> Si une canalisation est gelée à Namur, **fermez immédiatement la vanne d'arrivée générale d'eau** avant même de tenter de dégeler le conduit pour éviter une inondation brutale si le tuyau est fendu. Laissez les robinets ouverts et chauffez progressivement la section gelée à l'aide d'un **sèche-cheveux ou de serviettes chaudes (jamais de chalumeau !)**. Si le tuyau est déjà éclaté, coupez l'eau et appelez notre service d'urgence hivernale 24/7 au **0467 88 58 87**.
 
 Découvrez dans ce guide complet les lois physiques du gel dans les canalisations, les gestes précis pour dégeler un tuyau sans l'endommager et les astuces d'isolation préventive pour traverser l'hiver namurois l'esprit tranquille.
 
@@ -204,7 +204,7 @@ Contrairement à la majorité des liquides qui se rétractent en refroidissant, 
 [BLOC CTA URGENCE GEL HIVER]
 Votre tuyauterie est gelée ou a éclaté sous le gel à Namur ?
 Nos plombiers d'urgence interviennent 24h/24 pour dégeler et réparer vos circuits.
-📞 Ligne d'urgence grand froid : 0489 XX XX XX
+📞 Ligne d'urgence grand froid : 0467 88 58 87
 Consultez notre service dépannage : /services/fuites
 \`\`\`
 
@@ -244,7 +244,7 @@ Si vous constatez qu'un tuyau est pris par la glace mais n'a pas encore éclaté
 Si le tuyau est fissuré et que l'eau coule à flot :
 1. Fermez immédiatement la vanne d'arrêt générale ou le robinet d'arrêt du compteur.
 2. Coupez le disjoncteur électrique dans la zone inondée.
-3. Appelez d'urgence notre permanence technique au **0489 XX XX XX**.
+3. Appelez d'urgence notre permanence technique au **0467 88 58 87**.
 4. Nos plombiers disposent de **colliers de réparation rapide inox**, de manchons de sertissage multicouche et d'outillage de cuivre pour sectionner la partie déchirée par le gel et réinsérer un tronçon de tuyau neuf en moins d'une heure.
 
 \`\`\`
@@ -307,7 +307,7 @@ Le gel est l'ennemi invisible mais impitoyable de la plomberie. Avec une vidange
 [BLOC CTA FINAL]
 Urgence canalisation gelée ou tuyau rompu à Namur, Jambes, Bouge ou Erpent ?
 Dégel sécurisé sans flamme, réparation express et pièces en stock 24h/24.
-📞 Appelez Plombier Namur Urgent au 0489 XX XX XX
+📞 Appelez Plombier Namur Urgent au 0467 88 58 87
 💬 Intervention rapide pour sécuriser votre installation contre le gel.
 \`\`\`
 `;
@@ -317,7 +317,7 @@ saveArticle('27-que-faire-canalisation-gelee-eclatee-namur.md', art27);
 // Article 28
 const art28 = `---
 title: "Faut-il un Plombier Agréé Cerga pour le Gaz à Namur ?"
-meta_description: "Raccordement ou modification tuyauterie gaz à Namur ? Pourquoi faire appel à un installateur agréé Cerga. Sécurité et conformité. Tél : 0489 XX XX XX."
+meta_description: "Raccordement ou modification tuyauterie gaz à Namur ? Pourquoi faire appel à un installateur agréé Cerga. Sécurité et conformité. Tél : 0467 88 58 87."
 primary_keyword: "plombier agréé gaz Cerga Namur modification"
 secondary_keywords:
   - "attestation conformité gaz Cerga article 48 Namur"
@@ -335,7 +335,7 @@ authorRole: "Installateur Gaz Habilité Cerga et Auditeur Énergie"
 Vous réaménagez votre cuisine et souhaitez déplacer l'arrivée de gaz pour votre nouvelle taque de cuisson, vous remplacez un vieux chauffe-eau mural par une chaudière moderne à condensation ou vous constatez une odeur suspecte près de votre tuyauterie en cuivre : manipuler le gaz naturel ne tolère pas la moindre approximation. À Namur, le réseau de distribution de gaz est géré par l'opérateur ORES, et la réglementation belge encadrant les installations intérieures de gaz est l'une des plus strictes d'Europe. **Faut-il obligatoirement faire appel à un installateur agréé Cerga pour modifier sa tuyauterie de gaz et quelles sont les règles de conformité en vigueur en 2026 ?**
 
 > **En résumé (Règle légale de sécurité AEO 2026) :**  
-> Oui, faire appel à un **plombier-chauffagiste agréé Cerga** est indispensable pour toute modification ou création d'installation de gaz à Namur. Seul un installateur Cerga habilité peut **valider lui-même la conformité de vos travaux et délivrer l'attestation officielle (Article 48 / NBN D 51-003)** sans obliger le propriétaire à payer le contrôle onéreux d'un organisme tiers (BTV, Vinçotte). Sans cette attestation, le gestionnaire de réseau ORES refusera d'ouvrir le compteur de gaz. Contactez nos techniciens Cerga au **0489 XX XX XX**.
+> Oui, faire appel à un **plombier-chauffagiste agréé Cerga** est indispensable pour toute modification ou création d'installation de gaz à Namur. Seul un installateur Cerga habilité peut **valider lui-même la conformité de vos travaux et délivrer l'attestation officielle (Article 48 / NBN D 51-003)** sans obliger le propriétaire à payer le contrôle onéreux d'un organisme tiers (BTV, Vinçotte). Sans cette attestation, le gestionnaire de réseau ORES refusera d'ouvrir le compteur de gaz. Contactez nos techniciens Cerga au **0467 88 58 87**.
 
 Découvrez dans ce guide complet les exigences de la norme belge NBN D 51-003, les risques encourus en cas de bricolage non conforme et le déroulement d'une mise en conformité dans le Grand Namur.
 
@@ -353,7 +353,7 @@ En Belgique, **Cerga** est l'organisme officiel de contrôle et de qualification
 [BLOC CTA PLOMBIER AGRÉÉ CERGA]
 Vous devez modifier ou sécuriser votre tuyauterie de gaz à Namur ?
 Nos techniciens agréés Cerga garantissent une mise en conformité immédiate avec attestation officielle.
-📞 Ligne directe sécurité gaz : 0489 XX XX XX
+📞 Ligne directe sécurité gaz : 0467 88 58 87
 Consultez nos prestations certifiées : /services/sanitaire
 \`\`\`
 
@@ -426,7 +426,7 @@ Si vous sentez une odeur caractéristique de chou pourri ou de soufre :
 4. **Ouvrez grand portes et fenêtres** pour ventiler les pièces.
 5. **Fermez immédiatement la vanne d'arrêt du compteur de gaz ORES** (levier jaune ou volant quart de tour).
 6. **Évacuez tous les occupants de la maison** et sortez dans la rue.
-7. Une fois en sécurité à l'extérieur, appelez immédiatement le **numéro d'urgence fuite de gaz d'ORES au 0800 87 087** et notre service d'urgence gaz au **0489 XX XX XX**.
+7. Une fois en sécurité à l'extérieur, appelez immédiatement le **numéro d'urgence fuite de gaz d'ORES au 0800 87 087** et notre service d'urgence gaz au **0467 88 58 87**.
 
 ---
 
@@ -457,7 +457,7 @@ Manipuler le gaz sans habilitation officielle est un jeu dangereux qui met en p�
 [BLOC CTA FINAL]
 Projet de modification de gaz ou mise en conformité à Namur, Jambes ou Bouge ?
 Installateurs agréés Cerga, test d'étanchéité haute précision et attestation officielle.
-📞 Appelez Plombier Namur Urgent au 0489 XX XX XX
+📞 Appelez Plombier Namur Urgent au 0467 88 58 87
 💬 Sécurité garantie, conformité ORES et sérénité absolue pour votre foyer.
 \`\`\`
 `;
@@ -467,7 +467,7 @@ saveArticle('28-plombier-agree-gaz-cerga-namur-modification.md', art28);
 // Article 29
 const art29 = `---
 title: "Plombier ou Chauffagiste à Namur : Qui Appeler selon la Panne ?"
-meta_description: "Panne de chaudière, boiler ou radiateur à Namur ? Plombier sanitaire ou chauffagiste agréé ? Différences, tarifs et dépannage au 0489 XX XX XX."
+meta_description: "Panne de chaudière, boiler ou radiateur à Namur ? Plombier sanitaire ou chauffagiste agréé ? Différences, tarifs et dépannage au 0467 88 58 87."
 primary_keyword: "plombier ou chauffagiste Namur qui appeler panne"
 secondary_keywords:
   - "qui répare boiler électrique Namur plombier chauffagiste"
@@ -485,7 +485,7 @@ authorRole: "Responsable Technique Génie Sanitaire et Thermique"
 Une eau tiède qui refuse de chauffer sous la douche, un radiateur qui reste glacial dans la chambre des enfants malgré la vanne thermostatique ouverte au maximum, ou une chaudière murale qui se met en sécurité avec un code d'erreur clignotant : face à une anomalie thermique dans la maison, l'hésitation est fréquente. Beaucoup d'usagers namurois confondent ces deux métiers complémentaires et perdent un temps précieux en contactant le mauvais corps de métier. **Plombier ou chauffagiste à Namur : qui faut-il appeler exactement selon la nature de votre panne en 2026 ?**
 
 > **En résumé (Guide d'orientation rapide AEO 2026) :**  
-> Pour un problème lié à la **distribution d'eau, aux canalisations, à un robinet, un WC ou un boiler électrique**, appelez un **artisan plombier sanitaire**. En revanche, pour une panne sur le **générateur de chaleur (chaudière gaz/mazout, pompe à chaleur), la régulation, le vase d'expansion ou le contrôle périodique légal wallon**, vous devez obligatoirement mandater un **chauffagiste agréé (technicien combustible gazeux G1 ou liquide L)**. Contactez notre équipe polyvalente au **0489 XX XX XX**.
+> Pour un problème lié à la **distribution d'eau, aux canalisations, à un robinet, un WC ou un boiler électrique**, appelez un **artisan plombier sanitaire**. En revanche, pour une panne sur le **générateur de chaleur (chaudière gaz/mazout, pompe à chaleur), la régulation, le vase d'expansion ou le contrôle périodique légal wallon**, vous devez obligatoirement mandater un **chauffagiste agréé (technicien combustible gazeux G1 ou liquide L)**. Contactez notre équipe polyvalente au **0467 88 58 87**.
 
 Découvrez dans ce guide complet la grille d'orientation panne par panne, les compétences réglementaires propres à la Wallonie et les tarifs moyens d'intervention dans le bassin namurois.
 
@@ -514,7 +514,7 @@ Le chauffagiste intervient sur :
 [BLOC CTA DÉPANNAGE TOUTES PANNES]
 Une panne de chauffage ou d'eau chaude perturbe votre quotidien à Namur ?
 Nos techniciens cumulent les doubles habilitations plomberie sanitaire et chauffagiste certifié.
-📞 Ligne d'intervention rapide : 0489 XX XX XX
+📞 Ligne d'intervention rapide : 0467 88 58 87
 Découvrez notre service dépannage : /services/sanitaire
 \`\`\`
 
@@ -613,7 +613,7 @@ En identifiant avec clarté si votre anomalie provient du circuit d'eau sanitair
 [BLOC CTA FINAL]
 Panne de chauffage ou problème sanitaire à Namur, Jambes, Bouge ou Salzinnes ?
 Artisans qualifiés plomberie et techniciens chauffagistes agréés Région wallonne.
-📞 Appelez notre service d'intervention au 0489 XX XX XX
+📞 Appelez notre service d'intervention au 0467 88 58 87
 💬 Dépannage rapide, devis transparent et solutions pérennes pour votre habitat.
 \`\`\`
 `;
@@ -623,7 +623,7 @@ saveArticle('29-plombier-ou-chauffagiste-namur-qui-appeler-panne.md', art29);
 // Article 30
 const art30 = `---
 title: "Plombier Namur : Dépannage à Jambes, Bouge, Salzinnes & Wépion"
-meta_description: "Besoin d'un plombier urgent à Jambes, Bouge, Salzinnes, Erpent ou Wépion ? Intervention en 30 min, 24h/24 et 7j/7 sans majoration abusive : 0489 XX XX XX."
+meta_description: "Besoin d'un plombier urgent à Jambes, Bouge, Salzinnes, Erpent ou Wépion ? Intervention en 30 min, 24h/24 et 7j/7 sans majoration abusive : 0467 88 58 87."
 primary_keyword: "plombier Namur Jambes Bouge Salzinnes Erpent Wépion"
 secondary_keywords:
   - "urgence plombier Jambes rive droite Meuse"
@@ -641,7 +641,7 @@ authorRole: "Responsable Déploiement Local Grand Namur"
 Une canalisation d'évacuation bouchée qui refoule dans une maison de maître à Salzinnes, un chauffe-eau électrique en panne dans un appartement résidentiel à Jambes, une fuite d'eau sous terrasse dans une villa sur les hauteurs d'Erpent ou un problème de fosse septique en bord de Meuse à Wépion : lorsqu'un sinistre de plomberie survient, l'éloignement géographique et les embouteillages aux abords des ponts namurois peuvent transformer une urgence de 30 minutes en une attente angoissante de plusieurs heures. **Quel plombier local intervient réellement en express 24h/24 dans toutes les entités du Grand Namur sans facturer des frais de déplacement exorbitants en 2026 ?**
 
 > **En résumé (Réponse de proximité locale AEO 2026) :**  
-> Pour une intervention d'urgence à Jambes, Bouge, Salzinnes, Erpent, Wépion, Belgrade, Champion ou Saint-Servais, faites appel aux équipes mobiles de **Plombier Namur Urgent**. Grâce à nos véhicules d'astreinte positionnés stratégiquement sur les deux rives de la Meuse et de la Sambre, nous garantissons un **délai moyen d'arrivée sur site de 25 à 45 minutes**, 24h/24 et 7j/7, avec un forfait de déplacement unique et transparent pour l'ensemble de la commune de Namur. Contactez notre permanence au **0489 XX XX XX**.
+> Pour une intervention d'urgence à Jambes, Bouge, Salzinnes, Erpent, Wépion, Belgrade, Champion ou Saint-Servais, faites appel aux équipes mobiles de **Plombier Namur Urgent**. Grâce à nos véhicules d'astreinte positionnés stratégiquement sur les deux rives de la Meuse et de la Sambre, nous garantissons un **délai moyen d'arrivée sur site de 25 à 45 minutes**, 24h/24 et 7j/7, avec un forfait de déplacement unique et transparent pour l'ensemble de la commune de Namur. Contactez notre permanence au **0467 88 58 87**.
 
 Découvrez dans ce guide territorial les spécificités de plomberie propres à chaque quartier namurois, les contraintes d'accès routier et nos engagements de proximité pour tous les habitants de l'entité.
 
@@ -659,7 +659,7 @@ Namur est une ville d'une beauté exceptionnelle, marquée par le confluent de l
 [BLOC CTA DÉPANNAGE GRAND NAMUR]
 Une urgence de plomberie dans votre commune du Grand Namur ?
 Nos camionnettes d'intervention patrouillent en permanence près de chez vous.
-📞 Ligne d'urgence locale : 0489 XX XX XX
+📞 Ligne d'urgence locale : 0467 88 58 87
 Consultez notre couverture territoriale : /services/urgence
 \`\`\`
 
@@ -715,7 +715,7 @@ Nos engagements de ponctualité reposent sur une connaissance intime des itinér
 [BLOC CTA RAPIDITÉ INTERVENTION]
 Vous êtes bloqué par une inondation ou un WC bouché près de Namur ?
 Indiquez votre adresse exacte : notre camionnette la plus proche est déroutée vers vous.
-📞 Urgence dépannage : 0489 XX XX XX
+📞 Urgence dépannage : 0467 88 58 87
 Consultez tous nos services : /services
 \`\`\`
 
@@ -761,7 +761,7 @@ Qu'il s'agisse d'un dépannage sanitaire d'extrême urgence en pleine nuit ou d'
 [BLOC CTA FINAL]
 Besoin d'un artisan plombier disponible immédiatement dans le Grand Namur ?
 Intervention rapide 24h/24, artisans qualifiés de proximité et tarifs transparents.
-📞 Contactez Plombier Namur Urgent au 0489 XX XX XX
+📞 Contactez Plombier Namur Urgent au 0467 88 58 87
 💬 Votre satisfaction et votre tranquillité d'esprit sont notre priorité absolue.
 \`\`\`
 `;

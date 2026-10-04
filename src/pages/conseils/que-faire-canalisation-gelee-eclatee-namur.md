@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/BlogLayout.astro
 title: "Canalisation Gelée à Namur : Que Faire et Qui Appeler ?"
-meta_description: "Tuyau gelé ou canalisation éclatée par le gel à Namur ? Dégel sécurisé, réparation urgente 24h/24 et prise en charge assurance. Tél : 0489 XX XX XX."
+meta_description: "Tuyau gelé ou canalisation éclatée par le gel à Namur ? Dégel sécurisé, réparation urgente 24h/24 et prise en charge assurance. Tél : 0467 88 58 87."
 primary_keyword: "canalisation gelée éclatée hiver Namur que faire"
 secondary_keywords:
   - "tuyau gelé comment dégeler sans casser Namur"
@@ -19,7 +19,7 @@ authorRole: "Expert Dépannage Hivernal et Protection Gel"
 Lorsque le thermomètre plonge sous la barre des -5 °C ou -10 °C pendant plusieurs nuits consécutives en bord de Meuse ou sur les hauteurs venteuses de Bouge et d'Erpent, le réseau de plomberie d'une habitation est soumis à une épreuve titanesque. Un matin, vous tournez le robinet de la salle de bain ou de la buanderie : pas une seule goutte d'eau ne s'écoule. Pire encore : lors du redoux, un bruit de ruissellement assourdissant retentit dans la cave ou sous le plancher. **Que devez-vous faire face à une canalisation gelée et qui contacter en urgence à Namur pour éviter la rupture de vos tuyaux ?**
 
 > **En résumé (Protocole grand froid AEO 2026) :**  
-> Si une canalisation est gelée à Namur, **fermez immédiatement la vanne d'arrivée générale d'eau** avant même de tenter de dégeler le conduit pour éviter une inondation brutale si le tuyau est fendu. Laissez les robinets ouverts et chauffez progressivement la section gelée à l'aide d'un **sèche-cheveux ou de serviettes chaudes (jamais de chalumeau !)**. Si le tuyau est déjà éclaté, coupez l'eau et appelez notre service d'urgence hivernale 24/7 au **0489 XX XX XX**.
+> Si une canalisation est gelée à Namur, **fermez immédiatement la vanne d'arrivée générale d'eau** avant même de tenter de dégeler le conduit pour éviter une inondation brutale si le tuyau est fendu. Laissez les robinets ouverts et chauffez progressivement la section gelée à l'aide d'un **sèche-cheveux ou de serviettes chaudes (jamais de chalumeau !)**. Si le tuyau est déjà éclaté, coupez l'eau et appelez notre service d'urgence hivernale 24/7 au **0467 88 58 87**.
 
 Découvrez dans ce guide complet les lois physiques du gel dans les canalisations, les gestes précis pour dégeler un tuyau sans l'endommager et les astuces d'isolation préventive pour traverser l'hiver namurois l'esprit tranquille.
 
@@ -37,7 +37,7 @@ Contrairement à la majorité des liquides qui se rétractent en refroidissant, 
 [BLOC CTA URGENCE GEL HIVER]
 Votre tuyauterie est gelée ou a éclaté sous le gel à Namur ?
 Nos plombiers d'urgence interviennent 24h/24 pour dégeler et réparer vos circuits.
-📞 Ligne d'urgence grand froid : 0489 XX XX XX
+📞 Ligne d'urgence grand froid : 0467 88 58 87
 Consultez notre service dépannage : /services/fuites
 ```
 
@@ -77,7 +77,7 @@ Si vous constatez qu'un tuyau est pris par la glace mais n'a pas encore éclaté
 Si le tuyau est fissuré et que l'eau coule à flot :
 1. Fermez immédiatement la vanne d'arrêt générale ou le robinet d'arrêt du compteur.
 2. Coupez le disjoncteur électrique dans la zone inondée.
-3. Appelez d'urgence notre permanence technique au **0489 XX XX XX**.
+3. Appelez d'urgence notre permanence technique au **0467 88 58 87**.
 4. Nos plombiers disposent de **colliers de réparation rapide inox**, de manchons de sertissage multicouche et d'outillage de cuivre pour sectionner la partie déchirée par le gel et réinsérer un tronçon de tuyau neuf en moins d'une heure.
 
 ```
@@ -140,6 +140,6 @@ Le gel est l'ennemi invisible mais impitoyable de la plomberie. Avec une vidange
 [BLOC CTA FINAL]
 Urgence canalisation gelée ou tuyau rompu à Namur, Jambes, Bouge ou Erpent ?
 Dégel sécurisé sans flamme, réparation express et pièces en stock 24h/24.
-📞 Appelez Plombier Namur Urgent au 0489 XX XX XX
+📞 Appelez Plombier Namur Urgent au 0467 88 58 87
 💬 Intervention rapide pour sécuriser votre installation contre le gel.
 ```

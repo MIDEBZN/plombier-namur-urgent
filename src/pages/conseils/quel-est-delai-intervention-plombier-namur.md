@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/BlogLayout.astro
 title: "Délai d'Intervention Plombier Namur : Arrivée Rapide 24/7"
-meta_description: "Quel est le délai d'intervention réel d'un plombier à Namur ? Dépannage sous 30 à 45 min à Jambes, Bouge et Salzinnes. Appelez le 0489 XX XX XX."
+meta_description: "Quel est le délai d'intervention réel d'un plombier à Namur ? Dépannage sous 30 à 45 min à Jambes, Bouge et Salzinnes. Appelez le 0467 88 58 87."
 primary_keyword: "délai intervention plombier Namur"
 secondary_keywords:
   - "plombier rapide Namur urgence"
@@ -46,7 +46,7 @@ La géographie namuroise, marquée par le confluent de la Sambre et de la Meuse 
 [BLOC CTA URGENCE RAPIDE]
 Une fuite d'eau critique ou des toilettes bouchées à Namur ?
 Nos techniciens d'astreinte géolocalisés se mettent immédiatement en route vers votre domicile.
-📞 Appelez notre régulation d'urgence au 0489 XX XX XX
+📞 Appelez notre régulation d'urgence au 0467 88 58 87
 Consultez notre service express : /urgence/[Namur]/
 ```
 
@@ -76,7 +76,7 @@ Le cœur urbain namurois présente des défis de stationnement et de circulation
 
 ## 3. Comment accélérer l'arrivée de votre plombier lors de l'appel téléphonique ?
 
-Lorsque vous composez le numéro d'urgence **0489 XX XX XX**, vous pouvez faire gagner 10 à 15 minutes précieuses en transmettant immédiatement les informations suivantes au régulateur :
+Lorsque vous composez le numéro d'urgence **0467 88 58 87**, vous pouvez faire gagner 10 à 15 minutes précieuses en transmettant immédiatement les informations suivantes au régulateur :
 
 1. **L'adresse ultra-précise avec particularités d'accès :** indiquez le numéro de sonnette, l'étage, le code d'accès de l'immeuble et si votre rue est en sens unique ou en zone piétonne (très fréquent dans le cœur historique namurois).
 2. **La nature exacte de la canalisation touchée :** précisez s'il s'agit d'un tuyau en cuivre, plomb ancien, multicouche ou PVC, et le diamètre approximatif.
@@ -117,6 +117,6 @@ Face à l'eau qui monte, chaque minute compte. En choisissant une société soli
 [BLOC CTA FINAL]
 Urgence plomberie immédiate à Namur, Jambes, Bouge ou Salzinnes ?
 Nos artisans d'astreinte arrivent chez vous sous 30 à 45 minutes 24h/24 et 7j/7.
-📞 Appelez la permanence d'urgence au 0489 XX XX XX
+📞 Appelez la permanence d'urgence au 0467 88 58 87
 💬 Arrivée rapide, diagnostic transparent et colmatage immédiat.
 ```

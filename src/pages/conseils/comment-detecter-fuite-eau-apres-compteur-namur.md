@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/BlogLayout.astro
 title: "Détecter Fuite Après Compteur Namur : Guide & Recours"
-meta_description: "Comment détecter une fuite d'eau après compteur à Namur ? Test du compteur, recours SWDE et recherche de fuite sans casse. Contactez le 0489 XX XX XX."
+meta_description: "Comment détecter une fuite d'eau après compteur à Namur ? Test du compteur, recours SWDE et recherche de fuite sans casse. Contactez le 0467 88 58 87."
 primary_keyword: "détecter fuite d eau après compteur Namur"
 secondary_keywords:
   - "compteur d eau tourne tout seul Namur"
@@ -19,7 +19,7 @@ authorRole: "Expert Recherche de Fuites et Réseaux d'Alimentation"
 Recevoir sa facture annuelle de régularisation de la Société Wallonne des Eaux (SWDE) et découvrir un montant astronomique de 2 500 € pour 400 m³ d'eau consommés alors que vos habitudes n'ont pas changé : c'est le signal d'alarme absolu d'une **fuite d'eau après compteur**. À Namur, des centaines de mètres cubes d'eau potable s'échappent chaque année silencieusement dans le sous-sol sans qu'aucune flaque ne soit visible en surface.
 
 > **En résumé (Réponse immédiate AEO) :**  
-> Pour vérifier si vous avez une fuite après compteur à Namur, **fermez tous les robinets et appareils consommant de l'eau, puis observez votre compteur d'eau SWDE**. Si le petit disque cranté rouge ou le dernier chiffre des litres continue de tourner, vous avez une fuite active. Contactez immédiatement un **artisan plombier équipé en détection acoustique et gaz traceur au 0489 XX XX XX** pour localiser le sinistre et vous délivrer l'attestation ouvrant droit au **dégrèvement tarifaire de la SWDE**.
+> Pour vérifier si vous avez une fuite après compteur à Namur, **fermez tous les robinets et appareils consommant de l'eau, puis observez votre compteur d'eau SWDE**. Si le petit disque cranté rouge ou le dernier chiffre des litres continue de tourner, vous avez une fuite active. Contactez immédiatement un **artisan plombier équipé en détection acoustique et gaz traceur au 0467 88 58 87** pour localiser le sinistre et vous délivrer l'attestation ouvrant droit au **dégrèvement tarifaire de la SWDE**.
 
 Découvrez dans ce guide pratique comment réaliser le test de contrôle en 3 étapes, où se cachent le plus souvent les fuites invisibles et comment faire jouer les mécanismes de protection légale de la Région Wallonne pour effacer une surconsommation injuste.
 
@@ -49,7 +49,7 @@ Le compteur d'eau installé dans votre cave ou dans une fosse extérieure sur vo
 [BLOC CTA DÉTECTION APRÈS COMPTEUR]
 Votre compteur d'eau tourne tout seul à Namur ?
 Nos techniciens géolocalisent la fuite souterraine sous chape ou jardin sans tranchée inutile.
-📞 Ligne d'urgence fuite : 0489 XX XX XX
+📞 Ligne d'urgence fuite : 0467 88 58 87
 Consultez nos techniques de localisation : /fuites/[Namur]/
 ```
 
@@ -130,6 +130,6 @@ Une fuite d'eau après compteur ne guérit jamais d'elle-même : la pression use
 [BLOC CTA FINAL]
 Surconsommation SWDE anormale ou compteur qui tourne à Namur ?
 Détection haute précision par gaz traceur et réparation garantie sous 24h.
-📞 Appelez Plombier Namur Urgent au 0489 XX XX XX
+📞 Appelez Plombier Namur Urgent au 0467 88 58 87
 💬 Attestation officielle de réparation délivrée pour votre dossier de dégrèvement SWDE.
 ```

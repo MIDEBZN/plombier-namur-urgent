@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/BlogLayout.astro
 title: "Prix Remplacement WC Namur : Tarifs 2026 & Pose"
-meta_description: "Combien coûte le remplacement d'un WC à Namur ? WC à poser ou suspendu Geberit. Matériel, dépose et installation. Contactez le 0489 XX XX XX."
+meta_description: "Combien coûte le remplacement d'un WC à Namur ? WC à poser ou suspendu Geberit. Matériel, dépose et installation. Contactez le 0467 88 58 87."
 primary_keyword: "prix remplacement WC Namur"
 secondary_keywords:
   - "installation WC suspendu Geberit Namur prix"
@@ -45,7 +45,7 @@ Le budget global varie fortement selon qu'il s'agit d'un simple échange standar
 [BLOC CTA REMPLACEMENT WC]
 Vos toilettes sont cassées ou vous souhaitez installer un WC suspendu à Namur ?
 Nos installateurs sanitaires vous remettent un devis clair et posent votre nouvel équipement sous 48h.
-📞 Ligne directe sanitaires : 0489 XX XX XX
+📞 Ligne directe sanitaires : 0467 88 58 87
 Consultez nos réalisations : /services/sanitaire
 ```
 
@@ -130,6 +130,6 @@ Changer de toilettes transforme immédiatement le confort et l'esthétique de vo
 [BLOC CTA FINAL]
 Un projet de remplacement de WC à Namur, Jambes ou Bouge ?
 Installation rapide de WC classiques ou suspendus Geberit aux meilleurs tarifs.
-📞 Appelez Plombier Namur Urgent au 0489 XX XX XX
+📞 Appelez Plombier Namur Urgent au 0467 88 58 87
 💬 Matériel garanti 5 ans, devis clair et pose impeccable.
 ```

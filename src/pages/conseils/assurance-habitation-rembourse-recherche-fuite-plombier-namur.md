@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/BlogLayout.astro
 title: "Assurance Habitation & Plombier Namur : Remboursements"
-meta_description: "L'assurance habitation rembourse-t-elle la recherche de fuite et le plombier à Namur ? Franchise, démarches et devis. Contactez le 0489 XX XX XX."
+meta_description: "L'assurance habitation rembourse-t-elle la recherche de fuite et le plombier à Namur ? Franchise, démarches et devis. Contactez le 0467 88 58 87."
 primary_keyword: "assurance habitation remboursement recherche fuite plombier Namur"
 secondary_keywords:
   - "remboursement dégât des eaux assurance Namur"
@@ -46,7 +46,7 @@ La législation belge sur les contrats d'assurance terrestre établit une distin
 [BLOC CTA RAPPORT TECHNIQUE ASSURANCE]
 Votre assureur réclame une attestation et un rapport de détection pour débloquer votre dossier ?
 Nos techniciens agréés établissent un document officiel avec clichés infrarouges conformes ABEX.
-📞 Assistance sinistre 24h/24 : 0489 XX XX XX
+📞 Assistance sinistre 24h/24 : 0467 88 58 87
 Consultez notre service dédié : /fuites/[Namur]/
 ```
 
@@ -137,6 +137,6 @@ Un dégât des eaux est une épreuve stressante, mais votre contrat d'assurance 
 [BLOC CTA FINAL]
 Victime d'un dégât des eaux à Namur, Jambes ou Bouge ?
 Intervention d'urgence 24h/24, rapport technique certifié pour assureur et devis transparent.
-📞 Contactez Plombier Namur Urgent au 0489 XX XX XX
+📞 Contactez Plombier Namur Urgent au 0467 88 58 87
 💬 Assistance rapide, expertise thermique et garantie décennale.
 ```

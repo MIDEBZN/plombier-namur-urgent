@@ -1,6 +1,6 @@
 ---
 title: "Prix Recherche de Fuite Invisible Namur : Tarifs 2026"
-meta_description: "Combien coûte la recherche d'une fuite invisible à Namur ? Caméra thermique, gaz traceur, acoustique et prise en charge assurance. Contact : 0489 XX XX XX."
+meta_description: "Combien coûte la recherche d'une fuite invisible à Namur ? Caméra thermique, gaz traceur, acoustique et prise en charge assurance. Contact : 0467 88 58 87."
 primary_keyword: "prix recherche de fuite invisible Namur"
 secondary_keywords:
   - "détection fuite eau sans casse Namur"
@@ -44,7 +44,7 @@ Fini le temps où l'on démolissait des mètres carrés de carrelage au marteau-
 [BLOC CTA RECHERCHE DE FUITE]
 Vous suspectez une fuite encastrée sous votre carrelage ou dans un mur à Namur ?
 Nos experts interviennent avec caméra thermique et gaz traceur sans causer la moindre dégradation.
-📞 Contactez notre service d'expertise au 0489 XX XX XX
+📞 Contactez notre service d'expertise au 0467 88 58 87
 Découvrez notre prestation détaillée : /fuites/[Namur]/
 ```
 
@@ -140,6 +140,6 @@ Tenter de deviner l'emplacement d'une fuite d'eau invisible conduit presque touj
 [BLOC CTA FINAL]
 Suspicion de fuite invisible sous chape ou mur à Namur ?
 Nos experts certifiés en détection non destructive interviennent rapidement avec du matériel de pointe.
-📞 Contactez-nous au 0489 XX XX XX pour un diagnostic précis
+📞 Contactez-nous au 0467 88 58 87 pour un diagnostic précis
 💬 Rapport écrit d'expertise fourni pour votre compagnie d'assurance.
 ```

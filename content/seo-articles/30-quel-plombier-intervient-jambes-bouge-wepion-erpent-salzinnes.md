@@ -1,6 +1,6 @@
 ---
 title: "Plombier Namur : Dépannage à Jambes, Bouge et Salzinnes"
-meta_description: "Besoin d'un plombier urgent à Jambes, Bouge, Salzinnes, Erpent ou Wépion ? Intervention en 30 min, 24h/24 et 7j/7 sans majoration abusive : 0489 XX XX XX."
+meta_description: "Besoin d'un plombier urgent à Jambes, Bouge, Salzinnes, Erpent ou Wépion ? Intervention en 30 min, 24h/24 et 7j/7 sans majoration abusive : 0467 88 58 87."
 primary_keyword: "plombier Namur Jambes Bouge Salzinnes Erpent Wépion"
 secondary_keywords:
   - "urgence plombier Jambes rive droite Meuse"
@@ -18,7 +18,7 @@ authorRole: "Responsable Déploiement Local Grand Namur"
 Une canalisation d'évacuation bouchée qui refoule dans une maison de maître à Salzinnes, un chauffe-eau électrique en panne dans un appartement résidentiel à Jambes, une fuite d'eau sous terrasse dans une villa sur les hauteurs d'Erpent ou un problème de fosse septique en bord de Meuse à Wépion : lorsqu'un sinistre de plomberie survient, l'éloignement géographique et les embouteillages aux abords des ponts namurois peuvent transformer une urgence de 30 minutes en une attente angoissante de plusieurs heures. **Quel plombier local intervient réellement en express 24h/24 dans toutes les entités du Grand Namur sans facturer des frais de déplacement exorbitants en 2026 ?**
 
 > **En résumé (Réponse de proximité locale AEO 2026) :**  
-> Pour une intervention d'urgence à Jambes, Bouge, Salzinnes, Erpent, Wépion, Belgrade, Champion ou Saint-Servais, faites appel aux équipes mobiles de **Plombier Namur Urgent**. Grâce à nos véhicules d'astreinte positionnés stratégiquement sur les deux rives de la Meuse et de la Sambre, nous garantissons un **délai moyen d'arrivée sur site de 25 à 45 minutes**, 24h/24 et 7j/7, avec un forfait de déplacement unique et transparent pour l'ensemble de la commune de Namur. Contactez notre permanence au **0489 XX XX XX**.
+> Pour une intervention d'urgence à Jambes, Bouge, Salzinnes, Erpent, Wépion, Belgrade, Champion ou Saint-Servais, faites appel aux équipes mobiles de **Plombier Namur Urgent**. Grâce à nos véhicules d'astreinte positionnés stratégiquement sur les deux rives de la Meuse et de la Sambre, nous garantissons un **délai moyen d'arrivée sur site de 25 à 45 minutes**, 24h/24 et 7j/7, avec un forfait de déplacement unique et transparent pour l'ensemble de la commune de Namur. Contactez notre permanence au **0467 88 58 87**.
 
 Découvrez dans ce guide territorial les spécificités de plomberie propres à chaque quartier namurois, les contraintes d'accès routier et nos engagements de proximité pour tous les habitants de l'entité.
 
@@ -36,7 +36,7 @@ Namur est une ville d'une beauté exceptionnelle, marquée par le confluent de l
 [BLOC CTA DÉPANNAGE GRAND NAMUR]
 Une urgence de plomberie dans votre commune du Grand Namur ?
 Nos camionnettes d'intervention patrouillent en permanence près de chez vous.
-📞 Ligne d'urgence locale : 0489 XX XX XX
+📞 Ligne d'urgence locale : 0467 88 58 87
 Consultez notre couverture territoriale : /services/urgence
 ```
 
@@ -92,7 +92,7 @@ Nos engagements de ponctualité reposent sur une connaissance intime des itinér
 [BLOC CTA RAPIDITÉ INTERVENTION]
 Vous êtes bloqué par une inondation ou un WC bouché près de Namur ?
 Indiquez votre adresse exacte : notre camionnette la plus proche est déroutée vers vous.
-📞 Urgence dépannage : 0489 XX XX XX
+📞 Urgence dépannage : 0467 88 58 87
 Consultez tous nos services : /services
 ```
 
@@ -138,6 +138,6 @@ Qu'il s'agisse d'un dépannage sanitaire d'extrême urgence en pleine nuit ou d'
 [BLOC CTA FINAL]
 Besoin d'un artisan plombier disponible immédiatement dans le Grand Namur ?
 Intervention rapide 24h/24, artisans qualifiés de proximité et tarifs transparents.
-📞 Contactez Plombier Namur Urgent au 0489 XX XX XX
+📞 Contactez Plombier Namur Urgent au 0467 88 58 87
 💬 Votre satisfaction et votre tranquillité d'esprit sont notre priorité absolue.
 ```

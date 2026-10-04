@@ -7,12 +7,12 @@ const dir = 'content/seo-articles';
 function fixFrontmatters() {
   // Art 07
   let art07 = fs.readFileSync(path.join(dir, '07-mon-wc-est-bouche-namur-plombier-ou-societe-debouchage.md'), 'utf8');
-  art07 = art07.replace(/meta_description:\s*".*?"/, 'meta_description: "WC bouché à Namur ? Plombier ou déboucheur ? Découvrez qui appeler, les tarifs 2026 et les solutions rapides sans arnaque. Tél : 0489 XX XX XX."');
+  art07 = art07.replace(/meta_description:\s*".*?"/, 'meta_description: "WC bouché à Namur ? Plombier ou déboucheur ? Découvrez qui appeler, les tarifs 2026 et les solutions rapides sans arnaque. Tél : 0467 88 58 87."');
   fs.writeFileSync(path.join(dir, '07-mon-wc-est-bouche-namur-plombier-ou-societe-debouchage.md'), art07);
 
   // Art 09
   let art09 = fs.readFileSync(path.join(dir, '09-combien-coute-remplacement-boiler-namur.md'), 'utf8');
-  art09 = art09.replace(/meta_description:\s*".*?"/, 'meta_description: "Remplacement de boiler à Namur en 2026 : prix fourniture, pose, aides et comparaison électrique vs gaz. Devis rapide. Contactez le 0489 XX XX XX."');
+  art09 = art09.replace(/meta_description:\s*".*?"/, 'meta_description: "Remplacement de boiler à Namur en 2026 : prix fourniture, pose, aides et comparaison électrique vs gaz. Devis rapide. Contactez le 0467 88 58 87."');
   fs.writeFileSync(path.join(dir, '09-combien-coute-remplacement-boiler-namur.md'), art09);
 
   // Art 24

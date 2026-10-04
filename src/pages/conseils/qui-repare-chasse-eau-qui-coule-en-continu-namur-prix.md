@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/BlogLayout.astro
 title: "Chasse d'Eau qui Coule Namur : Qui Répare et à Quel Prix ?"
-meta_description: "Chasse d'eau qui coule sans arrêt à Namur ? Qui appeler pour réparer ? Prix dépannage, calcaire, flotteur Geberit. Contactez le 0489 XX XX XX."
+meta_description: "Chasse d'eau qui coule sans arrêt à Namur ? Qui appeler pour réparer ? Prix dépannage, calcaire, flotteur Geberit. Contactez le 0467 88 58 87."
 primary_keyword: "chasse d eau qui coule en continu Namur qui répare prix"
 secondary_keywords:
   - "réparation fuite chasse d eau WC Namur"
@@ -19,7 +19,7 @@ authorRole: "Dépanneur Sanitaire Spécialisé Mécanismes WC"
 Ce filet d'eau permanent qui ondule au fond de la cuvette, ce clapotis discret qui ne s'arrête jamais ou ce réservoir qui se remplit automatiquement toutes les 10 minutes avec un bruit de sifflement strident : la chasse d'eau qui fuit en continu est la panne de plomberie la plus banale et pourtant la plus ruineuse pour un ménage. À Namur, face à ce désagrément du quotidien, beaucoup de propriétaires et locataires tardent à réagir : **qui faut-il appeler pour réparer un réservoir qui coule et quel est le prix juste d'un dépannage sanitaire en 2026 ?**
 
 > **En résumé (Réponse rapide AEO 2026) :**  
-> Une chasse d'eau qui coule en continu doit être réparée par un **artisan plombier sanitaire**. À Namur en 2026, le coût moyen de réparation se situe entre **95 € et 160 € TTC**, incluant le déplacement, la main-d'œuvre et le remplacement du composant défectueux (joint de cloche ou robinet flotteur neuf de grande marque comme Geberit, Siamp ou Grohe). Pour un WC suspendu encastré nécessitant une intervention par la trappe de commande, comptez entre **130 € et 190 € TTC**. Contactez nos réparateurs d'urgence au **0489 XX XX XX**.
+> Une chasse d'eau qui coule en continu doit être réparée par un **artisan plombier sanitaire**. À Namur en 2026, le coût moyen de réparation se situe entre **95 € et 160 € TTC**, incluant le déplacement, la main-d'œuvre et le remplacement du composant défectueux (joint de cloche ou robinet flotteur neuf de grande marque comme Geberit, Siamp ou Grohe). Pour un WC suspendu encastré nécessitant une intervention par la trappe de commande, comptez entre **130 € et 190 € TTC**. Contactez nos réparateurs d'urgence au **0467 88 58 87**.
 
 Découvrez dans ce guide pourquoi votre réservoir fuit, comment identifier la pièce incriminée en moins de deux minutes, les particularités du calcaire namurois et la rentabilité immédiate d'une réparation rapide.
 
@@ -38,7 +38,7 @@ Outre l'aspect financier, cette eau calcaire permanente provoque une dégradatio
 [BLOC CTA RÉPARATION CHASSE D'EAU]
 Votre réservoir de toilette coule sans s'arrêter à Namur ?
 Nos dépanneurs interviennent le jour même avec les pièces d'origine en stock.
-📞 Ligne d'urgence sanitaire : 0489 XX XX XX
+📞 Ligne d'urgence sanitaire : 0467 88 58 87
 Découvrez notre service dépannage : /services/sanitaire
 ```
 
@@ -135,6 +135,6 @@ Laisser couler une chasse d'eau à Namur revient littéralement à jeter des bil
 [BLOC CTA FINAL]
 Votre chasse d'eau coule sans interruption à Namur ou en périphérie ?
 Dépannage rapide le jour même, devis clair et pièces garanties.
-📞 Appelez Plombier Namur Urgent au 0489 XX XX XX
+📞 Appelez Plombier Namur Urgent au 0467 88 58 87
 💬 Retrouvez des sanitaires parfaits et stoppez le gaspillage d'eau.
 ```

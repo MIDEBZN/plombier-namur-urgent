@@ -5,7 +5,7 @@ export function runBatch5() {
 // Article 21
 const art21 = `---
 title: "Prix Plomberie Rénovation Salle de Bain Namur 2026"
-meta_description: "Combien coûte la plomberie pour une rénovation de salle de bain à Namur ? Douche italienne, tuyaux, devis et pose. Contactez le 0489 XX XX XX."
+meta_description: "Combien coûte la plomberie pour une rénovation de salle de bain à Namur ? Douche italienne, tuyaux, devis et pose. Contactez le 0467 88 58 87."
 primary_keyword: "prix plomberie rénovation salle de bain Namur"
 secondary_keywords:
   - "coût plomberie douche italienne Namur"
@@ -52,7 +52,7 @@ Le travail du plombier dans une salle de bain ne se résume pas à visser un rob
 [BLOC CTA DEVIS SALLE DE BAIN]
 Vous rêvez d'une nouvelle salle de bain moderne et étanche à Namur ?
 Nos techniciens réalisent une visite technique gratuite pour chiffrer votre projet au centimètre près.
-📞 Contactez notre bureau d'études au 0489 XX XX XX
+📞 Contactez notre bureau d'études au 0467 88 58 87
 Découvrez nos réalisations sanitaires : /services/sanitaire
 \`\`\`
 
@@ -160,7 +160,7 @@ Le carrelage et les meubles ne sont que la vitrine d'une salle de bain : le cœu
 [BLOC CTA FINAL]
 Un projet de salle de bain à Namur, Jambes, Bouge ou Erpent ?
 Conception technique sur-mesure, pose soignée et devis clair tout compris.
-📞 Contactez Plombier Namur Urgent au 0489 XX XX XX
+📞 Contactez Plombier Namur Urgent au 0467 88 58 87
 💬 Artisans agréés, matériaux de grandes marques et garantie décennale.
 \`\`\`
 `;
@@ -170,7 +170,7 @@ saveArticle('21-combien-coute-plomberie-renovation-salle-de-bain-namur.md', art2
 // Article 22
 const art22 = `---
 title: "Chasse d'Eau qui Coule Namur : Qui Répare et à Quel Prix ?"
-meta_description: "Chasse d'eau qui coule sans arrêt à Namur ? Qui appeler pour réparer ? Prix dépannage, calcaire, flotteur Geberit. Contactez le 0489 XX XX XX."
+meta_description: "Chasse d'eau qui coule sans arrêt à Namur ? Qui appeler pour réparer ? Prix dépannage, calcaire, flotteur Geberit. Contactez le 0467 88 58 87."
 primary_keyword: "chasse d eau qui coule en continu Namur qui répare prix"
 secondary_keywords:
   - "réparation fuite chasse d eau WC Namur"
@@ -188,7 +188,7 @@ authorRole: "Dépanneur Sanitaire Spécialisé Mécanismes WC"
 Ce filet d'eau permanent qui ondule au fond de la cuvette, ce clapotis discret qui ne s'arrête jamais ou ce réservoir qui se remplit automatiquement toutes les 10 minutes avec un bruit de sifflement strident : la chasse d'eau qui fuit en continu est la panne de plomberie la plus banale et pourtant la plus ruineuse pour un ménage. À Namur, face à ce désagrément du quotidien, beaucoup de propriétaires et locataires tardent à réagir : **qui faut-il appeler pour réparer un réservoir qui coule et quel est le prix juste d'un dépannage sanitaire en 2026 ?**
 
 > **En résumé (Réponse rapide AEO 2026) :**  
-> Une chasse d'eau qui coule en continu doit être réparée par un **artisan plombier sanitaire**. À Namur en 2026, le coût moyen de réparation se situe entre **95 € et 160 € TTC**, incluant le déplacement, la main-d'œuvre et le remplacement du composant défectueux (joint de cloche ou robinet flotteur neuf de grande marque comme Geberit, Siamp ou Grohe). Pour un WC suspendu encastré nécessitant une intervention par la trappe de commande, comptez entre **130 € et 190 € TTC**. Contactez nos réparateurs d'urgence au **0489 XX XX XX**.
+> Une chasse d'eau qui coule en continu doit être réparée par un **artisan plombier sanitaire**. À Namur en 2026, le coût moyen de réparation se situe entre **95 € et 160 € TTC**, incluant le déplacement, la main-d'œuvre et le remplacement du composant défectueux (joint de cloche ou robinet flotteur neuf de grande marque comme Geberit, Siamp ou Grohe). Pour un WC suspendu encastré nécessitant une intervention par la trappe de commande, comptez entre **130 € et 190 € TTC**. Contactez nos réparateurs d'urgence au **0467 88 58 87**.
 
 Découvrez dans ce guide pourquoi votre réservoir fuit, comment identifier la pièce incriminée en moins de deux minutes, les particularités du calcaire namurois et la rentabilité immédiate d'une réparation rapide.
 
@@ -207,7 +207,7 @@ Outre l'aspect financier, cette eau calcaire permanente provoque une dégradatio
 [BLOC CTA RÉPARATION CHASSE D'EAU]
 Votre réservoir de toilette coule sans s'arrêter à Namur ?
 Nos dépanneurs interviennent le jour même avec les pièces d'origine en stock.
-📞 Ligne d'urgence sanitaire : 0489 XX XX XX
+📞 Ligne d'urgence sanitaire : 0467 88 58 87
 Découvrez notre service dépannage : /services/sanitaire
 \`\`\`
 
@@ -304,7 +304,7 @@ Laisser couler une chasse d'eau à Namur revient littéralement à jeter des bil
 [BLOC CTA FINAL]
 Votre chasse d'eau coule sans interruption à Namur ou en périphérie ?
 Dépannage rapide le jour même, devis clair et pièces garanties.
-📞 Appelez Plombier Namur Urgent au 0489 XX XX XX
+📞 Appelez Plombier Namur Urgent au 0467 88 58 87
 💬 Retrouvez des sanitaires parfaits et stoppez le gaspillage d'eau.
 \`\`\`
 `;
@@ -314,7 +314,7 @@ saveArticle('22-qui-repare-chasse-eau-qui-coule-en-continu-namur-prix.md', art22
 // Article 23
 const art23 = `---
 title: "Mauvaise Odeur Égout Maison Namur : Qui Appeler 24/7 ?"
-meta_description: "Mauvaises odeurs d'égout dans la maison à Namur ? Plombier ou déboucheur ? Siphon désamorcé, colonne évent, solutions. Appelez le 0489 XX XX XX."
+meta_description: "Mauvaises odeurs d'égout dans la maison à Namur ? Plombier ou déboucheur ? Siphon désamorcé, colonne évent, solutions. Appelez le 0467 88 58 87."
 primary_keyword: "mauvaises odeurs égout maison Namur plombier déboucheur"
 secondary_keywords:
   - "odeur canalisation salle de bain Namur"
@@ -332,7 +332,7 @@ authorRole: "Expert Assainissement et Diagnostic Odeurs"
 Cette odeur écœurante d'œuf pourri ou de fosse septique qui envahit la salle de bain au réveil, ces relents nauséabonds qui remontent de l'évier par temps orageux ou cette odeur persistante dans le hall d'entrée : les remontées d'odeurs d'égout rendent l'atmosphère d'un logement irrespirable et posent de sérieuses questions d'hygiène. Mais quelle est la source exacte du problème et **faut-il appeler un artisan plombier ou une entreprise de débouchage haute pression à Namur ?**
 
 > **En résumé (Réponse d'orientation AEO 2026) :**  
-> Si l'odeur d'égout s'accompagne d'une **eau qui s'écoule très lentement ou de gargouillements** dans les canalisations, appelez en priorité une **société de débouchage** pour éliminer un bouchon en décomposition. En revanche, si **l'eau s'écoule normalement mais que l'odeur persiste**, contactez un **artisan plombier sanitaire** : il s'agit généralement d'un siphon désamorcé par effet de piston, d'un clapet d'aération défectueux ou d'une rupture de ventilation primaire en toiture. Appelez notre service diagnostic odeurs au **0489 XX XX XX**.
+> Si l'odeur d'égout s'accompagne d'une **eau qui s'écoule très lentement ou de gargouillements** dans les canalisations, appelez en priorité une **société de débouchage** pour éliminer un bouchon en décomposition. En revanche, si **l'eau s'écoule normalement mais que l'odeur persiste**, contactez un **artisan plombier sanitaire** : il s'agit généralement d'un siphon désamorcé par effet de piston, d'un clapet d'aération défectueux ou d'une rupture de ventilation primaire en toiture. Appelez notre service diagnostic odeurs au **0467 88 58 87**.
 
 Découvrez dans ce guide complet les causes techniques des remontées d'odeurs à Namur, le fonctionnement de la ventilation de chute et le test au fumigène professionnel pour localiser les fuites de gaz d'égout invisibles.
 
@@ -351,7 +351,7 @@ Les odeurs pestilentielles qui s'échappent des canalisations sont composées de
 [BLOC CTA DIAGNOSTIC ODEURS]
 Des odeurs d'égout rendent votre maison irrespirable à Namur ?
 Nos plombiers localisent l'origine exacte du gaz d'égout et neutralisent les remontées.
-📞 Contactez notre équipe technique au 0489 XX XX XX
+📞 Contactez notre équipe technique au 0467 88 58 87
 Consultez notre service assainissement : /services/sanitaire
 \`\`\`
 
@@ -442,7 +442,7 @@ Les mauvaises odeurs d'égout ne sont jamais une fatalité : elles signalent un 
 [BLOC CTA FINAL]
 Odeurs nauséabondes d'égout à Namur, Jambes, Bouge ou Wépion ?
 Diagnostic rapide, test d'étanchéité au fumigène et neutralisation garantie.
-📞 Appelez Plombier Namur Urgent au 0489 XX XX XX
+📞 Appelez Plombier Namur Urgent au 0467 88 58 87
 💬 Artisans qualifiés et solutions définitives sans casser vos murs.
 \`\`\`
 `;
@@ -452,7 +452,7 @@ saveArticle('23-mauvaises-odeurs-egout-maison-namur-plombier-debouchage.md', art
 // Article 24
 const art24 = `---
 title: "Inspection Canalisation Caméra Namur : Prix et Quand la Faire"
-meta_description: "Quand faire inspecter ses canalisations par caméra à Namur et à quel prix ? Rapport vidéo HD, bouchons récurrents, racines. Contactez le 0489 XX XX XX."
+meta_description: "Quand faire inspecter ses canalisations par caméra à Namur et à quel prix ? Rapport vidéo HD, bouchons récurrents, racines. Contactez le 0467 88 58 87."
 primary_keyword: "quand faire inspecter canalisation caméra Namur prix"
 secondary_keywords:
   - "prix inspection vidéo canalisation Namur"
@@ -470,7 +470,7 @@ authorRole: "Spécialiste Diagnostic Endoscopique et Réseaux"
 Vous venez de déboucher votre WC ou votre évier pour la troisième fois ce mois-ci, une zone de votre pelouse s'affaisse mystérieusement au-dessus de l'évacuation principale ou vous êtes sur le point d'acheter une maison ancienne à Namur : creuser une tranchée à l'aveugle à travers la terrasse ou démolir le carrelage du salon serait une folie coûteuse. Aujourd'hui, l'inspection vidéo endoscopique permet d'explorer l'intimité de vos tuyaux sans le moindre coup de pioche. **Quand est-il indispensable de recourir à une caméra de canalisation et combien coûte ce diagnostic à Namur en 2026 ?**
 
 > **En résumé (Réponse rapide AEO 2026) :**  
-> Une inspection de canalisation par caméra est vivement recommandée en cas de **bouchons chroniques inexpliqués**, d'affaissement de sol, de soupçon de racines ou **avant l'achat d'un bien immobilier**. À Namur en 2026, le coût d'un passage caméra simple varie de **150 € à 210 € TTC**. Pour une inspection complète avec rapport écrit d'expertise et enregistrement vidéo couleur HD remis sur clé USB (reconnu par notaires et assurances), comptez entre **210 € et 290 € TTC**. Appelez nos techniciens caméra au **0489 XX XX XX**.
+> Une inspection de canalisation par caméra est vivement recommandée en cas de **bouchons chroniques inexpliqués**, d'affaissement de sol, de soupçon de racines ou **avant l'achat d'un bien immobilier**. À Namur en 2026, le coût d'un passage caméra simple varie de **150 € à 210 € TTC**. Pour une inspection complète avec rapport écrit d'expertise et enregistrement vidéo couleur HD remis sur clé USB (reconnu par notaires et assurances), comptez entre **210 € et 290 € TTC**. Appelez nos techniciens caméra au **0467 88 58 87**.
 
 Découvrez dans ce guide complet les 5 situations où l'endoscopie de canalisation s'impose, la technologie des caméras rotatives avec sonde radio et les réparations sans tranchée permises par ce diagnostic.
 
@@ -499,7 +499,7 @@ En cas de dégât des eaux avec les voisins ou avec la voirie communale, le rapp
 [BLOC CTA INSPECTION CAMÉRA]
 Vos canalisations se bouchent sans arrêt à Namur ?
 Visualisez en direct l'intérieur de vos tuyaux sur écran HD couleur et localisez le problème.
-📞 Ligne directe diagnostic caméra : 0489 XX XX XX
+📞 Ligne directe diagnostic caméra : 0467 88 58 87
 Consultez notre service inspection : /debouchage/[Namur]/
 \`\`\`
 
@@ -577,7 +577,7 @@ Faire inspecter ses canalisations par caméra à Namur est la démarche la plus 
 [BLOC CTA FINAL]
 Des bouchons chroniques ou des soupçons sur vos égouts à Namur ?
 Diagnostic vidéo haute définition immédiat avec localisation par sonde radio.
-📞 Appelez Plombier Namur Urgent au 0489 XX XX XX
+📞 Appelez Plombier Namur Urgent au 0467 88 58 87
 💬 Rapport technique d'expertise remis sur clé USB le jour même.
 \`\`\`
 `;
@@ -587,7 +587,7 @@ saveArticle('24-quand-faire-inspecter-canalisations-camera-namur-prix.md', art24
 // Article 25
 const art25 = `---
 title: "Refoulement d'Égout à Namur : Que Faire et Qui Appeler ?"
-meta_description: "Refoulement d'égout dans la maison ou la cave à Namur ? Que faire d'urgence et qui appeler ? Pompage, clapet anti-retour et devis. Tél : 0489 XX XX XX."
+meta_description: "Refoulement d'égout dans la maison ou la cave à Namur ? Que faire d'urgence et qui appeler ? Pompage, clapet anti-retour et devis. Tél : 0467 88 58 87."
 primary_keyword: "refoulement d égout Namur que faire qui appeler"
 secondary_keywords:
   - "urgence inondation égout cave Namur"
@@ -605,7 +605,7 @@ authorRole: "Expert Assainissement et Prévention Inondations"
 Voir des eaux usées chargées et noirâtres remonter par le bac de douche, la cuvette des toilettes ou le siphon de sol de la buanderie est l'une des situations les plus traumatisantes et insalubres qu'un propriétaire puisse vivre. À Namur, ville confluent traversée par la Sambre et la Meuse et soumise à des épisodes orageux violents, les refoulements d'égout provoquent chaque année de lourds dégâts dans les sous-sols et les rez-de-chaussée. **Que faut-il faire dans les premières minutes et quel service d'urgence devez-vous contacter immédiatement pour stopper le désastre ?**
 
 > **En résumé (Réponse réflexe d'urgence AEO) :**  
-> Face à un refoulement d'égout à Namur, **interdisez immédiatement tout tirage d'eau dans la maison** (ne tirez plus les WC, coupez machines à laver et douches) et **coupez l'électricité au disjoncteur général** si l'eau s'approche des prises de cave. Contactez sans délai une **société de débouchage et pompage d'urgence équipée d'un camion hydrocureur au 0489 XX XX XX**. Les équipes de Plombier Namur Urgent interviennent 24h/24 pour pomper les eaux souillées et détruire le bouchon haute pression.
+> Face à un refoulement d'égout à Namur, **interdisez immédiatement tout tirage d'eau dans la maison** (ne tirez plus les WC, coupez machines à laver et douches) et **coupez l'électricité au disjoncteur général** si l'eau s'approche des prises de cave. Contactez sans délai une **société de débouchage et pompage d'urgence équipée d'un camion hydrocureur au 0467 88 58 87**. Les équipes de Plombier Namur Urgent interviennent 24h/24 pour pomper les eaux souillées et détruire le bouchon haute pression.
 
 Découvrez dans ce guide de crise les mesures sanitaires immédiates pour limiter la contamination, l'attribution légale des responsabilités entre domaine public et privé, et la solution définitive du clapet anti-retour.
 
@@ -625,13 +625,13 @@ L'eau d'égout est hautement conductrice d'électricité en raison des sels min�
 L'eau de refoulement est saturée de milliards de bactéries fécales pathogènes (*Escherichia coli*, salmonelles, entérocoques, virus entériques). Ne marchez jamais pieds nus ou en simples baskets dans cette eau : enfilez des bottes en caoutchouc épaisses, des gants étanches en nitrile et un masque respiratoire FFP2 pour éviter d'inhaler les aérosols d'égout.
 
 ### 4. Alertez les services d'intervention d'urgence assainissement
-Composez le numéro d'urgence assainissement au **0489 XX XX XX** pour déclencher le départ d'un camion combiné hydrocureur-pompeur haute capacité.
+Composez le numéro d'urgence assainissement au **0467 88 58 87** pour déclencher le départ d'un camion combiné hydrocureur-pompeur haute capacité.
 
 \`\`\`
 [BLOC CTA URGENCE REFOULEMENT]
 Les eaux usées remontent par vos toilettes ou votre siphon de sol à Namur ?
 Camion d'hydrocurage et pompage d'urgence disponible 24h/24 et 7j/7.
-📞 Ligne d'urgence absolue : 0489 XX XX XX
+📞 Ligne d'urgence absolue : 0467 88 58 87
 Consultez notre service assainissement : /debouchage/[Namur]/
 \`\`\`
 
@@ -707,7 +707,7 @@ Le refoulement d'égout est une urgence absolue qui exige des moyens de pompage 
 [BLOC CTA FINAL]
 Refoulement d'égout ou inondation de sous-sol à Namur, Jambes ou Salzinnes ?
 Pompage d'urgence, hydrocurage haute pression et désinfection disponibles 24h/24.
-📞 Appelez notre service d'intervention au 0489 XX XX XX
+📞 Appelez notre service d'intervention au 0467 88 58 87
 💬 Arrivée d'urgence sous 30 minutes et sécurisation totale des lieux.
 \`\`\`
 `;

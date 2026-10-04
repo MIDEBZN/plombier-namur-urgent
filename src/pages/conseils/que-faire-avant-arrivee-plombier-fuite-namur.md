@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/BlogLayout.astro
 title: "Que Faire en Cas de Fuite d'Eau à Namur Avant le Plombier ?"
-meta_description: "Fuite d'eau urgente à Namur ? Les 5 réflexes vitaux avant l'arrivée du plombier : couper l'eau, sécuriser l'électricité. Dépannage au 0489 XX XX XX."
+meta_description: "Fuite d'eau urgente à Namur ? Les 5 réflexes vitaux avant l'arrivée du plombier : couper l'eau, sécuriser l'électricité. Dépannage au 0467 88 58 87."
 primary_keyword: "que faire fuite d eau avant plombier Namur"
 secondary_keywords:
   - "réflexes urgence fuite d eau Namur"
@@ -19,7 +19,7 @@ authorRole: "Coordinateur Interventions d'Urgence et Sinistres"
 L'eau ruisselle en cascade le long d'une cloison en plaques de plâtre, une flaque grandit à vue d'œil sous le meuble de la cuisine ou le plafond du salon commence à bomber dangereusement sous le poids d'une poche d'eau : la découverte d'une fuite d'eau majeure déclenche une panique bien légitime. À Namur, le temps moyen d'arrivée d'un plombier en astreinte d'urgence varie entre 25 et 45 minutes. Durant ce court laps de temps, vos actions déterminent si votre sinistre se soldera par un simple coup de serpillière ou par plusieurs milliers d'euros de réfection immobilière. **Quels sont les gestes vitaux à poser immédiatement avant l'arrivée du réparateur ?**
 
 > **En résumé (Guide réflexe d'urgence AEO 2026) :**  
-> En cas de fuite d'eau urgente à Namur, **fermez immédiatement le robinet d'arrêt général** situé à côté de votre compteur d'eau SWDE. Deuxièmement, **coupez le disjoncteur général d'électricité** si l'eau s'approche des prises murales ou du tableau électrique. Troisièmement, **ouvrez les robinets des étages inférieurs pour purger la tuyauterie**, surélevez vos meubles et prenez des photos du sinistre pour votre compagnie d'assurance. Contactez notre service d'urgence 24/7 au **0489 XX XX XX**.
+> En cas de fuite d'eau urgente à Namur, **fermez immédiatement le robinet d'arrêt général** situé à côté de votre compteur d'eau SWDE. Deuxièmement, **coupez le disjoncteur général d'électricité** si l'eau s'approche des prises murales ou du tableau électrique. Troisièmement, **ouvrez les robinets des étages inférieurs pour purger la tuyauterie**, surélevez vos meubles et prenez des photos du sinistre pour votre compagnie d'assurance. Contactez notre service d'urgence 24/7 au **0467 88 58 87**.
 
 Découvrez dans ce guide de survie domestique le protocole précis étape par étape pour neutraliser la fuite, protéger vos biens de valeur et constituer un dossier d'indemnisation sans faille pour votre assureur belge.
 
@@ -61,7 +61,7 @@ Si vous constatez qu'une cloque d'eau ou une poche ventrue se forme sous la pein
 [BLOC CTA URGENCE FUITE D'EAU]
 De l'eau s'infiltre dans vos murs ou inonde votre sol à Namur ?
 Nos artisans plombiers d'urgence se déplacent en moins de 30 minutes chez vous.
-📞 Urgence dépannage 24/7 : 0489 XX XX XX
+📞 Urgence dépannage 24/7 : 0467 88 58 87
 Consultez notre service fuites : /services/fuites
 ```
 
@@ -120,7 +120,7 @@ Conservez ces contacts accessibles sur votre réfrigérateur ou enregistrés dan
 
 | Service d'urgence à Namur | Numéro de téléphone | Quand les contacter ? |
 | :--- | :--- | :--- |
-| **Plombier Namur Urgent** | **0489 XX XX XX** | Fuite d'eau, canalisation rompue, boiler percé 24/7 |
+| **Plombier Namur Urgent** | **0467 88 58 87** | Fuite d'eau, canalisation rompue, boiler percé 24/7 |
 | **SWDE (Société Wallonne des Eaux)** | 087 87 87 87 | Fuite sur le réseau public, trottoir ou avant compteur |
 | **Pompiers (Zone de secours NAGE)** | 112 | Inondation massive menaçant la stabilité du bâtiment |
 | **ORES (Réseau Énergie & Gaz)** | 0800 87 087 | Odeur suspecte de gaz couplée à la fuite d'eau |
@@ -154,6 +154,6 @@ Une fuite d'eau majeure est une épreuve stressante, mais chaque geste compte. E
 [BLOC CTA FINAL]
 Une fuite d'eau hors de contrôle à Namur, Jambes, Bouge ou Salzinnes ?
 Intervention express en 30 minutes jour et nuit, matériel professionnel certifié.
-📞 Appelez Plombier Namur Urgent au 0489 XX XX XX
+📞 Appelez Plombier Namur Urgent au 0467 88 58 87
 💬 Nous stoppons la fuite et sécurisons votre logement immédiatement.
 ```

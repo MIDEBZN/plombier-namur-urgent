@@ -1,6 +1,6 @@
 ---
 title: "Tarif Plombier Namur Nuit & Dimanche : Majorations 2026"
-meta_description: "Quel est le tarif d'un plombier à Namur la nuit, le dimanche ou un jour férié ? Forfaits de garde, majorations légales et devis. Tél : 0489 XX XX XX."
+meta_description: "Quel est le tarif d'un plombier à Namur la nuit, le dimanche ou un jour férié ? Forfaits de garde, majorations légales et devis. Tél : 0467 88 58 87."
 primary_keyword: "tarif plombier Namur soir dimanche jour férié"
 secondary_keywords:
   - "majoration plombier urgence nuit Namur"
@@ -45,7 +45,7 @@ Le coût d'un dépannage hors heures de bureau repose sur la combinaison du forf
 [BLOC CTA DEVIS SOIR ET WEEK-END]
 Besoin d'un dépannage ce soir ou ce dimanche à Namur ?
 Nos techniciens d'astreinte vous annoncent le prix exact au téléphone avant de se déplacer.
-📞 Appelez la ligne d'astreinte au 0489 XX XX XX
+📞 Appelez la ligne d'astreinte au 0467 88 58 87
 Consultez notre service d'urgence : /urgence/[Namur]/
 ```
 
@@ -131,6 +131,6 @@ Avoir besoin d'un plombier un dimanche ou à minuit ne doit pas être synonyme d
 [BLOC CTA FINAL]
 Panne de plomberie ou fuite ce soir ou ce dimanche à Namur ?
 Nos artisans d'astreinte interviennent 24h/24 et 7j/7 avec tarifs clairs et annoncés.
-📞 Ligne d'urgence week-end : 0489 XX XX XX
+📞 Ligne d'urgence week-end : 0467 88 58 87
 💬 Dépannage rapide et garanti à Namur, Jambes, Bouge et Salzinnes.
 ```

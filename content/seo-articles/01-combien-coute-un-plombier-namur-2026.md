@@ -1,6 +1,6 @@
 ---
 title: "Prix Plombier Namur 2026 : Tarifs, Urgence & Devis"
-meta_description: "Combien coûte un plombier à Namur en 2026 ? Tarifs horaires, forfaits urgence 24/7 et devis clair. Appelez le 0489 XX XX XX pour un dépannage immédiat."
+meta_description: "Combien coûte un plombier à Namur en 2026 ? Tarifs horaires, forfaits urgence 24/7 et devis clair. Appelez le 0467 88 58 87 pour un dépannage immédiat."
 primary_keyword: "prix plombier Namur 2026"
 secondary_keywords:
   - "tarif horaire plombier Namur"
@@ -60,7 +60,7 @@ Une canalisation rompue qui inonde votre hall d'entrée à 23h un samedi soir n'
 [BLOC CTA URGENCE]
 Besoin d'un dépannage immédiat à Namur ou en périphérie ?
 Nos artisans interviennent 24h/24 et 7j/7 avec un devis clair annoncé avant chaque geste technique.
-Appelez le 0489 XX XX XX (Ligne d'urgence locale)
+Appelez le 0467 88 58 87 (Ligne d'urgence locale)
 ou découvrez notre service de dépannage plomberie : /urgence/[Namur]/
 ```
 
@@ -174,6 +174,6 @@ Faire face à un problème de plomberie en urgence ne doit pas signifier payer d
 [BLOC CTA FINAL]
 Une urgence de plomberie à Namur, Jambes, Bouge ou Wépion ?
 Nos artisans plombiers et déboucheurs certifiés interviennent 24h/24 et 7j/7 dans tout le Namurois.
-📞 Contactez-nous au 0489 XX XX XX pour une assistance immédiate
+📞 Contactez-nous au 0467 88 58 87 pour une assistance immédiate
 💬 Ou remplissez notre formulaire de contact rapide : /contact/
 ```

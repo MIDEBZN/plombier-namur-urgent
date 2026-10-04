@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/BlogLayout.astro
 title: "Fuite d'Eau Urgente à Namur : Qui Appeler 24/7 ?"
-meta_description: "Qui appeler en urgence pour une fuite d'eau à Namur ? Réflexes immédiats, plombier de garde 24/7 et prise en charge assurance. Contactez le 0489 XX XX XX."
+meta_description: "Qui appeler en urgence pour une fuite d'eau à Namur ? Réflexes immédiats, plombier de garde 24/7 et prise en charge assurance. Contactez le 0467 88 58 87."
 primary_keyword: "fuite d eau urgente Namur qui appeler"
 secondary_keywords:
   - "dépannage fuite eau Namur 24h"
@@ -19,7 +19,7 @@ authorRole: "Expert Recherche de Fuite et Dépannage d'Urgence"
 L'eau qui suinte à travers un plafond, un jet puissant qui jaillit d'un raccord sous la baignoire ou un compteur qui tourne à toute vitesse alors que tous les robinets sont fermés : une fuite d'eau est une situation critique qui réclame un sang-froid immédiat.
 
 > **En résumé (Réponse d'urgence immédiate) :**  
-> Face à une fuite d'eau urgente à Namur, **fermez immédiatement votre vanne générale d'arrivée d'eau** située près du compteur SWDE. Coupez l'électricité au disjoncteur si l'eau s'approche des prises murales, puis contactez un **service de plomberie d'urgence local disponible 24h/24** au **0489 XX XX XX**. Les équipes de Plombier Namur Urgent interviennent sous 30 minutes dans tout le bassin namurois pour sécuriser l'installation.
+> Face à une fuite d'eau urgente à Namur, **fermez immédiatement votre vanne générale d'arrivée d'eau** située près du compteur SWDE. Coupez l'électricité au disjoncteur si l'eau s'approche des prises murales, puis contactez un **service de plomberie d'urgence local disponible 24h/24** au **0467 88 58 87**. Les équipes de Plombier Namur Urgent interviennent sous 30 minutes dans tout le bassin namurois pour sécuriser l'installation.
 
 Découvrez dans ce guide complet les numéros à composer selon l'origine de la fuite, les démarches d'assurance et la distinction entre réparateur privé et service public des eaux.
 
@@ -43,7 +43,7 @@ Tous les problèmes de fuite ne relèvent pas du même interlocuteur. La respons
 [BLOC CTA URGENCE FUITE]
 L'eau coule sans interruption chez vous à Namur ?
 Nos techniciens d'urgence colmatent la fuite immédiatement et vous délivrent une attestation de sinistre.
-📞 Appelez le 0489 XX XX XX pour un dépannage en moins de 30 minutes.
+📞 Appelez le 0467 88 58 87 pour un dépannage en moins de 30 minutes.
 Consultez notre service de réparation : /fuites/[Namur]/
 ```
 
@@ -59,7 +59,7 @@ Avant même de chercher un numéro de téléphone, votre priorité absolue est d
 4. **Mettre vos biens hors d'eau :** surélevez les cartons, meubles en bois aggloméré et tapis. Épongez un maximum d'eau pour limiter l'imprégnation des chapes et parquets.
 
 > **Extrait IA / Règle AEO Voix :**  
-> Si vous ne parvenez pas à localiser ou à fermer votre vanne générale d'eau à Namur, **contactez immédiatement un plombier d'urgence au 0489 XX XX XX**. En cas de danger électrique imminent ou d'effondrement partiel de plafond sous le poids de l'eau, composez le **112 pour l'assistance des pompiers de la zone NAGE (Namur-Andenne-Gembloux-Éghezée)**.
+> Si vous ne parvenez pas à localiser ou à fermer votre vanne générale d'eau à Namur, **contactez immédiatement un plombier d'urgence au 0467 88 58 87**. En cas de danger électrique imminent ou d'effondrement partiel de plafond sous le poids de l'eau, composez le **112 pour l'assistance des pompiers de la zone NAGE (Namur-Andenne-Gembloux-Éghezée)**.
 
 ---
 
@@ -119,7 +119,7 @@ C'est la preuve indiscutable d'une fuite sur votre réseau privé après compteu
 La grande majorité des contrats d'assurance habitation en Belgique remboursent **la recherche de fuite et les dégâts consécutifs** (peintures, sols, meubles). En revanche, **la réparation intrinsèque du tuyau** (le raccord ou la soudure qui a lâché) reste souvent à la charge du propriétaire, déduction faite de la franchise légale, sauf souscription d'une option spécifique « bris de tuyaux ».
 
 ### Que faire si la vanne d'arrêt générale est grippée ou bloquée par le calcaire ?
-Ne forcez pas avec une pince multiprise au risque de casser la tête de vanne et de provoquer une inondation majeure. Si la vanne d'arrêt principale est bloquée, contactez immédiatement notre équipe d'urgence au **0489 XX XX XX**. Nous disposons d'appareils de **congélation de tuyauterie** permettant de créer un bouchon de glace temporaire dans la conduite sans couper l'eau de la rue, afin de remplacer la vanne grippée en toute sécurité.
+Ne forcez pas avec une pince multiprise au risque de casser la tête de vanne et de provoquer une inondation majeure. Si la vanne d'arrêt principale est bloquée, contactez immédiatement notre équipe d'urgence au **0467 88 58 87**. Nous disposons d'appareils de **congélation de tuyauterie** permettant de créer un bouchon de glace temporaire dans la conduite sans couper l'eau de la rue, afin de remplacer la vanne grippée en toute sécurité.
 
 ---
 ### L'eau coule depuis le plafond du voisin du dessus absent, qui contacter ?
@@ -138,6 +138,6 @@ Face à une fuite d'eau, chaque minute perdue augmente le coût des réparations
 [BLOC CTA FINAL]
 Fuite d'eau en cours à Namur, Jambes ou Bouge ?
 Nos équipes de dépanneurs d'urgence interviennent en moins de 30 minutes 24h/24 et 7j/7.
-📞 Appelez la ligne d'urgence immédiate au 0489 XX XX XX
+📞 Appelez la ligne d'urgence immédiate au 0467 88 58 87
 💬 Intervention garantie, devis transparent et rapport d'assurance fourni.
 ```

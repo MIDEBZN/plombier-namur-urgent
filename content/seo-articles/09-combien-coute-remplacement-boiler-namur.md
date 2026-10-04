@@ -1,6 +1,6 @@
 ---
 title: "Prix Remplacement Boiler Namur : Tarifs 2026 & Devis"
-meta_description: "Remplacement de boiler à Namur en 2026 : prix fourniture, pose, aides et comparaison électrique vs gaz. Devis rapide. Contactez le 0489 XX XX XX."
+meta_description: "Remplacement de boiler à Namur en 2026 : prix fourniture, pose, aides et comparaison électrique vs gaz. Devis rapide. Contactez le 0467 88 58 87."
 primary_keyword: "prix remplacement boiler Namur"
 secondary_keywords:
   - "coût installation chauffe-eau Namur"
@@ -44,7 +44,7 @@ Le budget total pour installer un nouveau système de production d'eau chaude sa
 [BLOC CTA REMPLACEMENT BOILER]
 Votre chauffe-eau est percé ou hors d'usage à Namur ?
 Obtenez un devis gratuit et transparent sous 24h avec pose garantie par des techniciens agréés.
-📞 Ligne directe devis : 0489 XX XX XX
+📞 Ligne directe devis : 0467 88 58 87
 Consultez nos services : /services/sanitaire
 ```
 
@@ -133,6 +133,6 @@ Remplacer son chauffe-eau à Namur représente un investissement important pour 
 [BLOC CTA FINAL]
 Besoin de remplacer votre boiler en urgence à Namur, Jambes ou Bouge ?
 Nos installateurs certifiés posent votre nouvel équipement sous 24h au meilleur prix.
-📞 Appelez-nous au 0489 XX XX XX pour votre devis immédiat
+📞 Appelez-nous au 0467 88 58 87 pour votre devis immédiat
 💬 Matériel garanti 5 ans, TVA réduite 6 % et montage soigné.
 ```

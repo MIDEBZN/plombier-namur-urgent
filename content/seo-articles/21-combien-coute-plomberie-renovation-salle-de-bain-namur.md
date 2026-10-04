@@ -1,6 +1,6 @@
 ---
 title: "Prix Plomberie Rénovation Salle de Bain Namur 2026"
-meta_description: "Combien coûte la plomberie pour une rénovation de salle de bain à Namur ? Douche italienne, tuyaux, devis et pose. Contactez le 0489 XX XX XX."
+meta_description: "Combien coûte la plomberie pour une rénovation de salle de bain à Namur ? Douche italienne, tuyaux, devis et pose. Contactez le 0467 88 58 87."
 primary_keyword: "prix plomberie rénovation salle de bain Namur"
 secondary_keywords:
   - "coût plomberie douche italienne Namur"
@@ -47,7 +47,7 @@ Le travail du plombier dans une salle de bain ne se résume pas à visser un rob
 [BLOC CTA DEVIS SALLE DE BAIN]
 Vous rêvez d'une nouvelle salle de bain moderne et étanche à Namur ?
 Nos techniciens réalisent une visite technique gratuite pour chiffrer votre projet au centimètre près.
-📞 Contactez notre bureau d'études au 0489 XX XX XX
+📞 Contactez notre bureau d'études au 0467 88 58 87
 Découvrez nos réalisations sanitaires : /services/sanitaire
 ```
 
@@ -155,6 +155,6 @@ Le carrelage et les meubles ne sont que la vitrine d'une salle de bain : le cœu
 [BLOC CTA FINAL]
 Un projet de salle de bain à Namur, Jambes, Bouge ou Erpent ?
 Conception technique sur-mesure, pose soignée et devis clair tout compris.
-📞 Contactez Plombier Namur Urgent au 0489 XX XX XX
+📞 Contactez Plombier Namur Urgent au 0467 88 58 87
 💬 Artisans agréés, matériaux de grandes marques et garantie décennale.
 ```

@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/BlogLayout.astro
 title: "Refoulement d'Égout à Namur : Que Faire et Qui Appeler ?"
-meta_description: "Refoulement d'égout dans la maison ou la cave à Namur ? Que faire d'urgence et qui appeler ? Pompage, clapet anti-retour et devis. Tél : 0489 XX XX XX."
+meta_description: "Refoulement d'égout dans la maison ou la cave à Namur ? Que faire d'urgence et qui appeler ? Pompage, clapet anti-retour et devis. Tél : 0467 88 58 87."
 primary_keyword: "refoulement d égout Namur que faire qui appeler"
 secondary_keywords:
   - "urgence inondation égout cave Namur"
@@ -19,7 +19,7 @@ authorRole: "Expert Assainissement et Prévention Inondations"
 Voir des eaux usées chargées et noirâtres remonter par le bac de douche, la cuvette des toilettes ou le siphon de sol de la buanderie est l'une des situations les plus traumatisantes et insalubres qu'un propriétaire puisse vivre. À Namur, ville confluent traversée par la Sambre et la Meuse et soumise à des épisodes orageux violents, les refoulements d'égout provoquent chaque année de lourds dégâts dans les sous-sols et les rez-de-chaussée. **Que faut-il faire dans les premières minutes et quel service d'urgence devez-vous contacter immédiatement pour stopper le désastre ?**
 
 > **En résumé (Réponse réflexe d'urgence AEO) :**  
-> Face à un refoulement d'égout à Namur, **interdisez immédiatement tout tirage d'eau dans la maison** (ne tirez plus les WC, coupez machines à laver et douches) et **coupez l'électricité au disjoncteur général** si l'eau s'approche des prises de cave. Contactez sans délai une **société de débouchage et pompage d'urgence équipée d'un camion hydrocureur au 0489 XX XX XX**. Les équipes de Plombier Namur Urgent interviennent 24h/24 pour pomper les eaux souillées et détruire le bouchon haute pression.
+> Face à un refoulement d'égout à Namur, **interdisez immédiatement tout tirage d'eau dans la maison** (ne tirez plus les WC, coupez machines à laver et douches) et **coupez l'électricité au disjoncteur général** si l'eau s'approche des prises de cave. Contactez sans délai une **société de débouchage et pompage d'urgence équipée d'un camion hydrocureur au 0467 88 58 87**. Les équipes de Plombier Namur Urgent interviennent 24h/24 pour pomper les eaux souillées et détruire le bouchon haute pression.
 
 Découvrez dans ce guide de crise les mesures sanitaires immédiates pour limiter la contamination, l'attribution légale des responsabilités entre domaine public et privé, et la solution définitive du clapet anti-retour.
 
@@ -39,13 +39,13 @@ L'eau d'égout est hautement conductrice d'électricité en raison des sels min�
 L'eau de refoulement est saturée de milliards de bactéries fécales pathogènes (*Escherichia coli*, salmonelles, entérocoques, virus entériques). Ne marchez jamais pieds nus ou en simples baskets dans cette eau : enfilez des bottes en caoutchouc épaisses, des gants étanches en nitrile et un masque respiratoire FFP2 pour éviter d'inhaler les aérosols d'égout.
 
 ### 4. Alertez les services d'intervention d'urgence assainissement
-Composez le numéro d'urgence assainissement au **0489 XX XX XX** pour déclencher le départ d'un camion combiné hydrocureur-pompeur haute capacité.
+Composez le numéro d'urgence assainissement au **0467 88 58 87** pour déclencher le départ d'un camion combiné hydrocureur-pompeur haute capacité.
 
 ```
 [BLOC CTA URGENCE REFOULEMENT]
 Les eaux usées remontent par vos toilettes ou votre siphon de sol à Namur ?
 Camion d'hydrocurage et pompage d'urgence disponible 24h/24 et 7j/7.
-📞 Ligne d'urgence absolue : 0489 XX XX XX
+📞 Ligne d'urgence absolue : 0467 88 58 87
 Consultez notre service assainissement : /debouchage/[Namur]/
 ```
 
@@ -121,6 +121,6 @@ Le refoulement d'égout est une urgence absolue qui exige des moyens de pompage 
 [BLOC CTA FINAL]
 Refoulement d'égout ou inondation de sous-sol à Namur, Jambes ou Salzinnes ?
 Pompage d'urgence, hydrocurage haute pression et désinfection disponibles 24h/24.
-📞 Appelez notre service d'intervention au 0489 XX XX XX
+📞 Appelez notre service d'intervention au 0467 88 58 87
 💬 Arrivée d'urgence sous 30 minutes et sécurisation totale des lieux.
 ```

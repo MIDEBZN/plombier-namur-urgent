@@ -1,6 +1,6 @@
 ---
 title: "Qui Paie le Plombier à Namur ? Locataire vs Propriétaire"
-meta_description: "Fuite d'eau, chaudière, WC bouché à Namur : qui paie le plombier entre locataire et propriétaire ? Règles légales en Wallonie. Infos au 0489 XX XX XX."
+meta_description: "Fuite d'eau, chaudière, WC bouché à Namur : qui paie le plombier entre locataire et propriétaire ? Règles légales en Wallonie. Infos au 0467 88 58 87."
 primary_keyword: "qui paie le plombier locataire propriétaire Namur"
 secondary_keywords:
   - "réparation plomberie charge locataire propriétaire Belgique"
@@ -45,7 +45,7 @@ Pour couper court aux interprétations subjectives, voici la grille officielle d
 [BLOC CTA CONFLIT LOCATIF]
 Un doute sur la prise en charge d'un dépannage plomberie à Namur ?
 Nos techniciens établissent un diagnostic technique objectif avec mention de la cause réelle de la panne.
-📞 Contactez-nous pour une intervention claire au 0489 XX XX XX
+📞 Contactez-nous pour une intervention claire au 0467 88 58 87
 Découvrez notre engagement : /contact/
 ```
 
@@ -131,6 +131,6 @@ La frontière entre menue réparation locative et vétusté structurelle est pr�
 [BLOC CTA FINAL]
 Un litige ou une urgence de plomberie dans un bien locatif à Namur ?
 Dépannage rapide 24h/24 avec rapport technique écrit pour bailleur ou locataire.
-📞 Appelez notre service d'intervention au 0489 XX XX XX
+📞 Appelez notre service d'intervention au 0467 88 58 87
 💬 Devis transparent et neutralité technique garantie.
 ```

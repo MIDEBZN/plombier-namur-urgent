@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/BlogLayout.astro
 title: "WC Bouché à Namur : Plombier ou Déboucheur ? Le Guide"
-meta_description: "WC bouché à Namur ? Plombier ou déboucheur ? Découvrez qui appeler, les tarifs 2026 et les solutions rapides sans arnaque. Tél : 0489 XX XX XX."
+meta_description: "WC bouché à Namur ? Plombier ou déboucheur ? Découvrez qui appeler, les tarifs 2026 et les solutions rapides sans arnaque. Tél : 0467 88 58 87."
 primary_keyword: "WC bouché à Namur plombier ou déboucheur"
 secondary_keywords:
   - "débouchage toilette urgent Namur"
@@ -40,7 +40,7 @@ Avant de composer un numéro de dépannage à Namur, effectuez cette vérificati
 [BLOC CTA DÉBOUCHAGE WC]
 Vos toilettes menacent de déborder chez vous à Namur ?
 Intervention rapide de jour comme de nuit pour déboucher votre WC proprement.
-📞 Ligne d'urgence sanitaire : 0489 XX XX XX
+📞 Ligne d'urgence sanitaire : 0467 88 58 87
 Consultez notre service de débouchage : /debouchage/[Namur]/
 ```
 
@@ -127,6 +127,6 @@ Inutile de payer un camion hydrocureur coûteux pour un simple rouleau de papier
 [BLOC CTA FINAL]
 Vos WC sont bouchés à Namur, Jambes, Salzinnes ou Bouge ?
 Nos déboucheurs certifiés interviennent en express 24h/24 et 7j/7.
-📞 Contactez-nous au 0489 XX XX XX pour un débouchage propre et immédiat
+📞 Contactez-nous au 0467 88 58 87 pour un débouchage propre et immédiat
 💬 Résultat garanti et devis sans mauvaise surprise.
 ```

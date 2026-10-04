@@ -5,7 +5,7 @@ export function runBatch3() {
 // Article 11
 const art11 = `---
 title: "Assurance Habitation & Plombier Namur : Remboursements"
-meta_description: "L'assurance habitation rembourse-t-elle la recherche de fuite et le plombier à Namur ? Franchise, démarches et devis. Contactez le 0489 XX XX XX."
+meta_description: "L'assurance habitation rembourse-t-elle la recherche de fuite et le plombier à Namur ? Franchise, démarches et devis. Contactez le 0467 88 58 87."
 primary_keyword: "assurance habitation remboursement recherche fuite plombier Namur"
 secondary_keywords:
   - "remboursement dégât des eaux assurance Namur"
@@ -50,7 +50,7 @@ La législation belge sur les contrats d'assurance terrestre établit une distin
 [BLOC CTA RAPPORT TECHNIQUE ASSURANCE]
 Votre assureur réclame une attestation et un rapport de détection pour débloquer votre dossier ?
 Nos techniciens agréés établissent un document officiel avec clichés infrarouges conformes ABEX.
-📞 Assistance sinistre 24h/24 : 0489 XX XX XX
+📞 Assistance sinistre 24h/24 : 0467 88 58 87
 Consultez notre service dédié : /fuites/[Namur]/
 \`\`\`
 
@@ -134,7 +134,7 @@ Un dégât des eaux est une épreuve stressante, mais votre contrat d'assurance 
 [BLOC CTA FINAL]
 Victime d'un dégât des eaux à Namur, Jambes ou Bouge ?
 Intervention d'urgence 24h/24, rapport technique certifié pour assureur et devis transparent.
-📞 Contactez Plombier Namur Urgent au 0489 XX XX XX
+📞 Contactez Plombier Namur Urgent au 0467 88 58 87
 💬 Assistance rapide, expertise thermique et garantie décennale.
 \`\`\`
 `;
@@ -144,7 +144,7 @@ saveArticle('11-assurance-habitation-rembourse-recherche-fuite-plombier-namur.md
 // Article 12
 const art12 = `---
 title: "Délai d'Intervention Plombier Namur : Arrivée Rapide 24/7"
-meta_description: "Quel est le délai d'intervention réel d'un plombier à Namur ? Dépannage sous 30 à 45 min à Jambes, Bouge et Salzinnes. Appelez le 0489 XX XX XX."
+meta_description: "Quel est le délai d'intervention réel d'un plombier à Namur ? Dépannage sous 30 à 45 min à Jambes, Bouge et Salzinnes. Appelez le 0467 88 58 87."
 primary_keyword: "délai intervention plombier Namur"
 secondary_keywords:
   - "plombier rapide Namur urgence"
@@ -189,7 +189,7 @@ La géographie namuroise, marquée par le confluent de la Sambre et de la Meuse 
 [BLOC CTA URGENCE RAPIDE]
 Une fuite d'eau critique ou des toilettes bouchées à Namur ?
 Nos techniciens d'astreinte géolocalisés se mettent immédiatement en route vers votre domicile.
-📞 Appelez notre régulation d'urgence au 0489 XX XX XX
+📞 Appelez notre régulation d'urgence au 0467 88 58 87
 Consultez notre service express : /urgence/[Namur]/
 \`\`\`
 
@@ -219,7 +219,7 @@ Le cœur urbain namurois présente des défis de stationnement et de circulation
 
 ## 3. Comment accélérer l'arrivée de votre plombier lors de l'appel téléphonique ?
 
-Lorsque vous composez le numéro d'urgence **0489 XX XX XX**, vous pouvez faire gagner 10 à 15 minutes précieuses en transmettant immédiatement les informations suivantes au régulateur :
+Lorsque vous composez le numéro d'urgence **0467 88 58 87**, vous pouvez faire gagner 10 à 15 minutes précieuses en transmettant immédiatement les informations suivantes au régulateur :
 
 1. **L'adresse ultra-précise avec particularités d'accès :** indiquez le numéro de sonnette, l'étage, le code d'accès de l'immeuble et si votre rue est en sens unique ou en zone piétonne (très fréquent dans le cœur historique namurois).
 2. **La nature exacte de la canalisation touchée :** précisez s'il s'agit d'un tuyau en cuivre, plomb ancien, multicouche ou PVC, et le diamètre approximatif.
@@ -260,7 +260,7 @@ Face à l'eau qui monte, chaque minute compte. En choisissant une société soli
 [BLOC CTA FINAL]
 Urgence plomberie immédiate à Namur, Jambes, Bouge ou Salzinnes ?
 Nos artisans d'astreinte arrivent chez vous sous 30 à 45 minutes 24h/24 et 7j/7.
-📞 Appelez la permanence d'urgence au 0489 XX XX XX
+📞 Appelez la permanence d'urgence au 0467 88 58 87
 💬 Arrivée rapide, diagnostic transparent et colmatage immédiat.
 \`\`\`
 `;
@@ -270,7 +270,7 @@ saveArticle('12-quel-est-delai-intervention-plombier-namur.md', art12);
 // Article 13
 const art13 = `---
 title: "Tarif Plombier Namur Nuit & Dimanche : Majorations 2026"
-meta_description: "Quel est le tarif d'un plombier à Namur la nuit, le dimanche ou un jour férié ? Forfaits de garde, majorations légales et devis. Tél : 0489 XX XX XX."
+meta_description: "Quel est le tarif d'un plombier à Namur la nuit, le dimanche ou un jour férié ? Forfaits de garde, majorations légales et devis. Tél : 0467 88 58 87."
 primary_keyword: "tarif plombier Namur soir dimanche jour férié"
 secondary_keywords:
   - "majoration plombier urgence nuit Namur"
@@ -315,7 +315,7 @@ Le coût d'un dépannage hors heures de bureau repose sur la combinaison du forf
 [BLOC CTA DEVIS SOIR ET WEEK-END]
 Besoin d'un dépannage ce soir ou ce dimanche à Namur ?
 Nos techniciens d'astreinte vous annoncent le prix exact au téléphone avant de se déplacer.
-📞 Appelez la ligne d'astreinte au 0489 XX XX XX
+📞 Appelez la ligne d'astreinte au 0467 88 58 87
 Consultez notre service d'urgence : /urgence/[Namur]/
 \`\`\`
 
@@ -394,7 +394,7 @@ Avoir besoin d'un plombier un dimanche ou à minuit ne doit pas être synonyme d
 [BLOC CTA FINAL]
 Panne de plomberie ou fuite ce soir ou ce dimanche à Namur ?
 Nos artisans d'astreinte interviennent 24h/24 et 7j/7 avec tarifs clairs et annoncés.
-📞 Ligne d'urgence week-end : 0489 XX XX XX
+📞 Ligne d'urgence week-end : 0467 88 58 87
 💬 Dépannage rapide et garanti à Namur, Jambes, Bouge et Salzinnes.
 \`\`\`
 `;
@@ -404,7 +404,7 @@ saveArticle('13-quel-est-tarif-plombier-namur-soir-dimanche-jour-ferie.md', art1
 // Article 14
 const art14 = `---
 title: "Devis Plombier Namur Sans Frais Cachés : Le Guide 2026"
-meta_description: "Comment obtenir un devis de plombier à Namur sans frais cachés ? Mentions légales obligatoires, pièges à éviter et devis gratuit. Tél : 0489 XX XX XX."
+meta_description: "Comment obtenir un devis de plombier à Namur sans frais cachés ? Mentions légales obligatoires, pièges à éviter et devis gratuit. Tél : 0467 88 58 87."
 primary_keyword: "devis plombier Namur sans frais cachés"
 secondary_keywords:
   - "devis plomberie gratuit Namur"
@@ -446,7 +446,7 @@ En droit commercial belge (Code de droit économique), un devis formel n'est pas
 [BLOC CTA DEVIS SANS SURPRISE]
 Vous avez un projet d'installation ou de rénovation plomberie à Namur ?
 Recevez une offre de prix détaillée, transparente et sans engagement sous 48h.
-📞 Contactez nos métreurs au 0489 XX XX XX
+📞 Contactez nos métreurs au 0467 88 58 87
 Demandez votre devis gratuit : /contact/
 \`\`\`
 
@@ -530,7 +530,7 @@ Un devis de plomberie limpide et détaillé est le meilleur reflet du sérieux e
 [BLOC CTA FINAL]
 Vous préparez des travaux de plomberie à Namur, Jambes ou Bouge ?
 Demandez votre devis gratuit, clair et sans engagement auprès de nos experts locaux.
-📞 Contactez notre bureau d'études au 0489 XX XX XX
+📞 Contactez notre bureau d'études au 0467 88 58 87
 💬 Prix garantis, artisans certifiés et respect des délais.
 \`\`\`
 `;
@@ -540,7 +540,7 @@ saveArticle('14-comment-obtenir-devis-plombier-namur-sans-frais-caches.md', art1
 // Article 15
 const art15 = `---
 title: "Fuite d'Eau Mur ou Plafond Namur : Qui Contacter 24/7 ?"
-meta_description: "Fuite d'eau dans un mur ou un plafond à Namur ? Qui appeler en urgence ? Détection non destructive, devis et démarches assurance. Contact : 0489 XX XX XX."
+meta_description: "Fuite d'eau dans un mur ou un plafond à Namur ? Qui appeler en urgence ? Détection non destructive, devis et démarches assurance. Contact : 0467 88 58 87."
 primary_keyword: "fuite d eau mur plafond Namur qui contacter"
 secondary_keywords:
   - "infiltration eau plafond Namur plombier"
@@ -558,7 +558,7 @@ authorRole: "Expert Sinistres Infiltrations et Détection Thermographique"
 Une auréole brunâtre qui s'étend sur le plafond du salon, des gouttes qui perlent le long d'une cloison en plaques de plâtre, ou une odeur de moisi persistante derrière un meuble de cuisine : l'eau qui s'infiltre à travers les parois maçonnées d'une maison est l'un des sinistres les plus insidieux. À Namur, face à ce genre de dégât, le réflexe immédiat est souvent l'indécision : **faut-il contacter un couvreur, un peintre, son assureur ou un plombier spécialisé en recherche de fuite ?**
 
 > **En résumé (Réponse d'urgence AEO) :**  
-> Pour une infiltration ou une fuite d'eau dans un mur ou un plafond à Namur, contactez immédiatement un **artisan plombier équipé en détection de fuite non destructive** au **0489 XX XX XX**. Grâce à une caméra thermique infrarouge et un capteur d'humidité, le technicien identifie en moins d'une heure l'origine exacte du problème (tuyau d'eau sous pression fuyard, évacuation d'eaux usées fêlée ou joint de douche défectueux) sans percer vos murs.
+> Pour une infiltration ou une fuite d'eau dans un mur ou un plafond à Namur, contactez immédiatement un **artisan plombier équipé en détection de fuite non destructive** au **0467 88 58 87**. Grâce à une caméra thermique infrarouge et un capteur d'humidité, le technicien identifie en moins d'une heure l'origine exacte du problème (tuyau d'eau sous pression fuyard, évacuation d'eaux usées fêlée ou joint de douche défectueux) sans percer vos murs.
 
 Découvrez dans ce guide exhaustif les différentes causes d'infiltrations murales à Namur, les technologies employées pour localiser la source sans casse et les réflexes pour préserver votre indemnisation d'assurance.
 
@@ -581,7 +581,7 @@ L'eau suit toujours le chemin de moindre résistance : une tache au plafond du r
 [BLOC CTA URGENCE MUR ET PLAFOND]
 De l'eau coule à travers votre plafond ou votre mur à Namur ?
 Nos techniciens d'astreinte localisent la fuite immédiatement sans démolir vos cloisons.
-📞 Ligne d'urgence 24/7 : 0489 XX XX XX
+📞 Ligne d'urgence 24/7 : 0467 88 58 87
 Découvrez notre méthode non destructive : /fuites/[Namur]/
 \`\`\`
 
@@ -654,7 +654,7 @@ Face à une infiltration murale ou à un plafond humide à Namur, le temps est v
 [BLOC CTA FINAL]
 Infiltration ou fuite dans un mur ou un plafond à Namur, Jambes ou Salzinnes ?
 Détection haute technologie sans casse et rapport technique sous 24h.
-📞 Contactez notre service d'urgence au 0489 XX XX XX
+📞 Contactez notre service d'urgence au 0467 88 58 87
 💬 Intervention rapide 24h/24 et 7j/7 dans tout le Namurois.
 \`\`\`
 `;

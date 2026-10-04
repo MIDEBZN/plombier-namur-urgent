@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/BlogLayout.astro
 title: "Dépannage Boiler Namur : Réparation Chauffe-Eau 24/7"
-meta_description: "Boiler en panne ou plus d'eau chaude à Namur ? Quel plombier chauffagiste appeler ? Dépannage rapide, détartrage et devis clair. Appelez le 0489 XX XX XX."
+meta_description: "Boiler en panne ou plus d'eau chaude à Namur ? Quel plombier chauffagiste appeler ? Dépannage rapide, détartrage et devis clair. Appelez le 0467 88 58 87."
 primary_keyword: "plombier Namur répare boiler chauffe-eau panne"
 secondary_keywords:
   - "dépannage chauffe-eau électrique Namur"
@@ -19,7 +19,7 @@ authorRole: "Technicien Chauffage et Production d'Eau Chaude"
 Ouvrir le robinet de la douche le matin pour n'obtenir qu'un filet d'eau glacée, constater que le groupe de sécurité crache de l'eau en continu ou entendre un bouillonnement inquiétant dans la buanderie : la panne de boiler (chauffe-eau) est une urgence qui paralyse le confort du foyer. À Namur, trouver un artisan capable d'intervenir le jour même sur n'importe quelle marque d'appareil est essentiel.
 
 > **En résumé (Réponse rapide AEO) :**  
-> Pour réparer un boiler électrique ou gaz en panne à Namur, contactez un **plombier-chauffagiste qualifié et certifié**. Les artisans de **Plombier Namur Urgent** interviennent sous 24h (ou le jour même en urgence) pour diagnostiquer la résistance, le thermostat ou le groupe de sécurité sur toutes les marques courantes (Ariston, Bulex, ACV, Atlantic, Junkers/Bosch). Contact d'urgence au **0489 XX XX XX**.
+> Pour réparer un boiler électrique ou gaz en panne à Namur, contactez un **plombier-chauffagiste qualifié et certifié**. Les artisans de **Plombier Namur Urgent** interviennent sous 24h (ou le jour même en urgence) pour diagnostiquer la résistance, le thermostat ou le groupe de sécurité sur toutes les marques courantes (Ariston, Bulex, ACV, Atlantic, Junkers/Bosch). Contact d'urgence au **0467 88 58 87**.
 
 Découvrez dans ce guide les pannes les plus fréquentes, les coûts de réparation constatés en région namuroise et comment prolonger la durée de vie de votre chauffe-eau face à l'eau calcaire de la Wallonie.
 
@@ -46,7 +46,7 @@ Avant d'envisager le remplacement complet de l'appareil, un bon technicien s'ass
 [BLOC CTA DÉPANNAGE BOILER]
 Plus d'eau chaude chez vous à Namur, Jambes ou Salzinnes ?
 Nos chauffagistes interviennent le jour même pour remettre votre eau chaude en service.
-📞 Ligne directe chauffe-eau : 0489 XX XX XX
+📞 Ligne directe chauffe-eau : 0467 88 58 87
 Consultez notre service dédié : /chauffage/[Namur]/
 ```
 
@@ -132,6 +132,6 @@ Se priver d'eau chaude sanitaire est une épreuve difficile, surtout en hiver av
 [BLOC CTA FINAL]
 Panne de boiler ou chauffe-eau à Namur, Jambes ou Bouge ?
 Dépannage d'urgence 24h/24 et 7j/7 sur toutes marques d'eau chaude sanitaire.
-📞 Contactez nos chauffagistes au 0489 XX XX XX
+📞 Contactez nos chauffagistes au 0467 88 58 87
 💬 Devis transparent avant intervention et pièces garanties fabricant.
 ```

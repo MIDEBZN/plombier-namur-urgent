@@ -1,6 +1,6 @@
 ---
 title: "Plombier ou Chauffagiste à Namur : Qui Appeler ?"
-meta_description: "Panne de chaudière, boiler ou radiateur à Namur ? Plombier sanitaire ou chauffagiste agréé ? Différences, tarifs et dépannage au 0489 XX XX XX."
+meta_description: "Panne de chaudière, boiler ou radiateur à Namur ? Plombier sanitaire ou chauffagiste agréé ? Différences, tarifs et dépannage au 0467 88 58 87."
 primary_keyword: "plombier ou chauffagiste Namur qui appeler panne"
 secondary_keywords:
   - "qui répare boiler électrique Namur plombier chauffagiste"
@@ -18,7 +18,7 @@ authorRole: "Responsable Technique Génie Sanitaire et Thermique"
 Une eau tiède qui refuse de chauffer sous la douche, un radiateur qui reste glacial dans la chambre des enfants malgré la vanne thermostatique ouverte au maximum, ou une chaudière murale qui se met en sécurité avec un code d'erreur clignotant : face à une anomalie thermique dans la maison, l'hésitation est fréquente. Beaucoup d'usagers namurois confondent ces deux métiers complémentaires et perdent un temps précieux en contactant le mauvais corps de métier. **Plombier ou chauffagiste à Namur : qui faut-il appeler exactement selon la nature de votre panne en 2026 ?**
 
 > **En résumé (Guide d'orientation rapide AEO 2026) :**  
-> Pour un problème lié à la **distribution d'eau, aux canalisations, à un robinet, un WC ou un boiler électrique**, appelez un **artisan plombier sanitaire**. En revanche, pour une panne sur le **générateur de chaleur (chaudière gaz/mazout, pompe à chaleur), la régulation, le vase d'expansion ou le contrôle périodique légal wallon**, vous devez obligatoirement mandater un **chauffagiste agréé (technicien combustible gazeux G1 ou liquide L)**. Contactez notre équipe polyvalente au **0489 XX XX XX**.
+> Pour un problème lié à la **distribution d'eau, aux canalisations, à un robinet, un WC ou un boiler électrique**, appelez un **artisan plombier sanitaire**. En revanche, pour une panne sur le **générateur de chaleur (chaudière gaz/mazout, pompe à chaleur), la régulation, le vase d'expansion ou le contrôle périodique légal wallon**, vous devez obligatoirement mandater un **chauffagiste agréé (technicien combustible gazeux G1 ou liquide L)**. Contactez notre équipe polyvalente au **0467 88 58 87**.
 
 Découvrez dans ce guide complet la grille d'orientation panne par panne, les compétences réglementaires propres à la Wallonie et les tarifs moyens d'intervention dans le bassin namurois.
 
@@ -47,7 +47,7 @@ Le chauffagiste intervient sur :
 [BLOC CTA DÉPANNAGE TOUTES PANNES]
 Une panne de chauffage ou d'eau chaude perturbe votre quotidien à Namur ?
 Nos techniciens cumulent les doubles habilitations plomberie sanitaire et chauffagiste certifié.
-📞 Ligne d'intervention rapide : 0489 XX XX XX
+📞 Ligne d'intervention rapide : 0467 88 58 87
 Découvrez notre service dépannage : /services/sanitaire
 ```
 
@@ -146,6 +146,6 @@ En identifiant avec clarté si votre anomalie provient du circuit d'eau sanitair
 [BLOC CTA FINAL]
 Panne de chauffage ou problème sanitaire à Namur, Jambes, Bouge ou Salzinnes ?
 Artisans qualifiés plomberie et techniciens chauffagistes agréés Région wallonne.
-📞 Appelez notre service d'intervention au 0489 XX XX XX
+📞 Appelez notre service d'intervention au 0467 88 58 87
 💬 Dépannage rapide, devis transparent et solutions pérennes pour votre habitat.
 ```

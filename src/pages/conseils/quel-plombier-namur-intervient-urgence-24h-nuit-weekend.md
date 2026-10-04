@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/BlogLayout.astro
 title: "Plombier Namur Urgence 24h/24 : Soir & Week-End"
-meta_description: "Besoin d'un plombier à Namur en urgence 24h/24, le soir ou le week-end ? Dépannage rapide à Jambes, Bouge et Salzinnes. Appelez le 0489 XX XX XX."
+meta_description: "Besoin d'un plombier à Namur en urgence 24h/24, le soir ou le week-end ? Dépannage rapide à Jambes, Bouge et Salzinnes. Appelez le 0467 88 58 87."
 primary_keyword: "plombier Namur urgence 24h 24"
 secondary_keywords:
   - "plombier de garde Namur nuit"
@@ -38,7 +38,7 @@ Le service de garde n'est pas un simple répondeur téléphonique transférant l
 [BLOC CTA URGENCE 24/7]
 Une inondation en pleine nuit ou un dimanche à Namur ?
 Nos techniciens d'astreinte se déplacent immédiatement avec tout l'équipement nécessaire.
-📞 Ligne d'urgence 24h/24 : 0489 XX XX XX
+📞 Ligne d'urgence 24h/24 : 0467 88 58 87
 Consultez notre service dédié : /urgence/[Namur]/
 ```
 
@@ -132,6 +132,6 @@ En situation de crise domestique nocturne ou dominicale à Namur, le pire réfle
 [BLOC CTA FINAL]
 Besoin d'un plombier en urgence ce soir ou ce week-end à Namur ?
 Intervention sous 30 à 45 minutes dans tout le Grand Namur.
-📞 Appelez notre ligne d'astreinte 24/7 au 0489 XX XX XX
+📞 Appelez notre ligne d'astreinte 24/7 au 0467 88 58 87
 💬 Dépannage rapide et garanti par des techniciens certifiés.
 ```

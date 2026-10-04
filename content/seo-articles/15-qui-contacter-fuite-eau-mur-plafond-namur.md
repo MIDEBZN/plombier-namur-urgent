@@ -1,6 +1,6 @@
 ---
 title: "Fuite d'Eau Mur ou Plafond Namur : Qui Contacter 24/7 ?"
-meta_description: "Fuite d'eau dans un mur ou un plafond à Namur ? Qui appeler en urgence ? Détection non destructive, devis et démarches assurance. Contact : 0489 XX XX XX."
+meta_description: "Fuite d'eau dans un mur ou un plafond à Namur ? Qui appeler en urgence ? Détection non destructive, devis et démarches assurance. Contact : 0467 88 58 87."
 primary_keyword: "fuite d eau mur plafond Namur qui contacter"
 secondary_keywords:
   - "infiltration eau plafond Namur plombier"
@@ -18,7 +18,7 @@ authorRole: "Expert Sinistres Infiltrations et Détection Thermographique"
 Une auréole brunâtre qui s'étend sur le plafond du salon, des gouttes qui perlent le long d'une cloison en plaques de plâtre, ou une odeur de moisi persistante derrière un meuble de cuisine : l'eau qui s'infiltre à travers les parois maçonnées d'une maison est l'un des sinistres les plus insidieux. À Namur, face à ce genre de dégât, le réflexe immédiat est souvent l'indécision : **faut-il contacter un couvreur, un peintre, son assureur ou un plombier spécialisé en recherche de fuite ?**
 
 > **En résumé (Réponse d'urgence AEO) :**  
-> Pour une infiltration ou une fuite d'eau dans un mur ou un plafond à Namur, contactez immédiatement un **artisan plombier équipé en détection de fuite non destructive** au **0489 XX XX XX**. Grâce à une caméra thermique infrarouge et un capteur d'humidité, le technicien identifie en moins d'une heure l'origine exacte du problème (tuyau d'eau sous pression fuyard, évacuation d'eaux usées fêlée ou joint de douche défectueux) sans percer vos murs.
+> Pour une infiltration ou une fuite d'eau dans un mur ou un plafond à Namur, contactez immédiatement un **artisan plombier équipé en détection de fuite non destructive** au **0467 88 58 87**. Grâce à une caméra thermique infrarouge et un capteur d'humidité, le technicien identifie en moins d'une heure l'origine exacte du problème (tuyau d'eau sous pression fuyard, évacuation d'eaux usées fêlée ou joint de douche défectueux) sans percer vos murs.
 
 Découvrez dans ce guide exhaustif les différentes causes d'infiltrations murales à Namur, les technologies employées pour localiser la source sans casse et les réflexes pour préserver votre indemnisation d'assurance.
 
@@ -41,7 +41,7 @@ L'eau suit toujours le chemin de moindre résistance : une tache au plafond du r
 [BLOC CTA URGENCE MUR ET PLAFOND]
 De l'eau coule à travers votre plafond ou votre mur à Namur ?
 Nos techniciens d'astreinte localisent la fuite immédiatement sans démolir vos cloisons.
-📞 Ligne d'urgence 24/7 : 0489 XX XX XX
+📞 Ligne d'urgence 24/7 : 0467 88 58 87
 Découvrez notre méthode non destructive : /fuites/[Namur]/
 ```
 
@@ -114,6 +114,6 @@ Face à une infiltration murale ou à un plafond humide à Namur, le temps est v
 [BLOC CTA FINAL]
 Infiltration ou fuite dans un mur ou un plafond à Namur, Jambes ou Salzinnes ?
 Détection haute technologie sans casse et rapport technique sous 24h.
-📞 Contactez notre service d'urgence au 0489 XX XX XX
+📞 Contactez notre service d'urgence au 0467 88 58 87
 💬 Intervention rapide 24h/24 et 7j/7 dans tout le Namurois.
 ```
