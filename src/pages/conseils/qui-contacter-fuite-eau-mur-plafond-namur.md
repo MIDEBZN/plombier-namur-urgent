@@ -14,7 +14,7 @@ author: "Équipe Technique Plombier Namur Urgent"
 authorRole: "Expert Sinistres Infiltrations et Détection Thermographique"
 ---
 
-# Qui contacter pour une fuite d'eau dans un mur ou un plafond à Namur ?
+## Qui contacter pour une fuite d'eau dans un mur ou un plafond à Namur ?
 
 Une auréole brunâtre qui s'étend sur le plafond du salon, des gouttes qui perlent le long d'une cloison en plaques de plâtre, ou une odeur de moisi persistante derrière un meuble de cuisine : l'eau qui s'infiltre à travers les parois maçonnées d'une maison est l'un des sinistres les plus insidieux. À Namur, face à ce genre de dégât, le réflexe immédiat est souvent l'indécision : **faut-il contacter un couvreur, un peintre, son assureur ou un plombier spécialisé en recherche de fuite ?**
 
@@ -43,7 +43,7 @@ L'eau suit toujours le chemin de moindre résistance : une tache au plafond du r
 De l'eau coule à travers votre plafond ou votre mur à Namur ?
 Nos techniciens d'astreinte localisent la fuite immédiatement sans démolir vos cloisons.
 📞 Ligne d'urgence 24/7 : 0467 88 58 87
-Découvrez notre méthode non destructive : /fuites/[Namur]/
+Découvrez notre méthode non destructive : /services/fuites
 ```
 
 ---

@@ -14,7 +14,7 @@ author: "Équipe Technique Plombier Namur Urgent"
 authorRole: "Expert Hydraulique et Réseaux Sanitaires"
 ---
 
-# Pourquoi ai-je une faible pression d'eau à Namur et qui appeler ?
+## Pourquoi ai-je une faible pression d'eau à Namur et qui appeler ?
 
 Prendre une douche le matin avec un filet d'eau famélique, attendre 10 minutes pour remplir une simple casserole d'eau ou constater que le lave-linge se met en erreur « débit insuffisant » : la perte de pression d'eau est une gêne quotidienne insupportable. À Namur, ce phénomène est particulièrement répandu en raison de la dureté de l'eau et de la topographie accidentée de la région. Mais **qui est responsable et quel artisan faut-il contacter pour retrouver un débit puissant ?**
 

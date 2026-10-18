@@ -14,7 +14,7 @@ author: "Équipe Technique Plombier Namur Urgent"
 authorRole: "Expert Assainissement et Diagnostic Odeurs"
 ---
 
-# Mauvaises odeurs d'égout dans la maison à Namur : plombier ou déboucheur ?
+## Mauvaises odeurs d'égout dans la maison à Namur : plombier ou déboucheur ?
 
 Cette odeur écœurante d'œuf pourri ou de fosse septique qui envahit la salle de bain au réveil, ces relents nauséabonds qui remontent de l'évier par temps orageux ou cette odeur persistante dans le hall d'entrée : les remontées d'odeurs d'égout rendent l'atmosphère d'un logement irrespirable et posent de sérieuses questions d'hygiène. Mais quelle est la source exacte du problème et **faut-il appeler un artisan plombier ou une entreprise de débouchage haute pression à Namur ?**
 

@@ -14,7 +14,7 @@ author: "Équipe Technique Plombier Namur Urgent"
 authorRole: "Responsable Tarification et Service d'Astreinte"
 ---
 
-# Quel est le tarif d'un plombier à Namur le soir, le dimanche ou un jour férié ?
+## Quel est le tarif d'un plombier à Namur le soir, le dimanche ou un jour férié ?
 
 Une rupture de canalisation ne choisit jamais un mardi à 14h pour inonder votre sous-sol. C'est souvent le dimanche matin au réveil, un soir de réveillon ou un jour férié que le chauffe-eau se met à fuir ou que le réseau d'égout refoule dans la buanderie. Dans ces moments d'angoisse, une crainte légitime freine souvent les usagers : **combien va coûter l'intervention d'un plombier hors des heures ouvrables à Namur ?**
 
@@ -47,7 +47,7 @@ Le coût d'un dépannage hors heures de bureau repose sur la combinaison du forf
 Besoin d'un dépannage ce soir ou ce dimanche à Namur ?
 Nos techniciens d'astreinte vous annoncent le prix exact au téléphone avant de se déplacer.
 📞 Appelez la ligne d'astreinte au 0467 88 58 87
-Consultez notre service d'urgence : /urgence/[Namur]/
+Consultez notre service d'urgence : /services/urgence
 ```
 
 ---

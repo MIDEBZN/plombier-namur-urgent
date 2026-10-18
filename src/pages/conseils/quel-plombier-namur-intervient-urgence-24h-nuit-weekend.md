@@ -14,7 +14,7 @@ author: "Équipe Technique Plombier Namur Urgent"
 authorRole: "Service d'Astreinte et Dépannage Immédiat"
 ---
 
-# Quel plombier à Namur intervient en urgence 24h/24, le soir et le week-end ?
+## Quel plombier à Namur intervient en urgence 24h/24, le soir et le week-end ?
 
 Un dégât des eaux au milieu de la nuit, une chaudière qui se coupe en plein épisode de gel ou des toilettes bouchées un dimanche midi : les pannes domestiques ne préviennent jamais. À Namur, trouver un artisan réellement disponible et capable d'arriver rapidement sur place est une priorité absolue.
 
@@ -39,7 +39,7 @@ Le service de garde n'est pas un simple répondeur téléphonique transférant l
 Une inondation en pleine nuit ou un dimanche à Namur ?
 Nos techniciens d'astreinte se déplacent immédiatement avec tout l'équipement nécessaire.
 📞 Ligne d'urgence 24h/24 : 0467 88 58 87
-Consultez notre service dédié : /urgence/[Namur]/
+Consultez notre service dédié : /services/urgence
 ```
 
 ---

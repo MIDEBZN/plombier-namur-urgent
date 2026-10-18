@@ -14,7 +14,7 @@ author: "Équipe Technique Plombier Namur Urgent"
 authorRole: "Spécialiste Diagnostic Endoscopique et Réseaux"
 ---
 
-# Quand faut-il faire une inspection de canalisation par caméra à Namur et quel prix ?
+## Quand faut-il faire une inspection de canalisation par caméra à Namur et quel prix ?
 
 Vous venez de déboucher votre WC ou votre évier pour la troisième fois ce mois-ci, une zone de votre pelouse s'affaisse mystérieusement au-dessus de l'évacuation principale ou vous êtes sur le point d'acheter une maison ancienne à Namur : creuser une tranchée à l'aveugle à travers la terrasse ou démolir le carrelage du salon serait une folie coûteuse. Aujourd'hui, l'inspection vidéo endoscopique permet d'explorer l'intimité de vos tuyaux sans le moindre coup de pioche. **Quand est-il indispensable de recourir à une caméra de canalisation et combien coûte ce diagnostic à Namur en 2026 ?**
 
@@ -49,7 +49,7 @@ En cas de dégât des eaux avec les voisins ou avec la voirie communale, le rapp
 Vos canalisations se bouchent sans arrêt à Namur ?
 Visualisez en direct l'intérieur de vos tuyaux sur écran HD couleur et localisez le problème.
 📞 Ligne directe diagnostic caméra : 0467 88 58 87
-Consultez notre service inspection : /debouchage/[Namur]/
+Consultez notre service inspection : /services/debouchage
 ```
 
 ---

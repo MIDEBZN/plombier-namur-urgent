@@ -14,7 +14,7 @@ author: "Équipe Technique Plombier Namur Urgent"
 authorRole: "Responsable Déploiement Local Grand Namur"
 ---
 
-# Quel plombier intervient rapidement à Jambes, Bouge, Salzinnes, Erpent ou Wépion ?
+## Quel plombier intervient rapidement à Jambes, Bouge, Salzinnes, Erpent ou Wépion ?
 
 Une canalisation d'évacuation bouchée qui refoule dans une maison de maître à Salzinnes, un chauffe-eau électrique en panne dans un appartement résidentiel à Jambes, une fuite d'eau sous terrasse dans une villa sur les hauteurs d'Erpent ou un problème de fosse septique en bord de Meuse à Wépion : lorsqu'un sinistre de plomberie survient, l'éloignement géographique et les embouteillages aux abords des ponts namurois peuvent transformer une urgence de 30 minutes en une attente angoissante de plusieurs heures. **Quel plombier local intervient réellement en express 24h/24 dans toutes les entités du Grand Namur sans facturer des frais de déplacement exorbitants en 2026 ?**
 

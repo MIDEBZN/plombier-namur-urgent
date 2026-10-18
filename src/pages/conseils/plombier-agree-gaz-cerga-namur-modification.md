@@ -14,7 +14,7 @@ author: "Équipe Technique Plombier Namur Urgent"
 authorRole: "Installateur Gaz Habilité Cerga et Auditeur Énergie"
 ---
 
-# Faut-il faire appel à un plombier agréé pour modifier une installation de gaz à Namur ?
+## Faut-il faire appel à un plombier agréé pour modifier une installation de gaz à Namur ?
 
 Vous réaménagez votre cuisine et souhaitez déplacer l'arrivée de gaz pour votre nouvelle taque de cuisson, vous remplacez un vieux chauffe-eau mural par une chaudière moderne à condensation ou vous constatez une odeur suspecte près de votre tuyauterie en cuivre : manipuler le gaz naturel ne tolère pas la moindre approximation. À Namur, le réseau de distribution de gaz est géré par l'opérateur ORES, et la réglementation belge encadrant les installations intérieures de gaz est l'une des plus strictes d'Europe. **Faut-il obligatoirement faire appel à un installateur agréé Cerga pour modifier sa tuyauterie de gaz et quelles sont les règles de conformité en vigueur en 2026 ?**
 

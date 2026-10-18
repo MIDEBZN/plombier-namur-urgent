@@ -1,7 +1,23 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import ServiceCrossLinks from '../../components/ServiceCrossLinks.astro';
 import { BUSINESS_CONFIG } from '../../data/business';
+
+const faqs = [
+  {
+    question: "Comment savoir si j'ai une fuite cachée ?",
+    answer: "Fermez tous les robinets de votre logement et assurez-vous qu'aucun appareil (lave-linge, lave-vaisselle) ne consomme d'eau. Regardez ensuite votre compteur d'eau : si la petite roulette ou les chiffres des décimales continuent de tourner, une fuite est présente sur votre réseau privatif après-compteur."
+  },
+  {
+    question: "Qui paie la recherche de fuite entre locataire et propriétaire ?",
+    answer: "En droit du bail belge, la détection de fuite et les réparations sur canalisations encastrées ou vétustes incombent au propriétaire (bailleur) ou à l'assurance habitation (assurance incendie / dégâts des eaux). Le locataire n'est responsable que de l'entretien courant et du remplacement des joints accessibles."
+  },
+  {
+    question: "La recherche de fuite sans casse est-elle remboursée par l'assurance ?",
+    answer: "Oui, la plupart des polices d'assurance habitation en Belgique prennent en charge les frais de recherche de fuite effectuée par un professionnel qualifié dès lors qu'un dégât des eaux est constaté. Notre rapport technique détaillé facilite l'instruction de votre dossier par l'expert d'assurance."
+  }
+];
 ---
 
 <Layout 
@@ -9,6 +25,7 @@ import { BUSINESS_CONFIG } from '../../data/business';
   description="Détection et recherche de fuite d'eau sans casse à Namur. Caméra thermique infrarouge, écoute acoustique, gaz traceur et rapports détaillés pour votre assurance."
   schemaType="service"
   serviceName="Recherche et Détection de Fuite d'Eau Sans Casse"
+  faq={faqs}
 >
   <Breadcrumbs items={[
     { name: "Services", url: "/services" },
@@ -110,19 +127,20 @@ import { BUSINESS_CONFIG } from '../../data/business';
       </div>
     </div>
 
-    <!-- Contextual Links -->
+    <!-- Contextual Links & Local Siloing -->
+    <ServiceCrossLinks currentService="fuites" />
+
     <div class="card mt-4 p-4" style="background: var(--bg-light);">
       <h2>Services plomberie connexes</h2>
-      <p>Nos artisans qualifiés prennent également en charge :</p>
       <div class="grid grid-3 mt-2" style="gap: 1rem;">
         <a href="/services/urgence" class="btn btn-outline" style="text-align: center;">
           🚨 Dépannage Urgent 24/7
         </a>
+        <a href="/services/debouchage" class="btn btn-outline" style="text-align: center;">
+          🚽 Débouchage Canalisation
+        </a>
         <a href="/services/sanitaire" class="btn btn-outline" style="text-align: center;">
           🚿 Réparation Sanitaire
-        </a>
-        <a href="/locations" class="btn btn-outline" style="text-align: center;">
-          📍 Zones Couvertes Grand Namur
         </a>
       </div>
     </div>

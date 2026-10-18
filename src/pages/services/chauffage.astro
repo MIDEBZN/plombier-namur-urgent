@@ -1,7 +1,23 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import ServiceCrossLinks from '../../components/ServiceCrossLinks.astro';
 import { BUSINESS_CONFIG } from '../../data/business';
+
+const faqs = [
+  {
+    question: "À quelle fréquence faut-il contrôler sa chaudière en Wallonie ?",
+    answer: "En Région Wallonne, les chaudières alimentées au gaz naturel ou propane de puissance inférieure ou égale à 100 kW doivent subir un contrôle périodique obligatoire tous les 3 ans par un technicien agréé. Les chaudières au mazout doivent obligatoirement être contrôlées chaque année. À l'issue du contrôle, une attestation de contrôle périodique officielle vous est remise."
+  },
+  {
+    question: "Pourquoi mes radiateurs sont-ils froids en haut ou en bas ?",
+    answer: "Si un radiateur est froid en haut et fait des bruits d'écoulement (\"glouglou\"), de l'air est emprisonné dans le circuit : une simple purge suffit. Si le radiateur reste froid sur sa partie inférieure alors que le haut est tiède, cela signale un embouage (dépôt de boues ferreuses obstruant la circulation), nécessitant un désembouage professionnel de l'installation."
+  },
+  {
+    question: "Que faire en cas de suspicion d'intoxication au monoxyde de carbone (CO) ?",
+    answer: "Le monoxyde de carbone est un gaz inodore, incolore et mortel causé par une combustion incomplète et une aération déficiente. En cas de maux de tête, nausées ou vertiges à proximité de votre appareil de chauffage : aérez immédiatement en ouvrant portes et fenêtres, évacuez le logement sans allumer d'interrupteur et contactez les secours (112), puis notre service pour la mise en sécurité."
+  }
+];
 ---
 
 <Layout 
@@ -9,6 +25,7 @@ import { BUSINESS_CONFIG } from '../../data/business';
   description="Chauffagiste qualifié à Namur. Dépannage urgent de chaudière gaz et mazout, contrôle périodique légal en Wallonie (3 ans gaz, annuel mazout), radiateurs."
   schemaType="service"
   serviceName="Dépannage et Contrôle Périodique de Chaudière à Namur"
+  faq={faqs}
 >
   <Breadcrumbs items={[
     { name: "Services", url: "/services" },
@@ -115,10 +132,11 @@ import { BUSINESS_CONFIG } from '../../data/business';
       </div>
     </div>
 
-    <!-- Contextual Links -->
+    <!-- Contextual Links & Local Siloing -->
+    <ServiceCrossLinks currentService="chauffage" />
+
     <div class="card mt-4 p-4" style="background: var(--bg-light);">
       <h2>Services complémentaires pour votre installation</h2>
-      <p>Pour un confort thermique et sanitaire complet dans le Grand Namur :</p>
       <div class="grid grid-3 mt-2" style="gap: 1rem;">
         <a href="/services/traitement-eau" class="btn btn-outline" style="text-align: center;">
           🧊 Adoucisseurs (Protection Chaudière)
@@ -126,8 +144,8 @@ import { BUSINESS_CONFIG } from '../../data/business';
         <a href="/services/urgence" class="btn btn-outline" style="text-align: center;">
           🚨 Dépannage Urgent 24/7
         </a>
-        <a href="/locations" class="btn btn-outline" style="text-align: center;">
-          📍 Communes Couvertes
+        <a href="/services/sanitaire" class="btn btn-outline" style="text-align: center;">
+          🚿 Rénovation Sanitaire & Boilers
         </a>
       </div>
     </div>

@@ -14,7 +14,7 @@ author: "Équipe Technique Plombier Namur Urgent"
 authorRole: "Coordinateur Logistique et Dépannage d'Urgence"
 ---
 
-# Quel est le délai d'intervention d'un plombier à Namur ?
+## Quel est le délai d'intervention d'un plombier à Namur ?
 
 Lorsqu'un tuyau éclate dans la buanderie, qu'un radiateur fuit abondamment sur un plancher précieux ou que les toilettes débordent au rez-de-chaussée, le temps ne se compte plus en heures mais en minutes. L'ampleur des dégâts matériels est directement proportionnelle au temps que mettra le dépanneur à franchir votre porte. Mais dans la réalité quotidienne du bassin namurois, **en combien de temps un artisan plombier peut-il véritablement intervenir chez vous ?**
 
@@ -47,7 +47,7 @@ La géographie namuroise, marquée par le confluent de la Sambre et de la Meuse 
 Une fuite d'eau critique ou des toilettes bouchées à Namur ?
 Nos techniciens d'astreinte géolocalisés se mettent immédiatement en route vers votre domicile.
 📞 Appelez notre régulation d'urgence au 0467 88 58 87
-Consultez notre service express : /urgence/[Namur]/
+Consultez notre service express : /services/urgence
 ```
 
 ---

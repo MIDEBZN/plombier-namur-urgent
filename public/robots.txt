@@ -1,4 +1,32 @@
 User-agent: *
 Allow: /
 
+# Sitemaps
+Sitemap: https://www.plombiernamururgent.be/sitemap-index.xml
 Sitemap: https://www.plombiernamururgent.be/sitemap-0.xml
+
+# AI & Search Assistant Crawlers (Explicitly Allowed for GEO & Indexing)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# Block Aggressive Scrapers & Training Bulk Harvesters
+User-agent: Bytespider
+Disallow: /
+
+User-agent: CCBot
+Disallow: /

@@ -1,0 +1,176 @@
+---
+interface Props {
+  currentService: 'urgence' | 'debouchage' | 'fuites' | 'chauffage' | 'sanitaire' | 'traitement-eau';
+}
+
+const { currentService } = Astro.props;
+
+const serviceGuides = {
+  urgence: [
+    { title: "Combien coûte un plombier à Namur en 2026 ?", url: "/conseils/combien-coute-un-plombier-namur-2026" },
+    { title: "Tarif plombier le soir, dimanche et jours fériés", url: "/conseils/quel-est-tarif-plombier-namur-soir-dimanche-jour-ferie" },
+    { title: "Délai moyen d'intervention d'urgence à Namur", url: "/conseils/quel-est-delai-intervention-plombier-namur" },
+    { title: "Que faire avant l'arrivée du plombier en cas de fuite ?", url: "/conseils/que-faire-avant-arrivee-plombier-fuite-namur" },
+    { title: "Qui appeler à Namur pour une fuite d'eau urgente 24/7 ?", url: "/conseils/qui-appeler-namur-fuite-eau-urgente" },
+    { title: "Quel plombier à Namur intervient en urgence de nuit ?", url: "/conseils/quel-plombier-namur-intervient-urgence-24h-nuit-weekend" },
+    { title: "Que faire si une canalisation gèle ou éclate en hiver ?", url: "/conseils/que-faire-canalisation-gelee-eclatee-namur" },
+    { title: "Guide réflexe dépannage plomberie d'urgence", url: "/conseils/urgence-namur" }
+  ],
+  debouchage: [
+    { title: "Prix d'un débouchage de canalisation à Namur", url: "/conseils/combien-coute-debouchage-canalisation-namur" },
+    { title: "Mon WC est bouché : plombier ou société de débouchage ?", url: "/conseils/mon-wc-est-bouche-namur-plombier-ou-societe-debouchage" },
+    { title: "Quand faire inspecter ses canalisations par caméra ?", url: "/conseils/quand-faire-inspecter-canalisations-camera-namur-prix" },
+    { title: "Mauvaises odeurs d'égout dans la maison à Namur", url: "/conseils/mauvaises-odeurs-egout-maison-namur-plombier-debouchage" },
+    { title: "Refoulement d'égout : que faire et qui appeler ?", url: "/conseils/refoulement-egout-namur-que-faire-qui-appeler" },
+    { title: "Guide des techniques de débouchage à Namur", url: "/conseils/debouchage-namur" }
+  ],
+  fuites: [
+    { title: "Prix de la recherche d'une fuite invisible à Namur", url: "/conseils/combien-coute-recherche-fuite-invisible-namur" },
+    { title: "L'assurance habitation rembourse-t-elle la recherche de fuite ?", url: "/conseils/assurance-habitation-rembourse-recherche-fuite-plombier-namur" },
+    { title: "Comment détecter une fuite d'eau après compteur à Namur ?", url: "/conseils/comment-detecter-fuite-eau-apres-compteur-namur" },
+    { title: "Qui contacter pour une fuite d'eau mur ou plafond ?", url: "/conseils/qui-contacter-fuite-eau-mur-plafond-namur" },
+    { title: "Méthodes acoustiques et caméras pour fuites d'eau", url: "/conseils/fuites-namur" }
+  ],
+  chauffage: [
+    { title: "Entretien et dépannage chaudière à Namur", url: "/conseils/chauffage-chaudiere-namur" },
+    { title: "Faut-il un plombier agréé Cerga pour le gaz à Namur ?", url: "/conseils/plombier-agree-gaz-cerga-namur-modification" },
+    { title: "Dépannage boiler ou chauffe-eau en panne 24/7", url: "/conseils/quel-plombier-namur-repare-boiler-chauffe-eau-panne" },
+    { title: "Combien coûte le remplacement d'un boiler à Namur ?", url: "/conseils/combien-coute-remplacement-boiler-namur" },
+    { title: "Entretien et détartrage chauffe-eau à Namur", url: "/conseils/chauffe-eau-namur" },
+    { title: "Pompe à chaleur : installation et maintenance", url: "/conseils/pompe-chaleur-namur" },
+    { title: "Plombier ou chauffagiste : qui appeler selon la panne ?", url: "/conseils/plombier-ou-chauffagiste-namur-qui-appeler-panne" }
+  ],
+  sanitaire: [
+    { title: "Combien coûte le remplacement d'un WC à Namur ?", url: "/conseils/combien-coute-remplacement-wc-namur" },
+    { title: "Prix de la plomberie pour une rénovation de salle de bain", url: "/conseils/combien-coute-plomberie-renovation-salle-de-bain-namur" },
+    { title: "Combien coûte le remplacement d'un robinet à Namur ?", url: "/conseils/combien-coute-installation-remplacement-robinet-namur" },
+    { title: "Qui répare une chasse d'eau qui coule en continu ?", url: "/conseils/qui-repare-chasse-eau-qui-coule-en-continu-namur-prix" },
+    { title: "Pose de sanitaires et robinetterie à Namur", url: "/conseils/sanitaires-namur" },
+    { title: "Rénovation complète de salle de bain namuroise", url: "/conseils/renovation-sdb-namur" }
+  ],
+  'traitement-eau': [
+    { title: "Eau calcaire à Namur : faut-il installer un adoucisseur ?", url: "/conseils/eau-calcaire-namur-adoucisseur-combien-ca-coute" },
+    { title: "Guide complet sur les adoucisseurs d'eau à Namur", url: "/conseils/adoucisseur-namur" },
+    { title: "Pourquoi ai-je une faible pression d'eau à Namur ?", url: "/conseils/pourquoi-faible-pression-eau-namur-qui-appeler" },
+    { title: "Gestion et entretien des installations d'eau sanitaire", url: "/conseils/gestion-entretien" },
+    { title: "Ventilation et climatisation dans l'habitat namurois", url: "/conseils/ventilation-climatisation" }
+  ]
+};
+
+const guides = serviceGuides[currentService] || serviceGuides.urgence;
+
+const communes = [
+  { name: "Jambes (5100)", slug: "jambes" },
+  { name: "Salzinnes (5000)", slug: "salzinnes" },
+  { name: "Bouge (5004)", slug: "bouge" },
+  { name: "Erpent (5101)", slug: "erpent" },
+  { name: "Saint-Servais (5002)", slug: "saint-servais" },
+  { name: "Wépion (5100)", slug: "wepion" },
+  { name: "Belgrade (5001)", slug: "belgrade" },
+  { name: "Flawinne (5020)", slug: "flawinne" },
+  { name: "Vedrin (5020)", slug: "vedrin" },
+  { name: "Malonne (5020)", slug: "malonne" },
+  { name: "Champion (5020)", slug: "champion" }
+];
+---
+
+<div class="service-cross-links-wrapper mt-4">
+  <!-- Communes grid -->
+  <div class="card p-4 bg-light border-0 mb-4">
+    <h3 style="color: var(--primary); font-size: 1.25rem; margin-bottom: 0.75rem;">
+      📍 Zones d'Intervention Prioritaires dans le Grand Namur
+    </h3>
+    <p style="margin-bottom: 1rem; color: var(--text-muted); font-size: 0.95rem;">
+      Nos techniciens qualifiés se déplacent en moins de 45 minutes pour cette prestation dans toutes les entités namuroises :
+    </p>
+    <div class="communes-pills-grid">
+      {communes.map((commune) => (
+        <a href={`/locations/${commune.slug}`} class="commune-pill">
+          Plombier {commune.name}
+        </a>
+      ))}
+      <a href="/locations" class="commune-pill highlight">
+        Toutes les communes (5000 - 5101) &rarr;
+      </a>
+    </div>
+  </div>
+
+  <!-- Related guides -->
+  <div class="card p-4 border-0" style="background: white; border-top: 3px solid var(--primary);">
+    <h3 style="color: var(--primary); font-size: 1.25rem; margin-bottom: 0.75rem;">
+      📖 Guides Pratiques & Conseils Liés
+    </h3>
+    <div class="grid grid-2" style="gap: 1rem;">
+      {guides.map((guide) => (
+        <a href={guide.url} class="guide-item-link">
+          <span class="guide-icon" aria-hidden="true">📄</span>
+          <span>{guide.title}</span>
+        </a>
+      ))}
+    </div>
+  </div>
+</div>
+
+<style>
+  .communes-pills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 0.75rem;
+  }
+
+  .commune-pill {
+    display: inline-block;
+    padding: 0.35rem 0.85rem;
+    background: white;
+    border: 1px solid var(--border-light);
+    border-radius: var(--radius-md);
+    color: var(--primary);
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: all 0.2s ease;
+  }
+
+  .commune-pill:hover {
+    border-color: var(--secondary);
+    color: var(--secondary);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-sm);
+  }
+
+  .commune-pill.highlight {
+    background: var(--primary);
+    color: white;
+    border-color: var(--primary);
+  }
+
+  .commune-pill.highlight:hover {
+    background: var(--secondary);
+    border-color: var(--secondary);
+    color: white;
+  }
+
+  .guide-item-link {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.85rem 1rem;
+    background: var(--bg-light);
+    border-radius: var(--radius-md);
+    color: var(--text-main);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.95rem;
+    transition: all 0.2s ease;
+  }
+
+  .guide-item-link:hover {
+    background: #e2e8f0;
+    color: var(--primary);
+    transform: translateX(4px);
+  }
+
+  .guide-icon {
+    font-size: 1.2rem;
+  }
+</style>

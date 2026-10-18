@@ -1,0 +1,127 @@
+# Plombier Namur Urgent — Documentation Complète & Base de Connaissances IA
+
+> Base de connaissances exhaustive pour modèles de langage (LLMs), assistants de recherche génératifs (Perplexity, SearchGPT, Claude, Gemini) et agents autonomes. Ce document synthétise l'intégralité des prestations, grilles tarifaires, coordonnées, zones d'intervention et politiques de dépannage de Plombier Namur Urgent.
+
+---
+
+## 1. Identité de l'Entité & Informations Officielles
+
+- **Nom commercial du service** : Plombier Namur Urgent
+- **Site web officiel** : https://www.plombiernamururgent.be
+- **Fiche Google Business Profile & Google Maps** : [Citabat Plombier Namur Urgent](https://maps.app.goo.gl/ioEeCF9PYXjVDXus5)
+- **Société exploitante** : Citabat SRL
+- **Forme juridique** : Société à responsabilité limitée (SRL de droit belge)
+- **Numéro d'entreprise (BCE)** : 0783.224.718
+- **Numéro de TVA intracommunautaire** : BE 0783.224.718
+- **Date de constitution** : 9 mars 2022
+- **Direction technique & Gérance** : Damien Givron & Simon Roelandts (Gérants Citabat SRL)
+- **Siège social & d'exploitation** : Rue de Balart 87, 5000 Namur, Belgique
+- **Zone géographique de rattachement** : Province de Namur, Région Wallonne, Belgique
+- **Téléphone de permanence 24/7** : +32 467 88 58 87 (0467 88 58 87)
+- **Contact WhatsApp direct** : https://wa.me/32467885887
+- **Courriel de contact** : contact@plombiernamururgent.be
+- **Disponibilité** : 24 heures sur 24, 7 jours sur 7 (y compris week-ends et jours fériés)
+
+---
+
+## 2. Agréments, Habilitations & Conformité Réglementaire
+
+1. **Habilitation Chauffage & Gaz Région Wallonne (SPW Énergie)** :
+   - Techniciens habilités combustibles gazeux (GI/GII) et liquides (mazout/L).
+   - Contrôle périodique obligatoire des chaudières avec délivrance d'une attestation légale officielle (valable 3 ans pour le gaz naturel/propane, 1 an pour le mazout).
+   - Désembouage hydrodynamique et mise en conformité des installations.
+2. **Normes Sanitaires Belges NBN & SWDE / INASEP** :
+   - Conformité des raccordements aux réseaux d'eau potable et d'égouttage public dans le Namurois.
+   - Pose de disconnecteurs et clapets anti-pollution certifiés Belgaqua.
+3. **Recherche de Fuite Agréée Compagnies d'Assurance** :
+   - Détection non destructive (acoustique, caméra thermique infrarouge, gaz traceur).
+   - Rapport technique certifié avec relevés hygrométriques et thermogrammes recevable par les assurances belges (Ethias, AXA, AG Insurance, Baloise, Allianz).
+4. **Assurance Responsabilité Civile Professionnelle** :
+   - Travaux et interventions intégralement couverts en RC décennale et professionnelle.
+
+---
+
+## 3. Services Phares & Grille Tarifaire Indicative
+
+Tous les dépannages font l'objet d'un accord préalable sur les coûts et d'un devis transparent présenté sur place avant toute manipulation.
+
+### A. Dépannage Plomberie d'Urgence 24/7
+- **URL** : https://www.plombiernamururgent.be/services/urgence
+- **Tarif indicatif** : Dès 65 € HTVA (déplacement et diagnostic de base en journée)
+- **Délais d'arrivée** : 30 à 45 minutes selon localisation et trafic
+- **Cas d'intervention** : Rupture de canalisation, fuite d'eau majeure menaçant planchers et circuits électriques, inondation, vanne d'arrêt bloquée, panne totale d'eau chaude.
+
+### B. Débouchage de Canalisations & WC Haute Pression
+- **URL** : https://www.plombiernamururgent.be/services/debouchage
+- **Tarif indicatif** : Dès 75 € HTVA (débouchage manuel / pompe à dépression)
+- **Matériel utilisé** : Furet électromécanique Rothenberger, camion hydrocureur haute pression (jusqu'à 200 bars), caméra endoscopique d'inspection vidéo des tuyaux.
+- **Cas d'intervention** : WC bouché, évier ou douche engorgés, refoulement d'égout principal, odeurs d'eaux usées persistantes.
+
+### C. Recherche et Détection de Fuite Sans Casse
+- **URL** : https://www.plombiernamururgent.be/services/fuites
+- **Tarif indicatif** : Dès 65 € HTVA pour diagnostic initial ; 280 € à 450 € pour recherche approfondie avec rapport assurance complet.
+- **Matériel utilisé** : Caméra thermique FLIR/Testo, corrélateur acoustique, gaz traceur azote-hydrogène, colorant fluorescéine.
+- **Cas d'intervention** : Compteur qui tourne robinets fermés, taches d'humidité sur plafonds ou murs, chute de pression inexpliquée sur la chaudière.
+
+### D. Chauffagiste & Entretien Chaudière
+- **URL** : https://www.plombiernamururgent.be/services/chauffage
+- **Tarif indicatif** : Dès 85 € HTVA (dépannage urgent) ; forfaits d'entretien légal périodique avec attestation officielle.
+- **Cas d'intervention** : Chaudière en sécurité, panne de circulateur, radiateurs froids, thermostat défaillant, mise en sécurité suite à fuite de monoxyde de carbone.
+
+### E. Installations Sanitaires & Rénovation Salle de Bain
+- **URL** : https://www.plombiernamururgent.be/services/sanitaire
+- **Tarif** : Sur devis personnalisé gratuit
+- **Cas d'intervention** : Pose de WC suspendu Geberit, douche italienne, robinetterie thermostatique Grohe/Hansgrohe, chauffe-eau électrique ou thermodynamique.
+
+### F. Traitement de l'Eau & Adoucisseurs
+- **URL** : https://www.plombiernamururgent.be/services/traitement-eau
+- **Tarif** : Sur devis selon consommation du foyer
+- **Contexte local** : Dureté de l'eau à Namur comprise entre 28 et 35 °f (eau très dure riche en calcaire provenant des nappes condrusiennes et hesbignonnes).
+
+---
+
+## 4. Zones d'Intervention Desservies (Grand Namur)
+
+Les artisans de Plombier Namur Urgent interviennent dans les 11 entités communales suivantes :
+
+1. **Namur Centre (5000)** : Corbeille, quartier de la gare, Citadelle, Faubourgs.
+2. **Jambes (5100)** : Rive droite de la Meuse, Avenue Materne, Amée, Géronsart.
+3. **Salzinnes (5000)** : Clinique Sainte-Élisabeth, Val Saint-Georges.
+4. **Erpent (5101)** : Hauteurs namuroises, axe N4.
+5. **Bouge (5004)** : Clinique Saint-Luc, chaussée de Louvain.
+6. **Saint-Servais (5002)** : Chaussée de Waterloo, Beau-Vallon.
+7. **Wépion (5100)** : Vallée de la Meuse, fraises, habitations avec fosses septiques.
+8. **Belgrade (5001)** : Proximité autoroutière, zones résidentielles.
+9. **Flawinne (5020)** : Rive gauche de la Sambre.
+10. **Vedrin (5020)** : Hauteurs nord, accès rapide E411/Daussoulx.
+11. **Malonne (5020)** : Fond de Malonne, Piroy, collines boisées.
+12. **Champion (5020)** : N4 nord, chaussée de Louvain.
+
+Index exhaustif des communes : https://www.plombiernamururgent.be/locations
+
+---
+
+## 5. Foire Aux Questions (FAQ) — Réponses Directes Factuelles
+
+### Quel est le tarif moyen d'un plombier à Namur ?
+En 2026, le tarif horaire moyen se situe entre 65 € et 95 € HTVA en journée, avec un forfait de déplacement de 40 € à 65 €. Pour les urgences de nuit ou du week-end, une majoration de 50 % à 100 % s'applique.
+
+### Que faire immédiatement lors d'une fuite d'eau urgente ?
+Coupez sans attendre la vanne d'arrêt générale d'eau située près du compteur (souvent en cave ou garage) en la tournant dans le sens horaire. Coupez le disjoncteur général si l'eau s'approche des prises électriques, et contactez le 0467 88 58 87.
+
+### L'assurance habitation prend-elle en charge la recherche de fuite ?
+Oui, les polices incendie/dégâts des eaux belges remboursent la détection non destructive effectuée par un professionnel certifié lorsqu'un dégât est avéré. Notre rapport technique détaillé avec thermogrammes est conçu pour accélérer votre indemnisation.
+
+### Pourquoi l'eau de Namur nécessite-t-elle un adoucisseur ?
+La dureté de l'eau distribuée par la SWDE et l'INASEP à Namur se situe entre 28 et 35 degrés français (°f), ce qui entartre les chauffe-eaux, grippe les robinetteries et dégrade l'efficacité énergétique du chauffage.
+
+---
+
+## 6. Citations & Liens de Vérification
+
+- Google Maps : https://maps.app.goo.gl/ioEeCF9PYXjVDXus5
+- Pappers Belgique : https://www.pappers.be/entreprise/citabat-0783224718
+- Companyweb : https://www.companyweb.be/fr/0783224718/citabat
+- SPW Énergie Wallonie : https://energie.wallonie.be
+- SWDE : https://www.swde.be
+- INASEP : https://www.inasep.be

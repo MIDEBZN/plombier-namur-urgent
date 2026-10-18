@@ -11,7 +11,10 @@ const year = new Date().getFullYear();
     
     <div class="footer-col">
       <div class="logo" style="margin-bottom: 1.5rem;">
-        <Image src={logoImage} alt="Logo Plombier Namur Urgent" width={300} height={300} style="width: auto; height: 100px; object-fit: contain;" />
+        <a href="/" aria-label="Retour à l'accueil Plombier Namur Urgent">
+          <Image src={logoImage} alt="Logo Plombier Namur Urgent" width={300} height={300} style="width: auto; height: 100px; object-fit: contain;" />
+          <span class="sr-only">Plombier Namur Urgent - Accueil</span>
+        </a>
       </div>
       <p class="company-desc">
         Dépannage d'urgence, débouchage de canalisation, recherche de fuite non destructive et entretien chauffage à Namur. Devis transparent avant intervention.
@@ -31,11 +34,14 @@ const year = new Date().getFullYear();
     </div>
 
     <div class="footer-col">
-      <h3 class="footer-heading">Navigation Rapide</h3>
+      <h3 class="footer-heading">Navigation & Guides</h3>
       <ul>
         <li><a href="/services">Tous nos Services</a></li>
         <li><a href="/locations">Zones d'Intervention (Grand Namur)</a></li>
-        <li><a href="/conseils">Guides & Conseils Plomberie</a></li>
+        <li><a href="/conseils/combien-coute-un-plombier-namur-2026">Tarifs Plombier Namur 2026</a></li>
+        <li><a href="/conseils/combien-coute-debouchage-canalisation-namur">Prix Débouchage Canalisation</a></li>
+        <li><a href="/conseils/assurance-habitation-rembourse-recherche-fuite-plombier-namur">Assurance & Fuite d'Eau</a></li>
+        <li><a href="/conseils">Tous nos Guides & Conseils</a></li>
         <li><a href="/about">À Propos de l'Entreprise</a></li>
         <li><a href="/contact">Contact & Devis Gratuit</a></li>
       </ul>
@@ -52,10 +58,42 @@ const year = new Date().getFullYear();
     </div>
 
   </div>
+
+  <!-- Internal linking matrix for Grand Namur communes -->
+  <div class="footer-locations">
+    <div class="container">
+      <h4 class="footer-subheading">Zones d'Intervention Prioritaires à Namur & Communes Limitrophes (24/7) :</h4>
+      <div class="footer-communes-grid">
+        <a href="/locations/jambes">Plombier Jambes (5100)</a>
+        <span class="sep" aria-hidden="true">•</span>
+        <a href="/locations/erpent">Plombier Erpent (5101)</a>
+        <span class="sep" aria-hidden="true">•</span>
+        <a href="/locations/salzinnes">Plombier Salzinnes (5000)</a>
+        <span class="sep" aria-hidden="true">•</span>
+        <a href="/locations/bouge">Plombier Bouge (5004)</a>
+        <span class="sep" aria-hidden="true">•</span>
+        <a href="/locations/saint-servais">Plombier Saint-Servais (5002)</a>
+        <span class="sep" aria-hidden="true">•</span>
+        <a href="/locations/wepion">Plombier Wépion (5100)</a>
+        <span class="sep" aria-hidden="true">•</span>
+        <a href="/locations/belgrade">Plombier Belgrade (5001)</a>
+        <span class="sep" aria-hidden="true">•</span>
+        <a href="/locations/flawinne">Plombier Flawinne (5020)</a>
+        <span class="sep" aria-hidden="true">•</span>
+        <a href="/locations/vedrin">Plombier Vedrin (5020)</a>
+        <span class="sep" aria-hidden="true">•</span>
+        <a href="/locations/malonne">Plombier Malonne (5020)</a>
+        <span class="sep" aria-hidden="true">•</span>
+        <a href="/locations/champion">Plombier Champion (5020)</a>
+        <span class="sep" aria-hidden="true">•</span>
+        <a href="/locations" class="all-locations-link">Toutes les zones couvertes &rarr;</a>
+      </div>
+    </div>
+  </div>
   
   <div class="footer-bottom">
     <div class="container flex-between">
-      <p>&copy; {year} {BUSINESS_CONFIG.businessName}. Tous droits réservés.</p>
+      <p>&copy; {year} {BUSINESS_CONFIG.businessName} — Un service de {BUSINESS_CONFIG.legalBusinessName} (BCE : {BUSINESS_CONFIG.bceNumber}). Tous droits réservés.</p>
       <div class="legal-links">
         <a href="/mentions-legales">Mentions Légales</a>
         <a href="/politique-de-confidentialite">Politique de Confidentialité</a>
@@ -159,6 +197,49 @@ const year = new Date().getFullYear();
     color: white;
   }
   
+  .footer-locations {
+    background-color: #0b1c42;
+    padding: 2rem 1rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  }
+
+  .footer-subheading {
+    color: white;
+    font-size: 1.05rem;
+    margin-bottom: 1rem;
+    font-family: var(--font-heading);
+  }
+
+  .footer-communes-grid {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem 0.75rem;
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
+
+  .footer-communes-grid a {
+    color: rgba(255, 255, 255, 0.75);
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+
+  .footer-communes-grid a:hover {
+    color: var(--secondary);
+    text-decoration: underline;
+  }
+
+  .footer-communes-grid .sep {
+    color: rgba(255, 255, 255, 0.3);
+  }
+
+  .all-locations-link {
+    font-weight: 600;
+    color: var(--secondary) !important;
+  }
+
   .footer-bottom {
     background-color: #081635; /* Darker navy */
     padding: 1.5rem 0;

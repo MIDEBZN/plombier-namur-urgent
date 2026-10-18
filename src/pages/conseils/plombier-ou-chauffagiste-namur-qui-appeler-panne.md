@@ -14,7 +14,7 @@ author: "Équipe Technique Plombier Namur Urgent"
 authorRole: "Responsable Technique Génie Sanitaire et Thermique"
 ---
 
-# Plombier ou chauffagiste à Namur : qui appeler selon la panne ?
+## Plombier ou chauffagiste à Namur : qui appeler selon la panne ?
 
 Une eau tiède qui refuse de chauffer sous la douche, un radiateur qui reste glacial dans la chambre des enfants malgré la vanne thermostatique ouverte au maximum, ou une chaudière murale qui se met en sécurité avec un code d'erreur clignotant : face à une anomalie thermique dans la maison, l'hésitation est fréquente. Beaucoup d'usagers namurois confondent ces deux métiers complémentaires et perdent un temps précieux en contactant le mauvais corps de métier. **Plombier ou chauffagiste à Namur : qui faut-il appeler exactement selon la nature de votre panne en 2026 ?**
 

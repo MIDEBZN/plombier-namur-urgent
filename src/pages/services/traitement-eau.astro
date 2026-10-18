@@ -1,7 +1,23 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import ServiceCrossLinks from '../../components/ServiceCrossLinks.astro';
 import { BUSINESS_CONFIG } from '../../data/business';
+
+const faqs = [
+  {
+    question: "Quelle est la dureté de l'eau dans la région de Namur ?",
+    answer: "L'eau potable distribuée par la SWDE et l'INASEP dans le Grand Namur provient en grande partie des nappes calcaires du sous-sol condrusien et hesbignon. Sa dureté oscille généralement entre 28 et 35 degrés français (°f), ce qui la classe dans la catégorie des eaux « très dures ». Un adoucisseur est vivement recommandé dès 25 °f."
+  },
+  {
+    question: "Peut-on boire de l'eau adoucie au sel ?",
+    answer: "Oui, une eau adoucie reste potable et conforme aux normes sanitaires belges tant que la dureté n'est pas réglée à 0 °f (nous calibrons la dureté résiduelle entre 7 et 10 °f). L'apport en sodium reste minime (comparable à celui d'une tranche de pain par litre). Pour les personnes suivant un régime strictement sans sel ou pour la préparation des biberons, nous pouvons raccorder un robinet d'eau brute non adoucie en cuisine."
+  },
+  {
+    question: "Quel est le coût d'entretien annuel d'un adoucisseur ?",
+    answer: "Pour un foyer de 4 personnes, la consommation moyenne de sel régénérant est d'environ 100 à 150 kg par an (soit environ 40 à 60€ de consommables). La visite d'entretien annuelle comprend le nettoyage du bac à sel, la désinfection des résines et le contrôle des paramètres de la vanne volumétrique."
+  }
+];
 ---
 
 <Layout 
@@ -9,6 +25,7 @@ import { BUSINESS_CONFIG } from '../../data/business';
   description="Installation d'adoucisseurs d'eau à Namur. Protection contre le calcaire et l'eau dure (30 °f). Entretien, sel régénérant et filtration. Devis gratuit."
   schemaType="service"
   serviceName="Traitement de l'Eau et Adoucisseurs à Namur"
+  faq={faqs}
 >
   <Breadcrumbs items={[
     { name: "Services", url: "/services" },
@@ -110,10 +127,11 @@ import { BUSINESS_CONFIG } from '../../data/business';
       </div>
     </div>
 
-    <!-- Contextual Links -->
+    <!-- Contextual Links & Local Siloing -->
+    <ServiceCrossLinks currentService="traitement-eau" />
+
     <div class="card mt-4 p-4" style="background: var(--bg-light);">
       <h2>Protéger vos autres installations</h2>
-      <p>L'eau adoucie optimise la longévité de tous vos équipements :</p>
       <div class="grid grid-3 mt-2" style="gap: 1rem;">
         <a href="/services/chauffage" class="btn btn-outline" style="text-align: center;">
           🔥 Protéger votre Chaudière
@@ -121,8 +139,8 @@ import { BUSINESS_CONFIG } from '../../data/business';
         <a href="/services/sanitaire" class="btn btn-outline" style="text-align: center;">
           🚿 Rénovation Salle de Bain
         </a>
-        <a href="/contact" class="btn btn-outline" style="text-align: center;">
-          ✉️ Demander un Devis Gratuit
+        <a href="/services/fuites" class="btn btn-outline" style="text-align: center;">
+          💧 Détection Fuite Sans Casse
         </a>
       </div>
     </div>

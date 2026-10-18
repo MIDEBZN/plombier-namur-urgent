@@ -14,7 +14,7 @@ author: "Équipe Technique Plombier Namur Urgent"
 authorRole: "Artisan Plombier et Pose Robinetterie"
 ---
 
-# Combien coûte l'installation ou le remplacement d'un robinet à Namur ?
+## Combien coûte l'installation ou le remplacement d'un robinet à Namur ?
 
 Le « ploc... ploc... » régulier et incessant d'un robinet qui goutte dans l'évier en pleine nuit, une manette de mitigeur qui devient dure comme de la pierre à cause du calcaire namurois, ou la volonté d'équiper sa douche d'un mitigeur thermostatique moderne et sécurisé : le changement de robinetterie est l'intervention de plomberie la plus courante. Mais **quel est le tarif d'un plombier pour remplacer un robinet à Namur en 2026 ?**
 

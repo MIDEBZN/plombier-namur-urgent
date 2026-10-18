@@ -14,7 +14,7 @@ author: "Équipe Technique Plombier Namur Urgent"
 authorRole: "Coordinateur Interventions d'Urgence et Sinistres"
 ---
 
-# Que faire avant l'arrivée du plombier en cas de fuite d'eau à Namur ?
+## Que faire avant l'arrivée du plombier en cas de fuite d'eau à Namur ?
 
 L'eau ruisselle en cascade le long d'une cloison en plaques de plâtre, une flaque grandit à vue d'œil sous le meuble de la cuisine ou le plafond du salon commence à bomber dangereusement sous le poids d'une poche d'eau : la découverte d'une fuite d'eau majeure déclenche une panique bien légitime. À Namur, le temps moyen d'arrivée d'un plombier en astreinte d'urgence varie entre 25 et 45 minutes. Durant ce court laps de temps, vos actions déterminent si votre sinistre se soldera par un simple coup de serpillière ou par plusieurs milliers d'euros de réfection immobilière. **Quels sont les gestes vitaux à poser immédiatement avant l'arrivée du réparateur ?**
 

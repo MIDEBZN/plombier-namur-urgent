@@ -246,3 +246,17 @@ img {
   h2 { font-size: 2rem; }
   .section { padding: 3rem 1rem; }
 }
+
+/* Accessibility & SEO utility */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+

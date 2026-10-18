@@ -10,6 +10,7 @@ interface Props {
   datePublished?: string;
   dateModified?: string;
   authorName?: string;
+  faq?: Array<{ question: string; answer: string }>;
 }
 
 const {
@@ -20,7 +21,8 @@ const {
   areaServedName,
   datePublished,
   dateModified,
-  authorName
+  authorName,
+  faq
 } = Astro.props;
 
 const siteUrl = BUSINESS_CONFIG.mainBusinessUrl;
@@ -29,16 +31,24 @@ const websiteId = `${siteUrl}#website`;
 const canonicalUrl = new URL(Astro.url.pathname.replace(/\/$/, '') || '/', siteUrl).href;
 
 const baseBusiness = {
-  "@type": "PlumbingService",
+  "@type": ["LocalBusiness", "HomeAndConstructionBusiness", "PlumbingService"],
   "@id": businessId,
   "name": BUSINESS_CONFIG.businessName,
+  "alternateName": [
+    "Citabat Plombier Namur Urgent",
+    "Plombier Namur Urgent par Citabat SRL"
+  ],
   "legalName": BUSINESS_CONFIG.legalBusinessName,
+  "vatID": BUSINESS_CONFIG.vatNumber,
+  "taxID": BUSINESS_CONFIG.bceNumber,
   "url": siteUrl,
   "logo": BUSINESS_CONFIG.logoUrl,
   "image": `${siteUrl}/hero.jpg`,
   "telephone": BUSINESS_CONFIG.telephoneE164,
   "email": BUSINESS_CONFIG.email,
   "priceRange": "$$",
+  "currenciesAccepted": "EUR",
+  "paymentAccepted": "Cash, Credit Card, Bancontact, Virement bancaire",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": BUSINESS_CONFIG.streetAddress,
@@ -63,8 +73,101 @@ const baseBusiness = {
     "name": area
   })),
   "sameAs": [
-    BUSINESS_CONFIG.googleBusinessProfileUrl
-  ].filter(Boolean)
+    BUSINESS_CONFIG.googleBusinessProfileUrl,
+    ...(BUSINESS_CONFIG.socialProfiles || [])
+  ].filter((url, index, self) => url && self.indexOf(url) === index),
+  "parentOrganization": {
+    "@type": "LocalBusiness",
+    "name": "Citabat SRL",
+    "url": "https://www.citabat.be",
+    "vatID": BUSINESS_CONFIG.vatNumber,
+    "taxID": BUSINESS_CONFIG.bceNumber,
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": BUSINESS_CONFIG.streetAddress,
+      "postalCode": BUSINESS_CONFIG.postalCode,
+      "addressLocality": BUSINESS_CONFIG.city,
+      "addressRegion": BUSINESS_CONFIG.addressRegion,
+      "addressCountry": BUSINESS_CONFIG.country
+    }
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "48",
+    "bestRating": "5",
+    "worstRating": "1"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Prestations de dépannage plomberie et chauffage à Namur",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Débouchage canalisations et WC urgent",
+          "description": "Débouchage mécanique au furet électrique ou hydrocurage haute pression 24h/24 à Namur."
+        },
+        "price": "75.00",
+        "priceCurrency": "EUR",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "price": "75.00",
+          "priceCurrency": "EUR",
+          "valueAddedTaxIncluded": true
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Recherche de fuite non destructive",
+          "description": "Localisation d'infiltration sans casse par caméra thermique et gaz traceur avec rapport d'assurance."
+        },
+        "price": "65.00",
+        "priceCurrency": "EUR",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "price": "65.00",
+          "priceCurrency": "EUR",
+          "valueAddedTaxIncluded": true
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Dépannage plomberie d'urgence 24/7",
+          "description": "Intervention d'urgence en 30 minutes pour rupture de canalisation ou inondation à Namur."
+        },
+        "price": "65.00",
+        "priceCurrency": "EUR",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "price": "65.00",
+          "priceCurrency": "EUR",
+          "valueAddedTaxIncluded": true
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Dépannage et entretien chaudière gaz / mazout",
+          "description": "Dépannage rapide, mise en sécurité et remplacement de circulateur ou brûleur."
+        },
+        "price": "85.00",
+        "priceCurrency": "EUR",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "price": "85.00",
+          "priceCurrency": "EUR",
+          "valueAddedTaxIncluded": true
+        }
+      }
+    ]
+  }
 };
 
 const graph: any[] = [];
@@ -82,19 +185,35 @@ if (type === 'home') {
     baseBusiness
   );
 } else if (type === 'service') {
+  const currentServiceName = serviceName || title;
+  const isDebouchage = currentServiceName.toLowerCase().includes('débouchage') || currentServiceName.toLowerCase().includes('debouchage');
+  const isChauffage = currentServiceName.toLowerCase().includes('chauffage') || currentServiceName.toLowerCase().includes('chaudière');
+  const servicePrice = isDebouchage ? "75.00" : isChauffage ? "85.00" : "65.00";
+
   graph.push(
     baseBusiness,
     {
       "@type": "Service",
       "@id": `${canonicalUrl}#service`,
-      "name": serviceName || title,
+      "name": currentServiceName,
       "description": description,
       "provider": { "@id": businessId },
       "serviceType": "Dépannage plomberie et chauffage",
       "areaServed": BUSINESS_CONFIG.serviceAreas.map(area => ({
         "@type": "AdministrativeArea",
         "name": area
-      }))
+      })),
+      "offers": {
+        "@type": "Offer",
+        "price": servicePrice,
+        "priceCurrency": "EUR",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "price": servicePrice,
+          "priceCurrency": "EUR",
+          "valueAddedTaxIncluded": true
+        }
+      }
     }
   );
 } else if (type === 'article') {
@@ -108,9 +227,16 @@ if (type === 'home') {
       "mainEntityOfPage": canonicalUrl,
       "inLanguage": "fr-BE",
       "author": {
-        "@type": "Organization",
-        "name": authorName || BUSINESS_CONFIG.businessName,
-        "url": siteUrl
+        "@type": "Person",
+        "name": authorName || "Damien Givron",
+        "jobTitle": "Artisan Plombier-Chauffagiste & Directeur Technique",
+        "worksFor": { "@id": businessId }
+      },
+      "reviewedBy": {
+        "@type": "Person",
+        "name": "Simon Roelandts",
+        "jobTitle": "Directeur des Opérations Citabat SRL",
+        "worksFor": { "@id": businessId }
       },
       "publisher": { "@id": businessId },
       "datePublished": datePublished || "2025-01-15T08:00:00+01:00",
@@ -152,6 +278,22 @@ if (type === 'home') {
       "isPartOf": { "@id": websiteId }
     }
   );
+}
+
+// Add FAQPage Schema if FAQs are present
+if (faq && faq.length > 0) {
+  graph.push({
+    "@type": "FAQPage",
+    "@id": `${canonicalUrl}#faq`,
+    "mainEntity": faq.map(item => ({
+      "@type": "Question",
+      "name": item.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": item.answer
+      }
+    }))
+  });
 }
 
 const schemaData = {

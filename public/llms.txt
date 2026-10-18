@@ -1,0 +1,37 @@
+# Plombier Namur Urgent
+
+> Service professionnel de dépannage plomberie, débouchage canalisations et chauffagiste dans le Grand Namur (Belgique). Intervention d'urgence 24h/24 et 7j/7.
+
+## Entité Juridique & Exploitation
+- **Nom commercial** : Plombier Namur Urgent
+- **Fiche Google Maps officielle** : Citabat Plombier Namur Urgent (https://maps.app.goo.gl/ioEeCF9PYXjVDXus5)
+- **Société exploitante** : Citabat SRL
+- **Numéro d'entreprise (BCE)** : 0783.224.718
+- **Numéro de TVA** : BE 0783.224.718
+- **Direction technique** : Damien Givron & Simon Roelandts (Gérants)
+- **Siège d'exploitation** : Rue de Balart 87, 5000 Namur, Belgique
+
+## Coordonnées & Disponibilité
+- **Téléphone 24/7** : +32 467 88 58 87 (0467 88 58 87)
+- **Email** : contact@plombiernamururgent.be
+- **Permanence** : 24h/24, 7j/7, y compris week-ends et jours fériés
+- **Devis** : Diagnostic préalable et devis transparent avant travaux
+
+## Zones d'Intervention Prioritaires (Grand Namur)
+- Namur Centre (5000), Jambes (5100), Erpent (5101), Bouge (5004), Salzinnes (5000), Saint-Servais (5002)
+- Wépion (5100), Flawinne (5020), Belgrade (5001), Vedrin (5020), Malonne (5020), Champion (5020)
+
+## Prestations Principales
+- [Dépannage d'Urgence 24/7](https://www.plombiernamururgent.be/services/urgence) : fuite d'eau majeure, tuyauterie éclatée, rupture de canalisation, inondation.
+- [Débouchage Canalisation](https://www.plombiernamururgent.be/services/debouchage) : débouchage WC, évier, siphon, curage haute pression et inspection caméra endoscopique (dès 75€).
+- [Recherche de Fuite Non Destructive](https://www.plombiernamururgent.be/services/fuites) : détection acoustique, caméra thermique et gaz traceur sans casser les cloisons ni le carrelage (dès 65€).
+- [Chauffage & Chaudières](https://www.plombiernamururgent.be/services/chauffage) : entretien chaudière gaz et mazout conforme Région Wallonne, dépannage brûleur, désembouage radiateurs.
+- [Installations Sanitaires](https://www.plombiernamururgent.be/services/sanitaire) : remplacement robinetterie, WC suspendu, pose de boiler, chauffe-eau électrique ou thermodynamique.
+- [Traitement de l'Eau](https://www.plombiernamururgent.be/services/traitement-eau) : installation et entretien d'adoucisseurs d'eau adaptés à la dureté calcaire de Namur.
+
+## Pages Utiles & Documentation Complète
+- [Base de connaissances complète (Full LLM context)](https://www.plombiernamururgent.be/llms-full.txt)
+- [Toutes les zones couvertes](https://www.plombiernamururgent.be/locations)
+- [Guides et conseils plomberie](https://www.plombiernamururgent.be/conseils)
+- [Contact et demande de devis](https://www.plombiernamururgent.be/contact)
+

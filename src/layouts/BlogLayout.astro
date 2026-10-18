@@ -41,6 +41,38 @@ const reviewer = frontmatter.reviewer || "Revu par l'équipe technique - Conform
   <div class="container blog-container">
     <article class="blog-content">
       <slot />
+
+      <!-- Author & Technical Reviewer Bio Card (E-E-A-T) -->
+      <div class="author-bio-card card mt-4">
+        <div class="author-bio-header">
+          <div class="author-avatar" aria-hidden="true">👨‍🔧</div>
+          <div>
+            <span class="author-label">Auteur &amp; Référent Technique</span>
+            <h4 class="author-name">{author}</h4>
+            <div class="author-subtitle">{authorRole} • Service Dépannage Grand Namur</div>
+          </div>
+        </div>
+        <p class="author-bio-text">
+          Artisan professionnel en plomberie sanitaire, recherche de fuite sans casse et dépannage de chaudière dans l'agglomération namuroise. Les méthodologies d'intervention et estimations tarifaires détaillées dans cet article sont vérifiées conformément aux réglementations de la Région Wallonne (SPW Énergie, normes NBN) et validées pour l'instruction des dossiers d'assurance habitation belges.
+        </p>
+        <div class="author-badges">
+          <span class="badge-item">✓ Agréé Dépannage Gaz &amp; Mazout Wallonie</span>
+          <span class="badge-item">✓ Équipements de diagnostic non destructif certifiés</span>
+          <span class="badge-item">✓ {reviewer}</span>
+        </div>
+      </div>
+
+      <!-- Interconnected guides section -->
+      <div class="article-related-guides card mt-4 bg-light border-0">
+        <h3 style="font-size: 1.25rem; color: var(--primary); margin-bottom: 1rem;">Guides Pratiques Liés</h3>
+        <ul class="styled-guides-list">
+          <li><a href="/conseils/combien-coute-un-plombier-namur-2026">Combien coûte un plombier à Namur en 2026 ? Le guide complet des tarifs et urgences</a></li>
+          <li><a href="/conseils/combien-coute-debouchage-canalisation-namur">Prix débouchage canalisation et WC à Namur : solutions et délais</a></li>
+          <li><a href="/conseils/assurance-habitation-rembourse-recherche-fuite-plombier-namur">L'assurance habitation rembourse-t-elle la recherche de fuite d'eau ?</a></li>
+          <li><a href="/conseils/combien-coute-recherche-fuite-invisible-namur">Tarifs et méthode de recherche de fuite sans casse à Namur</a></li>
+          <li><a href="/conseils/eau-calcaire-namur-adoucisseur-combien-ca-coute">Eau calcaire à Namur : adoucisseur et protection de votre plomberie</a></li>
+        </ul>
+      </div>
     </article>
     
     <aside class="blog-sidebar" aria-label="Informations et services associés">
@@ -61,6 +93,20 @@ const reviewer = frontmatter.reviewer || "Revu par l'équipe technique - Conform
           <li><a href="/services/chauffage">🔥 Chauffage & Chaudières</a></li>
           <li><a href="/services/sanitaire">🚿 Installations Sanitaires</a></li>
           <li><a href="/services/traitement-eau">🧊 Adoucisseurs d'Eau</a></li>
+        </ul>
+      </div>
+
+      <div class="sidebar-card">
+        <h3>Zones Desservies à Namur</h3>
+        <p style="font-size: 0.9rem; margin-bottom: 0.75rem; color: var(--text-muted);">Permanence 24/7 dans votre commune :</p>
+        <ul class="sidebar-links">
+          <li><a href="/locations/jambes">Plombier Jambes (5100)</a></li>
+          <li><a href="/locations/salzinnes">Plombier Salzinnes (5000)</a></li>
+          <li><a href="/locations/bouge">Plombier Bouge (5004)</a></li>
+          <li><a href="/locations/erpent">Plombier Erpent (5101)</a></li>
+          <li><a href="/locations/saint-servais">Plombier Saint-Servais (5002)</a></li>
+          <li><a href="/locations/wepion">Plombier Wépion (5100)</a></li>
+          <li><a href="/locations" style="font-weight: 600; color: var(--secondary);">Toutes les communes &rarr;</a></li>
         </ul>
       </div>
 
@@ -215,6 +261,79 @@ const reviewer = frontmatter.reviewer || "Revu par l'équipe technique - Conform
   .external-links a {
     color: var(--primary);
     font-size: 0.95rem;
+  }
+
+  /* E-E-A-T Author Bio Card Styling */
+  .author-bio-card {
+    background: #f8fafc;
+    border: 1px solid var(--border-light, #e2e8f0);
+    border-left: 4px solid var(--primary, #0f2b5c);
+    padding: 1.75rem;
+    border-radius: var(--radius-lg, 0.75rem);
+    margin-top: 2.5rem;
+  }
+
+  .author-bio-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .author-avatar {
+    font-size: 2.5rem;
+    line-height: 1;
+    background: white;
+    padding: 0.5rem;
+    border-radius: 50%;
+    box-shadow: var(--shadow-sm, 0 1px 2px rgba(0,0,0,0.05));
+    border: 1px solid var(--border-light, #e2e8f0);
+  }
+
+  .author-label {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--secondary, #e01933);
+    margin-bottom: 0.2rem;
+  }
+
+  .author-name {
+    color: var(--primary, #0f2b5c);
+    font-size: 1.25rem;
+    margin: 0;
+    line-height: 1.2;
+  }
+
+  .author-subtitle {
+    font-size: 0.85rem;
+    color: var(--text-muted, #64748b);
+    margin-top: 0.25rem;
+  }
+
+  .author-bio-text {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: var(--text-main, #1e293b);
+    margin-bottom: 1rem;
+  }
+
+  .author-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .badge-item {
+    font-size: 0.8rem;
+    background: white;
+    color: var(--primary, #0f2b5c);
+    padding: 0.35rem 0.65rem;
+    border-radius: var(--radius-md, 0.375rem);
+    border: 1px solid #cbd5e1;
+    font-weight: 500;
   }
   
   @media (max-width: 900px) {

@@ -14,7 +14,7 @@ author: "Équipe Technique Plombier Namur Urgent"
 authorRole: "Expert Dépannage Hivernal et Protection Gel"
 ---
 
-# Que faire si une canalisation gèle ou éclate en hiver à Namur ?
+## Que faire si une canalisation gèle ou éclate en hiver à Namur ?
 
 Lorsque le thermomètre plonge sous la barre des -5 °C ou -10 °C pendant plusieurs nuits consécutives en bord de Meuse ou sur les hauteurs venteuses de Bouge et d'Erpent, le réseau de plomberie d'une habitation est soumis à une épreuve titanesque. Un matin, vous tournez le robinet de la salle de bain ou de la buanderie : pas une seule goutte d'eau ne s'écoule. Pire encore : lors du redoux, un bruit de ruissellement assourdissant retentit dans la cave ou sous le plancher. **Que devez-vous faire face à une canalisation gelée et qui contacter en urgence à Namur pour éviter la rupture de vos tuyaux ?**
 

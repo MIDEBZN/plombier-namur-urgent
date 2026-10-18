@@ -1,7 +1,23 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import ServiceCrossLinks from '../../components/ServiceCrossLinks.astro';
 import { BUSINESS_CONFIG } from '../../data/business';
+
+const faqs = [
+  {
+    question: "Combien de temps durent les travaux de rénovation d'une salle de bain ?",
+    answer: "Le remplacement simple d'équipements sanitaires (remplacement d'un WC ou d'un meuble vasque) prend généralement une journée. Une rénovation complète avec dépose d'ancienne faïence, plomberie encastrée et pose d'une douche italienne nécessite en moyenne 5 à 10 jours ouvrés selon la surface et les temps de séchage de l'étanchéité."
+  },
+  {
+    question: "Faut-il installer un adoucisseur lors de la rénovation de sa salle de bain ?",
+    answer: "Dans le Grand Namur où l'eau est particulièrement dure (environ 30 °f), le calcaire altère rapidement les parois de verre, les cartouches thermostatiques et les robinetteries noires mates très tendance. L'installation d'un adoucisseur en amont protège durablement votre investissement."
+  },
+  {
+    question: "Quels sont les avantages d'un WC suspendu par rapport à un WC à poser ?",
+    answer: "Le WC suspendu facilite grandement le nettoyage du sol, offre une esthétique épurée avec son réservoir dissimulé et permet d'ajuster la hauteur de la cuvette lors de la pose (idéal pour les personnes de grande taille ou à mobilité réduite). Le mécanisme reste accessible par la plaque de déclenchement sans casser le mur."
+  }
+];
 ---
 
 <Layout 
@@ -9,6 +25,7 @@ import { BUSINESS_CONFIG } from '../../data/business';
   description="Plombier pour installation sanitaire à Namur. Rénovation de salle de bain, pose de douche italienne, WC suspendus, éviers et robinetterie. Devis transparent."
   schemaType="service"
   serviceName="Installations Sanitaires et Rénovation Salle de Bain"
+  faq={faqs}
 >
   <Breadcrumbs items={[
     { name: "Services", url: "/services" },
@@ -110,10 +127,11 @@ import { BUSINESS_CONFIG } from '../../data/business';
       </div>
     </div>
 
-    <!-- Contextual Links -->
+    <!-- Contextual Links & Local Siloing -->
+    <ServiceCrossLinks currentService="sanitaire" />
+
     <div class="card mt-4 p-4" style="background: var(--bg-light);">
       <h2>Prestations associées à vos installations</h2>
-      <p>Pour protéger et entretenir vos nouveaux équipements :</p>
       <div class="grid grid-3 mt-2" style="gap: 1rem;">
         <a href="/services/traitement-eau" class="btn btn-outline" style="text-align: center;">
           🧊 Adoucisseurs d'Eau Anti-Calcaire
@@ -121,8 +139,8 @@ import { BUSINESS_CONFIG } from '../../data/business';
         <a href="/services/debouchage" class="btn btn-outline" style="text-align: center;">
           🚽 Débouchage & Curage
         </a>
-        <a href="/contact" class="btn btn-outline" style="text-align: center;">
-          ✉️ Demande de devis en ligne
+        <a href="/services/fuites" class="btn btn-outline" style="text-align: center;">
+          💧 Recherche de Fuite Sans Casse
         </a>
       </div>
     </div>

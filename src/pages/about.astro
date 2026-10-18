@@ -87,15 +87,73 @@ import { BUSINESS_CONFIG } from '../data/business';
       </div>
     </div>
 
+    <!-- Direction Technique & Qualifications E-E-A-T -->
+    <div class="team-section mt-4 card">
+      <div class="badge badge-red mb-2">Direction & Expertise Terrain</div>
+      <h2>Une Direction Technique Qualifiée & Expérimentée</h2>
+      <p class="mt-2" style="font-size: 1.05rem; line-height: 1.7;">
+        {BUSINESS_CONFIG.businessName} est exploitée par la société <strong>{BUSINESS_CONFIG.legalBusinessName}</strong>, dirigée par des entrepreneurs et techniciens locaux profondément attachés aux exigences de qualité et de sécurité du métier :
+      </p>
+      <div class="grid grid-2 mt-4" style="gap: 2rem;">
+        <div class="leader-card card bg-light border-0">
+          <div style="font-size: 2.2rem; margin-bottom: 0.5rem;" aria-hidden="true">👨‍🔧</div>
+          <h3 style="color: var(--primary); margin-bottom: 0.25rem;">Damien Givron</h3>
+          <p style="color: var(--secondary); font-weight: 600; font-size: 0.9rem; margin-bottom: 0.75rem;">Gérant &amp; Directeur Technique</p>
+          <p style="font-size: 0.95rem; line-height: 1.6; margin: 0;">
+            Supervision des équipes d'intervention d'urgence, des protocoles de diagnostic sans casse et du respect des règles de sécurité gaz et sanitaires sur le terrain namurois.
+          </p>
+        </div>
+        <div class="leader-card card bg-light border-0">
+          <div style="font-size: 2.2rem; margin-bottom: 0.5rem;" aria-hidden="true">📐</div>
+          <h3 style="color: var(--primary); margin-bottom: 0.25rem;">Simon Roelandts</h3>
+          <p style="color: var(--secondary); font-weight: 600; font-size: 0.9rem; margin-bottom: 0.75rem;">Gérant &amp; Responsable des Opérations</p>
+          <p style="font-size: 0.95rem; line-height: 1.6; margin: 0;">
+            Coordination de la permanence 24/7, contrôle de la conformité réglementaire des devis et gestion de la relation avec les compagnies d'assurance et experts sinistres.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Agréments & Habilitations Wallonnes -->
+    <div class="accreditations-section mt-4 card">
+      <h2>Agréments, Certifications &amp; Conformité Wallonie</h2>
+      <p class="mt-2" style="line-height: 1.7;">
+        Toutes nos interventions s'inscrivent dans le cadre réglementaire strict de la Région Wallonne et des normes belges en vigueur :
+      </p>
+      <div class="grid grid-3 mt-4" style="gap: 1.5rem;">
+        <div class="accreditation-item">
+          <h4 style="color: var(--primary); font-size: 1.15rem; margin-bottom: 0.5rem;">🔥 Agréments Chauffage SPW</h4>
+          <p style="font-size: 0.9rem; line-height: 1.6; margin: 0;">
+            Techniciens qualifiés pour les contrôles périodiques légaux des chaudières (attestation officielle tous les 3 ans pour le gaz, annuelle pour le mazout).
+          </p>
+        </div>
+        <div class="accreditation-item">
+          <h4 style="color: var(--primary); font-size: 1.15rem; margin-bottom: 0.5rem;">💧 Rapprochement SWDE &amp; INASEP</h4>
+          <p style="font-size: 0.9rem; line-height: 1.6; margin: 0;">
+            Conformité des raccordements d'eau potable et des dispositifs anti-pollution (clapets disconnecteurs BA/CA) selon les directives de distribution d'eau potable et d'égouttage public à Namur.
+          </p>
+        </div>
+        <div class="accreditation-item">
+          <h4 style="color: var(--primary); font-size: 1.15rem; margin-bottom: 0.5rem;">📋 Dossiers d'Assurance Habitation</h4>
+          <p style="font-size: 0.9rem; line-height: 1.6; margin: 0;">
+            Nos rapports techniques de recherche de fuite avec clichés thermiques et constat de sinistre sont recevables auprès des courtiers et assureurs belges (AXA, Ethias, AG, Baloise).
+          </p>
+        </div>
+      </div>
+    </div>
+
     <div class="company-details card mt-4">
-      <h2>Coordonnées & Informations Légales</h2>
+      <h2>Coordonnées &amp; Informations Légales</h2>
       <div class="grid grid-2 mt-2">
         <div>
-          <p><strong>Dénomination :</strong> {BUSINESS_CONFIG.businessName}</p>
-          <p><strong>Siège :</strong> {BUSINESS_CONFIG.streetAddress}, {BUSINESS_CONFIG.postalCode} {BUSINESS_CONFIG.city}</p>
-          <p><strong>Zone d'activité :</strong> Province de Namur et agglomération</p>
+          <p><strong>Nom commercial :</strong> {BUSINESS_CONFIG.businessName}</p>
+          <p><strong>Dénomination sociale :</strong> {BUSINESS_CONFIG.legalBusinessName}</p>
+          <p><strong>Forme juridique :</strong> {BUSINESS_CONFIG.businessForm}</p>
+          <p><strong>Siège d'exploitation :</strong> {BUSINESS_CONFIG.streetAddress}, {BUSINESS_CONFIG.postalCode} {BUSINESS_CONFIG.city}, Belgique</p>
         </div>
         <div>
+          <p><strong>Numéro d'entreprise (BCE) :</strong> {BUSINESS_CONFIG.bceNumber}</p>
+          <p><strong>Numéro de TVA intracommunautaire :</strong> {BUSINESS_CONFIG.vatNumber}</p>
           <p><strong>Téléphone d'urgence :</strong> <a href={BUSINESS_CONFIG.telephoneHref}>{BUSINESS_CONFIG.telephone}</a></p>
           <p><strong>Email :</strong> <a href={`mailto:${BUSINESS_CONFIG.email}`}>{BUSINESS_CONFIG.email}</a></p>
           <p><strong>Consulter nos mentions légales :</strong> <a href="/mentions-legales">Mentions légales complètes</a></p>

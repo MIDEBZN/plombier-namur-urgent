@@ -14,7 +14,7 @@ author: "Équipe Technique Plombier Namur Urgent"
 authorRole: "Expert Sinistres Dégât des Eaux et Relations Assurances"
 ---
 
-# L'assurance habitation rembourse-t-elle la recherche de fuite et le plombier à Namur ?
+## L'assurance habitation rembourse-t-elle la recherche de fuite et le plombier à Namur ?
 
 Une flaque d'eau inexpliquée sur le parquet, un plafond qui commence à cloquer ou des infiltrations chez le voisin du dessous : le dégât des eaux est le sinistre le plus fréquemment déclaré auprès des compagnies d'assurances en Belgique. Face aux frais immédiats d'intervention, une interrogation cruciale s'impose : **quelles prestations du plombier sont réellement indemnisées par votre contrat d'assurance habitation (assurance incendie) à Namur ?**
 
@@ -47,7 +47,7 @@ La législation belge sur les contrats d'assurance terrestre établit une distin
 Votre assureur réclame une attestation et un rapport de détection pour débloquer votre dossier ?
 Nos techniciens agréés établissent un document officiel avec clichés infrarouges conformes ABEX.
 📞 Assistance sinistre 24h/24 : 0467 88 58 87
-Consultez notre service dédié : /fuites/[Namur]/
+Consultez notre service dédié : /services/fuites
 ```
 
 ---

@@ -37,8 +37,8 @@ export interface BusinessConfig {
 
 export const BUSINESS_CONFIG: BusinessConfig = {
   businessName: "Plombier Namur Urgent",
-  legalBusinessName: "[À COMPLÉTER - Dénomination légale SRL]",
-  businessForm: "Entreprise de plomberie et chauffage",
+  legalBusinessName: "Citabat SRL",
+  businessForm: "Société à responsabilité limitée (SRL)",
   telephone: "0467 88 58 87",
   telephoneE164: "+32467885887",
   telephoneHref: "tel:+32467885887",
@@ -46,12 +46,12 @@ export const BUSINESS_CONFIG: BusinessConfig = {
   whatsappHref: "https://wa.me/32467885887",
   email: "contact@plombiernamururgent.be",
   streetAddress: "Rue de Balart 87",
-  postalCode: "5004",
+  postalCode: "5000",
   city: "Namur",
   addressRegion: "Province de Namur",
   country: "BE",
-  vatNumber: "[À COMPLÉTER - Ex: BE 0XXX.XXX.XXX]",
-  bceNumber: "[À COMPLÉTER - Numéro BCE 0XXX.XXX.XXX]",
+  vatNumber: "BE 0783.224.718",
+  bceNumber: "0783.224.718",
   businessHours: "24h/24 et 7j/7",
   openingHoursSpecification: [
     {
@@ -92,7 +92,13 @@ export const BUSINESS_CONFIG: BusinessConfig = {
     "Malonne (5020)",
     "Champion (5020)"
   ],
-  socialProfiles: [],
-  responsiblePublisher: "[À COMPLÉTER - Gérant / Responsable de la publication]",
+  socialProfiles: [
+    "https://maps.app.goo.gl/ioEeCF9PYXjVDXus5",
+    "https://www.citabat.be",
+    "https://www.pappers.be/entreprise/citabat-0783224718",
+    "https://www.companyweb.be/fr/0783224718/citabat"
+  ],
+  responsiblePublisher: "Damien Givron & Simon Roelandts (Gérants Citabat SRL)",
   hostingCompany: "Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, USA"
 };
+

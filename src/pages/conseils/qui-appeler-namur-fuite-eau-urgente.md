@@ -14,7 +14,7 @@ author: "Équipe Technique Plombier Namur Urgent"
 authorRole: "Expert Recherche de Fuite et Dépannage d'Urgence"
 ---
 
-# Qui appeler à Namur pour une fuite d'eau urgente ? Guide de réflexe immédiat
+## Qui appeler à Namur pour une fuite d'eau urgente ? Guide de réflexe immédiat
 
 L'eau qui suinte à travers un plafond, un jet puissant qui jaillit d'un raccord sous la baignoire ou un compteur qui tourne à toute vitesse alors que tous les robinets sont fermés : une fuite d'eau est une situation critique qui réclame un sang-froid immédiat.
 
@@ -44,7 +44,7 @@ Tous les problèmes de fuite ne relèvent pas du même interlocuteur. La respons
 L'eau coule sans interruption chez vous à Namur ?
 Nos techniciens d'urgence colmatent la fuite immédiatement et vous délivrent une attestation de sinistre.
 📞 Appelez le 0467 88 58 87 pour un dépannage en moins de 30 minutes.
-Consultez notre service de réparation : /fuites/[Namur]/
+Consultez notre service de réparation : /services/fuites
 ```
 
 ---

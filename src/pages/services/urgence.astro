@@ -1,7 +1,23 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import ServiceCrossLinks from '../../components/ServiceCrossLinks.astro';
 import { BUSINESS_CONFIG } from '../../data/business';
+
+const faqs = [
+  {
+    question: "Quand faut-il appeler un plombier en urgence ?",
+    answer: "Il convient d'appeler un plombier en urgence lorsque l'eau s'écoule de manière incontrôlable menaçant vos planchers ou installations électriques, lors d'un refoulement d'égout insalubre, ou en cas de panne de chauffage totale par grand froid. Pour un robinet qui goutte lentement, fermer le robinet d'arrêt dédié et planifier une intervention en journée permet d'éviter les majorations de nuit."
+  },
+  {
+    question: "Quel est le tarif d'un dépannage de nuit ou le week-end à Namur ?",
+    answer: "Les dépannages de nuit, de week-end et de jours fériés font l'objet d'une majoration pour assurer la permanence 24/7. Notre technicien vous communique systématiquement une estimation de base dès votre appel, et le devis exact est arrêté sur place avant toute réparation."
+  },
+  {
+    question: "Que faire en attendant l'arrivée du plombier ?",
+    answer: "Coupez immédiatement la vanne d'arrêt générale d'eau (située près du compteur d'eau). Si la fuite est proche de prises de courant ou du tableau électrique, disjonctez les circuits concernés. Déplacez vos biens précieux et épongez l'eau stagnante pour limiter les dégâts d'imprégnation."
+  }
+];
 ---
 
 <Layout 
@@ -9,6 +25,7 @@ import { BUSINESS_CONFIG } from '../../data/business';
   description="SOS Plombier d'urgence à Namur et alentours. Fuite d'eau, canalisation bouchée, panne de chauffe-eau. Dépannage rapide 24h/24 et 7j/7 avec devis transparent."
   schemaType="service"
   serviceName="Dépannage Plomberie d'Urgence 24/7"
+  faq={faqs}
 >
   <Breadcrumbs items={[
     { name: "Services", url: "/services" },
@@ -111,10 +128,11 @@ import { BUSINESS_CONFIG } from '../../data/business';
       </div>
     </div>
 
-    <!-- Contextual Internal Links -->
+    <!-- Contextual Internal Links & Local Siloing -->
+    <ServiceCrossLinks currentService="urgence" />
+
     <div class="card mt-4 p-4" style="background: var(--bg-light);">
       <h2>Services complémentaires pour votre urgence</h2>
-      <p>Selon l'origine du sinistre, découvrez nos prestations spécialisées :</p>
       <div class="grid grid-3 mt-2" style="gap: 1rem;">
         <a href="/services/fuites" class="btn btn-outline" style="text-align: center;">
           💧 Recherche de Fuite Sans Casse
@@ -122,8 +140,8 @@ import { BUSINESS_CONFIG } from '../../data/business';
         <a href="/services/debouchage" class="btn btn-outline" style="text-align: center;">
           🚽 Débouchage Haute Pression
         </a>
-        <a href="/locations" class="btn btn-outline" style="text-align: center;">
-          📍 Découvrir nos 11 communes
+        <a href="/services/chauffage" class="btn btn-outline" style="text-align: center;">
+          🔥 Dépannage Chauffage 24/7
         </a>
       </div>
     </div>

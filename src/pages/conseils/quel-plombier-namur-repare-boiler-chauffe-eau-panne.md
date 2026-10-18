@@ -14,7 +14,7 @@ author: "Équipe Technique Plombier Namur Urgent"
 authorRole: "Technicien Chauffage et Production d'Eau Chaude"
 ---
 
-# Quel plombier à Namur répare un boiler ou un chauffe-eau en panne ?
+## Quel plombier à Namur répare un boiler ou un chauffe-eau en panne ?
 
 Ouvrir le robinet de la douche le matin pour n'obtenir qu'un filet d'eau glacée, constater que le groupe de sécurité crache de l'eau en continu ou entendre un bouillonnement inquiétant dans la buanderie : la panne de boiler (chauffe-eau) est une urgence qui paralyse le confort du foyer. À Namur, trouver un artisan capable d'intervenir le jour même sur n'importe quelle marque d'appareil est essentiel.
 
@@ -47,7 +47,7 @@ Avant d'envisager le remplacement complet de l'appareil, un bon technicien s'ass
 Plus d'eau chaude chez vous à Namur, Jambes ou Salzinnes ?
 Nos chauffagistes interviennent le jour même pour remettre votre eau chaude en service.
 📞 Ligne directe chauffe-eau : 0467 88 58 87
-Consultez notre service dédié : /chauffage/[Namur]/
+Consultez notre service dédié : /services/chauffage
 ```
 
 ---

@@ -14,7 +14,7 @@ author: "Équipe Technique Plombier Namur Urgent"
 authorRole: "Dépanneur Sanitaire Spécialisé Mécanismes WC"
 ---
 
-# Qui répare une chasse d'eau qui coule en continu à Namur et à quel prix ?
+## Qui répare une chasse d'eau qui coule en continu à Namur et à quel prix ?
 
 Ce filet d'eau permanent qui ondule au fond de la cuvette, ce clapotis discret qui ne s'arrête jamais ou ce réservoir qui se remplit automatiquement toutes les 10 minutes avec un bruit de sifflement strident : la chasse d'eau qui fuit en continu est la panne de plomberie la plus banale et pourtant la plus ruineuse pour un ménage. À Namur, face à ce désagrément du quotidien, beaucoup de propriétaires et locataires tardent à réagir : **qui faut-il appeler pour réparer un réservoir qui coule et quel est le prix juste d'un dépannage sanitaire en 2026 ?**
 

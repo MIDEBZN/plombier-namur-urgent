@@ -4,12 +4,28 @@ import { Image } from 'astro:assets';
 import heroImage from '../assets/hero.jpg';
 import GlobalMap from '../components/GlobalMap.astro';
 import { BUSINESS_CONFIG } from '../data/business';
+
+const homeFaqs = [
+  {
+    question: "Quel est le prix d'un dépannage plombier à Namur ?",
+    answer: "Le tarif d'une intervention à Namur dépend du type de panne : un débouchage manuel commence à partir de 75€, une recherche de fuite sans casse à partir de 65€, tandis que le curage haute pression ou les dépannages nocturnes font l'objet d'une estimation préalable. Le devis est systématiquement présenté avant le début des travaux."
+  },
+  {
+    question: "Quand faut-il appeler un plombier en urgence 24/7 ?",
+    answer: "Une intervention d'urgence 24/7 se justifie immédiatement en cas de tuyau percé avec inondation active, de refoulement d'égout dans votre logement, ou de panne totale de chauffage en plein hiver avec des personnes vulnérables. Pour un robinet qui goutte légèrement, une prise de rendez-vous en journée permet d'éviter les majorations de nuit."
+  },
+  {
+    question: "Comment savoir si une canalisation est bouchée ?",
+    answer: "Les signes annonciateurs sont un écoulement ralenti dans l'évier ou la douche, des bruits d'aspiration (glouglou) dans les canalisations, des mauvaises odeurs persistantes, ou une eau qui remonte dans les toilettes lorsque la chasse est actionnée."
+  }
+];
 ---
 
 <Layout 
   title="Plombier Namur 24/7 | Urgence, Débouchage & Chauffage" 
   description="Entreprise de plomberie et chauffage à Namur. Dépannage d'urgence 24/7, débouchage canalisation, recherche de fuite sans casse et chaudières. Devis transparent."
   schemaType="home"
+  faq={homeFaqs}
   showGlobalMap={false}
 >
   <!-- HERO SECTION -->

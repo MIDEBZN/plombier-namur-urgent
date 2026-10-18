@@ -14,7 +14,7 @@ author: "Équipe Technique Plombier Namur Urgent"
 authorRole: "Expert Traitement de l'Eau et Filtration"
 ---
 
-# Eau calcaire à Namur : faut-il installer un adoucisseur et combien ça coûte ?
+## Eau calcaire à Namur : faut-il installer un adoucisseur et combien ça coûte ?
 
 Traces blanches tenaces sur les parois de douche, pommeaux bouchés en quelques mois, peau qui tiraille en sortant du bain et résistances de chauffe-eau qui claquent prématurément : le calcaire est l'ennemi numéro un des installations sanitaires dans le Namurois. Mais quelle est réellement la dureté de l'eau distribuée dans les communes de Namur ? **L'achat d'un adoucisseur d'eau est-il indispensable, et quel est le coût d'installation en 2026 ?**
 

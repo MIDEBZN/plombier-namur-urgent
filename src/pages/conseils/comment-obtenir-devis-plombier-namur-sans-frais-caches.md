@@ -14,7 +14,7 @@ author: "Équipe Technique Plombier Namur Urgent"
 authorRole: "Responsable Métreur et Chiffrage Sanitaire"
 ---
 
-# Comment obtenir un devis de plombier à Namur sans frais cachés ?
+## Comment obtenir un devis de plombier à Namur sans frais cachés ?
 
 Que vous prévoyiez de rénover entièrement une salle de bain à Jambes, de remplacer une vieille chaudière à Erpent ou de réparer une fuite d'eau tenace à Salzinnes, la signature d'un devis de plomberie est un engagement financier important. Pourtant, de nombreux ménages namurois redoutent les « lignes en petits caractères », les suppléments imprévus en cours de chantier ou les estimations orales qui doublent mystérieusement lors de la facturation finale.
 

@@ -14,7 +14,7 @@ author: "Équipe Technique Plombier Namur Urgent"
 authorRole: "Installateur Sanitaire et Chauffage Agréé"
 ---
 
-# Combien coûte le remplacement d'un boiler à Namur ?
+## Combien coûte le remplacement d'un boiler à Namur ?
 
 Lorsque la cuve d'un chauffe-eau commence à fuir par le fond ou qu'un vieil appareil de 15 ans consomme une quantité déraisonnable d'électricité sans parvenir à chauffer convenablement, le remplacement devient inévitable. Mais quel budget global faut-il prévoir pour installer un ballon d'eau chaude moderne à Namur en 2026 ?
 

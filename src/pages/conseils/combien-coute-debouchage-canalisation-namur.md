@@ -14,7 +14,7 @@ author: "Équipe Technique Plombier Namur Urgent"
 authorRole: "Spécialiste Débouchage et Assainissement"
 ---
 
-# Combien coûte un débouchage de canalisation à Namur ? Tarifs et solutions
+## Combien coûte un débouchage de canalisation à Namur ? Tarifs et solutions
 
 Une eau qui stagne dans le receveur de douche, un évier qui glougloute bruyamment ou des toilettes prêtes à déborder à chaque tirage de chasse : l'obstruction des conduits d'évacuation est l'une des pannes les plus désagréables du quotidien.
 
@@ -47,7 +47,7 @@ Le coût d'un débouchage n'est pas uniforme : il dépend de la localisation du 
 Vos toilettes débordent ou vos canalisations refoulent à Namur ?
 Nos techniciens déboucheurs interviennent 24h/24 avec camion hydrocureur et furet haute performance.
 📞 Contactez notre service débouchage au 0467 88 58 87
-Découvrez notre page dédiée : /debouchage/[Namur]/
+Découvrez notre page dédiée : /services/debouchage
 ```
 
 ---

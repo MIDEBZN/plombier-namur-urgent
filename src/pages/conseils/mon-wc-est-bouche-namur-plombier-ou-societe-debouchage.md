@@ -14,7 +14,7 @@ author: "Équipe Technique Plombier Namur Urgent"
 authorRole: "Expert Sanitaire et Curage d'Évacuation"
 ---
 
-# Mon WC est bouché à Namur : plombier ou société de débouchage ?
+## Mon WC est bouché à Namur : plombier ou société de débouchage ?
 
 L'eau monte dangereusement jusqu'au bord de la cuvette après avoir tiré la chasse, des gargouillis suspects retentissent dans la douche voisine et une odeur nauséabonde envahit la pièce : la cuvette de WC bouchée est l'un des incidents domestiques les plus anxiogènes. Face à cette déconvenue, une question se pose : **faut-il appeler un artisan plombier polyvalent ou une société spécialisée en débouchage haute pression ?**
 
@@ -41,7 +41,7 @@ Avant de composer un numéro de dépannage à Namur, effectuez cette vérificati
 Vos toilettes menacent de déborder chez vous à Namur ?
 Intervention rapide de jour comme de nuit pour déboucher votre WC proprement.
 📞 Ligne d'urgence sanitaire : 0467 88 58 87
-Consultez notre service de débouchage : /debouchage/[Namur]/
+Consultez notre service de débouchage : /services/debouchage
 ```
 
 ---

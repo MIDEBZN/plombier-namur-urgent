@@ -14,7 +14,7 @@ author: "Équipe Technique Plombier Namur Urgent"
 authorRole: "Artisan Plombier Indépendant et Agréé"
 ---
 
-# Comment trouver un plombier fiable à Namur et éviter les arnaques ?
+## Comment trouver un plombier fiable à Namur et éviter les arnaques ?
 
 Face à une urgence de plomberie (inondation, refoulement d'égout ou chaudière en panne en plein hiver), la panique et la précipitation constituent le terreau idéal pour les dépanneurs indélicats. Factures gonflées de 1 800 € pour un simple changement de joint, destruction inutile de canalisations saines ou menaces d'abandon de chantier : les arnaques au dépannage d'urgence existent bel et bien en région namuroise.
 

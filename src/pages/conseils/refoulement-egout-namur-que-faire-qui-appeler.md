@@ -14,7 +14,7 @@ author: "Équipe Technique Plombier Namur Urgent"
 authorRole: "Expert Assainissement et Prévention Inondations"
 ---
 
-# Refoulement d'égout à Namur : que faire et qui appeler ?
+## Refoulement d'égout à Namur : que faire et qui appeler ?
 
 Voir des eaux usées chargées et noirâtres remonter par le bac de douche, la cuvette des toilettes ou le siphon de sol de la buanderie est l'une des situations les plus traumatisantes et insalubres qu'un propriétaire puisse vivre. À Namur, ville confluent traversée par la Sambre et la Meuse et soumise à des épisodes orageux violents, les refoulements d'égout provoquent chaque année de lourds dégâts dans les sous-sols et les rez-de-chaussée. **Que faut-il faire dans les premières minutes et quel service d'urgence devez-vous contacter immédiatement pour stopper le désastre ?**
 
@@ -46,7 +46,7 @@ Composez le numéro d'urgence assainissement au **0467 88 58 87** pour déclench
 Les eaux usées remontent par vos toilettes ou votre siphon de sol à Namur ?
 Camion d'hydrocurage et pompage d'urgence disponible 24h/24 et 7j/7.
 📞 Ligne d'urgence absolue : 0467 88 58 87
-Consultez notre service assainissement : /debouchage/[Namur]/
+Consultez notre service assainissement : /services/debouchage
 ```
 
 ---

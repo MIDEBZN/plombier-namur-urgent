@@ -14,7 +14,7 @@ author: "Équipe Technique Plombier Namur Urgent"
 authorRole: "Expert Détection Non Destructive et Thermographie"
 ---
 
-# Combien coûte la recherche d'une fuite invisible à Namur ?
+## Combien coûte la recherche d'une fuite invisible à Namur ?
 
 Une facture de la Société Wallonne des Eaux (SWDE) anormalement gonflée, une odeur d'humidité persistante dans le salon ou des plinthes qui noircissent sans origine apparente : les fuites d'eau invisibles sont parmi les pires cauchemars des propriétaires à Namur. Situées sous une chape en béton, derrière une faïence ou dans un vide ventilé, elles ruinent silencieusement la structure de votre maison.
 
@@ -46,7 +46,7 @@ Fini le temps où l'on démolissait des mètres carrés de carrelage au marteau-
 Vous suspectez une fuite encastrée sous votre carrelage ou dans un mur à Namur ?
 Nos experts interviennent avec caméra thermique et gaz traceur sans causer la moindre dégradation.
 📞 Contactez notre service d'expertise au 0467 88 58 87
-Découvrez notre prestation détaillée : /fuites/[Namur]/
+Découvrez notre prestation détaillée : /services/fuites
 ```
 
 ---

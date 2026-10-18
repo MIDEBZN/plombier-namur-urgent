@@ -1,7 +1,23 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import ServiceCrossLinks from '../../components/ServiceCrossLinks.astro';
 import { BUSINESS_CONFIG } from '../../data/business';
+
+const faqs = [
+  {
+    question: "Comment savoir si une canalisation est bouchée ?",
+    answer: "Les premiers signaux d'alerte sont un écoulement inhabituellement lent de l'eau, des gargouillements dans les siphons lors de l'évacuation, des remontées d'odeurs désagréables et une cuvette de WC qui se remplit anormalement. Intervenir dès ces signes évite le débordement complet et les dégâts des eaux."
+  },
+  {
+    question: "Pourquoi éviter les déboucheurs chimiques du commerce ?",
+    answer: "Les déboucheurs à base de soude caustique ou d'acide sulfurique sont dangereux pour l'utilisateur, très nocifs pour les cours d'eau (la Sambre et la Meuse), et peuvent déformer les tuyaux en PVC sous l'effet de la chaleur chimique. Un débouchage mécanique ou hydrodynamique est inoffensif pour vos installations et nettement plus efficace."
+  },
+  {
+    question: "Quand faut-il procéder à une inspection caméra ?",
+    answer: "L'inspection par caméra endoscopique est recommandée en cas de bouchons récurrents au même endroit, après un emménagement pour inspecter l'égouttage, ou pour détecter d'éventuelles racines d'arbres ayant percé les tuyaux extérieurs."
+  }
+];
 ---
 
 <Layout 
@@ -9,6 +25,7 @@ import { BUSINESS_CONFIG } from '../../data/business';
   description="Service de débouchage de canalisation à Namur. WC bouché, évier, égout refoulant. Curage haute pression et inspection caméra endoscopique. Intervention rapide."
   schemaType="service"
   serviceName="Débouchage Canalisation et WC à Namur"
+  faq={faqs}
 >
   <Breadcrumbs items={[
     { name: "Services", url: "/services" },
@@ -110,10 +127,11 @@ import { BUSINESS_CONFIG } from '../../data/business';
       </div>
     </div>
 
-    <!-- Contextual Cross-links -->
+    <!-- Contextual Cross-links & Local Siloing -->
+    <ServiceCrossLinks currentService="debouchage" />
+
     <div class="card mt-4 p-4" style="background: var(--bg-light);">
-      <h2>Besoin d'un autre dépannage plomberie ?</h2>
-      <p>Nos artisans interviennent également pour :</p>
+      <h2>Autres Dépannages Complémentaires</h2>
       <div class="grid grid-3 mt-2" style="gap: 1rem;">
         <a href="/services/urgence" class="btn btn-outline" style="text-align: center;">
           🚨 Dépannage Urgent 24/7
@@ -121,8 +139,8 @@ import { BUSINESS_CONFIG } from '../../data/business';
         <a href="/services/fuites" class="btn btn-outline" style="text-align: center;">
           💧 Recherche de Fuite Sans Casse
         </a>
-        <a href="/locations" class="btn btn-outline" style="text-align: center;">
-          📍 Consulter nos zones Namur
+        <a href="/services/chauffage" class="btn btn-outline" style="text-align: center;">
+          🔥 Chauffage & Chaudières
         </a>
       </div>
     </div>

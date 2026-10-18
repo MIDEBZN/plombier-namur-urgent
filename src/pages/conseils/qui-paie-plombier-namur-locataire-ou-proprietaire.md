@@ -14,7 +14,7 @@ author: "Équipe Technique Plombier Namur Urgent"
 authorRole: "Conseiller Technique et Dépannage Locatif"
 ---
 
-# Qui paie le plombier à Namur : le locataire ou le propriétaire ?
+## Qui paie le plombier à Namur : le locataire ou le propriétaire ?
 
 Un robinet qui fuit au goutte-à-goutte, une chasse d'eau cassée, un tuyau d'évacuation bouché ou une chaudière qui refuse de démarrer : dans les nombreux logements en location de Namur (centre-ville, Salzinnes, Jambes, quartier universitaire), ces pannes déclenchent systématiquement la même querelle : **à qui incombe la facture du plombier ?**
 

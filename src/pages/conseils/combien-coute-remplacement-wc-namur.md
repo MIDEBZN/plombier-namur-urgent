@@ -14,7 +14,7 @@ author: "Équipe Technique Plombier Namur Urgent"
 authorRole: "Installateur Sanitaire Qualifié"
 ---
 
-# Combien coûte le remplacement d'un WC à Namur ?
+## Combien coûte le remplacement d'un WC à Namur ?
 
 Une cuvette fissurée qui fuit sur le sol, un réservoir d'eau antique qui met des heures à se remplir tout en gaspillant 10 litres d'eau à chaque chasse, ou l'envie de moderniser son cabinet de toilette avec un WC suspendu épuré : le changement de toilettes est l'un des travaux de plomberie les plus fréquents dans le Namurois. Mais **quel est le coût réel d'un remplacement de WC à Namur en 2026, fourniture et pose comprises ?**
 

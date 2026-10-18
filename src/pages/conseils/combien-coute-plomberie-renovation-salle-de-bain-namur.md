@@ -14,7 +14,7 @@ author: "Équipe Technique Plombier Namur Urgent"
 authorRole: "Concepteur et Installateur Salles de Bain"
 ---
 
-# Combien coûte la plomberie d'une rénovation de salle de bain à Namur ?
+## Combien coûte la plomberie d'une rénovation de salle de bain à Namur ?
 
 Remplacer une vieille baignoire émaillée peu pratique par une douche à l'italienne de plain-pied, réagencer les arrivées d'eau pour créer un meuble double vasque suspendu ou repenser entièrement les évacuations d'un plateau sous combles à Namur : la rénovation de salle de bain est l'un des projets les plus valorisants pour votre patrimoine. Mais sur le budget total d'une rénovation, **combien coûte spécifiquement le lot technique plomberie et raccordements sanitaires à Namur en 2026 ?**
 

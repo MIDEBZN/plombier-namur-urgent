@@ -14,7 +14,7 @@ author: "Équipe Technique Plombier Namur Urgent"
 authorRole: "Expert Recherche de Fuites et Réseaux d'Alimentation"
 ---
 
-# Comment détecter une fuite d'eau après compteur à Namur ?
+## Comment détecter une fuite d'eau après compteur à Namur ?
 
 Recevoir sa facture annuelle de régularisation de la Société Wallonne des Eaux (SWDE) et découvrir un montant astronomique de 2 500 € pour 400 m³ d'eau consommés alors que vos habitudes n'ont pas changé : c'est le signal d'alarme absolu d'une **fuite d'eau après compteur**. À Namur, des centaines de mètres cubes d'eau potable s'échappent chaque année silencieusement dans le sous-sol sans qu'aucune flaque ne soit visible en surface.
 
@@ -50,7 +50,7 @@ Le compteur d'eau installé dans votre cave ou dans une fosse extérieure sur vo
 Votre compteur d'eau tourne tout seul à Namur ?
 Nos techniciens géolocalisent la fuite souterraine sous chape ou jardin sans tranchée inutile.
 📞 Ligne d'urgence fuite : 0467 88 58 87
-Consultez nos techniques de localisation : /fuites/[Namur]/
+Consultez nos techniques de localisation : /services/fuites
 ```
 
 ---

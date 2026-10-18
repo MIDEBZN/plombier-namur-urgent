@@ -15,7 +15,7 @@ author: "Équipe Technique Plombier Namur Urgent"
 authorRole: "Artisan Plombier Certifié"
 ---
 
-# Combien coûte un plombier à Namur en 2026 ? Le guide complet des tarifs et urgences
+## Combien coûte un plombier à Namur en 2026 ? Le guide complet des tarifs et urgences
 
 Une canalisation qui éclate sous l'évier, un chauffe-eau qui s'arrête en plein hiver ou des toilettes qui refoulent : les urgences de plomberie créent un stress immédiat où la question du budget devient centrale.
 
@@ -62,7 +62,7 @@ Une canalisation rompue qui inonde votre hall d'entrée à 23h un samedi soir n'
 Besoin d'un dépannage immédiat à Namur ou en périphérie ?
 Nos artisans interviennent 24h/24 et 7j/7 avec un devis clair annoncé avant chaque geste technique.
 Appelez le 0467 88 58 87 (Ligne d'urgence locale)
-ou découvrez notre service de dépannage plomberie : /urgence/[Namur]/
+ou découvrez notre service de dépannage plomberie : /services/urgence
 ```
 
 ### Pourquoi ces suppléments sont-ils appliqués ?
@@ -79,17 +79,17 @@ Le budget final dépend étroitement de la nature exacte du problème et du temp
 ### A. Réparation d'une fuite d'eau urgente
 - **Fuite apparente sur tuyau ou raccord (joint usé, vanne défectueuse) :** comptez entre **110 € et 180 € TTC** en journée (déplacement + 1 heure de main-d'œuvre + petit matériel).
 - **Tuyau encastré ou enterré :** si la fuite se situe dans une chape, un mur ou sous un carrelage, une **recherche de fuite sans casse** (caméra thermique, gaz traceur ou corrélation acoustique) est indispensable. Le tarif oscille entre **280 € et 450 € TTC**. Cette prestation fait l'objet d'un rapport technique écrit destiné à votre compagnie d'assurance.
-- Pour en savoir plus : découvrez notre service spécialisé de [/fuites/[Namur]/](/fuites/[Namur]/).
+- Pour en savoir plus : découvrez notre service spécialisé de [recherche de fuite sans casse à Namur](/services/fuites).
 
 ### B. Débouchage de canalisation et WC bouché
 - **Bouchon localisé (siphon, cuvette de WC, évier de cuisine) :** traité au furet mécanique ou à la pompe à dépression manuelle : entre **120 € et 190 € TTC**.
 - **Engorgement de colonne générale ou regard extérieur :** si l'eau usée refoule par la douche ou le carrelage du rez-de-chaussée, l'intervention d'une **hydrocureuse haute pression** (150 à 200 bars) est requise pour curer les racines ou les dépôts de calcaire : prévoyez entre **220 € et 360 € TTC**.
-- Consultez notre département dédié : [/debouchage/[Namur]/](/debouchage/[Namur]/).
+- Consultez notre département dédié : [débouchage de canalisation à Namur](/services/debouchage).
 
 ### C. Panne de chauffe-eau ou de boiler
 - **Remplacement de résistance, thermostat ou groupe de sécurité :** entre **150 € et 280 € TTC** pièces et main-d'œuvre comprises.
 - **Remplacement complet d'un boiler électrique (100 à 200 litres) :** si la cuve est percée ou rongée par le calcaire namurois, prévoyez entre **750 € et 1 400 € TTC** (fourniture du cumulus blindé ou stéatite, pose, raccordements cuivre, raccordement électrique et évacuation de l'ancien ballon).
-- Diagnostic et dépannage chaudière : [/chauffage/[Namur]/](/chauffage/[Namur]/).
+- Diagnostic et dépannage chaudière : [dépannage chaudière et chauffage à Namur](/services/chauffage).
 
 ---
 
