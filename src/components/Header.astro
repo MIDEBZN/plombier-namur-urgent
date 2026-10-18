@@ -20,8 +20,8 @@ import { BUSINESS_CONFIG } from '../data/business';
   
   <div class="main-nav-wrapper">
     <div class="container flex-between main-nav">
-      <a href="/" class="logo" style="display: block;" aria-label="Retour à l'accueil Plombier Namur Urgent">
-        <Image src={logoImage} alt="Logo Plombier Namur Urgent" width={300} height={300} style="width: auto; height: 65px; object-fit: contain;" loading="eager" />
+      <a href="/" class="logo" aria-label="Retour à l'accueil Plombier Namur Urgent">
+        <Image src={logoImage} alt="Logo Plombier Namur Urgent" width={300} height={300} class="header-logo-img" loading="eager" />
         <span class="sr-only">Plombier Namur Urgent - Accueil</span>
       </a>
       
@@ -36,14 +36,46 @@ import { BUSINESS_CONFIG } from '../data/business';
         </ul>
       </nav>
       
-      <div class="nav-cta">
-        <a href={BUSINESS_CONFIG.telephoneHref} class="btn btn-primary" data-location="header_cta">
+      <div class="header-right">
+        <a href={BUSINESS_CONFIG.telephoneHref} class="btn btn-primary header-phone-btn" data-location="header_cta">
           <span class="phone-icon" aria-hidden="true">📞</span>
-          {BUSINESS_CONFIG.telephone}
+          <span class="phone-number">{BUSINESS_CONFIG.telephone}</span>
+        </a>
+        <button class="mobile-toggle-btn" id="mobile-menu-toggle" aria-label="Ouvrir le menu de navigation" aria-expanded="false" aria-controls="mobile-nav-drawer">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile Navigation Drawer -->
+  <div class="mobile-drawer" id="mobile-nav-drawer" aria-hidden="true">
+    <div class="mobile-drawer-content">
+      <div class="mobile-drawer-header">
+        <span class="mobile-drawer-title">Navigation</span>
+        <button class="mobile-drawer-close" id="mobile-menu-close" aria-label="Fermer le menu">✕</button>
+      </div>
+      <ul class="mobile-nav-list">
+        <li><a href="/">Accueil</a></li>
+        <li><a href="/services">Nos Services de Plomberie</a></li>
+        <li><a href="/locations">Zones d'Intervention (Grand Namur)</a></li>
+        <li><a href="/about">À Propos & Agréments</a></li>
+        <li><a href="/conseils">Conseils & Dépannage</a></li>
+        <li><a href="/contact">Contact & Devis Gratuit</a></li>
+      </ul>
+      <div class="mobile-drawer-actions">
+        <a href={BUSINESS_CONFIG.telephoneHref} class="btn btn-primary btn-block">
+          📞 Urgence 24/7 : {BUSINESS_CONFIG.telephone}
+        </a>
+        <a href={BUSINESS_CONFIG.whatsappHref} target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-block" style="margin-top: 0.75rem;">
+          💬 WhatsApp Direct
         </a>
       </div>
     </div>
   </div>
+  <div class="mobile-backdrop" id="mobile-nav-backdrop"></div>
 </header>
 
 <style>
@@ -135,8 +167,226 @@ import { BUSINESS_CONFIG } from '../data/business';
     color: var(--secondary);
   }
   
+  .header-logo-img {
+    width: auto;
+    height: 60px;
+    object-fit: contain;
+    display: block;
+  }
+
+  .header-right {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+
+  .header-phone-btn {
+    padding: 0.65rem 1.25rem;
+    font-size: 1rem;
+    gap: 0.4rem;
+  }
+
+  .mobile-toggle-btn {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 44px;
+    height: 44px;
+    padding: 8px;
+    background: transparent;
+    border: 1px solid var(--border-light);
+    border-radius: var(--radius-md);
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+
+  .mobile-toggle-btn:hover {
+    background-color: var(--bg-light);
+  }
+
+  .hamburger-line {
+    width: 22px;
+    height: 2px;
+    background-color: var(--primary);
+    border-radius: 2px;
+    transition: all 0.3s ease;
+  }
+
+  /* Mobile Drawer */
+  .mobile-drawer {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 85%;
+    max-width: 380px;
+    height: 100vh;
+    background: white;
+    z-index: 1001;
+    box-shadow: -5px 0 25px rgba(0,0,0,0.15);
+    transition: right 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mobile-drawer.open {
+    right: 0;
+  }
+
+  .mobile-drawer-content {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .mobile-drawer-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--border-light);
+    margin-bottom: 1.5rem;
+  }
+
+  .mobile-drawer-title {
+    font-family: var(--font-heading);
+    font-weight: 700;
+    font-size: 1.15rem;
+    color: var(--primary);
+  }
+
+  .mobile-drawer-close {
+    background: transparent;
+    border: none;
+    font-size: 1.5rem;
+    color: var(--text-muted);
+    cursor: pointer;
+    padding: 0.25rem 0.5rem;
+    line-height: 1;
+  }
+
+  .mobile-nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .mobile-nav-list a {
+    display: block;
+    padding: 0.75rem 1rem;
+    font-family: var(--font-heading);
+    font-weight: 600;
+    font-size: 1.05rem;
+    color: var(--primary);
+    border-radius: var(--radius-md);
+    background-color: var(--bg-light);
+    transition: all 0.2s ease;
+  }
+
+  .mobile-nav-list a:hover {
+    background-color: rgba(224, 25, 51, 0.08);
+    color: var(--secondary);
+    padding-left: 1.25rem;
+  }
+
+  .mobile-drawer-actions {
+    margin-top: auto;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--border-light);
+  }
+
+  .mobile-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(13, 35, 83, 0.4);
+    backdrop-filter: blur(4px);
+    z-index: 1000;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+  }
+
+  .mobile-backdrop.open {
+    opacity: 1;
+    visibility: visible;
+  }
+
   @media (max-width: 900px) {
     .top-bar { display: none; }
     .desktop-nav { display: none; }
+    .mobile-toggle-btn { display: flex; }
+    .header-logo-img { height: 48px; }
+    .main-nav-wrapper { padding: 0.65rem 0; }
+  }
+
+  @media (max-width: 480px) {
+    .header-phone-btn {
+      padding: 0.5rem 0.85rem;
+      font-size: 0.9rem;
+    }
+    .header-logo-img { height: 44px; }
+  }
+
+  @media (max-width: 360px) {
+    .phone-number { display: none; }
+    .header-phone-btn::after { content: 'Urgence'; }
   }
 </style>
+
+<script>
+  function setupMobileMenu() {
+    const toggleBtn = document.getElementById('mobile-menu-toggle');
+    const closeBtn = document.getElementById('mobile-menu-close');
+    const drawer = document.getElementById('mobile-nav-drawer');
+    const backdrop = document.getElementById('mobile-nav-backdrop');
+
+    if (!toggleBtn || !drawer || !backdrop) return;
+
+    function openMenu() {
+      drawer?.classList.add('open');
+      backdrop?.classList.add('open');
+      drawer?.setAttribute('aria-hidden', 'false');
+      toggleBtn?.setAttribute('aria-expanded', 'true');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeMenu() {
+      drawer?.classList.remove('open');
+      backdrop?.classList.remove('open');
+      drawer?.setAttribute('aria-hidden', 'true');
+      toggleBtn?.setAttribute('aria-expanded', 'false');
+      document.body.style.overflow = '';
+    }
+
+    toggleBtn.addEventListener('click', openMenu);
+    closeBtn?.addEventListener('click', closeMenu);
+    backdrop.addEventListener('click', closeMenu);
+
+    // Close on navigation link click
+    drawer.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', closeMenu);
+    });
+
+    // Close on Escape key
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && drawer.classList.contains('open')) {
+        closeMenu();
+      }
+    });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', setupMobileMenu);
+  } else {
+    setupMobileMenu();
+  }
+</script>

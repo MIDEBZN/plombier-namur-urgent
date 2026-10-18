@@ -29,10 +29,10 @@ const homeFaqs = [
   showGlobalMap={false}
 >
   <!-- HERO SECTION -->
-  <section class="hero flex-center">
-    <div class="container grid grid-2 hero-grid">
+  <section class="hero">
+    <div class="container hero-grid">
       <div class="hero-content animate-fade-in">
-        <span class="badge badge-red">🚀 Permanence Dépannage 24/7</span>
+        <span class="badge badge-red mb-2">🚀 Permanence Dépannage 24/7</span>
         <h1>Plombier à Namur 24/7 : dépannage, débouchage et chauffage</h1>
         <p class="hero-text">
           Une fuite d'eau soudaine, une canalisation bouchée ou une chaudière en panne ? Notre équipe d'artisans qualifiés intervient rapidement dans tout le Grand Namur. <strong>Devis clair et transparent avant toute intervention.</strong>
@@ -45,10 +45,10 @@ const homeFaqs = [
             Demander un Devis Gratuit
           </a>
         </div>
-        <div class="trust-signals flex-center" style="justify-content: flex-start; gap: 1.5rem; margin-top: 2rem;">
+        <div class="trust-signals">
            <div class="trust-item">
              <strong>⭐ Avis Clients</strong><br/>
-             <a href={BUSINESS_CONFIG.googleBusinessProfileUrl} target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: underline; font-size: 0.9rem;">Consulter sur Google Maps</a>
+             <a href={BUSINESS_CONFIG.googleBusinessProfileUrl} target="_blank" rel="noopener noreferrer">Consulter sur Google Maps</a>
            </div>
            <div class="trust-item">
              <strong>🏆 Métier</strong><br/>
@@ -61,7 +61,7 @@ const homeFaqs = [
         </div>
       </div>
       <div class="hero-image animate-fade-in" style="animation-delay: 0.2s;">
-        <div class="image-wrapper" style="position: relative;">
+        <div class="image-wrapper">
           <Image 
             src={heroImage} 
             alt="Plombier professionnel en intervention d'urgence à Namur" 
@@ -70,13 +70,13 @@ const homeFaqs = [
             format="webp" 
             loading="eager" 
             fetchpriority="high"
-            style="width: 100%; height: 500px; object-fit: cover; border-radius: var(--radius-xl);" 
+            class="hero-photo"
           />
           <div class="glass-panel experience-card">
-             <span style="font-size: 2rem;" aria-hidden="true">🛠️</span>
+             <span class="experience-icon" aria-hidden="true">🛠️</span>
              <div>
                <strong>Service Plomberie Namur</strong>
-               <p style="margin:0; font-size: 0.85rem;">Grand Namur & Alentours</p>
+               <p>Grand Namur & Alentours</p>
              </div>
           </div>
         </div>
@@ -296,10 +296,10 @@ const homeFaqs = [
   }
   
   .hero {
-    min-height: 85vh;
-    padding: 2rem 0;
+    padding: 3.5rem 0 2.5rem;
     position: relative;
     overflow: hidden;
+    width: 100%;
   }
   
   .hero::before {
@@ -315,30 +315,81 @@ const homeFaqs = [
   }
   
   .hero-grid {
+    display: grid;
+    grid-template-columns: 1.15fr 0.85fr;
+    gap: 3rem;
     align-items: center;
+    width: 100%;
+  }
+
+  .hero-content {
+    width: 100%;
   }
   
   .hero-text {
     font-size: 1.125rem;
-    margin: 1.5rem 0 2.5rem;
+    margin: 1.25rem 0 2rem;
     line-height: 1.7;
+    color: var(--text-muted);
   }
   
   .hero-actions {
     display: flex;
     gap: 1rem;
     flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .trust-signals {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--border-light);
+  }
+
+  .trust-item {
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  .trust-item a {
+    color: inherit;
+    text-decoration: underline;
+    font-size: 0.9rem;
+  }
+
+  .image-wrapper {
+    position: relative;
+    width: 100%;
+  }
+
+  .hero-photo {
+    width: 100%;
+    height: 480px;
+    object-fit: cover;
+    border-radius: var(--radius-xl);
   }
   
   .experience-card {
     position: absolute;
-    bottom: -20px;
-    left: -20px;
-    padding: 1rem 1.5rem;
+    bottom: -15px;
+    left: -15px;
+    padding: 0.85rem 1.25rem;
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 0.75rem;
     box-shadow: var(--shadow-lg);
+  }
+
+  .experience-icon {
+    font-size: 1.85rem;
+  }
+
+  .experience-card p {
+    margin: 0;
+    font-size: 0.85rem;
   }
   
   .step-icon {
@@ -421,10 +472,75 @@ const homeFaqs = [
   .mt-4 { margin-top: 2rem; }
   .mb-4 { margin-bottom: 2rem; }
   
+  @media (max-width: 900px) {
+    .hero {
+      padding: 1.75rem 0 2rem;
+    }
+
+    .hero-grid {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+
+    .hero-content {
+      order: 1;
+    }
+
+    .hero-image {
+      order: 2;
+    }
+
+    .hero-photo {
+      height: 260px;
+      border-radius: var(--radius-lg);
+    }
+
+    .experience-card {
+      position: relative;
+      bottom: auto;
+      left: auto;
+      margin-top: -1.25rem;
+      margin-left: 0.75rem;
+      margin-right: 0.75rem;
+    }
+  }
+
   @media (max-width: 768px) {
     .stats-strip .grid-4 {
       grid-template-columns: 1fr 1fr;
-      row-gap: 2rem;
+      gap: 1.5rem;
+    }
+    .cta-section {
+      padding: 3.5rem 1rem;
+    }
+  }
+
+  @media (max-width: 520px) {
+    .hero-actions {
+      flex-direction: column;
+      width: 100%;
+    }
+
+    .hero-actions .btn {
+      width: 100%;
+      text-align: center;
+    }
+
+    .trust-signals {
+      gap: 1rem;
+      justify-content: space-between;
+    }
+
+    .trust-item {
+      flex: 1 1 45%;
+      min-width: 130px;
+    }
+  }
+
+  @media (max-width: 420px) {
+    .stats-strip .grid-4 {
+      grid-template-columns: 1fr;
+      gap: 1.25rem;
     }
   }
 </style>

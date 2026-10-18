@@ -142,10 +142,22 @@ import { BUSINESS_CONFIG } from '../data/business';
   .mt-4 { margin-top: 2rem; }
   
   @media (max-width: 768px) {
+    .global-contact-section {
+      padding: 3rem 0;
+    }
     .grid-2 {
       display: flex;
       flex-direction: column;
-      gap: 2.5rem;
+      gap: 2rem;
+    }
+    .form-card {
+      padding: 1.5rem 1.25rem;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .form-card {
+      padding: 1.25rem 1rem;
     }
   }
 </style>
