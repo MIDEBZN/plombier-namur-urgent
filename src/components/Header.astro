@@ -51,7 +51,7 @@ import { BUSINESS_CONFIG } from '../data/business';
   </div>
 
   <!-- Mobile Navigation Drawer -->
-  <div class="mobile-drawer" id="mobile-nav-drawer" aria-hidden="true">
+  <div class="mobile-drawer" id="mobile-nav-drawer" aria-hidden="true" inert>
     <div class="mobile-drawer-content">
       <div class="mobile-drawer-header">
         <span class="mobile-drawer-title">Navigation</span>
@@ -75,7 +75,7 @@ import { BUSINESS_CONFIG } from '../data/business';
       </div>
     </div>
   </div>
-  <div class="mobile-backdrop" id="mobile-nav-backdrop"></div>
+  <div class="mobile-backdrop" id="mobile-nav-backdrop" aria-hidden="true"></div>
 </header>
 
 <style>
@@ -225,7 +225,8 @@ import { BUSINESS_CONFIG } from '../data/business';
     background: white;
     z-index: 1001;
     box-shadow: -5px 0 25px rgba(0,0,0,0.15);
-    transition: right 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+    visibility: hidden;
+    transition: right 0.35s cubic-bezier(0.16, 1, 0.3, 1), visibility 0.35s ease;
     overflow-y: auto;
     display: flex;
     flex-direction: column;
@@ -233,6 +234,7 @@ import { BUSINESS_CONFIG } from '../data/business';
 
   .mobile-drawer.open {
     right: 0;
+    visibility: visible;
   }
 
   .mobile-drawer-content {
@@ -355,16 +357,20 @@ import { BUSINESS_CONFIG } from '../data/business';
       drawer?.classList.add('open');
       backdrop?.classList.add('open');
       drawer?.setAttribute('aria-hidden', 'false');
+      drawer?.removeAttribute('inert');
       toggleBtn?.setAttribute('aria-expanded', 'true');
       document.body.style.overflow = 'hidden';
+      closeBtn?.focus();
     }
 
     function closeMenu() {
       drawer?.classList.remove('open');
       backdrop?.classList.remove('open');
       drawer?.setAttribute('aria-hidden', 'true');
+      drawer?.setAttribute('inert', '');
       toggleBtn?.setAttribute('aria-expanded', 'false');
       document.body.style.overflow = '';
+      toggleBtn?.focus();
     }
 
     toggleBtn.addEventListener('click', openMenu);
